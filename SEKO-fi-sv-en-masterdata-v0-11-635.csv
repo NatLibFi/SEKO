@@ -1920,7 +1920,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00512,,,,klarinet,sv,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00512,,,,planeetti,fi,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00513,klarinettisoitin,enkelrörbladinstrument,single reed instrument,,,,http://urn.fi/urn:nbn:fi:au:seko:00587,lehdykkäpuhallinsoitin,,,http://www.wikidata.org/entity/Q185626,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015648,
 http://urn.fi/urn:nbn:fi:au:seko:00513,,,,ruokokielekesoitin,fi,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00513,,,,"yksilehdykkäinen ruokolehtisoitin",fi,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00513,,,,"yksilehdykkäinen ruokolehtisoitin
+",fi,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00514,klavikordi,klavikord,clavichord,,,Eurooppa,http://urn.fi/urn:nbn:fi:au:seko:00943|http://urn.fi/urn:nbn:fi:au:seko:00543,sitra|kosketinsoitin,,http://www.yso.fi/onto/yso/p17325,http://www.wikidata.org/entity/Q191823,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015157,
 http://urn.fi/urn:nbn:fi:au:seko:00514,,,,clavicorde,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00514,,,,clavier (klavikordi),fi,,,,,,,,,,
@@ -1982,7 +1983,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00534,kontrabassoserpentti,kontrabasserpent,con
 http://urn.fi/urn:nbn:fi:au:seko:00534,,,,anaconda,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00534,,,,anakonda,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,kontrafagotti,kontrafagott,contrabassoon,,,,http://urn.fi/urn:nbn:fi:au:seko:00330,fagotti,,,http://www.wikidata.org/entity/Q83513,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015180,
-http://urn.fi/urn:nbn:fi:au:seko:00535,,,,"double bassoon",,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00535,,,,"double bassoon
+",,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,,,contrafagotto,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,,,contrebasson,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,,,Kontrafagott,de,,,,,,,,,,
@@ -2147,8 +2149,10 @@ http://urn.fi/urn:nbn:fi:au:seko:00579,,,,children's chorus,en,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00580,lapsilauluääni,barnsångröst,child's voice,,,,http://urn.fi/urn:nbn:fi:au:seko:00583,lauluääni,,,http://www.wikidata.org/entity/Q25303818,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015136,
 http://urn.fi/urn:nbn:fi:au:seko:00580,,,,treble voice,en,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,lasiharmonikka,glasharmonika,musical glasses,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q917571,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015764,
-http://urn.fi/urn:nbn:fi:au:seko:00581,,,,"glass harmonica",en,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00581,,,,"glass armonica",en,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00581,,,,"glass harmonica
+",en,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00581,,,,"glass armonica
+",en,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,,,armonica,en,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,,,Glasharmonika,de,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,,,verrophone,en,,,,,,,,,,
