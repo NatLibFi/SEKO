@@ -7,11 +7,14 @@ Note! The list of instument names in Swedish is lacking - sources needed.
 # Sources for labels
 * LCMPT - https://id.loc.gov/authorities/performanceMediums.html
 * Wikidata - https://w.wiki/6Cn8
+  * Wikidata - https://en.wikipedia.org/wiki/List_of_national_instruments_(music)
 * Grove Music Online - https://www.oxfordmusiconline.com/grovemusic
 * MusicBrainz Instrument -  https://musicbrainz.org/doc/Instrument
 * MIMO - https://mimo-international.com/MIMO/
+  * Sinka https://mimo-international.com/mimo/detailstatic.aspx?RSC_BASE=IFD&RSC_DOCID=OAI_SMS_MM_POST_3381&TITLE=&_lg=sv-SE
 * hoorn.be - https://hoorn.be
 * Ethnomusicology https://content.lib.washington.edu/ethnomusicweb/
+* Minna Hokka https://minnahokka.com/ - traditional Finnsh wind instruments
 
 # Wikidata mappings
 
