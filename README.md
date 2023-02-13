@@ -14,7 +14,7 @@ Note! The list of instument names in Swedish is lacking - sources needed.
   * Sinka https://mimo-international.com/mimo/detailstatic.aspx?RSC_BASE=IFD&RSC_DOCID=OAI_SMS_MM_POST_3381&TITLE=&_lg=sv-SE
 * hoorn.be - https://hoorn.be
 * Ethnomusicology https://content.lib.washington.edu/ethnomusicweb/
-* Minna Hokka https://minnahokka.com/ - traditional Finnsh wind instruments
+* Minna Hokka https://minnahokka.com/ - traditional Finnish wind instruments
 
 # Wikidata mappings
 
