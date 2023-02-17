@@ -8,13 +8,29 @@ Note! The list of instument names in Swedish is lacking - sources needed.
 * LCMPT - https://id.loc.gov/authorities/performanceMediums.html
 * Wikidata - https://w.wiki/6Cn8
   * Wikidata - https://en.wikipedia.org/wiki/List_of_national_instruments_(music)
-* Grove Music Online - https://www.oxfordmusiconline.com/grovemusic
+* Grove Music Online - https://www.oxfordmusiconline.com/grovemusic (paywall)
 * MusicBrainz Instrument -  https://musicbrainz.org/doc/Instrument
 * MIMO - https://mimo-international.com/MIMO/
-  * Sinka https://mimo-international.com/mimo/detailstatic.aspx?RSC_BASE=IFD&RSC_DOCID=OAI_SMS_MM_POST_3381&TITLE=&_lg=sv-SE
+  * Scenkonstmuseet <a href="https://mimo-international.com/mimo/detailstatic.aspx?RSC_BASE=IFD&RSC_DOCID=OAI_SMS_MM_POST_3381&TITLE=&_lg=sv-SE">Sinka</a>
 * hoorn.be - https://hoorn.be
+* Hello Music Theory https://hellomusictheory.com/learn/instruments/
 * Ethnomusicology https://content.lib.washington.edu/ethnomusicweb/
-* Minna Hokka https://minnahokka.com/ - traditional Finnish wind instruments
+* Institute of Musical Instrument Technology https://www.imit.org.uk/pages/a-to-z-of-musical-instrument.html
+* A to Z of percussion music https://www.percussion4u.co.uk/pages/a-to-z-of-percussion-instruments
+* Cambridge UP: <a href="https://www.cambridge.org/core/books/abs/cambridge-encyclopedia-of-brass-instruments/selective-list-of-vernacular-horns-and-trumpets/C714FB2CC8CCDB80CB745436FE37CF1E">Appendix 1 - A Selective List of Vernacular Horns and Trumpets</a> (paywall)
+* Archive.org <a href="https://archive.org/details/surveyofmusicali00marc">Marcuse, S. A survey of musical instruments</a> (registration required)
+* Virginia Tech: <a href="https://web.archive.org/web/20060828221211/http://www.music.vt.edu/musicdictionary/appendix/instruments/instrumentmain.html">Comprehensive Table of Musical Instrument Classifications</a> (Web archive)
+* Smaller datasets
+  * Europe
+    * Minna Hokka https://minnahokka.com/ - traditional Finnish wind instruments
+    * Edinburgh University Collection of Historic Musical Instruments https://collections.ed.ac.uk/mimed/
+    * Folkdance footnotes https://folkdancefootnotes.org/music/musical-instruments/ (Don Buskirk's blog)
+    * Traditional musical instruments of Latvia https://www.tautasmuzikasinstrumenti.lv/ (project page)
+    * Musical Instruments in the Baltic Region http://www.music.lv/mukti/BalticMI.htm
+    * Traditional stringed instruments of Greece https://www.helleniccomserve.com/stringintruments.html
+  * Asia
+    * Sound of Asia https://www.soundofasia.com/ (Commercial company)
+    * Terms in North Indian music https://chandrakantha.com/glossary/
 
 # Wikidata mappings
 
