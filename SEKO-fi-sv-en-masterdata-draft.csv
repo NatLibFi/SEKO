@@ -71,7 +71,7 @@ http://urn.fi/urn:nbn:fi:au:seko:00028,alasin,städ,anvil,,,,http://urn.fi/urn:n
 http://urn.fi/urn:nbn:fi:au:seko:00029,alboka,alboka,alboka,,,Baskimaa,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,https://www.wikidata.org/entity/Q313053,https://musik-instrument.se/alboka/,,lcmpt:mp2013015008
 http://urn.fi/urn:nbn:fi:au:seko:00029,,,,albogue,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00030,algaita,algaita,algaita,,,Länsi-Afrikka,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,https://www.wikidata.org/entity/Q2646434,,,
-http://urn.fi/urn:nbn:fi:au:seko:00031,algoja,algoja,alghoza,,,Pohjois-Intia|Pakistan,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,https://www.wikidata.org/entity/Q568883,,,
+http://urn.fi/urn:nbn:fi:au:seko:00031,algoja,algoja,alghoza,,,Pohjois-Intia|Pakistan,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,https://www.wikidata.org/entity/Q568883,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015009
 http://urn.fi/urn:nbn:fi:au:seko:00032,alppitorvi,alphorn,alphorn,,,Alpit,http://urn.fi/urn:nbn:fi:au:seko:00819,puutrumpetti,,http://www.yso.fi/onto/yso/p29787,http://www.wikidata.org/entity/Q685206,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015010
 http://urn.fi/urn:nbn:fi:au:seko:00032,,,,alpine horn,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00032,,,,alpenhorn,en,,,,,,,,,
@@ -394,7 +394,7 @@ http://urn.fi/urn:nbn:fi:au:seko:00140,,,,woodblock,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00140,,,,Chinese wood block,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00140,,,,clog box,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00140,,,,tap box,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00141,blul,blul,sring,,,Armenia,http://urn.fi/urn:nbn:fi:au:seko:00851,reunahuilu,,,https://www.wikidata.org/entity/Q2907369,https://www.oxfordreference.com/view/10.1093/acref/9780199743391.001.0001/acref-9780199743391-e-780,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015087
+http://urn.fi/urn:nbn:fi:au:seko:00141,blul,blul,blul,,,Armenia,http://urn.fi/urn:nbn:fi:au:seko:00851,reunahuilu,,,http://www.wikidata.org/entity/Q116818413,https://www.oxfordreference.com/view/10.1093/acref/9780199743391.001.0001/acref-9780199743391-e-780,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015087
 http://urn.fi/urn:nbn:fi:au:seko:00141,,,,blul,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00142,blur,blur,blur,,,Kurdistan|Irak,http://urn.fi/urn:nbn:fi:au:seko:00418,huilusoitin,,,https://www.wikidata.org/entity/Q109143299,https://www.institutkurde.org/en/kurdorama/music/instruments.php,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015087
 http://urn.fi/urn:nbn:fi:au:seko:00142,,,,blûr,,,,,,,,,,
@@ -3280,24 +3280,26 @@ http://urn.fi/urn:nbn:fi:au:seko:00853,,,,rgya gliṅ,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00854,rgyd-mang,PUUTTUU,PUUTTUU,,,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:00303,dulcimer,,,PUUTTUU,,,
 http://urn.fi/urn:nbn:fi:au:seko:00855,riqq,PUUTTUU,riq,,,Arabian niemimaa,http://urn.fi/urn:nbn:fi:au:seko:00484,kehärumpu,,,http://www.wikidata.org/entity/Q17057067,,skos:exactMatch,https://id.loc.gov/authorities/performanceMediums/mp2017015008
 http://urn.fi/urn:nbn:fi:au:seko:00855,,,,reqq,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00856,rkang-gling,PUUTTUU,PUUTTUU,,,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00857,rnga,PUUTTUU,PUUTTUU,,,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00858,rommelpot,PUUTTUU,PUUTTUU,,,Alankomaat,http://urn.fi/urn:nbn:fi:au:seko:00508,kitkarumpu,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00859,rondador,PUUTTUU,PUUTTUU,,,Latinalainen Amerikka,http://urn.fi/urn:nbn:fi:au:seko:00749,panhuilu,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015528
-http://urn.fi/urn:nbn:fi:au:seko:00860,rotte,PUUTTUU,round lyre,,,,http://urn.fi/urn:nbn:fi:au:seko:00625,lyyra,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015437
+http://urn.fi/urn:nbn:fi:au:seko:00856,rkang-gling,rkang-gling,kangling,,,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q1432696,,,
+http://urn.fi/urn:nbn:fi:au:seko:00856,,,,"thighbone trumpet",,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00856,,,,femur trumpet,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00857,rnga,rnga,rnga,,,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,http://www.wikidata.org/entity/Q116773787,,,
+http://urn.fi/urn:nbn:fi:au:seko:00857,,,,nga,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00858,rommelpot,rummelpott,rommelpot,,,Alankomaat,http://urn.fi/urn:nbn:fi:au:seko:00508,kitkarumpu,,,http://www.wikidata.org/entity/Q9097454,,,
+http://urn.fi/urn:nbn:fi:au:seko:00859,rondador,rondador,rondador,,,Latinalainen Amerikka,http://urn.fi/urn:nbn:fi:au:seko:00749,panhuilu,,,http://www.wikidata.org/entity/Q6149665,,skos:broadMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015528
+http://urn.fi/urn:nbn:fi:au:seko:00860,rotte,rotta,round lyre,,,,http://urn.fi/urn:nbn:fi:au:seko:00625,lyyra,,,http://www.wikidata.org/entity/Q115799612,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015437
 http://urn.fi/urn:nbn:fi:au:seko:00860,,,,chrotta,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00860,,,,Germanic lyre,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00860,,,,rotta,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00861,rožok,PUUTTUU,PUUTTUU,,,Venäjä,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00861,rožok,rožok,rozhok,,,Venäjä,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q17054849,,,
 http://urn.fi/urn:nbn:fi:au:seko:00861,,,,rojok,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00861,,,,rozhok,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00861,,,,Vladimirskiy rozhok,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00861,,,,rozok,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00862,rudravina,PUUTTUU,PUUTTUU,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:01182,vina,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00862,rudravina,rudra vina,rudra veena,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:01182,vina,,,http://www.wikidata.org/entity/Q5266546,,,
 http://urn.fi/urn:nbn:fi:au:seko:00862,,,,been,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00862,,,,bīn,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00862,,,,rudra veena,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00862,,,,rudra vīṇā,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00863,rummut,trummor,drums,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,http://www.yso.fi/onto/yso/p19062,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015222
+http://urn.fi/urn:nbn:fi:au:seko:00863,rummut,trummor,drums,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,http://www.yso.fi/onto/yso/p19062,http://www.wikidata.org/entity/Q128309,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015222
 http://urn.fi/urn:nbn:fi:au:seko:00863,,,,batterie (rummut),fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00863,,,,dr (rummut),fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00863,,,,rumpusetti,fi,,,,,,,,,
@@ -3308,25 +3310,28 @@ http://urn.fi/urn:nbn:fi:au:seko:00864,,,,tambour,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00864,,,,tamburo,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00864,,,,Trommel,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00864,,,,wankara,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00865,rumpukone,trummaskin,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00627|http://urn.fi/urn:nbn:fi:au:seko:01021,lyömäsoitin|sähkösoitin,,http://www.yso.fi/onto/yso/p29878,http://www.wikidata.org/entity/Q831698,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015221
+http://urn.fi/urn:nbn:fi:au:seko:00865,rumpukone,trummaskin,drum machine,,,,http://urn.fi/urn:nbn:fi:au:seko:00627|http://urn.fi/urn:nbn:fi:au:seko:01021,lyömäsoitin|sähkösoitin,,http://www.yso.fi/onto/yso/p29878,http://www.wikidata.org/entity/Q831698,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015221
 http://urn.fi/urn:nbn:fi:au:seko:00865,,,,dr-synt (rumpukone),fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00866,ruotsalainen luuttu,svensk luta,Swedish lute,,,Ruotsi,http://urn.fi/urn:nbn:fi:au:seko:00940,sisteri,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015320
+http://urn.fi/urn:nbn:fi:au:seko:00866,ruotsalainen luuttu,svensk luta,Swedish lute,,,Ruotsi,http://urn.fi/urn:nbn:fi:au:seko:00940,sisteri,,,http://www.wikidata.org/entity/Q10684877,,skos:broadMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015320
 http://urn.fi/urn:nbn:fi:au:seko:00866,,,,luth suédois,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00866,,,,schwedische Theorbe,de,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00867,ruukku (lyömäsoitin),PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00867,ruukku (lyömäsoitin),botija,botija,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q5732744,,,
 http://urn.fi/urn:nbn:fi:au:seko:00867,,,,botijá,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00867,,,,kukkaruukku,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00868,rytmikapulat,claves,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q850118,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015156
+http://urn.fi/urn:nbn:fi:au:seko:00867,,,,botijuela,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00867,,,,bunga,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00868,rytmikapulat,claves,claves,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q850118,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015156
 http://urn.fi/urn:nbn:fi:au:seko:00868,,,,clavesit,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00868,,,,cuban sticks,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00868,,,,Gegenschlagstäbe,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00868,,,,legnetti,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00868,,,,palikat,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00869,rytmimuna,äggskallra,egg shaker,,,,http://urn.fi/urn:nbn:fi:au:seko:00404,helistin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00869,rytmimuna,äggskallra,egg shaker,,,,http://urn.fi/urn:nbn:fi:au:seko:00404,helistin,,,http://www.wikidata.org/entity/Q2553890,,,
 http://urn.fi/urn:nbn:fi:au:seko:00869,,,,ganza,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00869,,,,munahelistin,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00869,,,,percussie-ei,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00870,ryuteki,PUUTTUU,PUUTTUU,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00082,bambuhuilu,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00870,ryuteki,ryuteki,ryuteki,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00082,bambuhuilu,,,http://www.wikidata.org/entity/Q1760249,,,
+http://urn.fi/urn:nbn:fi:au:seko:00870,,,,ryūteki,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00871,räikkä,harskramla,ratchet,,,,http://urn.fi/urn:nbn:fi:au:seko:00832,raappa,,,http://www.wikidata.org/entity/Q954753,,,
 http://urn.fi/urn:nbn:fi:au:seko:00871,,,,cog rattle,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00871,,,,crécelle,fr,,,,,,,,,
@@ -3334,17 +3339,19 @@ http://urn.fi/urn:nbn:fi:au:seko:00871,,,,raganella,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00871,,,,Raspel,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00871,,,,Ratsche,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00871,,,,rattle,en,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00872,räty,PUUTTUU,PUUTTUU,,,Suomi,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00873,saarijärvenkantele,PUUTTUU,PUUTTUU,,,Suomi,http://urn.fi/urn:nbn:fi:au:seko:00470,kantele,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015373
+http://urn.fi/urn:nbn:fi:au:seko:00872,räty,räty,räty,,,Suomi,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q116774684,,,
+http://urn.fi/urn:nbn:fi:au:seko:00872,,,,putkilakutin,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00873,saarijärvenkantele,Saarijärvi kantele,Saarijärvi kantele,,,Suomi,http://urn.fi/urn:nbn:fi:au:seko:00470,kantele,,,http://www.wikidata.org/entity/Q116774694,,skos:broader,http://id.loc.gov/authorities/performanceMediums/mp2013015373
 http://urn.fi/urn:nbn:fi:au:seko:00873,,,,Saarijärven kantele,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00874,sabar,PUUTTUU,PUUTTUU,,,Senegal|Gambia,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,http://www.wikidata.org/entity/Q747604,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015218
+http://urn.fi/urn:nbn:fi:au:seko:00873,,,,tikkukantele,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00874,sabar,sabar,sabar,,,Senegal|Gambia,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,http://www.wikidata.org/entity/Q747604,,,
 http://urn.fi/urn:nbn:fi:au:seko:00874,,,,sabaro,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00874,,,,saoruba,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00874,,,,serouba,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00874,,,,shabar,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00874,,,,tantan,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00874,,,,tantango,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00875,sadekeppi,regnstav,rainstick,,,,http://urn.fi/urn:nbn:fi:au:seko:00404,helistin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00875,sadekeppi,regnstav,rainstick,,,,http://urn.fi/urn:nbn:fi:au:seko:00404,helistin,,,http://www.wikidata.org/entity/Q930342,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2020015025
 http://urn.fi/urn:nbn:fi:au:seko:00875,,,,albero della pioggia,it,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00875,,,,bastone della pioggia,it,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00875,,,,bâton de pluie,fr,,,,,,,,,
@@ -3359,11 +3366,11 @@ http://urn.fi/urn:nbn:fi:au:seko:00875,,,,pau de chuva,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00875,,,,pau-de-chuva,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00875,,,,Regenmacher,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00875,,,,regnpinne,sv,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00876,saenghwang,PUUTTUU,PUUTTUU,,,Korea,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00877,saha (soitin),PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00953,soitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00876,saenghwang,saenghwang,saenghwang,,,Korea,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,http://www.wikidata.org/entity/Q4217223,,,
+http://urn.fi/urn:nbn:fi:au:seko:00877,saha (soitin),musikalisk såg,musical saw,,,,http://urn.fi/urn:nbn:fi:au:seko:00953,soitin,,,http://www.wikidata.org/entity/Q4217223,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2017015015
 http://urn.fi/urn:nbn:fi:au:seko:00877,,,,musical saw,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00877,,,,singing saw,en,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00878,śahnāī,PUUTTUU,PUUTTUU,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015636
+http://urn.fi/urn:nbn:fi:au:seko:00878,śahnāī,shehnai,shehnai,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,http://www.wikidata.org/entity/Q847911,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015636
 http://urn.fi/urn:nbn:fi:au:seko:00878,,,,sahnai,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00878,,,,sanāī,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00878,,,,sānāyī,,,,,,,,,,
@@ -3374,21 +3381,23 @@ http://urn.fi/urn:nbn:fi:au:seko:00878,,,,surnai,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00879,saksofoni,saxofon,saxophone,,,,http://urn.fi/urn:nbn:fi:au:seko:00513,klarinettisoitin,,http://www.yso.fi/onto/yso/p12017,http://www.wikidata.org/entity/Q9798,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015625
 http://urn.fi/urn:nbn:fi:au:seko:00879,,,,melodiasaksofoni,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00879,,,,sax (saksofoni),fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00880,salamuri,PUUTTUU,PUUTTUU,,,Georgia,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00880,salamuri,salamuri,salamuri,,,Georgia,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,http://www.wikidata.org/entity/Q3469620,,,
 http://urn.fi/urn:nbn:fi:au:seko:00881,sampleri,sampler,sound sampler,,,,http://urn.fi/urn:nbn:fi:au:seko:01021,sähkösoitin,,http://www.yso.fi/onto/yso/p30101,http://www.wikidata.org/entity/Q320002,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015612
 http://urn.fi/urn:nbn:fi:au:seko:00881,,,,campionatore,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00881,,,,échantilloneur,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00882,san hsien,PUUTTUU,PUUTTUU,,,Kiina,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015613
+http://urn.fi/urn:nbn:fi:au:seko:00882,san hsien,sanxian,sanxian,,,Kiina,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q1860805,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015613
 http://urn.fi/urn:nbn:fi:au:seko:00882,,,,hsien tse,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00882,,,,sanxian,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00882,,,,xian ze,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00882,,,,xianzi,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00883,sanduri,PUUTTUU,PUUTTUU,,,Kreikka,http://urn.fi/urn:nbn:fi:au:seko:00303,dulcimer,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015228
+http://urn.fi/urn:nbn:fi:au:seko:00883,sanduri,PUUTTUU,PUUTTUU,,,Kreikka,http://urn.fi/urn:nbn:fi:au:seko:00303,dulcimer,,,PUUTTUU,onko eri kuin Cimbalom tai santur,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015228
 http://urn.fi/urn:nbn:fi:au:seko:00883,,,,sandouri,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00884,sanj,PUUTTUU,PUUTTUU,,,Arabian niemimaa,http://urn.fi/urn:nbn:fi:au:seko:00585,lautanen,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00885,śankh,PUUTTUU,PUUTTUU,,,Intia|Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00884,sanj,sanj,sanj,,,Arabian niemimaa,http://urn.fi/urn:nbn:fi:au:seko:00585,lautanen,,,http://www.wikidata.org/entity/Q7418340,,,
+http://urn.fi/urn:nbn:fi:au:seko:00885,śankh,sankh,shankha,,,Intia|Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q2479786,,,
 http://urn.fi/urn:nbn:fi:au:seko:00885,,,,sankh,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00886,santūr,PUUTTUU,PUUTTUU,,,Lähi-Itä|Kaukasus|Kaakkois-Eurooppa|Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00303,dulcimer,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015615
+http://urn.fi/urn:nbn:fi:au:seko:00885,,,,dung-dkar,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00886,santūr,santur,santur,,,Lähi-Itä|Kaukasus|Kaakkois-Eurooppa|Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00303,dulcimer,,,http://www.wikidata.org/entity/Q504847,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015615
+http://urn.fi/urn:nbn:fi:au:seko:00886,,,,sanṭūr,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00886,,,,sant'ur,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00886,,,,santīr,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00886,,,,santoor,,,,,,,,,,
@@ -3397,72 +3406,75 @@ http://urn.fi/urn:nbn:fi:au:seko:00886,,,,santouri,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00886,,,,santur,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00886,,,,santuri,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00886,,,,tsintila,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00887,sanza,PUUTTUU,PUUTTUU,,,Zaire,http://urn.fi/urn:nbn:fi:au:seko:00974,sormipiano,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015455
+http://urn.fi/urn:nbn:fi:au:seko:00887,sanza,sanza,sanza,,,Zaire,http://urn.fi/urn:nbn:fi:au:seko:00974,sormipiano,,,PUUTTUU,wikidatassa ehkä sama kuin mbira?,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015455
 http://urn.fi/urn:nbn:fi:au:seko:00887,,,,sandsa,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00887,,,,sansa,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00888,sarān,PUUTTUU,PUUTTUU,,,Kashmir,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00888,,,,saran,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00889,sārangī,PUUTTUU,PUUTTUU,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015618
+http://urn.fi/urn:nbn:fi:au:seko:00888,sarān,saran,saran,,,Kashmir,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,http://www.wikidata.org/entity/Q116780282,,,
+http://urn.fi/urn:nbn:fi:au:seko:00889,sārangī,sarangi,sarangi,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,http://www.wikidata.org/entity/Q608650,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015618
 http://urn.fi/urn:nbn:fi:au:seko:00889,,,,hārangī,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00889,,,,sāran.gī,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00889,,,,sāraṅg,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00889,,,,sarangi,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00890,sarasvatī vīṇā,PUUTTUU,PUUTTUU,,,Etelä-Intia,http://urn.fi/urn:nbn:fi:au:seko:01182,vina,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00890,sarasvatī vīṇā,saraswati vina,saraswati veena,,,Etelä-Intia,http://urn.fi/urn:nbn:fi:au:seko:01182,vina,,,http://www.wikidata.org/entity/Q16155191,,,
 http://urn.fi/urn:nbn:fi:au:seko:00890,,,,raghunatha veena,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00890,,,,raghunatha vina,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00890,,,,sarasvati vina,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00890,,,,saraswati guitar,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00890,,,,saraswati veena,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00890,,,,saraswati vīṇā,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00891,saratovskaja garmon,PUUTTUU,PUUTTUU,,,Venäjä,http://urn.fi/urn:nbn:fi:au:seko:00001,1-rivinen harmonikka,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00891,saratovskaja garmon,saratovskaja garmon,Saratovskaja garmonika,,,Venäjä,http://urn.fi/urn:nbn:fi:au:seko:00001,1-rivinen harmonikka,,,http://www.wikidata.org/entity/Q4408428,,,
 http://urn.fi/urn:nbn:fi:au:seko:00891,,,,Saratov garmon,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00891,,,,saratovskaâ garmon',,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00891,,,,Saratovskaya garmonika,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00892,sarewa,PUUTTUU,PUUTTUU,,,Länsi-Afrikka,http://urn.fi/urn:nbn:fi:au:seko:00418,huilusoitin,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00893,šargija,PUUTTUU,PUUTTUU,,,Balkanin niemimaa,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00892,sarewa,sarewa,sarewa,,,Länsi-Afrikka,http://urn.fi/urn:nbn:fi:au:seko:00418,huilusoitin,,,http://www.wikidata.org/entity/Q116780355,,,
+http://urn.fi/urn:nbn:fi:au:seko:00892,,,,tasansagh,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00892,,,,sarehoua,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00892,,,,taẓammart,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00893,šargija,šargija,šargija,,,Balkanin niemimaa,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q2451473,,,
 http://urn.fi/urn:nbn:fi:au:seko:00893,,,,sargija,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00893,,,,šarkija,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00894,sārindā,PUUTTUU,PUUTTUU,,,Afganistan|Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015619
+http://urn.fi/urn:nbn:fi:au:seko:00894,sārindā,sarinda,sarinda,,,Afganistan|Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,http://www.wikidata.org/entity/Q348878,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015619
 http://urn.fi/urn:nbn:fi:au:seko:00894,,,,qeychak,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00894,,,,saranda,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00894,,,,sarang,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00894,,,,sarinda,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00894,,,,sorud,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00894,,,,soruz,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00895,sarod,sarod,PUUTTUU,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q687406,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015620
+http://urn.fi/urn:nbn:fi:au:seko:00895,sarod,sarod,sarod,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q687406,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015620
 http://urn.fi/urn:nbn:fi:au:seko:00895,,,,sarodā,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00895,,,,sarody,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00896,saron,PUUTTUU,PUUTTUU,,,Jaava,http://urn.fi/urn:nbn:fi:au:seko:00487,kellopeli,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00897,sarrusofoni,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015621
-http://urn.fi/urn:nbn:fi:au:seko:00898,sarunai,PUUTTUU,PUUTTUU,,,Indonesia|Malesia,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00896,saron,saron,saron,,,Jaava,http://urn.fi/urn:nbn:fi:au:seko:00487,kellopeli,,,http://www.wikidata.org/entity/Q2640100,,,
+http://urn.fi/urn:nbn:fi:au:seko:00897,sarrusofoni,sarrusofon,sarrusophone,,,,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,http://www.wikidata.org/entity/Q901239,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015621
+http://urn.fi/urn:nbn:fi:au:seko:00898,sarunai,sarunai,serunai,,,Indonesia|Malesia,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,http://www.wikidata.org/entity/Q97216159,,,
 http://urn.fi/urn:nbn:fi:au:seko:00898,,,,sarinai,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00898,,,,sarune,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00898,,,,sarunei,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00898,,,,serunai,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00898,,,,serune,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00899,sarvi (puhallinsoitin),blåshorn,natural horn,,,,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q2665724,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015496
-http://urn.fi/urn:nbn:fi:au:seko:00900,satārā,PUUTTUU,PUUTTUU,,,Pohjois-Intia|Pakistan,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00899,sarvi (puhallinsoitin),blåshorn,blowing horn,,,,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q2665724,,,
+http://urn.fi/urn:nbn:fi:au:seko:00899,,,,winding horn,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00900,satārā,satara,satara,,,Pohjois-Intia|Pakistan,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,http://www.wikidata.org/entity/Q3474092,mainitty https://doi-org.libproxy.helsinki.fi/10.1093/gmo/9781561592630.article.L2291349,,
 http://urn.fi/urn:nbn:fi:au:seko:00900,,,,satara,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00901,satsumabiwa,PUUTTUU,PUUTTUU,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00139,biwa,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015086
+http://urn.fi/urn:nbn:fi:au:seko:00901,satsumabiwa,satsumabiwa,satsuma-biwa,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00139,biwa,,,http://www.wikidata.org/entity/Q116786712,,skos:broadMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015086
 http://urn.fi/urn:nbn:fi:au:seko:00902,saùng-gauk,saung,saung,,,Myanmar,http://urn.fi/urn:nbn:fi:au:seko:00398,harppu,,,http://www.wikidata.org/entity/Q339306,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015622
 http://urn.fi/urn:nbn:fi:au:seko:00902,,,,saung,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00902,,,,saung-gauk,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00902,,,,Burmese harp,en,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00903,saxello,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00967,sopraanosaksofoni,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00904,saxhorn,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00903,saxello,saxello,saxello,,,,http://urn.fi/urn:nbn:fi:au:seko:00967,sopraanosaksofoni,,,http://www.wikidata.org/entity/Q25094015,,,
+http://urn.fi/urn:nbn:fi:au:seko:00904,saxhorn,saxhorn,sax horn,,,,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q787557,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015623
 http://urn.fi/urn:nbn:fi:au:seko:00904,,,,sankatorvi,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00904,,,,saxtorvi,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00905,saz,saz,PUUTTUU,,,Balkanin niemimaa|Turkki|Iran|Kaukasus,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q717773,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015626
+http://urn.fi/urn:nbn:fi:au:seko:00905,saz,saz,saz,,,Balkanin niemimaa|Turkki|Iran|Kaukasus,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q717773,wikidatassa tämä on yhdistety samaan kuin bağlama seko:00070,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015626
 http://urn.fi/urn:nbn:fi:au:seko:00905,,,,sāz,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00905,,,,sazi,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00906,Schreyerpfeife,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:01149,tuulikapselisoitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00906,schreyerpfeife,schreyerpfeife,schryari,,,,http://urn.fi/urn:nbn:fi:au:seko:01149,tuulikapselisoitin,,,http://www.wikidata.org/entity/Q2250252,,,
+http://urn.fi/urn:nbn:fi:au:seko:00906,,,,Schryari,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00906,,,,Schreierpfeife,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00906,,,,Srayffaiff,de,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00907,se,PUUTTUU,PUUTTUU,,,Kiina,http://urn.fi/urn:nbn:fi:au:seko:00943,sitra,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00907,se,se,se,,,Kiina,http://urn.fi/urn:nbn:fi:au:seko:00943,sitra,,,http://www.wikidata.org/entity/Q1155980,,,
 http://urn.fi/urn:nbn:fi:au:seko:00907,,,,sul,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00908,seis,PUUTTUU,PUUTTUU,,,Kuuba,http://urn.fi/urn:nbn:fi:au:seko:00504,kitara,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00909,sekakuoro,blandad kör,mixed choir,,,,http://urn.fi/urn:nbn:fi:au:seko:00560,kuoro,,http://www.yso.fi/onto/yso/p16198,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00910,sekvensseri,PUUTTUU,sequencer,,,,http://urn.fi/urn:nbn:fi:au:seko:01021,sähkösoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015630
-http://urn.fi/urn:nbn:fi:au:seko:00911,seljefløyte,PUUTTUU,PUUTTUU,,,Norja,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00908,seis,seis,seis,,,Kuuba,http://urn.fi/urn:nbn:fi:au:seko:00504,kitara,,,PUUTTUU,kts. https://en.wikipedia.org/wiki/List_of_Caribbean_chordophones#cite_note-Cuba-5,,
+http://urn.fi/urn:nbn:fi:au:seko:00909,sekakuoro,blandad kör,mixed choir,,,,http://urn.fi/urn:nbn:fi:au:seko:00560,kuoro,,http://www.yso.fi/onto/yso/p16198,http://www.wikidata.org/entity/Q3276909,,skos:exactMatch,https://id.loc.gov/authorities/performanceMediums/mp2013015146
+http://urn.fi/urn:nbn:fi:au:seko:00910,sekvensseri,sequencer,sequencer,,,,http://urn.fi/urn:nbn:fi:au:seko:01021,sähkösoitin,,,http://www.wikidata.org/entity/Q646683,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015630
+http://urn.fi/urn:nbn:fi:au:seko:00911,seljefløyte,seljefløyte,seljefløyte,,,Norja,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,PUUTTUU,2 osumaa  http://www.wikidata.org/entity/Q1685320  ja http://www.wikidata.org/entity/Q19708717,,
 http://urn.fi/urn:nbn:fi:au:seko:00911,,,,seljefloyte,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00911,,,,seljehuilu,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00912,sello,cello,cello,,,,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,http://www.yso.fi/onto/yso/p18070,http://www.wikidata.org/entity/Q8371,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015120
@@ -3473,7 +3485,7 @@ http://urn.fi/urn:nbn:fi:au:seko:00912,,,,vcl (sello),fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00912,,,,violoncell,sv,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00912,,,,Violoncello,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00912,,,,vlc (sello),fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00913,sēmantron,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015629
+http://urn.fi/urn:nbn:fi:au:seko:00913,sēmantron,sēmantron,sēmantron,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q1195473,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015629
 http://urn.fi/urn:nbn:fi:au:seko:00913,,,,bilo,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00913,,,,klepalo,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00913,,,,sēmandron,,,,,,,,,,
@@ -3487,11 +3499,13 @@ http://urn.fi/urn:nbn:fi:au:seko:00913,,,,simantra metalliques,fr,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00913,,,,simatra bois,fr,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00913,,,,toacă,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00913,,,,xylon,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00914,seprewa,PUUTTUU,PUUTTUU,,,Ghana,http://urn.fi/urn:nbn:fi:au:seko:00398,harppu,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00915,serpentti,serpent,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q742168,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015631
+http://urn.fi/urn:nbn:fi:au:seko:00914,seprewa,seprewa,seprewa,,,Ghana,http://urn.fi/urn:nbn:fi:au:seko:00398,harppu,,,http://www.wikidata.org/entity/Q16911842,,,
+http://urn.fi/urn:nbn:fi:au:seko:00914,,,,seperewa,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00914,,,,sanku,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00915,serpentti,serpent,serpent,,,,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q742168,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015631
 http://urn.fi/urn:nbn:fi:au:seko:00915,,,,Schlangenrohr,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00915,,,,serpentone,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00916,setār,PUUTTUU,PUUTTUU,,,Iran,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015632
+http://urn.fi/urn:nbn:fi:au:seko:00916,setār,setār,setār,,,Iran,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q1544746,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015632
 http://urn.fi/urn:nbn:fi:au:seko:00916,,,,saitār,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00916,,,,sehtār,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00916,,,,setā,,,,,,,,,,
@@ -3505,14 +3519,16 @@ http://urn.fi/urn:nbn:fi:au:seko:00918,,,,damyin,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00919,shakubyōshi,PUUTTUU,PUUTTUU,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,PUUTTUU,,,
 http://urn.fi/urn:nbn:fi:au:seko:00919,,,,shakubyoshi,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00920,shakuhachi,shakuhachi,shakuhachi,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00611,lovihuilu,,http://www.yso.fi/onto/yso/p29680,http://www.wikidata.org/entity/Q524526,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015633
-http://urn.fi/urn:nbn:fi:au:seko:00921,shamisen,shamisen,PUUTTUU,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q241337,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015634
+http://urn.fi/urn:nbn:fi:au:seko:00921,shamisen,shamisen,shamisen,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q241337,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015634
 http://urn.fi/urn:nbn:fi:au:seko:00921,,,,samisen,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00922,sheng,šeng,sheng,,,Kiina,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,http://www.wikidata.org/entity/Q849052,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015637
 http://urn.fi/urn:nbn:fi:au:seko:00922,,,,cheng (suu-urut),fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00922,,,,lu sheng,,,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00923,shinobue,PUUTTUU,shinobue,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00082,bambuhuilu,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015638
-http://urn.fi/urn:nbn:fi:au:seko:00924,sho,PUUTTUU,PUUTTUU,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015639
-http://urn.fi/urn:nbn:fi:au:seko:00925,shoko,PUUTTUU,PUUTTUU,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00376,gongi,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00923,shinobue,shinobue,shinobue,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00082,bambuhuilu,,,http://www.wikidata.org/entity/Q3100072,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015638
+http://urn.fi/urn:nbn:fi:au:seko:00924,shō,shō,shō,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,http://www.wikidata.org/entity/Q1975355,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015639
+http://urn.fi/urn:nbn:fi:au:seko:00924,,,,sho,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00925,shōko,shōko,shōko,,,Japani,http://urn.fi/urn:nbn:fi:au:seko:00376,gongi,,,http://www.wikidata.org/entity/Q3482784,,,
+http://urn.fi/urn:nbn:fi:au:seko:00925,,,,shoko,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00926,shruti petti,PUUTTUU,electronic shruti box,,,,http://urn.fi/urn:nbn:fi:au:seko:01021,sähkösoitin,,,PUUTTUU,,,
 http://urn.fi/urn:nbn:fi:au:seko:00926,,,,sur peti (sähkösoitin),fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00927,shudraga,PUUTTUU,PUUTTUU,,,Mongolia,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015641
@@ -3682,7 +3698,7 @@ http://urn.fi/urn:nbn:fi:au:seko:00973,,,,finger snapping,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00973,,,,snapping,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00974,sormipiano,PUUTTUU,PUUTTUU,,,Afrikka,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,http://www.yso.fi/onto/yso/p30050,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015455
 http://urn.fi/urn:nbn:fi:au:seko:00974,,,,fingerpiano,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00975,soropilli,PUUTTUU,PUUTTUU,,,Karjala,http://urn.fi/urn:nbn:fi:au:seko:00513,klarinettisoitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00975,soropilli,soropilli,soropilli,,,Karjala,http://urn.fi/urn:nbn:fi:au:seko:00513,klarinettisoitin,,,http://www.wikidata.org/entity/Q116819315,,,
 http://urn.fi/urn:nbn:fi:au:seko:00975,,,,kaza (klarinettisoitin),fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00975,,,,korsipilli,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00975,,,,olkipilli,fi,,,,,,,,,
@@ -3694,7 +3710,7 @@ http://urn.fi/urn:nbn:fi:au:seko:00977,,,,låtapipa,sv,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00977,,,,spälapipa,sv,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00977,,,,spelpipa,sv,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00977,,,,spilapipa,sv,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00978,spinetti,spinett,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00943|http://urn.fi/urn:nbn:fi:au:seko:00543,sitra|kosketinsoitin,,,http://www.wikidata.org/entity/Q623941,,,
+http://urn.fi/urn:nbn:fi:au:seko:00978,spinetti,spinett,spinet,,,,http://urn.fi/urn:nbn:fi:au:seko:00943|http://urn.fi/urn:nbn:fi:au:seko:00543,sitra|kosketinsoitin,,,http://www.wikidata.org/entity/Q623941,,,http://id.loc.gov/authorities/performanceMediums/mp2013015671
 http://urn.fi/urn:nbn:fi:au:seko:00978,,,,cembalo traverso,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00978,,,,épinette,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00978,,,,Querflügel,de,,,,,,,,,
@@ -3703,9 +3719,9 @@ http://urn.fi/urn:nbn:fi:au:seko:00978,,,,Spinett,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00978,,,,spinetta,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00978,,,,spinettina,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00978,,,,spinettone,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00979,sring,PUUTTUU,PUUTTUU,,,Armenia,http://urn.fi/urn:nbn:fi:au:seko:00418,huilusoitin,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00979,sring,sring,sring,,,Armenia,http://urn.fi/urn:nbn:fi:au:seko:00418,huilusoitin,,,http://www.wikidata.org/entity/Q290736,eri kuin blul! https://en.wikipedia.org/wiki/Sring?wprov=srpw1_0,,
 http://urn.fi/urn:nbn:fi:au:seko:00979,,,,srink,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00980,srutibox,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00394,harmoni,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00980,srutibox,srutibox,srutibox,,,,http://urn.fi/urn:nbn:fi:au:seko:00394,harmoni,,,http://www.wikidata.org/entity/Q487818,,,
 http://urn.fi/urn:nbn:fi:au:seko:00980,,,,caixa sruti,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00980,,,,shruti box,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00980,,,,shrutibox,en,,,,,,,,,
@@ -3715,8 +3731,9 @@ http://urn.fi/urn:nbn:fi:au:seko:00980,,,,surudippeṭṭi,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00981,stabule,stabule,stabule,,,Latvia,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,http://www.wikidata.org/entity/Q17099062,,,
 http://urn.fi/urn:nbn:fi:au:seko:00981,,,,stabuļa,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00981,,,,stebule,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00982,stalo boselis,PUUTTUU,PUUTTUU,,,Liettua,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00983,steel band,steel band,steelband,,,Trinidad ja Tobago,http://urn.fi/urn:nbn:fi:au:seko:00628,lyömäsoitinyhtye,,http://www.yso.fi/onto/yso/p29880,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015674
+http://urn.fi/urn:nbn:fi:au:seko:00982,stalo boselis,stalo boselis,stalo boselis,,,Liettua,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,http://www.wikidata.org/entity/Q116819489,,,
+http://urn.fi/urn:nbn:fi:au:seko:00982,,,,stãlo bosẽlis,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00983,steel band,steel band,steelband,,,Trinidad ja Tobago,http://urn.fi/urn:nbn:fi:au:seko:00628,lyömäsoitinyhtye,,http://www.yso.fi/onto/yso/p29880,http://www.wikidata.org/entity/Q920737,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015674
 http://urn.fi/urn:nbn:fi:au:seko:00983,,,,steel orchestra,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00983,,,,tinpanny,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00984,steel pan,steel pan,steel drum,,,Trinidad ja Tobago,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,http://urn.fi/urn:nbn:fi:au:seko:01226,http://www.yso.fi/onto/yso/p29959,http://www.wikidata.org/entity/Q6610630,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015675
@@ -3726,10 +3743,11 @@ http://urn.fi/urn:nbn:fi:au:seko:00985,steel-kitara,steel guitar,steel guitar,,,
 http://urn.fi/urn:nbn:fi:au:seko:00985,,,,kissalauta,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00985,,,,lap steel,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00985,,,,st-g (steel-kitara),fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00986,steppaaja,PUUTTUU,tap dancer,,,,http://urn.fi/urn:nbn:fi:au:seko:01060,tanssija,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015713
-http://urn.fi/urn:nbn:fi:au:seko:00987,stick,PUUTTUU,Chapman stick,,,,http://urn.fi/urn:nbn:fi:au:seko:01019,sähkökitara,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00988,stritch,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00879,saksofoni,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00989,stroh-viulu,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015547
+http://urn.fi/urn:nbn:fi:au:seko:00986,steppaaja,steppdansare,tap dancer,,,,http://urn.fi/urn:nbn:fi:au:seko:01060,tanssija,,,http://www.wikidata.org/entity/Q66047463,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015713
+http://urn.fi/urn:nbn:fi:au:seko:00987,stick,Chapman stick,Chapman stick,,,,http://urn.fi/urn:nbn:fi:au:seko:01019,sähkökitara,,,http://www.wikidata.org/entity/Q754518,,,
+http://urn.fi/urn:nbn:fi:au:seko:00987,,,,Chapmpanstick,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00988,stritch,stritch,stritch,,,,http://urn.fi/urn:nbn:fi:au:seko:00879,saksofoni,,,http://www.wikidata.org/entity/Q116820059,,,
+http://urn.fi/urn:nbn:fi:au:seko:00989,stroh-viulu,stroh-violin,stroh-violin,,,,http://urn.fi/urn:nbn:fi:au:seko:00446,jousisoitin,,,http://www.wikidata.org/entity/Q615941,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015547
 http://urn.fi/urn:nbn:fi:au:seko:00989,,,,Cornet-Violine,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00989,,,,horn-violin,sv,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00989,,,,one-string fiddle,en,,,,,,,,,
@@ -3744,32 +3762,32 @@ http://urn.fi/urn:nbn:fi:au:seko:00989,,,,vioara cu goarnă,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00989,,,,violinophon,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00989,,,,violinophone,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00989,,,,violon à pavillon,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00990,sudrophone,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00671|http://urn.fi/urn:nbn:fi:au:seko:01171,mirlitoni|vaskipuhallin,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00991,suhistuspuu,PUUTTUU,PUUTTUU,,,,http://urn.fi/urn:nbn:fi:au:seko:00953,soitin,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015106
+http://urn.fi/urn:nbn:fi:au:seko:00990,sudrofoni,sudrofon,sudrophone,,,,http://urn.fi/urn:nbn:fi:au:seko:00671|http://urn.fi/urn:nbn:fi:au:seko:01171,mirlitoni|vaskipuhallin,,,http://www.wikidata.org/entity/Q3976676,,,
+http://urn.fi/urn:nbn:fi:au:seko:00991,suhistuspuu,brumsnurra,bullroarer,,,,http://urn.fi/urn:nbn:fi:au:seko:00953,soitin,,,http://www.wikidata.org/entity/Q666971,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015106
 http://urn.fi/urn:nbn:fi:au:seko:00991,,,,bull-roarer,en,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00991,,,,rhombus,en,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00991,,,,turndun,en,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00991,,,,whizzer,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00991,,,,Schwirrholz,de,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00992,suling,PUUTTUU,PUUTTUU,,,Indonesia|Malesia|Filippiinit,http://urn.fi/urn:nbn:fi:au:seko:00082,bambuhuilu,,,http://www.wikidata.org/entity/Q2997443,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015685
+http://urn.fi/urn:nbn:fi:au:seko:00992,suling,suling,suling,,,Indonesia|Malesia|Filippiinit,http://urn.fi/urn:nbn:fi:au:seko:00082,bambuhuilu,,,http://www.wikidata.org/entity/Q2997443,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015685
 http://urn.fi/urn:nbn:fi:au:seko:00992,,,,seruling,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00993,sumpotan,PUUTTUU,PUUTTUU,,,Malesia,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00993,sumpotan,sumpotan,sumpotan,,,Malesia,http://urn.fi/urn:nbn:fi:au:seko:01004,suu-urut,,,http://www.wikidata.org/entity/Q15849628,,,
 http://urn.fi/urn:nbn:fi:au:seko:00994,suora sinkki,rät sinka,straight cornett,,,,http://urn.fi/urn:nbn:fi:au:seko:00937,sinkki,,,http://www.wikidata.org/entity/Q116142825,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015185
 http://urn.fi/urn:nbn:fi:au:seko:00994,,,,cornetto diritto,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00994,,,,gerader Zink,de,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00994,,,,straight treble cornett,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00994,,,,suora diskanttisinkki,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00995,suravli,PUUTTUU,PUUTTUU,,,Kreikka,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,PUUTTUU,,,
-http://urn.fi/urn:nbn:fi:au:seko:00995,,,,souravli,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00996,sūrbahār,PUUTTUU,PUUTTUU,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00942,sitar,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015689
+http://urn.fi/urn:nbn:fi:au:seko:00995,suravli,souravli,souravli,,,Kreikka,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,http://www.wikidata.org/entity/Q7565100,,,
+http://urn.fi/urn:nbn:fi:au:seko:00996,sūrbahār,surbahar,surbahar,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00942,sitar,,,http://www.wikidata.org/entity/Q980383,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015689
 http://urn.fi/urn:nbn:fi:au:seko:00996,,,,bassositar,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00996,,,,surbahar,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00997,surdāo,PUUTTUU,PUUTTUU,,,Brasilia,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00997,surdāo,PUUTTUU,PUUTTUU,,,Brasilia,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,PUUTTUU,olisiko sama kuin surdo,,
 http://urn.fi/urn:nbn:fi:au:seko:00997,,,,surdao,fi,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00998,surdo,PUUTTUU,PUUTTUU,,,Brasilia,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015690
+http://urn.fi/urn:nbn:fi:au:seko:00998,surdo,surdo,surdo,,,Brasilia,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,http://www.wikidata.org/entity/Q940274,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015690
 http://urn.fi/urn:nbn:fi:au:seko:00998,,,,caixa-surda,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00999,surle,PUUTTUU,zūrnā,,,Albania,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015829
-http://urn.fi/urn:nbn:fi:au:seko:01000,surmandal,PUUTTUU,PUUTTUU,,,Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00943,sitra,,,PUUTTUU,,,
+http://urn.fi/urn:nbn:fi:au:seko:00999,surle,surle,surle,,,Albania,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,http://www.wikidata.org/entity/Q230471,sama kuin zūrnā???,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015829
+http://urn.fi/urn:nbn:fi:au:seko:01000,surmandal,surmandal,swarmandal,,,Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00943,sitra,,,http://www.wikidata.org/entity/Q627110,,,
 http://urn.fi/urn:nbn:fi:au:seko:01000,,,,Indian harp,en,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:01000,,,,swaramandal,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:01000,,,,swarmandal,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:01001,surśrngār,PUUTTUU,PUUTTUU,,,Pohjois-Intia,http://urn.fi/urn:nbn:fi:au:seko:00709,näppäilysoitin,,,PUUTTUU,,,
 http://urn.fi/urn:nbn:fi:au:seko:01001,,,,sursrngar,fi,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:01002,suujousi,PUUTTUU,mouth bow,,,,http://urn.fi/urn:nbn:fi:au:seko:00955,soittokaari,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015482
@@ -4394,9 +4412,19 @@ http://urn.fi/urn:nbn:fi:au:seko:01217,zaqq,PUUTTUU,PUUTTUU,,,Malta,http://urn.f
 http://urn.fi/urn:nbn:fi:au:seko:01218,zeze,PUUTTUU,PUUTTUU,,,Zaire|Kongo,http://urn.fi/urn:nbn:fi:au:seko:00943,sitra,,,PUUTTUU,,,
 http://urn.fi/urn:nbn:fi:au:seko:01219,zil,PUUTTUU,PUUTTUU,,,Turkki,http://urn.fi/urn:nbn:fi:au:seko:00585,lautanen,,,PUUTTUU,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015263
 http://urn.fi/urn:nbn:fi:au:seko:01220,zurla,PUUTTUU,PUUTTUU,,,Serbia|Pohjois-Makedonia|Makedonia (Kreikka),http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015829
-http://urn.fi/urn:nbn:fi:au:seko:01221,zūrnā,PUUTTUU,PUUTTUU,,,Balkanin niemimaa|Turkk|Arabian niemimaa|Aasia,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015829
+http://urn.fi/urn:nbn:fi:au:seko:01221,zūrnā,zūrnā,zūrnā,,,Balkanin niemimaa|Turkk|Arabian niemimaa|Aasia,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,http://www.wikidata.org/entity/Q230471,sama kuin surle?,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015829
 http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zorna,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zurna,fi,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zourna,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zorna,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zurla,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zokra,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,surnay,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,surnai,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zamr,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zamour,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,Curla,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:01221,,,,zūrnā,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:01222,zurnas,PUUTTUU,PUUTTUU,,,Kreikka,http://urn.fi/urn:nbn:fi:au:seko:00715,oboesoitin,,,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015829
 http://urn.fi/urn:nbn:fi:au:seko:01222,,,,zournas,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:01223,ääni,röst,voice,,,,http://urn.fi/urn:nbn:fi:au:seko:01225,esittäjä,,http://www.yso.fi/onto/yso/p4573,PUUTTUU,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015545
