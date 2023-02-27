@@ -1,8 +1,8 @@
 # SEKO
 Translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary.
-Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to corresponding concepts in <a href="https://finto.fi/yso/en/">YSO</a>, and Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a> and to <a href="https://w.wiki/5jrV">Wikidata</a> items with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. 
+Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to corresponding concepts in <a href="https://finto.fi/yso/en/">YSO</a>, and Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a> sand to <a href="https://w.wiki/5jrV">Wikidata</a>   items with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a> 
 
-Note! The list of instument names in Swedish is lacking - sources needed.
+Note! The list of instrument names in Swedish is lacking - MIMO has some, but additional labels are needed.
 
 # Sources for labels
 * LCMPT - https://id.loc.gov/authorities/performanceMediums.html
@@ -11,7 +11,7 @@ Note! The list of instument names in Swedish is lacking - sources needed.
 * Grove Music Online - https://www.oxfordmusiconline.com/grovemusic (paywall)
 * MusicBrainz Instrument -  https://musicbrainz.org/doc/Instrument
 * MIMO - https://mimo-international.com/MIMO/
-  * Scenkonstmuseet <a href="https://mimo-international.com/mimo/detailstatic.aspx?RSC_BASE=IFD&RSC_DOCID=OAI_SMS_MM_POST_3381&TITLE=&_lg=sv-SE">Sinka</a>
+  * MIMO Thesaurus of musical instrument names https://vocabulary.mimo-international.com/InstrumentsKeywords/en/
 * hoorn.be - https://hoorn.be
 * Hello Music Theory https://hellomusictheory.com/learn/instruments/
 * Ethnomusicology https://content.lib.washington.edu/ethnomusicweb/
