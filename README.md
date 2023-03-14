@@ -31,6 +31,7 @@ Note! As of March 2023 the list of instrument names in Swedish is lacking 91 lab
   * Asia
     * Sound of Asia https://www.soundofasia.com/ (Commercial company)
     * Terms in North Indian music https://chandrakantha.com/glossary/
+ * And many more...
 
 # Wikidata mappings
 
