@@ -1,11 +1,13 @@
 # SEKO
 Translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary.
-Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to corresponding concepts in <a href="https://finto.fi/yso/en/">YSO</a>, and Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a> sand to <a href="https://w.wiki/5jrV">Wikidata</a>   items with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a> 
+Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to corresponding concepts in <a href="https://finto.fi/yso/en/">YSO</a>, and Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a> sand to <a href="https://w.wiki/5jrV">Wikidata</a>   items with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, UNIMARC  
 
 Note! As of March 2023 the list of instrument names in Swedish is lacking 91 labels. 67 English labels are missing.  MIMO may have some, but additional labels are needed. 
 
 # Sources for labels
 * LCMPT - https://id.loc.gov/authorities/performanceMediums.html
+* UNIMARC: Medium of performance (mop) - https://www.iflastandards.info/unimarc/terms/mop?language=sv
+  * Repository: https://github.com/iflastandards/unimarc/blob/master/ttl/ns/unimarc/terms/mop.ttl
 * Wikidata - https://w.wiki/6Cn8
   * Wikidata - https://en.wikipedia.org/wiki/List_of_national_instruments_(music)
 * Grove Music Online - https://www.oxfordmusiconline.com/grovemusic (paywall)
