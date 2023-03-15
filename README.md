@@ -39,7 +39,7 @@ Note! As of March 2023 the list of instrument names in Swedish is lacking 91 lab
 
 ```sparql
 # get all subclasses of "musical instrument" about 4300 and get identifiers from them
-        SELECT DISTINCT ?item ?itemLabel ?SEKO_ID ?LCMPT_ID ?MIMO_ID ?MB_ID ?GMO_ID
+        SELECT DISTINCT ?item ?itemLabel ?SEKO_ID ?LCMPT_ID ?MIMO_ID ?MB_ID ?GMO_ID ?MOP_ID 
          WHERE {
            SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
            ?item wdt:P279+ wd:Q34379.
@@ -48,6 +48,7 @@ Note! As of March 2023 the list of instrument names in Swedish is lacking 91 lab
            OPTIONAL { ?item wdt:P1330 ?MB_ID . }
            OPTIONAL { ?item wdt:P3763 ?MIMO_ID . }
            OPTIONAL { ?item wdt:P8591 ?GMO_ID . }
+           OPTIONAL { ?item wdt:P11214 ?MOP_ID . }
          }
 ```  
 - link to the above query https://w.wiki/6DFs 
