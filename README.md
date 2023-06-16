@@ -4,6 +4,8 @@ Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to correspo
 
 Note! As of March 2023 the list of instrument names in Swedish is lacking 91 labels. 67 English labels are missing.  MIMO may have some, but additional labels are needed. 
 
+Note! There are several possibly problematic concepts due to overlapping distribution of the same or similar instruments over several cultural and linguistic regions. Some concepts may need to be split up and some others should be joined to a single concept. These will be brought up as issues where they can be then discussed. See the list at https://github.com/NatLibFi/SEKO/issues
+
 # Sources for labels
 * LCMPT - https://id.loc.gov/authorities/performanceMediums.html
 * UNIMARC: Medium of performance (mop) - https://www.iflastandards.info/unimarc/terms/mop?language=sv
