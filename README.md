@@ -37,6 +37,10 @@ Note! There are several possibly problematic concepts due to overlapping distrib
     * Terms in North Indian music https://chandrakantha.com/glossary/
  * And many more...
 
+# BIBFRAME
+
+For mapping purposes the appropriate concepts in SEKO3 could be marked as instances of <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicEnsemble">bf:MusicEnsemble</a></b>  or <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicInstrument">bf:MusicInstrument</a></b>. 
+
 # Wikidata mappings
 
 ```sparql
