@@ -59,3 +59,5 @@ For mapping purposes the appropriate concepts in SEKO3 could be marked as instan
 ```  
 - link to the above query https://w.wiki/6DFs 
 - musical instrument http://www.wikidata.org/entity/Q34379
+
+Work in process: view the <a target="seko3" href="https://docs.google.com/spreadsheets/d/1pJH3UghucVpFdedI6F1QzHYE_kQMWmGe2wTm2LvYX4w/edit?usp=sharing">masterdata Google sheet</a>
