@@ -2,6 +2,10 @@
 Voluntary translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary.
 Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to corresponding concepts in <a href="https://finto.fi/yso/en/">YSO</a>, and Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a> and to <a href="https://w.wiki/5jrV">Wikidata</a>   items with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>.  
 
+As of 2026-06 the original live dataset is maintained in MARC21 and exported to skos format to Finto-data repository at
+https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko
+The latest changes to the data were committed in 2021-09-28 and the metadata of the dataset was updated in 2025-05-21. 
+
 Note! As of March 2023 the list of instrument names in Swedish is lacking 91 labels. 67 English labels are missing.  MIMO may have some, but additional labels are needed. 
 
 Note! There are several possibly problematic concepts due to overlapping distribution of the same or similar instruments over several cultural and linguistic regions. Some concepts may need to be split up and some others should be joined to a single concept. These will be brought up as issues where they can be then discussed. See the list at https://github.com/NatLibFi/SEKO/issues
