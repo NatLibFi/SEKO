@@ -1,0 +1,180 @@
+@prefix owl: <https://id.loc.gov/vocabulary/mstatus/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+
+### Model updated 2026-06-23
+### Editor: Jarmo Saarikko
+
+seko-meta: a owl:Ontology ;
+  dct:description "SEKO ontologian monikielisen version tietomalli."@fi ;
+  dct:description "Sisältää ominaisuuksia knowledge graph -kehittämistä varten."@fi ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dct:title "Data model for a multilingual SEKO ontology for medium of performance."@en,
+        "Tietomalli monikielisen SEKO ontologian pohjaksi."@fi ;
+  rdfs:comment "Muodostettu AI-assistentin tuella (Gemini by Google)."@fi ;
+  dct:language fi, sv, en ;
+  dc:creator "Jarmo Saarikko"@fi :
+  dct:contributor  <http://www.wikidata.org/entity/Q95592946> ;
+  dct:mediator <http://www.wikidata.org/entity/Q420747> ;
+  dct:created "2026-06-23" ;
+  dct:issued "2026-06-23"^^xsd:date ;
+  owl:versionInfo "2.00" ;
+  dct:modified "2026-06-23T20:49:20+03:00"^^xsd:dateTime ;
+.
+  
+
+### LUOKKAMÄÄRITTELYT (CLASSES)
+
+skos:ConceptScheme a owl:Class ;
+    rdfs:label "Sanasto / Käsitejärjestelmä"@fi , "Concept Scheme"@en .
+
+skos:Concept a owl:Class ;
+    rdfs:label "Soitinalan käsite"@fi , "Musical Instrument Concept"@en .
+
+skos:Collection a owl:Class ;
+    rdfs:label "Kokoelma tai ryhmittely"@fi , "Collection"@en .
+
+dct:Agent a rdfs:Class ;
+   rdfs:label "Any time of agent contributing or participating." .
+
+### ARVOTYYPPIOMINAISUUDET (OWL DATATYPE PROPERTIES - Literaalit ja merkkijonot)
+
+skos:prefLabel a owl:DatatypeProperty ;
+    rdfs:label "Ensisijainen termi"@fi , "Preferred Label"@en ;
+    rdfs:range xsd:string .
+
+skos:altLabel a owl:DatatypeProperty ;
+    rdfs:label "Vaihtoehtoinen termi"@fi , "Alternative Label"@en ;
+    rdfs:range xsd:string .
+
+skos:hiddenLabel a owl:DatatypeProperty ;
+    rdfs:label "Piilotettu termi"@fi , "Hidden Label"@en ;
+    rdfs:comment "Käytetään hakua varten: diakriitittömät, virheelliset sekä yksikkö/monikkovariaatiot."@fi ;
+    rdfs:range xsd:string .
+
+skos:definition a owl:DatatypeProperty ;
+    rdfs:label "Määritelmä (rakenne)"@fi , "Definition"@en ;
+    rdfs:comment "Käytetään organologisen ja fyysisen rakenteen kuvaamiseen."@fi ;
+    rdfs:range xsd:string .
+
+skos:scopeNote a owl:DatatypeProperty ;
+    rdfs:label "Käyttöala / Konteksti"@fi , "Scope Note"@en ;
+    rdfs:comment "Käytetään kulttuurisen ja musiikillisen käyttöympäristön kuvaamiseen."@fi ;
+    rdfs:range xsd:string .
+
+skos:editorialNote a owl:DatatypeProperty ;
+    rdfs:label "Toimituksellinen huomautus"@fi , "Editorial Note"@en ;
+    rdfs:range xsd:string .
+
+skos:changeNote a owl:DatatypeProperty ;
+    rdfs:label "Muutoshuomautus"@fi , "Change Note"@en ;
+    rdfs:comment "Muutoshuomatukseen liitetään joko linkki muutoksen käsittelyn issueeseen tai päiväys ja selostus muutoksesta.";
+    rdfs:range xsd:string .
+
+dct:identifier a owl:DatatypeProperty ;
+    rdfs:label "Tunniste"@fi , "Identifier"@en ;
+    rdfs:comment "Käsitteen uniikki paikallinen tai globaali tunnistenumero/merkkijono."@fi ;
+    rdfs:range rdfs:Literal .
+
+skos:notation a owl:DatatypeProperty ;
+    rdfs:label "Luokitusnumero"@fi , "Notation"@en ;
+    rdfs:comment "Hornbostel-Sachs-soitinluokituksen numeerinen koodi (esim. '111.24')."@fi ;
+    rdfs:range xsd:string .
+
+dct:created a owl:DatatypeProperty ;
+    rdfs:label "Luontipäivämäärä"@fi , "Date Created"@en ;
+    rdfs:range xsd:date .
+
+dct:modified a owl:DatatypeProperty ;
+    rdfs:label "Muokkauspäivämäärä"@fi , "Date Modified"@en ;
+    rdfs:range xsd:date .
+
+owl:deprecated a owl:DatatypeProperty ;
+    rdfs:label "Poistettu käytöstä"@fi , "Is Deprecated"@en ;
+    rdfs:range xsd:boolean .
+
+### OLIOMINAISUUDET (OWL OBJECT PROPERTIES - URI-viittaukset ja resurssit)
+
+dct:subject a owl:ObjectPropety ;
+   rdfs:label "Aihe tai luokitus"@fi , "Subject or classification"@en ;
+   rdfs:comment "Käytä aiheen (esim. YSO) tai luokan (esim. Hornbostel-Sachs) URI -tunnistetta"@fi, "Use an URI for a subject or classification"@en ;
+   rdfs:range rdfs:Resource .
+
+dct:spatial a owl:ObjectProperty ;
+    rdfs:label "Maantieteellinen koodi"@fi , "Spatial Coverage"@en ;
+    rdfs:comment "Soittimen maantieteellinen alkuperämaa YSO-paikat viittauksena."@fi ;
+    rdfs:range rdfs:Resource .
+dct:creator a owl:ObjectProperty ;
+   rdfs:label "Instrumentin kehittäjä"@fi, "Developer of the instrument"@en ;
+   rdfs:comment "Soittimen luoja"@fi , "Creator of the instrument"@en ;
+   rdfs:range dct:Agent .
+
+skos:inScheme a owl:ObjectProperty ;
+    rdfs:label "Kuuluu sanastoon"@fi , "In Scheme"@en ;
+    rdfs:range skos:ConceptScheme .
+
+skos:member a owl:ObjectProperty ;
+     rdfs:label "Kokoelman jäsen@fi, "Member of collection"@en ;
+    rdfs:range skos:Concept;
+    rdfs:domain skos:Collection .
+
+dct:status a owl:ObjectProperty ;
+    rdfs:label "Elinkaaren tila"@fi , "Status"@en ;
+    rdfs:comment "Käsitteen hallinnollinen tila. Arvoalueena käytetään MARC21-mstatus-koodistoa tai muuta vastaavaa kontrolloitua listaa."@fi ;
+    rdfs:range rdfs:Resource .  #  example http://metadataregistry.org/uri/RegStatus/
+
+dc:isReplacedBy a owl:ObjectProperty ;
+    rdfs:label "Korvaava käsite"@fi , "Is Replaced By"@en ;
+    rdfs:comment "Osoittaa käsitteen, joka korvaa käytöstä poistetun tai virheellisen käsitteen."@fi ;
+    rdfs:range skos:Concept .
+
+skos:broader a owl:ObjectProperty ;
+    rdfs:label "Yläkäsite"@fi , "Broader Concept"@en ;
+    rdfs:range skos:Concept .
+
+skos:narrower a owl:ObjectProperty ;
+    rdfs:label "Alakäsite"@fi , "Narrower Concept"@en ;
+    rdfs:range skos:Concept .
+
+skos:related a owl:ObjectProperty ;
+    rdfs:label "Lähikäsite"@fi , "Related Concept"@en ;
+    rdfs:comment "Yhdistää käsitteet, jotka liittyvät toisiinsa assosiatiivisesti tai jotka luetteloinnissa sekoitetaan herkästi keskenään."@fi ;
+    rdfs:range skos:Concept .
+
+skos:exactMatch a owl:ObjectProperty ;
+    rdfs:label "Tarkka vastaavuus"@fi , "Exact Match"@en ;
+    rdfs:comment "Tarkka vastaavuus muihin sanastoihin (kuten YSO, Wikidata, MIMO, LCMPT)."@fi ;
+    rdfs:range rdfs:Resource .
+
+skos:closeMatch a owl:ObjectProperty ;
+    rdfs:label "Läheinen vastaavuus"@fi , "Close Match"@en ;
+    rdfs:range rdfs:Resource .
+
+skos:broadMatch a owl:ObjectProperty ;
+    rdfs:label "Laajempi vastaavuus"@fi , "Broad Match"@en ;
+    rdfs:range rdfs:Resource .
+
+rdfs:seeAlso a owl:ObjectProperty ;
+    rdfs:label "Katso myös"@fi , "See Also"@en ;
+    rdfs:comment "Viittaukset ulkoiseen dokumentaatioon tai tietokantoihin URI-muodossa."@fi ;
+    rdfs:range rdfs:Resource .
+
+
+###  Experimental - classes and properties for knowledge graph development 
+###
+###  e.g. Music Ontology (2007) https://motools.sourceforge.net/doc/musicontology.html
+###  e.g. https://performedmusicontology.org/ -- Performed Music Ontology 2.0 
+###  and https://performedmusicontology.org/vocabularies/ensemble_size/PMOEnsembleSize.html
+###  - An extension of the BIBFRAME ontology for describing performed music, both for mainstream and archival performed music collections. Part of these have been included into Bibframe 3.0
+###  e.g. from Bibframe  bf:Ensemble, bf:MusicEnsemble, bf:MusicVoice, bf:MusicInstrument
+
