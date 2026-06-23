@@ -11,17 +11,22 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
 
 ### Model updated 2026-06-23
 ### Editor: Jarmo Saarikko
 
 seko-meta: a owl:Ontology ;
-  dct:description "SEKO ontologian monikielisen version tietomalli."@fi ;
-  dct:description "Sisältää ominaisuuksia knowledge graph -kehittämistä varten."@fi ;
+  dct:description """
+  SEKO ontologian monikielisen version tietomalli.
+  Tulee sisältämään mappauksia sekä ominaisuuksia knowledge graph -kehittämistä varten.
+  """@fi ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-  dct:title "Data model for a multilingual SEKO ontology for medium of performance."@en,
-        "Tietomalli monikielisen SEKO ontologian pohjaksi."@fi ;
-  rdfs:comment "Muodostettu AI-assistentin tuella (Gemini by Google)."@fi ;
+  dct:description """
+  Data model for a multilingual SEKO ontology for medium of performance.
+   """@en,
+  dct:title "Tietomalli monikielisen SEKO ontologian pohjaksi."@fi ;
+  rdfs:comment "Muodostettu AI-assistentin tuella (Gemini, ChatGPT)."@fi ;
   dct:language <http://id.loc.gov/vocabulary/iso639-1/fi>,
              <http://id.loc.gov/vocabulary/iso639-1/sv>,
              <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -47,19 +52,7 @@ skos:Collection a owl:Class ;
     rdfs:label "Kokoelma tai ryhmittely"@fi , "Collection"@en .
 
 foaf:Agent a rdfs:Class ;
-   rdfs:label "Any time of agent contributing or participating." .
-
-
-skos:member a owl:ObjectProperty ;
-    rdfs:label "Kokoelman jäsen"@fi, "Member of collection"@en ;
-    rdfs:range skos:Concept;
-    rdfs:domain skos:Collection .
-
-skos:broader a owl:ObjectProperty ;
-    rdfs:label "Yläkäsite"@fi , "Broader Concept"@en ;
-    rdfs:domain skos:Concept ; 
-    rdfs:range skos:Concept .
-
+   rdfs:comment "Any type of agent contributing or participating." .
 
 
 ### OMINAISUUDET 
@@ -115,13 +108,13 @@ dct:creator
     rdfs:domain skos:Concept ; 
     rdfs:range foaf:Agent .
 
-dct:status 
+adms:status 
     rdfs:label "Elinkaaren tila"@fi , "Status"@en ;
     rdfs:comment "Käsitteen hallinnollinen tila. Arvoalueena käytetään MARC21-mstatus-koodistoa tai muuta vastaavaa kontrolloitua listaa."@fi ;
     rdfs:domain skos:Concept ; 
     rdfs:range rdfs:Resource .  #  example http://metadataregistry.org/uri/RegStatus/
 
-dc:isReplacedBy 
+dct:isReplacedBy 
     rdfs:label "Korvaava käsite"@fi , "Is Replaced By"@en ;
     rdfs:comment "Osoittaa käsitteen, joka korvaa käytöstä poistetun tai virheellisen käsitteen."@fi ;
     rdfs:domain skos:Concept ; 
