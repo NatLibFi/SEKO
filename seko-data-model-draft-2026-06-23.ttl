@@ -23,7 +23,7 @@ seko-meta: a owl:Ontology ;
         "Tietomalli monikielisen SEKO ontologian pohjaksi."@fi ;
   rdfs:comment "Muodostettu AI-assistentin tuella (Gemini by Google)."@fi ;
   dct:language fi, sv, en ;
-  dc:creator "Jarmo Saarikko"@fi :
+  dc:creator "Jarmo Saarikko"@fi ;
   dct:contributor  <http://www.wikidata.org/entity/Q95592946> ;
   dct:mediator <http://www.wikidata.org/entity/Q420747> ;
   dct:created "2026-06-23" ;
@@ -124,7 +124,7 @@ skos:inScheme a owl:ObjectProperty ;
     rdfs:range skos:ConceptScheme .
 
 skos:member a owl:ObjectProperty ;
-     rdfs:label "Kokoelman jäsen@fi, "Member of collection"@en ;
+     rdfs:label "Kokoelman jäsen"@fi, "Member of collection"@en ;
     rdfs:range skos:Concept;
     rdfs:domain skos:Collection .
 
