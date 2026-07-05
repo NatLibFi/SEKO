@@ -59,6 +59,7 @@ Note! There are several possibly problematic concepts due to overlapping distrib
 * Yves Moreau, 1975: Bulgarian folk music instruments https://socalfolkdance.org/articles/bulgarian_folk_music_instruments_moreau.htm (read 2026-07-05)
 * Benjamin Schweitzer (2018) (Master's thesis) <a href="https://epub.ub.uni-greifswald.de/frontdoor/deliver/index/docId/3340/file/Schweitzer_Musikinstrumente_Finnisch.pdf">Musikinstrumentenbezeichnungen im Finnischen: Historisch-systematischer Überblick,  Varianten und Verstetigung</a> (PDF) (read 2026-07-05)
 * Folkdance footnotes Beyond Choreography: 2. Instruments https://folkdancefootnotes.org/music/musical-instruments/ (read 2026-07-05)
+* Soinuenea Herri Musikaren Txokoa Traditional music museum https://www.soinuenea.eus/en/
 ### Asia
 * Sound of Asia https://www.soundofasia.com/ (Commercial company)
 * Terms in North Indian music https://chandrakantha.com/glossary/
