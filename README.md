@@ -17,33 +17,57 @@ Note! There are several possibly problematic concepts due to overlapping distrib
 * Wikidata - https://w.wiki/6Cn8
   * Wikidata - https://en.wikipedia.org/wiki/List_of_national_instruments_(music)
 * Grove Music Online - https://www.oxfordmusiconline.com/grovemusic (paywall)
+* Getty AAT Online search form https://www.getty.edu/research/tools/vocabularies/aat/?find=
 * MusicBrainz Instrument -  https://musicbrainz.org/doc/Instrument
 * MIMO - https://mimo-international.com/MIMO/
   * MIMO Thesaurus of musical instrument names https://vocabulary.mimo-international.com/InstrumentsKeywords/en/
 * hoorn.be - https://hoorn.be
 * Hello Music Theory https://hellomusictheory.com/learn/instruments/
 * Ethnomusicology https://content.lib.washington.edu/ethnomusicweb/
+* The Stringed Instrument Database https://stringedinstrumentdatabase.aornis.com/ (not updated, read 2026-07-05)
 * Institute of Musical Instrument Technology https://www.imit.org.uk/pages/a-to-z-of-musical-instrument.html
 * A to Z of percussion music https://www.percussion4u.co.uk/pages/a-to-z-of-percussion-instruments
 * Cambridge UP: <a href="https://www.cambridge.org/core/books/abs/cambridge-encyclopedia-of-brass-instruments/selective-list-of-vernacular-horns-and-trumpets/C714FB2CC8CCDB80CB745436FE37CF1E">Appendix 1 - A Selective List of Vernacular Horns and Trumpets</a> (paywall)
 * Archive.org <a href="https://archive.org/details/surveyofmusicali00marc">Marcuse, S. A survey of musical instruments</a> (registration required)
 * Virginia Tech: <a href="https://web.archive.org/web/20060828221211/http://www.music.vt.edu/musicdictionary/appendix/instruments/instrumentmain.html">Comprehensive Table of Musical Instrument Classifications</a> (Web archive)
-* Smaller datasets
-  * Europe
-    * Minna Hokka https://minnahokka.com/ - traditional Finnish wind instruments
-    * Edinburgh University Collection of Historic Musical Instruments https://collections.ed.ac.uk/mimed/
-    * Folkdance footnotes https://folkdancefootnotes.org/music/musical-instruments/ (Don Buskirk's blog)
-    * Traditional musical instruments of Latvia https://www.tautasmuzikasinstrumenti.lv/ (project page)
-    * Musical Instruments in the Baltic Region http://www.music.lv/mukti/BalticMI.htm
-    * Traditional stringed instruments of Greece https://www.helleniccomserve.com/stringintruments.html
-  * Asia
-    * Sound of Asia https://www.soundofasia.com/ (Commercial company)
-    * Terms in North Indian music https://chandrakantha.com/glossary/
-  * Africa
-    * Percival Kirby Musical Instruments https://ibali.uct.ac.za/s/pkmi/ (University of Cape Town)
-    * DEKKMMA - Digitization project. The sound archive of the department of Ethnomusicology of the Royal Museum for Central Africa at Tervuren (Belgium).  https://music.africamuseum.be/english/index.html
+* Yale University Library (read 2026-07-03)
+  * <a href="https://yalelibrary.atlassian.net/wiki/spaces/YMD/pages/202026619/Music+Cataloging+at+Yale">Music Cataloging at Yale</a> (many resources)
+  * <a href="https://yalelibrary.atlassian.net/wiki/spaces/YMD/pages/202029664/When+is+a+flute+not+a+flute">When is a "flute" not a flute?"</a>
+  * <a href="https://yalelibrary.atlassian.net/wiki/spaces/YMD/pages/202035904/Controlled+Vocabularies+for+Music+Cataloging">Controlled Vocabularies for Music Cataoging</a>
+* Grinnell College Musical Instrument Collection https://omeka-s.grinnell.edu/s/MusicalInstruments/page/welcome (read 2026-07-05)
+* University of Edinburg https://collections.ed.ac.uk/mimed/search/*:*/Collection:%22mimed+%7C%7C%7C+MIMEd%22 (read 2026-07-05)
+* Instruments du Monde https://instruments-du-monde.com/en
+* Europeana https://www.europeana.eu/fi/search?query=
+* Murtomäki, Veijo 2006. Keskiajan ja renessanssin soittimet. Muhi – Musiikinhistoriaa verkossa, Taideyliopiston Sibelius-Akatemia. Verkkoaineisto https://muhi.uniarts.fi/kesk_ja_ren_soittimet/ (Read 2026-07-05).
+* OnMusic Dictionary https://70.33.166.159/instruments/family/world (Note! Not safe connection) (Read 2026-07-05).
+* Organology.net " A practical resource for musical instruments." - https://organology.net/instruments/ (855 on 2026-07-05)
+* Dolmetsch music dictionary online https://www.dolmetsch.com/musictheorydefs.htm (read 2026-07-05)
+* BnF Data: Instruments de musique https://data.bnf.fr/en/ark:/12148/cb119367821 (search or look at Narrower concepts) (read 2026-07-05)
+* Wikipedia: List of national instruments (Music) https://en.wikipedia.org/wiki/List_of_national_instruments_(music)
+* RIdIM Repertoire International d'Iconographie Musicale https://db.ridim.org/search.php - images with instruments (read 2026-07-05)
+* Leisiö, T. (2010). Luonnollisten soitinten luokitusjärjestelmä. Toinen, uudistettu laitos. Musiikintutkimuksen laitos. https://www.yumpu.com/fi/document/view/5067218/luonnollisten-soitinten-luokitusjarjestelma-pdf/5
 
- * And many more...
+## Smaller datasets
+### Europe
+* Minna Hokka https://minnahokka.com/ - traditional Finnish wind instruments (read 2026-07-05)
+* Edinburgh University Collection of Historic Musical Instruments https://collections.ed.ac.uk/mimed/
+* Folkdance footnotes https://folkdancefootnotes.org/music/musical-instruments/ (Don Buskirk's blog)
+* Traditional musical instruments of Latvia https://www.tautasmuzikasinstrumenti.lv/ (project page)
+* A Primer on Latvian folk instruments https://latviansonline.com/a-primer-on-latvian-folk-instruments/ (read 2026-07-05)
+* Musical Instruments in the Baltic Region http://www.music.lv/mukti/BalticMI.htm
+* Traditional stringed instruments of Greece https://www.helleniccomserve.com/stringintruments.html
+* Yves Moreau, 1975: Bulgarian folk music instruments https://socalfolkdance.org/articles/bulgarian_folk_music_instruments_moreau.htm (read 2026-07-05)
+* Benjamin Schweitzer (2018) (Master's thesis) <a href="https://epub.ub.uni-greifswald.de/frontdoor/deliver/index/docId/3340/file/Schweitzer_Musikinstrumente_Finnisch.pdf">Musikinstrumentenbezeichnungen im Finnischen: Historisch-systematischer Überblick,  Varianten und Verstetigung</a> (PDF) (read 2026-07-05)
+* Folkdance footnotes Beyond Choreography: 2. Instruments https://folkdancefootnotes.org/music/musical-instruments/ (read 2026-07-05)
+### Asia
+* Sound of Asia https://www.soundofasia.com/ (Commercial company)
+* Terms in North Indian music https://chandrakantha.com/glossary/
+* Dan Farrant: "12 Turkish instruments you should know" https://hellomusictheory.com/learn/turkish-instruments/
+### Africa
+* Percival Kirby Musical Instruments https://ibali.uct.ac.za/s/pkmi/ (University of Cape Town)
+* DEKKMMA - Digitization project. The sound archive of the department of Ethnomusicology of the Royal Museum for Central Africa at Tervuren (Belgium).  https://music.africamuseum.be/english/index.html
+
+And many more...
 
 # BIBFRAME
 
@@ -67,5 +91,8 @@ For mapping purposes the appropriate concepts in SEKO3 could be marked as instan
 ```  
 - link to the above query https://w.wiki/6DFs 
 - musical instrument http://www.wikidata.org/entity/Q34379
+- Hornbostel-Sachs markings - sparql search on Wikidata https://w.wiki/6QPJ (2392 hits on 2026-07-05)
 
-Work in process: view the <a target="seko3" href="https://docs.google.com/spreadsheets/d/1pJH3UghucVpFdedI6F1QzHYE_kQMWmGe2wTm2LvYX4w/edit?usp=sharing">masterdata Google sheet</a>
+# Seko datasets
+* Published monoligual dataset in RDF https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko (tranformed from MARC dataset on Melinda)
+* This editorial work in process: view the <a target="seko3" href="https://docs.google.com/spreadsheets/d/1pJH3UghucVpFdedI6F1QzHYE_kQMWmGe2wTm2LvYX4w/edit?usp=sharing">masterdata Google sheet</a>
