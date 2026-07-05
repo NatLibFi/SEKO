@@ -41,6 +41,8 @@ Note! There are several possibly problematic concepts due to overlapping distrib
     * Terms in North Indian music https://chandrakantha.com/glossary/
   * Africa
     * Percival Kirby Musical Instruments https://ibali.uct.ac.za/s/pkmi/ (University of Cape Town)
+    * DEKKMMA - Digitization project. The sound archive of the department of Ethnomusicology of the Royal Museum for Central Africa at Tervuren (Belgium).  https://music.africamuseum.be/english/index.html
+
  * And many more...
 
 # BIBFRAME
