@@ -6,7 +6,7 @@ As of 2026-06 the original live dataset is maintained in MARC21 and exported to 
 https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko
 The latest changes to the data were committed in 2021-09-28 and the metadata of the dataset was updated in 2025-05-21. 
 
-Note! As of March 2023 the list of instrument names in Swedish is lacking 91 labels. 67 English labels are missing.  MIMO may have some, but additional labels are needed. 
+Note! As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed. After handling all the open  issues here whe should have labels in 3 languages with a Wikidata-mapping for all current and some newly added items.  During the editing some items will be DEPRECATED due to MERGE or other reasons. See the <a href="https://github.com/NatLibFi/SEKO/wiki/List-of-deprecated-concepts">list of planned deprecations</a>.
 
 Note! There are several possibly problematic concepts due to overlapping distribution of the same or similar instruments over several cultural and linguistic regions. Some concepts may need to be split up and some others should be joined to a single concept. These will be brought up as issues where they can be then discussed. See the list at https://github.com/NatLibFi/SEKO/issues
 
