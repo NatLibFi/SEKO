@@ -1,11 +1,13 @@
 ## Masterdata structure 
 There are two types of rows 
 - Type 1: concept rows with all property values. Mandatory `A,C,D,E,L,AD`
-- Type 2: rows for altLabel and hiddenLabel values and language tags. Values in colu,mn `A,F,G` or `A,H,I` only
-Multiple values of plain literal strings are separated with character `|`.
-Language tagged literals are entered with parentheses and the tag and separated with a comma `,`.
-E.g. `finnish text"@fi, "swedish text"@sv`
-References to Seko concepts are entered in the format `seko:nnnnn`.
+- Type 2: rows for altLabel and hiddenLabel values and language tags. Values in column `A,F,G` or `A,H,I` only
+
+Formatting
+- Multiple values of plain literal strings are separated with character `|`.
+- Language tagged literals are entered with parentheses and the tag and separated with a comma `,`.
+    - E.g. `finnish text"@fi, "swedish text"@sv`
+- References to Seko concepts are entered in the format `seko:nnnnn`.
 
 ## Column labels and descriptions
 ```
