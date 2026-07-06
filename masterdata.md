@@ -1,35 +1,43 @@
-## Masterdata table columns
-Explanations will be added later 
+## Masterdata structure 
+There are two types of rows 
+- Type 1: concept rows with all property values
+- Type 2: rows for altLabel and hiddenLabel values and language tags
+Plain literal strings are separated with character "|".
+Language tagged literals are entered with parentheses and separated with a comma.
+E.g. "finnish text"@fi, "swedish text"@sv
+References to Seko concepts are entered in the format seko:nnnnn.
+
+## Column labels and descriptions
 ```
-seko
-owl:deprecated
-skos:prefLabel_fi
-skos:prefLabel_sv
-skos:prefLabel_en
-skos:altLabel
-alt_lang
-skos:hiddenLabel
-hidden_lang
-spatial-uri
-dct:spatial
-skos:broader
-skos:broader_prefLabel
-editorial_issue_URL
-YSO-ID
-wikidata-id
-skos:editorialNote
-H&S_notation
-H&S-ID
-MIMO-ID
-dbpedia
-SEKO-LCMPT-mapping
-LCMPT-ID
-rdfs:seeAlso
-dct:isReplacedBy 
-skos:related
-skos:definition
-skos:scopeNote
-skos:changeNote
-skos:modified
-status
+A seko                   (Concept ID as full URL - mandatory value)
+B owl:deprecated         (only value is TRUE, entered if the concept is deprecated) 
+C skos:prefLabel_fi      (rdfs:Literal - mandatory value)
+E skos:prefLabel_sv      (rdfs:Literal - mandatory value)
+E skos:prefLabel_en      (rdfs:Literal - mandatory value) 
+F skos:altLabel          (rdfs:Literal)
+G alt_lang               (rdfs:Literal, 2-3 character language code)  
+H skos:hiddenLabel       (rdfs:Literal) 
+I hidden_lang            (rdfs:Literal, 2-3 character language code)
+J spatial-uri            (object value for dct:spatial property)
+K dct:spatial            (label for the object, not needed in RDF)
+L skos:broader           (Full URI value, if several, then separated with | - mandatory)
+M skos:broader_Label     (label for the broader concept, not needed in RDF)
+N editorial_issue_URL    (URL to Github issues concerning the concept)
+O YSO-ID                 (skos:exactMatch object value, URL to YSO-concept)
+P wikidata-id            (skos:exactMatch, obect value, URL to Wikidata-item)
+Q skos:editorialNote     (rdfs:Literal)
+R H&S_notation           (string rdfs:Literal, label for H-S classification link)
+S H&S-ID                 (URL for skos:related object)
+T MIMO-ID                (skos:exactMatch object value, URL to dbpedia)
+U dbpedia                (skos:closeMatch object value, URL to dbpedia)
+V SEKO-LCMPT-mapping     (property for the LCMPT relationship as a string)
+W LCMPT-ID               (URL of LCMPT concept, rdfs:Literal)
+X rdfs:seeAlso           (URL of rfs:seeAlso object value, links to documentation, etc.)
+Y dct:isReplacedBy       (replancing concept within the vocabulary, format seko:nnnnn)
+Z skos:related           (related concept within the vocabulary, format seko:nnnnn)
+AA skos:definition       (comma spearated language-tagged strings, rdf:langString)
+AB skos:scopeNote        (comma spearated language-tagged strings, rdf:langString)
+AC skos:changeNote       (rdfs:Literal)
+AD skos:modified         (last modification date,  xsd:date)
+AE status                (string label or URI, to the selected controlled vocabulary)
 ```
