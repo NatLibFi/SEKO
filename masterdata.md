@@ -1,0 +1,35 @@
+## Masterdata table columns
+Explanations will be added later 
+```
+seko
+owl:deprecated
+skos:prefLabel_fi
+skos:prefLabel_sv
+skos:prefLabel_en
+skos:altLabel
+alt_lang
+skos:hiddenLabel
+hidden_lang
+spatial-uri
+dct:spatial
+skos:broader
+skos:broader_prefLabel
+editorial_issue_URL
+YSO-ID
+wikidata-id
+skos:editorialNote
+H&S_notation
+H&S-ID
+MIMO-ID
+dbpedia
+SEKO-LCMPT-mapping
+LCMPT-ID
+rdfs:seeAlso
+dct:isReplacedBy 
+skos:related
+skos:definition
+skos:scopeNote
+skos:changeNote
+skos:modified
+status
+```
