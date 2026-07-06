@@ -43,3 +43,36 @@ AC skos:changeNote       (rdfs:Literal)
 AD skos:modified         (last modification date,  xsd:date)
 AE status                (string label or URI, to the selected controlled vocabulary)
 ```
+
+Expected data structure after conversion in Turtle format
+Values from the table are represented with the column label.
+```
+A   a skos:Concept      ;
+#   owl:deprecated TRUE   ;    # for decprecated concepts only
+#   dct:isReplacedBy  `Y` ;    # for decprecated concepts only
+    skos:prefLabel "C"@fi, 
+                   "D"@sv, 
+                   "E"@en ;
+    dct:spatial         J ;    # URL, link to YSO-paikat
+    skos:broader        L ;    # link to seko concept as seko:nnnnn
+    skos:related        N ;    # links to github issues
+    skos:exactMatch O, P, T ;  # links to YSO, Wikidata, MIMO
+    V                   W ;    # predicate + object - mapping to LCMPT
+    skos:related        Z ;    # related concept within the vocabulary
+    skos:broadMatch     S ;    # Hornbostel-Sachs mapping as URL 
+    skos:closeMatch     U ;    # link to corresponding concept in dbpedia 
+    rdfs:seeAlso        X ;    # link to documentation etc.
+    skos:definition    AA ;    # comma spearated language-tagged strings
+    skos:scopeNote     AB ;    # comma spearated language-tagged strings
+    skos:changeNote    AC ;    # rdfs:Literal  (public note)
+    skos:editorialNote  Q ;    # rdfs:Literal
+    skos:modified      AD ;    # last modification date,  xsd:date
+    status             AE .    # value from controlled vocabulary?
+```
+
+skos:altLabel  and skos:hiddenLabel could be loaded as triplets directly
+```
+`A` skos:altLabel     "`F`"@`E` .
+`A` skos:hiddenLabel  "`H`"@`J` .
+```
+
