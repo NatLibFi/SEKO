@@ -1,18 +1,18 @@
 ## Masterdata structure 
 There are two types of rows 
-- Type 1: concept rows with all property values
-- Type 2: rows for altLabel and hiddenLabel values and language tags
-Plain literal strings are separated with character "|".
-Language tagged literals are entered with parentheses and separated with a comma.
-E.g. "finnish text"@fi, "swedish text"@sv
-References to Seko concepts are entered in the format seko:nnnnn.
+- Type 1: concept rows with all property values. Mandatory `A,C,D,E,L,AD`
+- Type 2: rows for altLabel and hiddenLabel values and language tags. Values in colu,mn `A,F,G` or `A,H,I` only
+Multiple values of plain literal strings are separated with character `|`.
+Language tagged literals are entered with parentheses and the tag and separated with a comma `,`.
+E.g. `finnish text"@fi, "swedish text"@sv`
+References to Seko concepts are entered in the format `seko:nnnnn`.
 
 ## Column labels and descriptions
 ```
 A seko                   (Concept ID as full URL - mandatory value)
 B owl:deprecated         (only value is TRUE, entered if the concept is deprecated) 
 C skos:prefLabel_fi      (rdfs:Literal - mandatory value)
-E skos:prefLabel_sv      (rdfs:Literal - mandatory value)
+D skos:prefLabel_sv      (rdfs:Literal - mandatory value)
 E skos:prefLabel_en      (rdfs:Literal - mandatory value) 
 F skos:altLabel          (rdfs:Literal)
 G alt_lang               (rdfs:Literal, 2-3 character language code)  
@@ -20,7 +20,7 @@ H skos:hiddenLabel       (rdfs:Literal)
 I hidden_lang            (rdfs:Literal, 2-3 character language code)
 J spatial-uri            (object value for dct:spatial property)
 K dct:spatial            (label for the object, not needed in RDF)
-L skos:broader           (Full URI value, if several, then separated with | - mandatory)
+L skos:broader           (Full URI value, several are separated with | - mandatory value)
 M skos:broader_Label     (label for the broader concept, not needed in RDF)
 N editorial_issue_URL    (URL to Github issues concerning the concept)
 O YSO-ID                 (skos:exactMatch object value, URL to YSO-concept)
