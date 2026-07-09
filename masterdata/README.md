@@ -1,4 +1,7 @@
-## Masterdata structure 
+The masterdata file has been in a google sheet hosted by the editor of the dataset
+WHen the major editorial work has been done, the data will be converted to RDF
+
+## Masterdata table structure 
 There are two types of rows 
 - Type 1: concept rows with all property values. Mandatory `A,C,D,E,L,AD`
 - Type 2: rows for altLabel and hiddenLabel values and language tags. Values in column `A,F,G` or `A,H,I` only
