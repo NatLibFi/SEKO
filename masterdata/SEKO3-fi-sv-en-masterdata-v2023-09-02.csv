@@ -2123,7 +2123,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00512,,,,,klarinet,sv,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00512,,,,,planeetti,fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00513,,klarinettisoitin,enkelrörbladinstrument,single reed instrument,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00587,lehdykkäpuhallinsoitin,,,http://www.wikidata.org/entity/Q185626,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015648,
 http://urn.fi/urn:nbn:fi:au:seko:00513,,,,,ruokokielekesoitin,fi,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00513,,,,,"yksilehdykkäinen ruokolehtisoitin",fi,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00513,,,,,"yksilehdykkäinen ruokolehtisoitin
+",fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00514,,klavikordi,klavikord,clavichord,,,,,<http://www.yso.fi/onto/yso/p94111>,Eurooppa,http://urn.fi/urn:nbn:fi:au:seko:00943|http://urn.fi/urn:nbn:fi:au:seko:00543,sitra|kosketinsoitin,,http://www.yso.fi/onto/yso/p17325,http://www.wikidata.org/entity/Q191823,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015157,
 http://urn.fi/urn:nbn:fi:au:seko:00514,,,,,clavicorde,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00514,,,,,clavier (klavikordi),fi,,,,,,,,,,,,,,,
@@ -2189,7 +2190,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00534,,,,,anakonda,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,kontrafagotti,kontrafagott,contrabassoon,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00330,fagotti,,,http://www.wikidata.org/entity/Q83513,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015180,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,,,,contrafagotto,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,,,,contrebasson,,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00535,,,,,"double bassoon",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00535,,,,,"double bassoon
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00535,,,,,Kontrafagott,de,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00536,,kontramänkeri,kontramänkeri,counter mänkeri,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00690,mänkeri,,,http://www.wikidata.org/entity/Q116207961,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00537,,kontratenori,kontratenor,counter-tenor,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00668|http://urn.fi/urn:nbn:fi:au:seko:00033,mieslauluääni|altto,,,http://www.wikidata.org/entity/Q223166,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015186,
@@ -2364,8 +2366,10 @@ http://urn.fi/urn:nbn:fi:au:seko:00580,,,,,treble voice,en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,lasiharmonikka,glasharmonika,musical glasses,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00627,lyömäsoitin,,,http://www.wikidata.org/entity/Q917571,,,,skos:closeMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015764,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,armonica,en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,Glasharmonika,de,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,"glass armonica",en,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,"glass harmonica",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,"glass armonica
+",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,"glass harmonica
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00581,,,,,verrophone,en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00582,,lauluyhtye,sångenseble,singing ensemble,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:01208,yhtye,,http://www.yso.fi/onto/yso/p17304,http://www.wikidata.org/entity/Q120544,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015841,
 http://urn.fi/urn:nbn:fi:au:seko:00582,,,,,singing group,en,,,,,,,,,,,,,,,
@@ -2695,7 +2699,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00668,,mieslauluääni,mansröst,male voice,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00668,,,,,male singing voice,en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00669,,miimikko,pantomimartist,mime,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:01225,esittäjä,,,http://www.wikidata.org/entity/Q674067,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015475,
 http://urn.fi/urn:nbn:fi:au:seko:00669,,,,,mimare,sv,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00669,,,,,"mime artist",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00669,,,,,"mime artist
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00669,,,,,pantomiimikko,fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00670,,mijwiz,mijwiz,mijwiz,,,,,<http://www.yso.fi/onto/yso/p105025>,Lähi-Itä,http://urn.fi/urn:nbn:fi:au:seko:00513,klarinettisoitin,,,http://www.wikidata.org/entity/Q1247912,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00670,,,,,jifti,,,,,,,,,,,,,,,,
@@ -2835,7 +2840,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00694,,nai,nai,nai,,,,,<http://www.yso.fi/onto/
 http://urn.fi/urn:nbn:fi:au:seko:00695,,naiskuoro,damkör,female voice choir,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00560,kuoro,,http://www.yso.fi/onto/yso/p5205,http://www.wikidata.org/entity/Q1451652,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00695,,,,,,,damkorer,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00696,,naislauluääni,kvinnoröst,female voice,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00583,lauluääni,,,http://www.wikidata.org/entity/Q54285818,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00696,,,,,"female singing voice",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00696,,,,,"female singing voice
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00697,,nāy,ney,nāy (flute),,,,,"<http://www.yso.fi/onto/yso/p105025>,<http://www.yso.fi/onto/yso/p105280>,<http://www.yso.fi/onto/yso/p107650>",Lähi-Itä|Iran|Keski-Aasia,http://urn.fi/urn:nbn:fi:au:seko:00851,reunahuilu,Tee Github issue ,,http://www.wikidata.org/entity/Q743836,"SPLIT?  ""nay"" and ""mey"" are probably confused and mixed in Wiki?",,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2014015003,
 http://urn.fi/urn:nbn:fi:au:seko:00697,,,,,nāī,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00697,,,,,nay,fi,,,,,,,,,,,,,,,
@@ -3054,7 +3060,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00754,,,,,paw ku,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00755,,pāva,pāva,pāva,,,,,<http://www.yso.fi/onto/yso/p105336>,Etelä-Aasia,http://urn.fi/urn:nbn:fi:au:seko:01134,tulppakanavahuilu,,,http://www.wikidata.org/entity/Q116758727,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00755,,,,,pava,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00756,,pedaaliharppu,pedalharpa,pedal harp,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:003988,harppu,,,http://www.wikidata.org/entity/Q1231959,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015535,
-http://urn.fi/urn:nbn:fi:au:seko:00756,,,,,"concert harp",,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00756,,,,,"concert harp
+",,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00757,,pedal steel -kitara,pedal steel guitar,pedal steel guitar,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00985,steel-kitara,,http://www.yso.fi/onto/yso/p38245,https://www.wikidata.org/entity/Q587027,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015537,
 http://urn.fi/urn:nbn:fi:au:seko:00757,,,,,pedaalikitara,fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00758,,pēktis,pēktis,pēktis,,,,,<http://www.yso.fi/onto/yso/p105081>,Rooman valtakunta,http://urn.fi/urn:nbn:fi:au:seko:00398,harppu,,,http://www.wikidata.org/entity/Q116758801,,,,,,
@@ -3301,7 +3308,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00801,,,,,ruyspyp,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00801,,,,,,,blasinstrument,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00802,,puhallinsyntetisaattori,blåssynthesizer,wind controller,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00801|http://urn.fi/urn:nbn:fi:au:seko:01016,puhallinsoitin|syntetisaattori,,,http://www.wikidata.org/entity/Q882090,,,,skos:exactMatch,https://id.loc.gov/authorities/performanceMediums/mp2013015801,
 http://urn.fi/urn:nbn:fi:au:seko:00802,,,,,brass-synt,en,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00802,,,,,"electronic wind instrument",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00802,,,,,"electronic wind instrument
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00802,,,,,lyr,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00802,,,,,lyricon,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00802,,,,,ww-synt,,,,,,,,,,,,,,,,
@@ -3552,7 +3560,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,raamatturegaali,fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,regaal,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,regaali,fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,regał,,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,"regal organ",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,"regal organ
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,regalas,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,regale,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00847,,,,,regales,,,,,,,,,,,,,,,,
@@ -3586,7 +3595,8 @@ http://urn.fi/urn:nbn:fi:au:seko:00855,,riqq,riqq,riq,,,,,<http://www.yso.fi/ont
 http://urn.fi/urn:nbn:fi:au:seko:00855,,,,,reqq,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00856,,rkang-gling,rkang-gling,kangling,,,,,<http://www.yso.fi/onto/yso/p106176>,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:01171,vaskipuhallin,,,http://www.wikidata.org/entity/Q1432696,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00856,,,,,femur trumpet,en,,,,,,,,,,,,,,,
-http://urn.fi/urn:nbn:fi:au:seko:00856,,,,,"thighbone trumpet",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:00856,,,,,"thighbone trumpet
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00857,,rnga,rnga,rnga,,,,,<http://www.yso.fi/onto/yso/p106176>,Tiibet,http://urn.fi/urn:nbn:fi:au:seko:00864,rumpu,,,http://www.wikidata.org/entity/Q116773787,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00857,,,,,nga,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:00858,,rommelpot,rummelpott,rommelpot,,,,,<http://www.yso.fi/onto/yso/p105190>,Alankomaat,http://urn.fi/urn:nbn:fi:au:seko:00508,kitkarumpu,,,http://www.wikidata.org/entity/Q9097454,,,,,,
@@ -4981,7 +4991,8 @@ http://urn.fi/urn:nbn:fi:au:seko:86527,,,,,claribel,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:86527,,,,,clariphon,,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:86527,,,,,Saxonett,de,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:87256,,akustinen bassokitara,akustisk basgitarr,acoustic bass guitar ,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00119; http://urn.fi/urn:nbn:fi:au:seko:00027,bassokitara; akustinen kitara,,http://www.yso.fi/onto/yso/p38005,http://www.wikidata.org/entity/Q424017,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015003,
-http://urn.fi/urn:nbn:fi:au:seko:87256,,,,,"acoustic bass",en,,,,,,,,,,,,,,,
+http://urn.fi/urn:nbn:fi:au:seko:87256,,,,,"acoustic bass
+",en,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:87256,,,,,akustinen basso,fi,,,,,,,,,,,,,,,
 http://urn.fi/urn:nbn:fi:au:seko:87475,,ruukku,kruka,jug,,,,,,,http://urn.fi/urn:nbn:fi:au:seko:00801,puhallinsoitin,,,http://www.wikidata.org/entity/Q1342193,,,,skos:exactMatch,http://id.loc.gov/authorities/performanceMediums/mp2013015365,
 http://urn.fi/urn:nbn:fi:au:seko:87475,,,,,džag,,,,,,,,,,,,,,,,
