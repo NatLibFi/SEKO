@@ -11,6 +11,8 @@ Purpose - to add Swedish and English <b>skos:prefLabel</b> and links to correspo
 - started importing the alphabetical list of terms from the old version before Seko (frome web.archive.org) - Three "pages" of the data were not captured by the Wayback Machine. Probably could be captured from a printed copy in a local library. (or from the editor?)
 - Added documentation in the Wiki section about the planned new Data Model of SEKO3, SPARQL searching in Finto (and later Wikidata), list of concepts set for deprecation, plans for properties, added more items to the list of information source resources,  etc.
 - Improved usability of the repository by creating subdirectories "doc" and "masterdata"
+- Started collecting LUUMU expert group decisions into skos:editorialNote triples on a new table in the masterdata document.
+- started documenting SPARQL queries in th Wiki section. E.g. all skos:note field values of in Seko at finto.fi  into a table, etc.
 
 2006-06:
 - As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed.
