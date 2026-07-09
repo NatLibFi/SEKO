@@ -1,44 +1,48 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
-@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta/> .
+@prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
 
-### Model updated 2026-06-23
-### Editor: Jarmo Saarikko
+
+### Vocabulary metadata - https://dgarijo.github.io/Widoco/doc/bestPractices/index-en.html
 
 seko-meta: a owl:Ontology ;
   dct:description """
-  SEKO ontologian monikielisen version tietomalli.
-  Tulee sisältämään mappauksia sekä ominaisuuksia knowledge graph -kehittämistä varten.
+  SEKO3 - SEKO ontologian monikielisen version tietomalli.
   """@fi ;
   dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
   dct:description """
-  Data model for a multilingual SEKO ontology for medium of performance.
+  SEKO3 Data model for a multilingual SEKO ontology for medium of performance.
    """@en,
   dct:title "Tietomalli monikielisen SEKO ontologian pohjaksi."@fi ;
   rdfs:comment "Muodostettu AI-assistentin tuella (Gemini, ChatGPT)."@fi ;
   dct:language <http://id.loc.gov/vocabulary/iso639-1/fi>,
              <http://id.loc.gov/vocabulary/iso639-1/sv>,
              <http://id.loc.gov/vocabulary/iso639-1/en> ;
-  dc:creator "Jarmo Saarikko"@fi ;
-  dct:contributor  <http://www.wikidata.org/entity/Q95592946> ;
+  dc:creator <http://www.wikidata.org/entity/Q95592946> ;       # Jarmo Saarikko
+  dct:contributor  <http://www.wikidata.org/entity/Q95592946>,  # Jarmo Saarikko
+                   <https://www.wikidata.org/wiki/Q109126095> ; # MUUSA
   dct:mediator <http://www.wikidata.org/entity/Q420747> ;
   dct:created "2026-06-23"^^xsd:date  ;
-  dct:issued "2026-06-23"^^xsd:date ;
-  owl:versionInfo "2.00" ;
-  dct:modified "2026-06-23T20:49:20+03:00"^^xsd:dateTime ;
+# dct:issued "2026-06-23"^^xsd:date ;
+  dct:modified "2026-07-09"^^xsd:date ; 
+  owl:versionInfo "0.03" ;
 .
   
+### Vocabulary Classes and properties (for Finnish labels)
 
 ### LUOKKAMÄÄRITTELYT (CLASSES)
 
@@ -52,7 +56,7 @@ skos:Collection a owl:Class ;
     rdfs:label "Kokoelma tai ryhmittely"@fi , "Collection"@en .
 
 foaf:Agent a rdfs:Class ;
-   rdfs:comment "Any type of agent contributing or participating." .
+   rdfs:comment "Kuka tahansa osallistuva toimija."@fi, "Any type of agent contributing or participating."@en .
 
 
 ### OMINAISUUDET 
@@ -76,6 +80,8 @@ skos:changeNote
 
 skos:notation 
     rdfs:comment "Hornbostel-Sachs-soitinluokituksen numeerinen koodi (esim. '111.24')."@fi .
+skos:note
+    rdfs:comment "Lyhyt kuvaus soittimesta"@fi .
 
 dct:identifier 
     rdfs:label "Tunniste"@fi , "Identifier"@en ;
@@ -85,7 +91,7 @@ dct:identifier
 
 owl:deprecated 
     rdfs:label "Poistettu käytöstä"@fi , "Is Deprecated"@en ;
-    rdfs:domain skos:Concept ; 
+    rdfs:domain skos:Concept, skos:ConceptGroup ; 
     rdfs:range xsd:boolean .
 
 ### OLIOMINAISUUDET (OWL OBJECT PROPERTIES - URI-viittaukset ja resurssit)
@@ -113,6 +119,8 @@ adms:status
     rdfs:comment "Käsitteen hallinnollinen tila. Arvoalueena käytetään MARC21-mstatus-koodistoa tai muuta vastaavaa kontrolloitua listaa."@fi ;
     rdfs:domain skos:Concept ; 
     rdfs:range rdfs:Resource .  #  example http://metadataregistry.org/uri/RegStatus/
+
+### OPTONAL  see seko:statusNote - an annotation property better suited for this purpose.
 
 dct:isReplacedBy 
     rdfs:label "Korvaava käsite"@fi , "Is Replaced By"@en ;
@@ -148,6 +156,18 @@ rdfs:seeAlso a owl:ObjectProperty ;
     rdfs:domain skos:Concept ; 
     rdfs:range rdfs:Resource .
 
+###  status property
+
+seko:statusNote a owl:AnnotationProperty ;
+    rdfs:subPropertyOf skos:note ;
+    rdfs:label "Tietueen tila"@fi, "Seko concept status"@en ;
+    rdfs:range rdfs:Literal ;
+    ddfs:domain rdfs:Resource ;
+    skos:definition "A note intended strictly for Seko internal use."@en ;
+    skos:scopeNote "Select value from: submitted, accepted, valid, deprecated, superceded, retired" ;
+    skos:editorialNote "Only one value per record at any time.",
+                       "Change and its reason should be registered in a skos:editorialNote" ;
+    dct:source  https://dd.eionet.europa.eu/vocabulary/datadictionary/status/view  .
 
 ###  Experimental - classes and properties for knowledge graph development 
 ###
