@@ -10,7 +10,8 @@ The datasest will consist of some 1200-1300 concepts of musical instruments and 
 [Datamodel](datamodel/README.md)  
 [Masterdata structure](masterdata/README.md)  
 [New and deprecated concepts in Masterdata](doc/)  
-[Wiki](https://github.com/NatLibFi/SEKO/wiki/) (previous vocabulary, guidelines, plans, etc)
+[Wiki](https://github.com/NatLibFi/SEKO/wiki/) (guidelines, plans, etc)  
+[Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version)
 
 ## Activites
 2026-07
@@ -19,7 +20,7 @@ The datasest will consist of some 1200-1300 concepts of musical instruments and 
 - **Sources for labels** The list was updated with additional sources and moved to the Seko Wiki-section <a target="_self" href="https://github.com/NatLibFi/SEKO/wiki/Sources-for-music-instruments-and-their-labels">Sources for music instruments and their labels</a>  -- See also the list of printed sources used in the original Seko vocabulary. <a target="_self" href="https://github.com/NatLibFi/SEKO/wiki/K%C3%A4ytt%C3%B6ohjeet-Aidatrumpetista-zimbalomiin--sanastolle#l%C3%A4hdeluettelo">Lähdeluettelo</a>
 - The Finnish Expert Group on Music Metadata **MUUSA**  decisions on SEKO concepts during 2021-01/2026-06 have been copied from their [wiki list](https://www.kiwi.fi/spaces/muusa/pages/106333360/Valmiit) to here as issues and marked with the label [MUUSA](https://github.com/NatLibFi/SEKO/issues?q=is%3Aissue%20label%3AMUUSA).
 - **Please note** that their decisions on SEKO concepts before 2019 are documented in the SEKO wiki on page <a href="https://github.com/NatLibFi/SEKO/wiki/Timeline-of-decisions-and-changes-in-the-SEKO-vocabulary-and-its-predecessor-Aidatrumpetista-zimbalomiin">Timeline of decisions and changes in the SEKO vocabulary and its predecessor Aidatrumpetista zimbalomiin</a>. Later, we could store the LUUMU decisions as skos:editorialNote values. 
-- Started importing the alphabetical list of terms from the old vocabulary service before Seko (frome web.archive.org) - Three "pages" of the data were not captured by the Wayback Machine. Probably could be captured from a printed copy in a local library. (or from the editor?)
+- Imported the predecessor "Soitinnimien ohjeluettelo" laast version (Oct, 2017) from Web Archive. Will post it in the Wiki.
 - Added documentation in the Wiki section about the planned new Data Model of SEKO3, SPARQL searching in Finto (and later Wikidata), list of concepts set for deprecation, plans for properties, added more items to the list of information source resources,  etc.
 - Improved usability of the repository by creating subdirectories "doc", "datamodel" and "masterdata". Moved the datamodel documentation from wiki.
 - started documenting SPARQL queries in th Wiki section. E.g. all skos:note field values of in Seko at finto.fi  into a table, etc.
