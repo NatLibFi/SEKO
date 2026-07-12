@@ -32,7 +32,7 @@ The datasest will consist of some 1200-1300 concepts of musical instruments and 
 2006-06:
 - As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed.
 - After handling all the open  issues here whe should have labels in 3 languages with a Wikidata-mapping for all current and some newly added items.
-- During the editing some items will be DEPRECATED due to MERGE or other reasons. See the <a href="https://github.com/NatLibFi/SEKO/wiki/List-of-deprecated-concepts">list of planned deprecations</a>.
+- During the editing some items will be DEPRECATED due to MERGE or other reasons. See the lists of planned <a href="./doc/deprecated-concepts.md">deprecations</a> and <a href="./doc/new-concepts.md">addtions</a>.
 
 2023-05 
 - Note! There are several possibly problematic concepts due to overlapping distribution of the same or similar instruments over several cultural and linguistic regions. Some concepts may need to be split up and some others should be joined to a single concept. These will be brought up as issues where they can be then discussed. See the list at Issue(https://github.com/NatLibFi/SEKO/issues)
