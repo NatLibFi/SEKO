@@ -3,12 +3,19 @@ Voluntary translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, t
 
 Working title: "Suomalainen esityskokoonpano-ontologia", "Finnish Medium of Performance Ontology"
 
+### Project objective
+To develop a trilingual linked data ontology of instruments and ensembles.  
+The project procees is done in accordance with the Muusa expert group on music metadata.  
+
 ### Purpose
-To increase interoprability of the vocabulary by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+
+"Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
 
 Items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. Spatial information will be taken from the descriptions and added as linked data using YSO-places ontology or Wikidata.
 
-The datasest will consist of some 1200-1300 concepts of musical instruments and ensembles. 
+The datasest will consist of some 1200-1300 concepts of musical instruments and ensembles.   
+Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
