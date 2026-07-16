@@ -47,16 +47,27 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Note! There are several possibly problematic concepts due to overlapping distribution of the same or similar instruments over several cultural and linguistic regions. Some concepts may need to be split up and some others should be joined to a single concept. These will be brought up as issues where they can be then discussed. See the list at Issue(https://github.com/NatLibFi/SEKO/issues)
 
 ## Data model of the vocabulary / ontology
-- The data model of Seko3 will be based on SKOS  turtle format. The model (classes and properties) is still work in progress. At first, it will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available. Current plan is to map to LCMPT, Wikidata, MIMO, possible Hornboschel-Sachs classification (maintained by MIMO).  [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) will be used.
+- The data model of Seko3 will be based on SKOS  turtle format. The model (classes and properties) is still work in progress. At first, it will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available. 
 - Geographical information - Spatial references will be used to show the origin or usage area of the instrument if it can be identified (dct:spatial). The identifiers have not been decided. Most probably YSO-paikat, but maybe https://www.geonames.org/ or Wikidata might work, too.
 Most other information useful in content description would be obtained through the corresponding wikidata item. E.g. link to an image of the instrument.
 - Documentation - Additional external information about the instrument may be mapped with the [skos:related](https://www.w3.org/TR/skos-reference/#related) property.
 - Collections - The [skos:Collection](https://www.w3.org/TR/skos-reference/#Collection) class may be used in some cases to show e.g. "folk instruments" where the instruments are spread out all around the hierarchy.
 
+## Mappings
+The [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) properties will be used to link to external sources. Preferrably with exactMatch, but also closeMatch, broadMatch and narrowMatch may be used when an exact match is not available.  
 
-## BIBFRAME
+Current plan is to map to Wikidata and  several external authhority files. Wikidata mapping would be considered mandatory. The existing LCMPT mappings are checked and their coverage extended.
+- Primary targets are Wikidata, YSO, LCMPT
+- Secondary targets are  MIMO, Hornboschel-Sachs classification (maintained by MIMO).
+- Other possible targets are Getty AAT
+- Links to describing sources may be added with the seeAlso property.
 
-For mapping purposes the appropriate concepts in SEKO3 could be marked as instances of <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicEnsemble">bf:MusicEnsemble</a></b>  or <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicInstrument">bf:MusicInstrument</a></b> or <br><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicMedium">bf:MusicMedium</a></b>. 
+## Library data: BIBFRAME and MARC21
+
+For content description purposes the appropriate concepts in SEKO3 could be marked as instances of <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicEnsemble">bf:MusicEnsemble</a></b>  or <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicInstrument">bf:MusicInstrument</a></b> or <a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicMedium">bf:MusicMedium</a></b>. This is still under consideration.
+
+In MARC21 data recoreds they can be used in the [382 field](https://www.loc.gov/marc/bibliographic/bd382.html)
+The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instrumentation.html) for the vocabulary is "**seko**" 
 
 ## Wikidata mappings
 
