@@ -19,3 +19,4 @@ Entered into the masterdata table during the editorial process
 |seko:87491|laattasoitin|seko:00627|lyömäsoitin|[seko-issues:176](https://github.com/NatLibFi/SEKO/issues/176)|2026-07-08|
 |seko:87492|pikkolosello|seko:00912|sello|[seko-issues:179](https://github.com/NatLibFi/SEKO/issues/179)|2026-07-11|
 |seko:87493|ngoni|seko:00398|harppu|[seko-issues:183](https://github.com/NatLibFi/SEKO/issues/183)|2026-07-13|
+|seko:87494|rauschpfeife|seko:01149|tuulikapselisoitin|[seko-issues:157](https://github.com/NatLibFi/SEKO/issues/157)|2026-07-16|
