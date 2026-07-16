@@ -35,6 +35,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Added documentation in the Wiki section about the planned new Data Model of SEKO3, SPARQL searching in Finto (and later Wikidata), list of concepts set for deprecation, plans for properties, added more items to the list of information source resources,  etc.
 - Improved usability of the repository by creating subdirectories "doc", "datamodel" and "masterdata". Moved the datamodel documentation from wiki.
 - started documenting SPARQL queries in th Wiki section. E.g. all skos:note field values of in Seko at finto.fi  into a table, etc.
+- The issues in which the instruments were missing a Swedish prefLabel were labelled `svenskt namn saknas` and those missing a mapping to `wikidata`.
+- Wrote a short intermediary status report which was sent to the Muusa group.
   
 2006-06:
 - As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed.
