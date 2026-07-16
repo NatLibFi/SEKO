@@ -38,7 +38,9 @@ owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI,
 - rdf:type, rdf:subject, rdf:object, rdf:language
 - rdfs:Datatype, rdfs:Resource, rdfs:Class, rdfs:Label, rdfs:Literal
 - rdfs:domain, rdfs:range, rdfs:comment, rdfs:subClassOf, rdfs:subPropertyOf, rdfs:comment, rdfs:identifedBy
-- rdfs:seeAlso  (read more at https://www.w3.org/wiki/UsingSeeAlso)
+- **rdfs:seeAlso**
+  - (read more at https://www.w3.org/wiki/UsingSeeAlso)
+  - Used for linking to 1) seko-issues, yse-issues, 2) external documentation describing the instrument
 
 ### dc: dct:
 for the ConceptScheme
@@ -46,21 +48,45 @@ for the ConceptScheme
 - dct:accessRights, dct:rights, dct:abstract, dct:accrualMethod, dct:accrualPeriodicity, dct:accrualPolicy, dct:audience, dct:available, dct:bibliographicCitation, dct:conformsTo, dct:contributor, dct:coverage, dct:creator, dct:language, dct:license, dct:mediator, dct:publisher, dct:subject, dct:title, dct:type
 
 for a Concept
-- dct:created, dct:issued, dct:modified,  dct:dateAccepted, dct:dateSubitted, dct:date, dct:valid
-- dc:source, dct:relation, dct:isReplacedBy, dct:replaces, dct:refernces, dct:description, dct:identifier, dct:spatial, dct:temporal
+- dct:description  #  string - short description of the concept --- USE skos:definition instead # 
+- dc:source  # link to any source where a label or a definition was taken or confirmed
+- dct:date  # Genreally not used
+- dct:dateSubitted  # Used for the date a suggestion for the Concept was received
+- dct:dateAccepted # Used for the date of approval by MUUSA or other group
+- dct:created  # Used for date of creation of the skos:Conceopt in the dataset # MAINDATORY
+- dct:valid  # Used for the date when the record became valid (minimum properties) but not accpeted by the editorial group
+- dct:issued   # Used for the date of the Concept in a published version of the vocabulary
+- dct:modified # Used for date of any logged modification of the Concept
+- dct:relation # Link to a related skos:Concept WITHIN Seko which is not hierarchically broader or narrower
+- dct:replaces  # Used for linking from a valid concept to a deprecated concept in the vocabulary
+- dct:isReplacedBy # Used for linking from a deprecated concept to a replacing concept in the vocabulary (e.g.due to a merge or delete)
+- dct:refernces # Used for linking to a source which is not used directly but may infuence the Concept data decisions (URI)
+- dct:identifier  # seko-identifier of the concept (full URI) 
+- dct:spatial  # Used for spatial origin or distribution or usage area of the Concept. Preferably a YSO-places URI. (can be a wikidata URI)
+- dct:temporal  # Used for temoporal era for a historical instrument when it was invented or used. Preferably YSO-aika URI (can be a wikidata URI)
 
 ### skos:
-Classes:
-- skos:Concept, skos:ConceptScheme
+owl:Class:
+- skos:Concept  #  any instrument or ensemble element
+- skos:ConceptScheme  # seko:  Additional schemes may be used later
+- skos:Collection  # used for grouping similar concepts e.g. frome different branches of the hierary
 
 Object Properties: 
-- skos:hasTopConcept, skos:member, skos:inScheme, skos:topConceptOf, skos:broader, skos:narrower, skos:related, skos:memberList
+- skos:hasTopConcept  # Used for the concept scheme.  Links to concepts that have no skos:broader properties
+- skos:member #   Used for linking from a skos:Collection to its members
+- skos:inScheme  # Used for skos:Concept to show which scheme (a vocabulary) it belongs to
+- skos:topConceptOf  # Used for linking the top concept to the scheme it is a top concept of
+- skos:broader  # Used for linking to hierarchically nearest broader concepts. There can be more than one.
+- skos:narrower # Used for linking to the hierarchically nearest narrower conecpts
+- skos:related  # Used for linking to related concepts in different hierarchies
+- skos:memberList  # currently not used
 
 Datatype properties:
-- skos:notation  
+- skos:notation  #  Used for a alphanumeric label identifying e.g. a classification category. Not the same as identifier.
 
 Annotation properties:
-- skos:altLabel, skos:hiddenLabel, skos:prefLabel
+- skos:altLabel all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or 
+- skos:hiddenLabel, skos:prefLabel
 - skos:note, skos:changeNote, skos:definition, skos:editorialNote, skos:example, skos:historyNote, skos:scopeNote
 
 Mapping properties:
