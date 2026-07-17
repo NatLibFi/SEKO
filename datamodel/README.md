@@ -23,7 +23,8 @@ SEKO3 datamodel planning
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
 @prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta/> .
-@prefix seko-issue: <https://github.com/NatLibFi/SEKO/issues/> .
+@prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
+@prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
 @prefix yso: <http://www.yso.fi/onto/yso/> .
 ```
 
@@ -37,7 +38,8 @@ owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI,
 - rdf:langString, rdf:Property, rdf:PlainLiteral
 - rdf:type, rdf:subject, rdf:object, rdf:language
 - rdfs:Datatype, rdfs:Resource, rdfs:Class, rdfs:Label, rdfs:Literal
-- rdfs:domain, rdfs:range, rdfs:comment, rdfs:subClassOf, rdfs:subPropertyOf, rdfs:comment, rdfs:identifedBy
+- rdfs:domain, rdfs:range, rdfs:subClassOf, rdfs:subPropertyOf, rdfs:identifedBy
+- **rdfs:comment** # used for giving a human readable label for a object URI
 - **rdfs:seeAlso**  # Used for addtional external documentation describing the instrument or   
     other information useful in content description, e.g. link to an image of the instrument. See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
 
@@ -71,8 +73,8 @@ owl:Class:
 - [skos:Collection](https://www.w3.org/TR/skos-reference/#Collection) # Used for grouping concepts, e.g. folk instruments, from different branches of the hierarchy.
 
 Object Properties: 
-- skos:hasTopConcept  # Used for the concept scheme.  Links to concepts that have no skos:broader properties
-- skos:member #   Used for linking from a skos:Collection to its members
+- **skos:hasTopConcept**  # Used for the concept scheme.  Links to concepts that have no skos:broader properties
+- **skos:member** #   Used for linking from a skos:Collection to its members
 - **skos:inScheme**  # Used for skos:Concept to show which scheme (a vocabulary) it belongs to, a MANDATORY property for skos:Concept
 - **skos:topConceptOf**  # Used for linking the top concept to the scheme it is a top concept of
 - **skos:broader**  # Used for linking to hierarchically nearest broader concepts. There can be more than one.
@@ -81,22 +83,22 @@ Object Properties:
 - skos:memberList  # currently not used
 
 Datatype properties:
-- skos:notation  #  Used for a alphanumeric label identifying e.g. a classification category. Not the same as identifier.
+- **skos:notation**  #  Used for a alphanumeric label identifying e.g. a classification category. Not the same as identifier.
 
 Annotation properties:
-- **skos:altLabel** all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or "und"
+- **skos:altLabel** Used for all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or "und"
 - **skos:hiddenLabel**  # Used for plural/singular forms, misspellings, transcribed or non transcribed labels
 - **skos:prefLabel** # Used for preferred label, only one per language. A MANDATORY property for skos:Concept
-- skos:note
-- skos:changeNote
-- skos:definition
-- skos:editorialNote
-- skos:example
-- skos:historyNote
-- skos:scopeNote
+- **skos:note** #  Used for a general public note
+- **skos:changeNote** # Used for a public note explainging any changes in the concept
+- **skos:scopeNote**  # Used for a public note defining the use of the concept
+- **skos:historyNote** # Used for a public note telling historical information of the concept record
+- **skos:editorialNote** # Used for a non-visible note for the editorial process
+- **skos:definition** # Used for describing features and how this instrument differs from others, may give spatial and temporal information
+- skos:example  #  not used for the moment
 
 Mapping properties:
-- skos:mappingRelation, skos:closeMatch, skos:exactMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch
+- skos:mappingRelation, **skos:closeMatch**, **skos:exactMatch**, **skos:broadMatch**, **skos:narrowMatch**, **skos:relatedMatch**
   - Used for mapping Seko concepts to the same or similar concepts in external vocabularies
 
 ### skos-thes: - for the thesaurus / ontology  metadata
@@ -113,6 +115,7 @@ xsd:integer, xsd:date, xsd:dateTime
 
 ### SEKO
 Note!  will add to seko-metadata.ttl a new annotation property: ****seko:statusNote**** as a subProperty of skos:note .
+Planned prefix is **seko-meta:**
 ```
 seko:statusNote a owl:AnnotationProperty ;
     rdfs:subPropertyOf skos:note ;
@@ -125,7 +128,7 @@ seko:statusNote a owl:AnnotationProperty ;
                        "Change and its reason should be registered in a skos:editorialNote" ;
     dct:source  https://dd.eionet.europa.eu/vocabulary/datadictionary/status/view  .
 ```
-****Value definitions****
+***Value vocabulary for the `seko-meta:statusNote` property***
 - these are subject to change, this is a **preliminary suggestion** for usage in the masterdata table.
 - Proposal for definitions of the "status" values for SEKO3. 
 - The values may be need the simultaneous addition of a ``dct:date`` or one of its subProperties.
