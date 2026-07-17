@@ -12,7 +12,9 @@ To help the Finnish GLAM network of libraries and museum collections to do music
 
 "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
 
-Items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. Spatial information will be taken from the descriptions and added as linked data using YSO-places ontology or Wikidata.
+During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
+
+Spatial information in the Seko instrument descriptions will be added as linked data using YSO-places ontology, Wikidata or Geospaces.
 
 The datasest will consist of some 1200-1300 concepts of musical instruments and ensembles.   
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
@@ -20,7 +22,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 ### Documentation
 [Datamodel](datamodel/README.md)  
 [Masterdata structure](masterdata/README.md)  
-[New and deprecated concepts in Masterdata](doc/)  
+[New and deprecated concepts in Masterdata](doc/) 
+[Sources for music instruments and their labels](https://github.com/NatLibFi/SEKO/wiki/0.02-Sources-for-music-instruments-and-their-labels)
 [Wiki](https://github.com/NatLibFi/SEKO/wiki/) (guidelines, plans, etc)  
 [Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version)
 
@@ -28,7 +31,7 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 2026-07
 - All planned issues on problematic instruments or those without mappings have been created.  On 2026-07-05 there are 141 "open" issues and 30 "solved". The unfinished masterdata backup was uploaded as a CSV file to the repository. Created a description of the columns in the masterata table (masterdata.md) and added a description of the data model in  the wiki section.
 - The [MIMO vocabulary](https://vocabulary.mimo-international.com/en/about) was contacted concerning data download and Finnish labels. 
-- **Sources for labels** The list was updated with additional sources and moved to the Seko Wiki-section <a target="_self" href="https://github.com/NatLibFi/SEKO/wiki/Sources-for-music-instruments-and-their-labels">Sources for music instruments and their labels</a>  -- See also the list of printed sources used in the original Seko vocabulary. <a target="_self" href="https://github.com/NatLibFi/SEKO/wiki/K%C3%A4ytt%C3%B6ohjeet-Aidatrumpetista-zimbalomiin--sanastolle#l%C3%A4hdeluettelo">Lähdeluettelo</a>
+- **Sources for labels** The list was updated with additional sources and moved to the Seko Wiki (see the link above) - See also the list of printed sources used in the original Seko vocabulary. <a target="_self" href="https://github.com/NatLibFi/SEKO/wiki/K%C3%A4ytt%C3%B6ohjeet-Aidatrumpetista-zimbalomiin--sanastolle#l%C3%A4hdeluettelo">Lähdeluettelo</a>
 - The Finnish Expert Group on Music Metadata **MUUSA**  decisions on SEKO concepts during 2021-01/2026-06 have been copied from their [wiki list](https://www.kiwi.fi/spaces/muusa/pages/106333360/Valmiit) to here as issues and marked with the label [MUUSA](https://github.com/NatLibFi/SEKO/issues?q=is%3Aissue%20label%3AMUUSA).
 - **Please note** that their decisions on SEKO concepts before 2019 are documented in the SEKO wiki on page <a href="https://github.com/NatLibFi/SEKO/wiki/Timeline-of-decisions-and-changes-in-the-SEKO-vocabulary-and-its-predecessor-Aidatrumpetista-zimbalomiin">Timeline of decisions and changes in the SEKO vocabulary and its predecessor Aidatrumpetista zimbalomiin</a>. Later, we could store the LUUMU decisions as skos:editorialNote values. 
 - Imported the predecessor "Soitinnimien ohjeluettelo" laast version (Oct, 2017) from Web Archive. Will post it in the Wiki. Downloaded also the first online version of 2002 from Web Archive. 
@@ -47,11 +50,10 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Note! There are several possibly problematic concepts due to overlapping distribution of the same or similar instruments over several cultural and linguistic regions. Some concepts may need to be split up and some others should be joined to a single concept. These will be brought up as issues where they can be then discussed. See the list at Issue(https://github.com/NatLibFi/SEKO/issues)
 
 ## Data model of the vocabulary / ontology
-- The data model of Seko3 will be based on SKOS  turtle format. The model (classes and properties) is still work in progress. At first, it will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available. 
-- Geographical information - Spatial references will be used to show the origin or usage area of the instrument if it can be identified (dct:spatial). The identifiers have not been decided. Most probably YSO-paikat, but maybe https://www.geonames.org/ or Wikidata might work, too.
-Most other information useful in content description would be obtained through the corresponding wikidata item. E.g. link to an image of the instrument.
-- Documentation - Additional external information about the instrument may be mapped with the [skos:related](https://www.w3.org/TR/skos-reference/#related) property.
-- Collections - The [skos:Collection](https://www.w3.org/TR/skos-reference/#Collection) class may be used in some cases to show e.g. "folk instruments" where the instruments are spread out all around the hierarchy.
+- The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
+- The hierarchy matches closely the Hornboschel-Sachs classification.
+- The datamodel will be documented in SKOS turtle format.
+- See the separate [Datamodel](datamodel/README.md) description page.
 
 ## Mappings
 The [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) properties will be used to link to external sources. Preferrably with exactMatch, but also closeMatch, broadMatch and narrowMatch may be used when an exact match is not available.  
