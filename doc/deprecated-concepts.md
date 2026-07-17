@@ -32,4 +32,5 @@ During the editorial phase, several concepts have been set as deprecated. Most o
 | seko:00933 | sikuri | seko:00932 | siku | [#87](https://github.com/NatLibFi/SEKO/issues/87) |
 | seko:01137 | tumbandera | seko:01233 | maajousi **(NEW)** | [#57](https://github.com/NatLibFi/SEKO/issues/57) |
 | seko:01231 | laatikkorumpu | seko:00181 | cajón | [#73](https://github.com/NatLibFi/SEKO/issues/73) |
+| seko:00808 | pullotorvi | seko:01145 | turu | [#156](https://github.com/NatLibFi/SEKO/issues/156) | 
 | tbc | - | - | - | - | 
