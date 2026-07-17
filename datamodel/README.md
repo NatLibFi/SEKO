@@ -38,9 +38,8 @@ owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI,
 - rdf:type, rdf:subject, rdf:object, rdf:language
 - rdfs:Datatype, rdfs:Resource, rdfs:Class, rdfs:Label, rdfs:Literal
 - rdfs:domain, rdfs:range, rdfs:comment, rdfs:subClassOf, rdfs:subPropertyOf, rdfs:comment, rdfs:identifedBy
-- **rdfs:seeAlso**
-  - (read more at https://www.w3.org/wiki/UsingSeeAlso)
-  - Used for linking to 1) seko-issues, yse-issues, 2) external documentation describing the instrument
+- **rdfs:seeAlso**  # Used for addtional external documentation describing the instrument or   
+    other information useful in content description, e.g. link to an image of the instrument. See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
 
 ### dc: dct:
 for the ConceptScheme
@@ -57,40 +56,48 @@ for a Concept
 - dct:valid  # Used for the date when the record became valid (minimum properties) but not accpeted by the editorial group
 - dct:issued   # Used for the date of the Concept in a published version of the vocabulary
 - dct:modified # Used for date of any logged modification of the Concept
-- dct:relation # Link to a related skos:Concept WITHIN Seko which is not hierarchically broader or narrower
+- dct:relation # Used for linking to seko-issue:s and yse-issues:  
 - dct:replaces  # Used for linking from a valid concept to a deprecated concept in the vocabulary
 - dct:isReplacedBy # Used for linking from a deprecated concept to a replacing concept in the vocabulary (e.g.due to a merge or delete)
 - dct:refernces # Used for linking to a source which is not used directly but may infuence the Concept data decisions (URI)
 - dct:identifier  # seko-identifier of the concept (full URI) 
-- dct:spatial  # Used for spatial origin or distribution or usage area of the Concept. Preferably a YSO-places URI. (can be a wikidata URI)
+- dct:spatial  # Used for spatial origin or distribution or usage area of the Concept. Preferably a YSO-places URI. (can be a Wikidata or Geospaces URI)
 - dct:temporal  # Used for temoporal era for a historical instrument when it was invented or used. Preferably YSO-aika URI (can be a wikidata URI)
 
 ### skos:
 owl:Class:
-- skos:Concept  #  any instrument or ensemble element
-- skos:ConceptScheme  # seko:  Additional schemes may be used later
-- skos:Collection  # used for grouping similar concepts e.g. frome different branches of the hierary
+- **skos:Concept**  #  Used for any instrument or ensemble element
+- **skos:ConceptScheme**  #  Currently two schemes  seko: for the ontology and seko-meta: for the local class and property descriptions
+- [skos:Collection](https://www.w3.org/TR/skos-reference/#Collection) # Used for grouping concepts, e.g. folk instruments, from different branches of the hierarchy.
 
 Object Properties: 
 - skos:hasTopConcept  # Used for the concept scheme.  Links to concepts that have no skos:broader properties
 - skos:member #   Used for linking from a skos:Collection to its members
-- skos:inScheme  # Used for skos:Concept to show which scheme (a vocabulary) it belongs to
-- skos:topConceptOf  # Used for linking the top concept to the scheme it is a top concept of
-- skos:broader  # Used for linking to hierarchically nearest broader concepts. There can be more than one.
-- skos:narrower # Used for linking to the hierarchically nearest narrower conecpts
-- skos:related  # Used for linking to related concepts in different hierarchies
+- **skos:inScheme**  # Used for skos:Concept to show which scheme (a vocabulary) it belongs to, a MANDATORY property for skos:Concept
+- **skos:topConceptOf**  # Used for linking the top concept to the scheme it is a top concept of
+- **skos:broader**  # Used for linking to hierarchically nearest broader concepts. There can be more than one.
+- **skos:narrower** # Used for linking to the hierarchically nearest narrower conecpts, opposite to skos:broader
+- **skos:related**  # Used for linking to a related skos:Cconcept WITHIN Seko but is not hierarchically broader or narrower
 - skos:memberList  # currently not used
 
 Datatype properties:
 - skos:notation  #  Used for a alphanumeric label identifying e.g. a classification category. Not the same as identifier.
 
 Annotation properties:
-- skos:altLabel all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or 
-- skos:hiddenLabel, skos:prefLabel
-- skos:note, skos:changeNote, skos:definition, skos:editorialNote, skos:example, skos:historyNote, skos:scopeNote
+- **skos:altLabel** all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or "und"
+- **skos:hiddenLabel**  # Used for plural/singular forms, misspellings, transcribed or non transcribed labels
+- **skos:prefLabel** # Used for preferred label, only one per language. A MANDATORY property for skos:Concept
+- skos:note
+- skos:changeNote
+- skos:definition
+- skos:editorialNote
+- skos:example
+- skos:historyNote
+- skos:scopeNote
 
 Mapping properties:
 - skos:mappingRelation, skos:closeMatch, skos:exactMatch, skos:broadMatch, skos:narrowMatch, skos:relatedMatch
+  - Used for mapping Seko concepts to the same or similar concepts in external vocabularies
 
 ### skos-thes: - for the thesaurus / ontology  metadata
 
@@ -98,7 +105,7 @@ Mapping properties:
 - Still considered. Is used by YSO Ontology.
 
 ### xsd
-xsd:integer, xsd:date
+xsd:integer, xsd:date, xsd:dateTime
 
 ### voaf
 - voaf:Vocabulary, voaf:VocabularySpace
