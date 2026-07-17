@@ -22,8 +22,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 ### Documentation
 [Datamodel](datamodel/README.md)  
 [Masterdata structure](masterdata/README.md)  
-[New and deprecated concepts in Masterdata](doc/) 
-[Sources for music instruments and their labels](https://github.com/NatLibFi/SEKO/wiki/0.02-Sources-for-music-instruments-and-their-labels)
+[New and deprecated concepts in Masterdata](doc/)   
+[Sources for music instruments and their labels](https://github.com/NatLibFi/SEKO/wiki/0.02-Sources-for-music-instruments-and-their-labels)  
 [Wiki](https://github.com/NatLibFi/SEKO/wiki/) (guidelines, plans, etc)  
 [Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version)
 
