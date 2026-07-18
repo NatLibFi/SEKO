@@ -1,0 +1,49 @@
+@prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
+@prefix seko-meta: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/seko-metadata#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+seko: a skos:ConceptScheme ;
+    dc:publisher "National Library of Finland"@en,
+        "Kansalliskirjasto"@fi,
+        "Nationalbiblioteket i Finland"@sv ;
+    
+    dc:creator "Musiikin metatiedon asiantuntijaryhmä"@fi , <http://www.wikidata.org/entity/Q109126095> ,
+        "Jarmo Saarikko"@fi , <http://www.wikidata.org/entity/Q95592946>  ;
+
+    dc:title "SEKO3 - Suomalainen esityskokoonpano-ontologia"@fi ,
+             "SEKO3 - Finländsk ontologi för uppsättningar för framförande av musik"@sv ,
+             "SEKO3 - Finnish Medium of Performance ontology"@en ;
+
+    dc:description """Suomalainen esityskokoonpano-ontologia (SEKO) on kolmekielinen musiikin esityskokoonpanot kattava sanasto. Sanasto on tarkoitettu käytettäväksi nuotti- ja av-aineiston sisältämien sävellysten esityskokoonpanojen täsmälliseen indeksointiin ja tiedonhakuun.
+
+Sanastoa voidaan käyttää esityskokoonpanon ilmaisemiseen sekä linkitetyssä kirjastodatassa että MARC21:n bibliografisten tietueiden ja auktoriteettitietueiden kentässä 382, mutta sitä voi käyttää myös esittäjähuomautuksissa (MARC 21:n bibliografisten tietueiden kentässä 511). Sanasto on käytettävissä sekä RDA-kuvailuohjeiden että vanhojen suomalaisten luettelointisääntöjen mukaisissa tietueissa.
+
+SEKO perustuu aikaisempaan yksikieliseen esiintymiskokoopanosanastoon. Ohjeluettelon rakennetta on uudistettu, sanastoon on lisätty uusia termejä ja joitakin vanhoja termejä on poistettu sekä kuvaukset laadittu kolmella kielellä.
+
+Sen lisäksi kuvauksissa maintut alueelliset ja ajalliset tiedot on rakanteistettu ja linkitetty vastaaviin YSO-paikat ja YSO-aika sanastoihin.
+
+Ontologiaan on lisätty mappaukset tärkeimpiin kansainvälisiin soitinsanastoihin kuten Wikidata, Kongressin kirjaston LCMPT sekä MIMO soitinsanstoon.
+
+Voit ehdottaa uusia termejä ja muutoksia sanastoon Finto.fi-etusivun ylälaidan palauteikonista, joka avaa palautekaavakkeen. Valitse alasvetovalikosta sanastoksi SEKO."""@fi ;
+
+    dct:language <http://lexvo.org/id/iso639-3/fin>, <http://lexvo.org/id/iso639-3/swe>, <http://lexvo.org/id/iso639-3/eng> ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    foaf:homepage <https://github.com/NatLibFi/SEKO/> .
+
+:statusNote a owl:AnnotationProperty ;
+    rdfs:subPropertyOf skos:note ;
+    rdfs:label "Seko käsitteen status"@fi, "Seko element status"@sv, "Seko element status"@en ;
+    rdfs:range rdfs:Literal ;
+    ddfs:domain rdfs:Resource ;
+    skos:definition "Value for a entity status intended strictly for Seko internal use."@en ;
+    skos:scopeNote "Select value from: submitted, accepted, valid, deprecated, superceded, retired" ,
+         "or use LOC Status Codes: new, incomplete, partial, current, incorrect, changed, unknown, canceled or invalid, deleted " ;
+    skos:editorialNote "Only one value per record at any time.",
+         "Change of status and its reason should be registered in a skos:editorialNote" ;
+    dct:source  <https://dd.eionet.europa.eu/vocabulary/datadictionary/status/view> , <https://id.loc.gov/vocabulary/mstatus.html> .
+
