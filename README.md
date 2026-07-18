@@ -43,7 +43,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Wrote a short intermediary status report which was sent to the Muusa group.
 - Createad an AI-generated status report of the masterdata-table (with Claude Sonnet 5) - still adusting. Visible in the Wiki section Väliraportti as a PDF. Created also Claude skills for retrieving instrument information from various sources and  for instrument comparisons.
 - Created an issue label `AI-generated` for specifying the issues which have comments that include AI-generated content.
-- Created a `seko-metadata.ttl` in the datamodel directory for the new ontology schema metadata.  Created issue #185  about the description of the ontology in Swedish and English and also a `Milestone` for issues that are related to the whole ontology. 
+- Created a `seko-metadata.ttl` in the datamodel directory for the new ontology schema metadata.  Created issue #185  about the description of the ontology in Swedish and English and also a `Milestone` for issues that are related to the whole ontology.
+- Took the current skos:note values (descriptions) via the finto.fi API and added them into the masterdata-table as a separate column in preparation for updates, and translations as well as for checking the spatial and temporal information.
   
 2006-06:
 - As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed.
