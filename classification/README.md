@@ -15,7 +15,8 @@ The original German version of the classification was translated into Finnish an
 
 ### MIMO versions
 - MIMO was not retrievable from the API, but it has been available in JSON format in the Github repository [Hornbostel-Sachs Classifications and Musical Instruments Translation Database (JSON)](https://github.com/modavis-project/musical-instrument-classes) of the [MODAVIS-project](https://modavis.org/) by by Dominik Ukolov in Germany.
-
+### Other sites
+- https://web.archive.org/web/20090616132940/http:/www.wesleyan.edu/vim/svh.html
 ## SEKO with classification
 Consider including Hornbostel-Sachs classification as a separate scheme in seko:
 
