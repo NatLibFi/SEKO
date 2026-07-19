@@ -23,7 +23,7 @@ The scheme could be used by SEKO3 either
 - as a separate alternative hierarchy/grouping in the same way YSO is using "[numeric groups](https://finto.fi/yso/en/groups?clang=fi)"
   - This can be created with skos-isothes: and isothes:ConceptGroup elements which can use hierarchy properties isothes:superGroup/isothes:hasSubGroup and then include the skos:Conecept elemnts with skos:member property.
 
-Data
+## Data
 - MIMO uses  `@prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> .`
 - Each item has   `skos:inScheme <http://www.mimo-db.eu/HornbostelAndSachs#> ;`
 - Mapping to MIMO with `skos:exactMatch`  https://vocabulary.mimo-international.com/HornbostelAndSachs/en/
@@ -31,3 +31,8 @@ Data
 - An identifier model needs to configured - same as in MIMO?
 
 
+## Research
+- Citation:  Lee, D. (2019). Hornbostel-Sachs Classification of Musical Instruments. Knowledge Organization, 47(1), pp. 72-91.
+   - doi: 10.5771/0943-7444-2020-1-72
+   - https://www.imrpress.com/journal/KO/47/1/10.5771/0943-7444-2020-1-72
+   - https://openaccess.city.ac.uk/id/eprint/22554/1/IEKO%2520Hornbostel-Sachs%2520VERSION%2520FOR%2520KO%2520post%2520minor%2520revision.pdf
