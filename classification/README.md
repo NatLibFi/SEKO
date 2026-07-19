@@ -4,18 +4,35 @@ The original German version of the classification was translated into Finnish an
 - Curt Sachs ja Erich M. von Hornbostel: "Luonnollisten soitinten luokitusjärjestelmä"
 - Translated by **Timo Leisiö** and published in the journal "Musiikki no. 1-4, 1974".  [Library record](https://api.finna.fi/v1/record?id=gmc.4104&lng=fi&prettyPrint=1)
 - The base for translation was the orignal article “Systematik der Musikinstrumente. Ein Versuch.” Zeitschrift für Ethnologie, 4 ja 5: Jahrgang 1914, pages 553-590.
+
 ## Availability
+### Finnish versions
 - The 1974 translation was available online as a PDF by the University of Tampere, but it has been removed, and not archived by the wayback machine:
  `http://www.uta.fi/laitokset/mustut/soitinluokitus.pdf` 
  - A revised version was published in 2010. Leisiö, T. (2010). Luonnollisten soitinten luokitusjärjestelmä. Toinen, uudistettu laitos. Musiikintutkimuksen laitos. https://www.yumpu.com/fi/document/view/5067218/luonnollisten-soitinten-luokitusjarjestelma-pdf/ (Retrieved 2026-07-18)
- 
-Since then a new updated version of the classification was published by the MIMO network of Music Libraries, especially adding the electroinic instruments as a new category.
+  - Since then a new updated version of the classification was published by the MIMO network of Music Libraries, especially adding the electronic instruments as a new category.
+  - MIMO has now 50+ sublcasses of [5 Electrophones](http://www.mimo-db.eu/HornbostelAndSachs/6154)
 
+### MIMO versions
+- MIMO was not retrievable from the API, but it has been available in JSON format in the Github repository [Hornbostel-Sachs Classifications and Musical Instruments Translation Database (JSON)](https://github.com/modavis-project/musical-instrument-classes) of the [MODAVIS-project](https://modavis.org/) by by Dominik Ukolov in Germany.
 
+## SEKO with classification
 Consider including Hornbostel-Sachs classification as a separate scheme in seko:
 
-Best option would seem to create a new translation based on the MIMO version of the classification. 
-Basic terminology would be the same as with Leisiö, but many of the descriptions have been expanded.
+Best option would seem to create a new translation in Finnish based on the MIMO version of the classification. 
+Basic terminology would be the same as with Leisiö, but many of the descriptions have been expanded and there was an effor to decrease of the 1914 German cultural skewness. (e.g. removing "eskimoes and negroes".
+
+Another option would be label the groups as "Instrument families" with the more general termonology used by MIMO Cllections
+[instrument families](https://mimo-international.com/MIMO/instrument-families.aspx) - these are in principla the H-S classes but without the notations.
+- Wind instruments
+- Percussion instruments
+- Stringed instruments
+- Elements of musical instruments
+- Keyboard instruments
+- Mechanical instruments
+- Other instruments
+- Mirlitons
+- Electronic instruments
 
 ## Schema, namespace, notatione and identifiers
 The scheme could be used by SEKO3 either 
@@ -28,7 +45,7 @@ The scheme could be used by SEKO3 either
 - Each item has   `skos:inScheme <http://www.mimo-db.eu/HornbostelAndSachs#> ;`
 - Mapping to MIMO with `skos:exactMatch`  https://vocabulary.mimo-international.com/HornbostelAndSachs/en/
 - The notation would be the same in both
-- An identifier model needs to configured - same as in MIMO?
+- An identifier model needs to configured - same as in MIMO COllections
 
 
 ## Research
