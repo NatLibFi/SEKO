@@ -20,6 +20,8 @@ The original German version of the classification was translated into Finnish an
 - 
 ### Other sites
 - https://web.archive.org/web/20090616132940/http:/www.wesleyan.edu/vim/svh.html
+
+
 ## SEKO with classification
 Consider including Hornbostel-Sachs classification as a separate scheme in seko:
 
@@ -37,6 +39,14 @@ Another option would be label the groups as "Instrument families" with the more 
 - Other instruments
 - Mirlitons
 - Electronic instruments
+
+### Preliminary activities and preparation
+- Both the Leisiö 2010 and Hornbostel Sachs 2011 data (via MODAVIS) have been loaded into a single OpenRefine dataset for further comparisons and possibly a new Finnish translation.
+- Wikidata mapping would be a nice addtion perhaps through reconciliation if an appropreate way to tease it out from the SPARQL endpoint. Manual mapping possible but tedious.
+- Making this available is under consideration.
+  - The MODAVIS datased had CC0 license and
+  - Leisiö 3020 dataset is available as a PDF, The TU Reseasrchportal entry says **Licence: Unspecified** [Luonnollisten soitinten luokitusjärjestelmä. Toinen, uudistettu laitos](https://researchportal.tuni.fi/en/publications/luonnollisten-soitinten-luokitusj%C3%A4rjestelm%C3%A4-toinen-uudistettu-lai/) - there is no mention in the document.
+
 
 ## Schema, namespace, notatione and identifiers
 The scheme could be used by SEKO3 either 
