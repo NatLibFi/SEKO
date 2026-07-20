@@ -66,7 +66,8 @@ The scheme could be used by SEKO3 either
 ## Research
 - The **KNIGHT REVISION of HORNBOSTEL-SACHS:** a new look at musical instrument classification by Roderic C. Knight, Professor of Ethnomusicology Oberlin College Conservatory of Music, © 2015, Rev. 2017. [https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf](https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf) 44 pages. (Retrieved 2026-07-20)
    - [15 References in Google Scholar](https://scholar.google.fi/scholar?cites=12007592548128174630&as_sdt=2005&sciodt=0,5&hl=fi)
-   - journal article: RODERIC KNIGHT (2016) A New Look at Classification and Terminology for Musical Instruments. The Galpin Society Journal, Vol. 69 (April 2016), pp. 5-22, 154-155 (20 pages), Published By: Galpin Society - [https://www.jstor.org/stable/44083282](https://www.jstor.org/stable/44083282) 
+   - journal article: RODERIC KNIGHT (2016) A New Look at Classification and Terminology for Musical Instruments. The Galpin Society Journal, Vol. 69 (April 2016), pp. 5-22, 154-155 (20 pages), Published By: Galpin Society - [https://www.jstor.org/stable/44083282](https://www.jstor.org/stable/44083282)
+   - Professor emeritus, still active Personal homepage  https://theconversation.com/profiles/roderic-knight-1551309 (Retrieved 20-07-20)
    
 - Citation:  Lee, D. (2019). Hornbostel-Sachs Classification of Musical Instruments. Knowledge Organization, 47(1), pp. 72-91.
    - doi: 10.5771/0943-7444-2020-1-72
