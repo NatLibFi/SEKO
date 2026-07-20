@@ -46,7 +46,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Created an issue label `AI-generated` for specifying the issues which have comments that include AI-generated content.
 - Created a `seko-metadata.ttl` in the datamodel directory for the new ontology schema metadata.  Created issue #185  about the description of the ontology in Swedish and English and also a `Milestone` for issues that are related to the whole ontology.
 - Took the current skos:note values (descriptions) via the finto.fi API and added them into the masterdata-table as a separate column in preparation for updates, and translations as well as for checking the spatial and temporal information.
-- Created a sub-project folder for instrument [classification](classification/README.md).
+- Created a sub-project folder for instrument [classification](classification/README.md).  Uploaded a combination of both MIMO and Leisiö versions to OpenRefine. Added also narrower, broader and instrument links.
+- Established a Github Project folder [SEKO3 project](https://github.com/orgs/NatLibFi/projects/62) to better manage the dozens of inssues and the project process. This will be under development for a while. 
   
 2006-06:
 - As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed.
