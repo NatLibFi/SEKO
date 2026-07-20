@@ -41,8 +41,8 @@ Another option would be label the groups as "Instrument families" with the more 
 - Electronic instruments
 
 ### Preliminary activities and preparation
-- Both the Leisiö 2010 and Hornbostel Sachs 2011 data (via MODAVIS) have been loaded into a single OpenRefine dataset for further comparisons and possibly a new Finnish translation.
-- Wikidata mapping would be a nice addtion perhaps through reconciliation if an appropreate way to tease it out from the SPARQL endpoint. Manual mapping possible but tedious.
+- Both the Leisiö 2010 and Hornbostel Sachs 2011 data (via MODAVIS) have been loaded into a single OpenRefine dataset for further comparisons and possibly a new Finnish translation. The loaded dataset has the MIMO ID values which, with the hornbostelsachs: namespace, would be the mappings to MIMO.
+- Wikidata mapping would be a nice addtion perhaps through reconciliation if an appropreate way to tease it out from the SPARQL endpoint. Manual mapping possible but tedious. MIMO vocabulary has mappings to dbpedia but a wikidata record should have the dbpedia- link, too.
 - Making this available is under consideration.
   - The MODAVIS datased had CC0 license and
   - Leisiö 3020 dataset is available as a PDF, The TU Reseasrchportal entry says **Licence: Unspecified** [Luonnollisten soitinten luokitusjärjestelmä. Toinen, uudistettu laitos](https://researchportal.tuni.fi/en/publications/luonnollisten-soitinten-luokitusj%C3%A4rjestelm%C3%A4-toinen-uudistettu-lai/) - there is no mention in the document.
