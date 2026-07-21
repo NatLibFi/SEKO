@@ -11,7 +11,7 @@ SEKO3 datamodel planning
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix skos-thes <http://purl.org/iso25964/skos-thes> .
+@prefix skos-thes: <http://purl.org/iso25964/skos-thes#> .
 @prefix voaf <http://purl.org/vocommons/voaf#> .
 @prefix xl <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd <http://www.w3.org/2001/XMLSchema#> .
@@ -19,6 +19,7 @@ SEKO3 datamodel planning
 
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix lcmpt: <http://id.loc.gov/authorities/performanceMediums/> .
+@prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> .
 @prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
@@ -44,11 +45,11 @@ owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI,
     other information useful in content description, e.g. link to an image of the instrument. See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
 
 ### dc: dct:
-for the ConceptScheme
+#### for the ConceptScheme
 - dc:coverage, dc:creator, dc:format, dc:publisher, dc:title, dc:type
 - dct:accessRights, dct:rights, dct:abstract, dct:accrualMethod, dct:accrualPeriodicity, dct:accrualPolicy, dct:audience, dct:available, dct:bibliographicCitation, dct:conformsTo, dct:contributor, dct:coverage, dct:creator, dct:language, dct:license, dct:mediator, dct:publisher, dct:subject, dct:title, dct:type
 
-for a Concept
+#### for a Concept
 - dct:description  #  string - short description of the concept --- USE skos:definition instead # 
 - dc:source  # link to any source where a label or a definition was taken or confirmed
 - dct:date  # Genreally not used
@@ -67,12 +68,12 @@ for a Concept
 - dct:temporal  # Used for temoporal era for a historical instrument when it was invented or used. Preferably YSO-aika URI (can be a wikidata URI)
 
 ### skos:
-owl:Class:
+#### owl:Class:
 - **skos:Concept**  #  Used for any instrument or ensemble element
 - **skos:ConceptScheme**  #  Currently two schemes  seko: for the ontology and seko-meta: for the local class and property descriptions
 - [skos:Collection](https://www.w3.org/TR/skos-reference/#Collection) # Used for grouping concepts, e.g. folk instruments, from different branches of the hierarchy.
 
-Object Properties: 
+#### Object Properties: 
 - **skos:hasTopConcept**  # Used for the concept scheme.  Links to concepts that have no skos:broader properties
 - **skos:member** #   Used for linking from a skos:Collection to its members
 - **skos:inScheme**  # Used for skos:Concept to show which scheme (a vocabulary) it belongs to, a MANDATORY property for skos:Concept
@@ -82,10 +83,10 @@ Object Properties:
 - **skos:related**  # Used for linking to a related skos:Cconcept WITHIN Seko but is not hierarchically broader or narrower
 - skos:memberList  # currently not used
 
-Datatype properties:
+#### Datatype properties:
 - **skos:notation**  #  Used for a alphanumeric label identifying e.g. a classification category. Not the same as identifier.
 
-Annotation properties:
+#### Annotation properties:
 - **skos:altLabel** Used for all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or "und"
 - **skos:hiddenLabel**  # Used for plural/singular forms, misspellings, transcribed or non transcribed labels
 - **skos:prefLabel** # Used for preferred label, only one per language. A MANDATORY property for skos:Concept
@@ -97,11 +98,34 @@ Annotation properties:
 - **skos:definition** # Used for describing features and how this instrument differs from others, may give spatial and temporal information
 - skos:example  #  not used for the moment
 
-Mapping properties:
+#### Mapping properties:
 - skos:mappingRelation, **skos:closeMatch**, **skos:exactMatch**, **skos:broadMatch**, **skos:narrowMatch**, **skos:relatedMatch**
   - Used for mapping Seko concepts to the same or similar concepts in external vocabularies
 
 ### skos-thes: - for the thesaurus / ontology  metadata
+This part is still under consideration.  It could be used for presenting the classification structure and the members of each group from the seko: ontology and possibly from the mimo: vocabulary.
+
+If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGroup or skos-thes:superGroup for the group hierarchy.  
+- [skos-thes:ConceptGroup](https://www.dublincore.org/specifications/skos-thes/ns/#ConceptGroup)
+   - _Concept groups have several applications. One such application is illustrated by the EUROVOC and the UNESCO thesaurus. Both of these use a super structure of domain and micro-thesaurus. Both of these structuring elements can be modeled using ConceptGroup._
+   - _A concept group is a group of concepts making up a subset of the thesaurus. Member concepts may be drawn from many different facets or hierarchies of the thesaurus. While almost any criterion may be used to select the members, this construct is commonly used to define a micro-thesaurus that will be used by a particular user group or domain._
+   - _The skos:inScheme (http://www.w3.org/2004/02/skos/core#inScheme) property should be used to indicate the thesaurus to which an instance of skos:Collection applies (see ISO 25964: isPartOf)._
+   - is disjoint with skos-thes:ThesaurusArray
+- [skos-tehs:superGroup](https://www.dublincore.org/specifications/skos-thes/ns/#superGroup)
+   - All members of the (subject) group are members of the (object) superGroup
+- [skos-thes:subGroup](http://purl.org/iso25964/skos-thes#subGroup)
+   - All members of the (object) subGroup are members of the (subject) group.
+
+If the group members are not hierarchically related to the members in the superordinate or subordinate groups, use Thesaurus Array classes and skos-thes:subordinateArray or skos-thes:superOrdinateArray. This could be used for non-classification groups based on the use (e.g. folk instrument), material (e.g. wood, metal, mixed), music genre (e.g. samba), spatial distribution, temoporal distribution (e.g. historical instruments)
+- [skos-thes:ThesaurusArray](https://www.dublincore.org/specifications/skos-thes/ns/#ThesaurusArray)
+    - _Definition: ISO ThesaurusArray.  An array is a group of sibling concepts
+    - _Instances of ThesaurusArray can be mapped to instances of skos:OrderedCollection (a subclass of skos:Collection) if and only if the array needs to be an ordered array (in the ISO-25964 model the value of its Boolean attribute "ordered" is true)._
+    - _It is advised to use the skos:inScheme (http://www.w3.org/2004/02/skos/core#inScheme) property on such a skos:Collection to relate it to its Thesaurus (see ISO 25964: isPartOf)._ 
+- [skos-thes:suborOdinateArray](https://www.dublincore.org/specifications/skos-thes/ns/#suborOdinateArray)
+    - _Explicitly links a (superordinate) concept to one or more subordinate arrays. Each array may either be composed of narrower concepts of the superordinate concept (in which case there may be an associated node label with a characteristic of division) or by concepts that need not be narrower concepts of the superordinate concept (in which case a node label may provide a facet name)._
+    - _In other words, though each array only contains sibling concepts, no hierarchical relation may be automatically derived between a concept and the concepts in any of its subordinate arrays. The hierarchical relationship between these concepts has to be asserted explicitly._
+- [skos-thes:superOrdinate](https://www.dublincore.org/specifications/skos-thes/ns/#superOrdinate)
+    - _The (subject) array organizes a set of sibling concepts under the (object) concept._
 
 ### skos-xl, xl:
 - Still considered. Is used by YSO Ontology.
