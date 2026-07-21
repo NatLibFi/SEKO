@@ -50,6 +50,7 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Established a Github Project folder [SEKO3 project](https://github.com/orgs/NatLibFi/projects/62) to better manage the dozens of inssues and the project process. This will be under development for a while.
 - continued checking the classification table for missing translations and mismatched notations. Mapped instruments mentioned by Leisio to seko: concepts. For those missing, created an issue with a list of them.
 - started documenting the datamodel in a separate descriptive file (see the /datamodel folder) with the structure based on the YSO data model document.
+- set the license to the model as [https://creativecommons.org/licenses/by-nd/4.0/](https://creativecommons.org/licenses/by-nd/4.0/) due to it being work in progress.
   
 2006-06:
 - As of June 2026 the list of instrument names in Swedish is lacking 58 labels. 57 English labels are missing.  MIMO may have some, but additional labels are needed.
