@@ -1,4 +1,6 @@
-SEKO3 datamodel planning
+See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datamodel.md)
+
+# SEKO3 datamodel planning
 
 ## Namespaces to be used
 ```
