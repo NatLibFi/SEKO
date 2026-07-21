@@ -1,20 +1,32 @@
 # SEKO3 datamodel
-Latest published version
+**Latest published version**  
     Not available
-This version
-    0.1 / Jarmo Saarikko
-Date
-    2026-07-21
-Editors
-    Jarmo Saarikko
-Other participants
-    -
-This model will be the official version. There may be other versions in other languages.
-    - the RDF/turtle structure is heavily based on the YSO datamodel on finto.fi service
-Copyright
-    Jarmo Saarikko
-License
-    CC-BY
+
+**This version**  
+    0.1 / Jarmo Saarikko / first draft 
+
+**Date**  
+    2026-07-21  
+
+**Creator**  
+    Jarmo Saarikko  
+
+**Editors**  
+    Jarmo Saarikko  
+
+**Other participants**  
+    MUUSA group
+
+**Version**  
+    This model will be the official version. There may be other versions in other languages.  
+    the RDF/turtle structure is heavily based on the YSO datamodel on finto.fi service  
+
+**Copyright**  
+    Jarmo Saarikko  
+
+**License**  
+    [<https://creativecommons.org/publicdomain/zero/1.0/>](https://creativecommons.org/licenses/by-nd/4.0/) - due to unfinshed work  
+
 
 TOC  
 1 Summary   
@@ -157,30 +169,118 @@ Domain (rdfs:domain) property shows that certain property is applied only with c
 
 ## 10 Term labels (rdfs:label)  
 The unit of information is a Concept. In ontologies the relationships between concepts are identified with unique URI-identifiers. The same concept may be referred to  with multiple different labels e.g. in different languages. The first form of presentation of a concept is their expression in a natural language: **labels**. SKOS provides three properties with which a term can be attached to a concept: `skos:prefLabel`, `skos:altLabel` and `skos:hiddenLabel`. Their type is rdf:Property.
-||skos:prefLabel|
-|-|-|
-|Label|PREFERRED TERM|
-|description|-|
-| | |
-||skos:altLabel|
-|Label|ENTRY TERM|
-|Description||
-|Note|Entry terms are represented in many different languages in the Seko dataset. If the languaged is not known it is marked either "und" or "en". In the turtle format the language is marked with a language tag in the form of "label"@de |
-| | |
-| | skos:hiddenLabel|
-|Label|HIDEEN LABEL|
-|Description|-|
+
+- **skos:prefLabel**
+  - Label: PREFERRED LABEL 
+    Description:
+- **skos:altLabel**
+  - Label: ALTERNATIVE LABEL (entry term, variant)
+    Description:
+    Note: Within the ontology the same term can be an entry term for several concepts. Sometimes the entry term can be a preferred term in another vocabulary. Acronyms, plural and singular forms and terms in another language may be added as entry terms.  In the Seko dataset entry terms are represented in dozens of languages. If the language is not known it is marked either "und" or "en". In the turtle format the language is marked with a language tag in the form of "label"@de
+    
+. **skos:hiddenLabel**
+  - Label: HIDEEN LABEL
+    Description: -  
+    Note: Usually misspelled labels, transcribed lables or labels without diacritics are added as entry terms. Also singular or plural forms of the preferred label can be entered.
 
 ## 11 Semantic relationsships (skos:semanticRelation)
 
-## 12 Mapping relationshiops (skos:mappingRelation)
+### Herarchical and symmentric relations. 
+- skos:broader - broader concept
+- skos:narrower - narrower concept
+- skos:related - associative concept
+- skos:topConceptOf
+- skos:hasTopCocenpt
 
-## 13 Documentation (skos:Note)
+### Group relationships
+- skos:member
+- dct:partOf
+- skos:inScheme
+- rdau:P60683 PREDECESSOR  (pending)
+- rdau:P60686 FOLLOWER  (pending)
+- dct:isReplacedBy
+
+### Temporal and spatial coverage
+- dct:spatial
+- dct:temporal
+
+## 12 Mapping relationshiops (skos:mappingRelation)
+Mapping relationshiops are used for referring to concepts in other vocabularies. 
+- skos:exactMatch
+    - Note: The property skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications.skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch. 
+- skos:closeMatch
+    - Note: he property skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of "compound errors" when combining mappings across more than two concept schemes, skos:closeMatch is notdeclared to be a transitive property.
+- skos:broadMatch
+    - Note: The properties skos:broadMatch and skos:narrowMatch are used to state a hierarchical mapping link between two concepts. 
+- skos:narrowMatch
+    - Note: The properties skos:broadMatch and skos:narrowMatch are used to state a hierarchical mapping link between two concepts.  
+- skos:relatedMatch
+    - In YSO this is being used for referring from a deprecated concept to an active concept becaus the deprecated concepts are moved to a different schema reserved for the deprecated conepts only.
+
+## 13 Documentation properties (skos:Note)
+
+### Properties for Concepts
+- skos:note
+  - skos:definition
+  - skos:scopeNote
+  - skos:changeNote
+  - skos:editorialNote
+  - seko-meta:statusNote
+- skos:notation
+- dct:source
+- dct:created
+- dct:modified
 
 ## 14 Properties of skos:ConceptScheme
+Planned Schemes: seko:, seko-groups: (e.g. for classification classes), seko-deprecated:
+- dct:identifier
+- dct:title
+- dct:subject
+- dct:relation
+- rdfs:label
+- skos:prefLabel
+- dct:created
+- dct:modified
+- rdfs:comment
+- dct:relation
+- rdfs:type
+- dct:creator
+- dct:publisher
+- dct:source 
 
 ## 15 Other properties (rdf:Property)
+> https://www.w3.org/TR/owl-ref/#Property
+> In addition to describing the specific classes of things they want to describe, user communities also need to be able to describe specific properties that characterize those classes of things. In RDF Schema, properties are described using the RDF class rdf:Property, and the RDF Schema properties rdfs:domain, rdfs:range, and rdfs:subPropertyOf. All properties in RDF are described as instances of class rdf:Property. 
 
+### Properties for Property entities
+Ontology specific internal ontologies are defined in the seko-meta.ttl file.
+- rdfs:label
+- rdfs:subPropertyOf
+- 
+### Properties for the ontolgoy
+These are placed in the skeo-metadata.ttl file
+- voaf:
+- dct:
+- dc:description	KUVAUS
+    - Short description of the ontology (fi,sv,en)
+- dc:title	NAME	The name of the Ontology
+    - "SEKO esiintymiskokoopano-ontologia"@fi, "SEKO medium of performance ontology"@en
+- dc:publisher	JULKAISIJA
+    - "Kansalliskirjasto"@fi                         # change this to URI
+- dc:creator
+    - "Jarmo Saarikko", MUUSA                        # change these to URI
+- dct:language
+    - fi, sv, en                                     # change these to URI
+- dct:LinguisticSystem	LANGUAGE	Käytetty kieli   # not used?
+- dct:license	LICENSE	Ontologian lisenssit         # change this to URI
+- dct:relation	RELATION
+    - point to the SEKO vocabulary
+- dct:subject
+    - Music, Instruments, Ensembles, Medium of Performance #  change these to URIs
+
+    
+
+YSO-ontologian aihealue on yso:p1946
 ## 16 Development versions
 
 ## 17 Change documentation
