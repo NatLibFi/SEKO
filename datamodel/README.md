@@ -23,7 +23,7 @@ SEKO3 datamodel planning
 @prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta/> .
+@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
 @prefix yso: <http://www.yso.fi/onto/yso/> .
