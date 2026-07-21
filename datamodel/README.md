@@ -105,7 +105,7 @@ owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI,
 ### skos-thes: - for the thesaurus / ontology  metadata
 This part is still under consideration.  It could be used for presenting the classification structure and the members of each group from the seko: ontology and possibly from the mimo: vocabulary.
 
-If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGroup or skos-thes:superGroup for the group hierarchy.  
+If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGroup or skos-thes:superGroup for the group hierarchy. The Domain and Range for both is  skos-thes:ConceptGroup.
 - [skos-thes:ConceptGroup](https://www.dublincore.org/specifications/skos-thes/ns/#ConceptGroup)
    - _Concept groups have several applications. One such application is illustrated by the EUROVOC and the UNESCO thesaurus. Both of these use a super structure of domain and micro-thesaurus. Both of these structuring elements can be modeled using ConceptGroup._
    - _A concept group is a group of concepts making up a subset of the thesaurus. Member concepts may be drawn from many different facets or hierarchies of the thesaurus. While almost any criterion may be used to select the members, this construct is commonly used to define a micro-thesaurus that will be used by a particular user group or domain._
@@ -116,16 +116,20 @@ If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGr
 - [skos-thes:subGroup](http://purl.org/iso25964/skos-thes#subGroup)
    - All members of the (object) subGroup are members of the (subject) group.
 
-If the group members are not hierarchically related to the members in the superordinate or subordinate groups, use Thesaurus Array classes and skos-thes:subordinateArray or skos-thes:superOrdinateArray. This could be used for non-classification groups based on the use (e.g. folk instrument), material (e.g. wood, metal, mixed), music genre (e.g. samba), spatial distribution, temoporal distribution (e.g. historical instruments)
+If the group members are not hierarchically related to the members in the superordinate or subordinate groups, use Thesaurus Array classes and skos-thes:subordinateArray or skos-thes:superOrdinateArray. This could be used for non-classification groups based on the use (e.g. folk instrument), material (e.g. wood, metal, mixed), music genre (e.g. samba), spatial distribution, temoporal distribution (e.g. historical instruments) 
+The 
 - [skos-thes:ThesaurusArray](https://www.dublincore.org/specifications/skos-thes/ns/#ThesaurusArray)
     - _Definition: ISO ThesaurusArray.  An array is a group of sibling concepts
     - _Instances of ThesaurusArray can be mapped to instances of skos:OrderedCollection (a subclass of skos:Collection) if and only if the array needs to be an ordered array (in the ISO-25964 model the value of its Boolean attribute "ordered" is true)._
-    - _It is advised to use the skos:inScheme (http://www.w3.org/2004/02/skos/core#inScheme) property on such a skos:Collection to relate it to its Thesaurus (see ISO 25964: isPartOf)._ 
+    - _It is advised to use the skos:inScheme (http://www.w3.org/2004/02/skos/core#inScheme) property on such a skos:Collection to relate it to its Thesaurus (see ISO 25964: isPartOf)._
+    - subClass of skos:Collection. 
 - [skos-thes:suborOdinateArray](https://www.dublincore.org/specifications/skos-thes/ns/#suborOdinateArray)
     - _Explicitly links a (superordinate) concept to one or more subordinate arrays. Each array may either be composed of narrower concepts of the superordinate concept (in which case there may be an associated node label with a characteristic of division) or by concepts that need not be narrower concepts of the superordinate concept (in which case a node label may provide a facet name)._
     - _In other words, though each array only contains sibling concepts, no hierarchical relation may be automatically derived between a concept and the concepts in any of its subordinate arrays. The hierarchical relationship between these concepts has to be asserted explicitly._
+    - Domain is skos:Concept, Range is skos-thes:ThesaurusArray, inverseOf skos-thes:superOrdinate
 - [skos-thes:superOrdinate](https://www.dublincore.org/specifications/skos-thes/ns/#superOrdinate)
     - _The (subject) array organizes a set of sibling concepts under the (object) concept._
+    - Domain is skos-thes:ThesaurusArray, Range is skos:Concept, is inverse Of skos-thes:subOrdinateArray
 
 ### skos-xl, xl:
 - Still considered. Is used by YSO Ontology.
