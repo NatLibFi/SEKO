@@ -4,8 +4,7 @@ Voluntary translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, t
 Working title: "Suomalainen esityskokoonpano-ontologia", "Finnish Medium of Performance Ontology"
 
 ### Project objective
-To develop a trilingual linked data ontology of instruments and ensembles.  
-The project procees is done in accordance with the Muusa expert group on music metadata.  
+To develop a trilingual linked data ontology of instruments and ensembles with optionally adding a Finnish language version of instrument classification. The project process is done in accordance with the Finnish expert group on music metadata (MUUSA).
 
 ### Purpose
 To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
@@ -16,7 +15,8 @@ During the process we map items in Wikidata with the corresponding <a href="http
 
 Spatial information in the Seko instrument descriptions will be added as linked data using YSO-places ontology, Wikidata or Geospaces.
 
-The datasest will consist of some 1200-1300 concepts of musical instruments and ensembles.   
+The dataset will consist of some 1200-1300 concepts of musical instruments and ensembles.
+The classification would be based on the MIMO dataset which has 643 classes. 
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
 ### Documentation
