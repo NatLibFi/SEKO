@@ -100,6 +100,9 @@ Easy solution would be to create for each instrument of seko: concept scheme:
 - **skos:notation** for the H-S classification
 - **skos:relatedMatch** mapping to the corresponding `hornbostelandsachs`: concept.
 
+## Julkaisut
+If the classification is translated to Finnish it can be published as a separate book including all the classes.  **Needs a publisher.**  The classification can be produced and published as a separate concept scheme.  When used with the SEKO3 ontology, only those classes would be used where there are representatives in the SEKO concept scheme.  This way the adding of classes/groups would be easier as the number of them would be lower.  And we could still map to the narrower class concepts in the original MIMO service.
+
 ## Research
 - The **KNIGHT REVISION of HORNBOSTEL-SACHS:** a new look at musical instrument classification by Roderic C. Knight, Professor of Ethnomusicology Oberlin College Conservatory of Music, © 2015, Rev. 2017. [https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf](https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf) 44 pages. (Retrieved 2026-07-20)
    - [15 References in Google Scholar](https://scholar.google.fi/scholar?cites=12007592548128174630&as_sdt=2005&sciodt=0,5&hl=fi)
