@@ -49,19 +49,42 @@ Another option would be label the groups as "Instrument families" with the more 
   - Leisiö 3020 dataset is available as a PDF, The TU Reseasrchportal entry says **Licence: Unspecified** [Luonnollisten soitinten luokitusjärjestelmä. Toinen, uudistettu laitos](https://researchportal.tuni.fi/en/publications/luonnollisten-soitinten-luokitusj%C3%A4rjestelm%C3%A4-toinen-uudistettu-lai/) - there is no mention in the document.
 
 
-## Schema, namespace, notatione and identifiers
+## Schema, namespace, notation and identifiers
 The scheme could be used by SEKO3 either 
 - as the main hierarchy or
 - as a separate alternative hierarchy/grouping in the same way YSO is using "[numeric groups](https://finto.fi/yso/en/groups?clang=fi)"
-  - This can be created with skos-isothes: and isothes:ConceptGroup elements which can use hierarchy properties isothes:superGroup/isothes:hasSubGroup and then include the skos:Conecept elemnts with skos:member property.
+  - This can be created with skos-thes: and isothes:ConceptGroup elements which can use hierarchy properties isothes:superGroup/isothes:hasSubGroup and then include the skos:Conecept elemnts with skos:member property.
+
+
 
 ## Data
+Will need to consult with Finto-team concerning the application on the Finto Skosmos server.
+
 - MIMO uses  `@prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> .`
 - Each item has   `skos:inScheme <http://www.mimo-db.eu/HornbostelAndSachs#> ;`
 - Mapping to MIMO with `skos:exactMatch`  https://vocabulary.mimo-international.com/HornbostelAndSachs/en/
 - The notation would be the same in both
 - An identifier model needs to configured - same as in MIMO COllections
 
+
+#### Option 1
+- Use the original hornbostelandsachs classes but add  a Finnish prefLabel
+- add a new type skos:ConceptGroup with skos-thes:subGroup and skos-thes:superGroup)
+- or skos-thes:ThesaurusArray (with skos-thes:subOrdinate and skos-thes:superOrdinate)
+
+Example of options:
+- sekogroup:1 a skos:Collection, skos-thes:ConceptGroup ;
+  disjointWith rdfs:Label "Class 1" ; # ...
+- sekogroup:1 a skos:Collection, skos-thes:ThesaurusArray ; # ...
+ 
+#### Option 2 How to provide the Finnish language labels to the grouping classes?
+One option is to copy the classification and add the labels to the local classes which have an equal match relation to the corresponding classes at the MIMO service.
+- skos:ConceptScheme skos:prefLabel "Hornbostel-Sachs soitinluokitus"@fi
+- Prefix skosclass:
+- skosclass: individual classes have exactMatch with honrbostelandsachs: classes
+- Keep the same identifier numbers and notations
+- Use skos:broader and skos:narrower to map to skosclass:  entities
+- Use skos:broadMatch and skos:narrowMatch to map to the corresponding hornbostelandsachs: classes
 
 ## Research
 - The **KNIGHT REVISION of HORNBOSTEL-SACHS:** a new look at musical instrument classification by Roderic C. Knight, Professor of Ethnomusicology Oberlin College Conservatory of Music, © 2015, Rev. 2017. [https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf](https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf) 44 pages. (Retrieved 2026-07-20)
