@@ -24,7 +24,9 @@ Properties:
 
 ## Add here sources that are or will be marked in the entries SEKO3
 
-- Grove Music Online - http://www.wikidata.org/entity/Q30532476
+- Grove Music Online : Instrument
+  - http://www.wikidata.org/entity/Q30532476
+  - https://www.oxfordmusiconline.com/grovemusic/browse **(Paywall)**
 - MIMO's classification - http://www.wikidata.org/entity/Q26836418
 - MIMO Thesaurus of musical instrument names http://www.wikidata.org/entity/Q116920780
 - Otavan iso musiikkitietosanakirja (Q116983876)
