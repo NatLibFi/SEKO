@@ -18,8 +18,9 @@ See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datam
 @prefix xl <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd <http://www.w3.org/2001/XMLSchema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
-
+#
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix finna: <https://www.finna.fi/Record/> .
 @prefix lcmpt: <http://id.loc.gov/authorities/performanceMediums/> .
 @prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> .
 @prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
@@ -27,6 +28,7 @@ See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datam
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
 @prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
 @prefix yso: <http://www.yso.fi/onto/yso/> .
 ```
