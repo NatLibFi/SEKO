@@ -229,6 +229,59 @@ For any concept the **minimum** set of properties is:
 
 ## Example of a fuller concept data
 
+
+## Vocabularies used
+### dct:spatial
+Use primarily YSO-places
+Secondarily Wikidata  or  ...
+
+### dct:temporal
+For referring to **time period** use `dct:temporal`  object primarily a YSO time or wikidata concept.
+For referring to **music of era** use `skos:relatedMatch` 
+- EDTF Specification https://www.loc.gov/standards/datetime/  
+
+These are the Eras used by Grove Music Online:
+- GMO: Pre- and Early Medieval (before 800)
+    - yso:p4622 **esihistoria** | prehistory
+    - wd:Q41493 Anciet history (before Middle Ages) | - (before 500)
+- GMO: Medieval (800-1400) - "0800/1400"
+    - yso:p2559 **keskiaika** | Middle Ages
+- GMO: 15th century/Early Renaissance (1400-1500)
+    - yso:p4978 **varhaisrenessanssi** Early Renaissance
+- GMO: 16th century/High Renaissance (1500-1600)
+    - yso:p16253 **täysrenessanssi** | High Renaissance 
+- GMO: 17th century/Early to mid-Baroque (1600-1700)
+    - wd:Q37853 Baroque | barokki (1600-1750)
+    - yso:p15757 **barokki** | baroque
+- GMO: Early 18th century/Late Baroque (1700-1750)
+    - wd:Q64334168 Late Baroque | myöhäisbarokki (1675-1715)
+- GMO: Late 18th century/Classical (1750-1800)
+    - yso:p10167 klassisismi | classicism
+- GMO: 19th century/Romantic (1800-1900)
+    - yso:p12824 romantiikka | Romantic Era 
+- GMO: 20th century (1900-2000)
+- GMO: 21st century (2000-present)
+
+Music styles for the eras. See also [https://en.wikipedia.org/wiki/Dates_of_classical_music_eras](https://en.wikipedia.org/wiki/Dates_of_classical_music_eras)
+- wd:Q761684 prehistoric music | - (preliterate cultures, primitive music)
+- wd:Q18846 ancient music | antiikin musiikki
+- wd:Q163775 medieval music | keskiajan msiikki (400-1400)
+- wd:Q201405 renaissance music | renessanssimusiikki (1400-1600) 
+- wd:Q2884829 early baroque music  (1600-)
+- wd:Q8361 baroque music (1500-1750)
+- wd:Q97359235 Late Baroque (music genre)
+- wd:Q17723 Classical period | klassismin musiikki (1730-1820)
+- wd:Q207591 Romantic music | romantiikan musiikki (1800-1900)
+- wdQ65937946 modern classical music | taidemusiikki (1900- )
+- wd:Q2426218 modernist music | modernismi (1900-1950)
+- wd:Q612024 contemprorary classical | nykytaidemusiikki (1945- )
+- wd:Q1338153 20th-century classical music | 1900-luvun taidemusiikki
+- wd:Q4631020 21st-century classical music | 2000-luvun taidemusiikki
+
+Note! This applies only to the [Western classical music](https://en.wikipedia.org/wiki/Classical_music). Asian, African and Latin American cultures have different eras. E.g. 
+- wd:Q59158 dhrupad | ancient genre of clacssical Indian music
+- wd:Q70076 tappa | Hindustan classical music genre (singing)
+----
 `TBC`
 
 
