@@ -115,7 +115,7 @@ If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGr
    - _A concept group is a group of concepts making up a subset of the thesaurus. Member concepts may be drawn from many different facets or hierarchies of the thesaurus. While almost any criterion may be used to select the members, this construct is commonly used to define a micro-thesaurus that will be used by a particular user group or domain._
    - _The skos:inScheme (http://www.w3.org/2004/02/skos/core#inScheme) property should be used to indicate the thesaurus to which an instance of skos:Collection applies (see ISO 25964: isPartOf)._
    - is disjoint with skos-thes:ThesaurusArray
-- [skos-tehs:superGroup](https://www.dublincore.org/specifications/skos-thes/ns/#superGroup)
+- [skos-thes:superGroup](https://www.dublincore.org/specifications/skos-thes/ns/#superGroup)
    - All members of the (subject) group are members of the (object) superGroup
 - [skos-thes:subGroup](http://purl.org/iso25964/skos-thes#subGroup)
    - All members of the (object) subGroup are members of the (subject) group.
@@ -242,7 +242,9 @@ Secondarily Wikidata  or  ...
 ### dct:temporal
 For referring to **time period** use `dct:temporal`  object primarily a YSO time or wikidata concept.
 For referring to **music of era** use `skos:relatedMatch` 
-- EDTF Specification https://www.loc.gov/standards/datetime/  
+- EDTF Specification https://www.loc.gov/standards/datetime/
+- 
+The relationship to the music style could be eithe dct:relation or <https://www.wikidata.org/wiki/Property:P366> "has use" ("used in") | "käyttö" ("käytetään")
 
 These are the Eras used by Grove Music Online:
 - GMO: Pre- and Early Medieval (before 800)
