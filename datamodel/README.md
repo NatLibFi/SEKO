@@ -24,7 +24,9 @@ See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datam
 @prefix lcmpt: <http://id.loc.gov/authorities/performanceMediums/> .
 @prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> .
 @prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
+@prefix schema: <http://schema.org/>  .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
 @prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
@@ -35,18 +37,19 @@ See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datam
 
 ## Classes and properties to be used
 ### owl:
-- owl:Class, owl:ObjectProperty, owl:DatatypePropety, owl:AnnotationProperty, owl:TransitiveProperty, owl:inverseOf, owl:Ontology, owl:Thing
-owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI, 
+- owl:Class, owl:ObjectProperty, owl:DatatypePropety, owl:AnnotationProperty, owl:TransitiveProperty, owl:Ontology, owl:Thing
+owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:versionIRI, 
 
 
 ### rdf: rdfs:
-- rdf:langString, rdf:Property, rdf:PlainLiteral
-- rdf:type, rdf:subject, rdf:object, rdf:language
-- rdfs:Datatype, rdfs:Resource, rdfs:Class, rdfs:Label, rdfs:Literal
-- rdfs:domain, rdfs:range, rdfs:subClassOf, rdfs:subPropertyOf, rdfs:identifedBy
+- rdfs:Class, rdf:Property, rdfs:Datatype, rdfs:Resource, rdfs:Label, rdfs:Literal, rdf:PlainLiteral
+- rdf:type, rdf:langString, rdf:object, rdf:subject, rdf:language,
+- rdfs:domain, rdfs:range, rdfs:subClassOf, rdfs:subPropertyOf,
+- **rdfs:isDefinedBy** # used to point to a resource or vocabulary that defines the subject resource.
 - **rdfs:comment** # used for giving a human readable label for a object URI
 - **rdfs:seeAlso**  # Used for addtional external documentation describing the instrument or   
-    other information useful in content description, e.g. link to an image of the instrument. See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
+    other information useful in content description, e.g. link to an image of the instrument.
+  - See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
 
 ### dc: dct:
 #### for the ConceptScheme
@@ -106,7 +109,7 @@ owl:differentFrom, owl:imports, owl:sameAs, owl:versionInfo, owl:versionIRI,
 - skos:mappingRelation, **skos:closeMatch**, **skos:exactMatch**, **skos:broadMatch**, **skos:narrowMatch**, **skos:relatedMatch**
   - Used for mapping Seko concepts to the same or similar concepts in external vocabularies
 
-### skos-thes: - for the thesaurus / ontology  metadata
+### skos-thes: - for the classification hierarchy and other grouping
 This part is still under consideration.  It could be used for presenting the classification structure and the members of each group from the seko: ontology and possibly from the mimo: vocabulary.
 
 If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGroup or skos-thes:superGroup for the group hierarchy. The Domain and Range for both is  skos-thes:ConceptGroup.
@@ -145,9 +148,44 @@ xsd:integer, xsd:date, xsd:dateTime
 - voaf:Vocabulary, voaf:VocabularySpace
 - voaf:extends, voaf:propertyNumber, voaf:classNumber, voaf:specializes, voaf:similar, voaf:toDoList
 
-### SEKO
-Note!  will add to seko-metadata.ttl a new annotation property: ****seko:statusNote**** as a subProperty of skos:note .
+## SEKO
+Note!  will add to seko-metadata.ttl a new annotation property:   
+****seko:statusNote**** as a subProperty of skos:note .
+
 Planned prefix is **seko-meta:**
+
+### Possible class definitions 
+```
+seko:MediumOfPerformance a owl:Class ;  
+    rdfs:subClassOf skos:Concept ;   
+    skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MediumOfPerformance> ;    
+    skos:prefLabel "Esiintymiskokoonpano"@fi , "Medium of performance"@en ;
+    rdfs:label "Medium of performance"@en ;  
+    skos:topConceptOf seko: ;
+    skos:definition "An individual instrument, voice, ensemble, or instrumental group (Bibframe)"@en ;  
+```
+
+```
+seko:MusicInstrument a owl:Class ; rdfs:subClassOf skos:Concept ;  
+   skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicInstrument> ;   
+   skos:prefLabel "Soitin"@fi, "Music instrument"@en ;
+   rdfs:label "Music instrument"@en ;
+   skos:broader seko:MediumOfPerformance ;
+   skos:definition "Instrument for which a musical work is appropriate (Bibframe)"@en ;
+   skos:exactMatch yso:p7110 .  # "soitin"
+```
+
+```
+seko:MusicEnsemble rdfs:subClassOf skos:Concept ;   
+   skos:prefLabel "Ensemble"@fi, "Music ensemble"@en ;  
+   rdfs:label "Music ensemble"@en ;
+   skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicEnsemble> ;   
+   skos:broader seko:MediumOfPerformance ;
+   skos:definition "Ensemble for which a musical work is appropriate (Bibframe)"@en ;  
+   skos:closeMatch  <https://schema.org/MusicGroup> . 
+```
+
+
 ```
 seko:statusNote a owl:AnnotationProperty ;
     rdfs:subPropertyOf skos:note ;
@@ -174,9 +212,12 @@ For any concept the **minimum** set of properties is:
 ## Value vocabularies used
 
 ### seko-meta:statusNote
+
+
 - these are subject to change, this is a **preliminary suggestion** for usage in the masterdata table.
 - Proposal for definitions of the "status" values for SEKO3. 
 - The values may be need the simultaneous addition of a ``dct:date`` or one of its subProperties.
+
 
 Select one value of:
 - **submitted** 
@@ -199,29 +240,28 @@ Select one value of:
 A second option could be to use the MARC [Status codes](http://id.loc.gov/vocabulary/mstatus)  
 Codes and term sources to indicate the status of a resource. 
 Here is a selection of the list which could be used here:
-- [canceled or invalid](http://id.loc.gov/vocabulary/mstatus/cancinv)
-        - Identifier that has been cancelled or is not valid for the resource being described
-        - owl:deprecated TRUE
-- [changed](http://id.loc.gov/vocabulary/mstatus/c)
-        - Resource has been edited  (note: express time with dct:modified)
-- [current](http://id.loc.gov/vocabulary/mstatus/current)
-        - Resource is currently published or the frequency status is current (note: correct and active)
-- [incomplete](http://id.loc.gov/vocabulary/mstatus/incmp)
-        - Information contained in the resource is incomplete
-- [incorrect](http://id.loc.gov/vocabulary/mstatus/incorrect)
-        - (note: a rare occasion, e.g. if a double entry is found)
-- [new](http://id.loc.gov/vocabulary/mstatus/n)
+- mstatus:[new](http://id.loc.gov/vocabulary/mstatus/n)
         - Resource is newly-created  (note: e.g. issued before approving, a test case)
-- [partial](http://id.loc.gov/vocabulary/mstatus/part)
-        - Information contained in the resource is partially or selectively included (note: e.g. core fields are missing)
-- [suppressed](http://id.loc.gov/vocabulary/mstatus/s)
+- mstatus:[incomplete](http://id.loc.gov/vocabulary/mstatus/incmp)
+        - Information contained in the resource is incomplete
+- mstatus:[partial](http://id.loc.gov/vocabulary/mstatus/part)
+        - Information contained in the resource is partially or selectively included (note: e.g. core fields are missing)- mstatus:[current](http://id.loc.gov/vocabulary/mstatus/current)
+        - Resource is currently published or the frequency status is current (note: correct and active)
+- mstatus:[c](http://id.loc.gov/vocabulary/mstatus/c) (changed)
+        - Resource has been edited  (note: express time with dct:modified)
+- mstatus:[incorrect](http://id.loc.gov/vocabulary/mstatus/incorrect)
+        - (note: a rare occasion, e.g. if a double entry is found)
+- mstatus:[s](http://id.loc.gov/vocabulary/mstatus/s) (suppressed)
         - Resource is suppressed from public display
         - (Note: in the masterdata but not published, this shoud not be linked to by any other entity)
+- mstatus:[cancinv](http://id.loc.gov/vocabulary/mstatus/cancinv)  (canceled or invalid)
+        - Identifier that has been cancelled or is not valid for the resource being described
+        - owl:deprecated TRUE
 
 ### dct:spatial
-- YSO-places  Use primarily  **https://www.yso.fi/onto/yso/**p94426 (Finland)
-- Wikidata - **http://www.wikidata.org/entity/**Q33 (Finland)
-- Geonames.org - **https://www.geonames.org/**660013/ (Finland)
+- <https://www.yso.fi/onto/yso/p94426> (YSO-places - Finland) **Use primarily**
+- <http://www.wikidata.org/entity/Q33> (Wikidata - Finland)
+- <https://www.geonames.org/660013/> (Geonames.org - Finland)
 
 ### dct:temporal
 For referring to **time period** use `dct:temporal`  object primarily a YSO time or wikidata concept.
@@ -281,8 +321,6 @@ Note! This applies only to the [Western classical music](https://en.wikipedia.or
 
 
 ## Additional possible properties for consideration
-**seko:Instrument** a skos:Concept ; skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicInstrument> ; skos:exactMatvh yso:p7110 .
-**seko:Ensemble** a skos:Concept ; skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicEnsemble> ; skos:closeMatch  <https://schema.org/MusicGroup>. 
 
  # tätä  voidaan käyttää soittimien tiedoissa, kun skos:notation ominaisutta käytetään luokkia vastaaville ryhmille  
 <http://www.wikidata.org/entity/P1762> a owl:DatatypeProperty ;  
