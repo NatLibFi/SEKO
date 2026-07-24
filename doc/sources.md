@@ -25,16 +25,19 @@ Properties:
 ## Add here sources that are or will be marked in the entries SEKO3
 
 - Grove Music Online : Instrument
-  - http://www.wikidata.org/entity/Q30532476
+  - http://www.wikidata.org/entity/Q30532476 (use this)
   - https://www.oxfordmusiconline.com/grovemusic/browse **(Paywall)**
-- MIMO's classification - http://www.wikidata.org/entity/Q26836418
-- MIMO Thesaurus of musical instrument names http://www.wikidata.org/entity/Q116920780
-- Otavan iso musiikkitietosanakirja (Q116983876)
-  - Otavan iso musiikkitietosanakirja osa 1, a-Dallapé
-  - Otavan iso musiikkitietosanakirja osa 2 Dallapiccola - Hervé
-  - Otavan iso musiikkitietosanakirja osa 3 Herz - laudes
-  - Otavan iso musiikkitietosanakirja osa 4 laulu - Rantasalo
-  - Otavan iso musiikkitietosanakirja osa 5 Raphaell - Öttingen
+  - could check the [GMO article-id P8591](https://www.wikidata.org/wiki/Property:P8591)
+     - the prefix used `https://doi.org/10.1093/gmo/9781561592630.article.$1`  (?)
+- MIMO Thesaurus of musical instrument names
+    - http://www.wikidata.org/entity/Q116920780
+- Otavan iso musiikkitietosanakirja
+    - http://www.wikidata.org/entity/Q116983876
+ - Otavan iso musiikkitietosanakirja osa 1, a-Dallapé
+ - Otavan iso musiikkitietosanakirja osa 2 Dallapiccola - Hervé
+ - Otavan iso musiikkitietosanakirja osa 3 Herz - laudes
+ - Otavan iso musiikkitietosanakirja osa 4 laulu - Rantasalo
+ - Otavan iso musiikkitietosanakirja osa 5 Raphaell - Öttingen
 
 ¤¤ Sources referred to in the original dataset (1998-2002)
 Note! Sources were not marked in the individual records 
