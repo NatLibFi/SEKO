@@ -60,6 +60,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - set the license to the model as [https://creativecommons.org/licenses/by-nd/4.0/](https://creativecommons.org/licenses/by-nd/4.0/) due to it being work in progress.
 - continued working on the classification data. matching the addtional groups listed by Leisiö with the actual marking in the MIMO classification classes. Started finding translations for some of the labels.
 - Started looking more closely at funding options. Need to write a realistic project plan, estimates of duration and budget.
+- Created a separate list for [./doc/sources.md](soruces) that would be referred in the data with `dct:source`. These could be sources for e.g. labels, definitions, spatial and temporal data. Added Finna URIs for printed sources used in the earlier version. Added finna: as a prefix.
+- Added more sources for the classification page. Noticed the nice visual browser at [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/).
   
 ### 2026-06
 **Week 27**
