@@ -292,6 +292,45 @@ Music styles for the eras. See also [https://en.wikipedia.org/wiki/Dates_of_clas
 Note! This applies only to the [Western classical music](https://en.wikipedia.org/wiki/Classical_music). Asian, African and Latin American cultures have different eras. E.g. 
 - wd:Q59158 dhrupad | ancient genre of clacssical Indian music
 - wd:Q70076 tappa | Hindustan classical music genre (singing)
+
+
+## Additional possible properties for consideration
+**seko:Instrument** a skos:Concept ; skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicInstrument> ; skos:exactMatvh yso:p7110 .
+**seko:Ensemble** a skos:Concept ; skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicEnsemble> ; skos:closeMatch  <https://schema.org/MusicGroup>. 
+
+ # tätä  voidaan käyttää soittimien tiedoissa, kun skos:notation ominaisutta käytetään luokkia vastaaville ryhmille  
+<http://www.wikidata.org/entity/P1762> a owl:DatatypeProperty ;  
+    rdfs:label "Hornbostel-Sachs-luokka"@fi, "Hornbostel-Sachs class"@en ;  
+    rdfs:domain seko:Instrument ;  
+    rdfs:range rdfs:Literal ;  
+    skos:scopeNote "Hornbostel-Sachs-luokitusnumero akustisen ja rakenteellisen analyysin tueksi (MIMO-yhteensopivuus)."@fi ;  
+    dc:source <https://wikidata.org> .  
+
+<https://schema.org/material> a owl:ObjectProperty ;  
+    rdfs:label "Materiaali"@fi, "Material"@en ;  
+    rdfs:domain seko:Instrument ;  
+    rdfs:range rdfs:Resource ;  # Use  MTS mts:m654 members OR YSO concepts  OR Wikidata entities / groups 
+    skos:scopeNote "Soittimen tyypillinen valmistusmateriaali (esim. puu, messinki). Hyödyllinen museoluetteloinnissa."@fi ;  
+    dc:source <https://schema.org> .
+
+
+<http://www.wikidata.org/entity/P186>  a owl:ObjectProperty ;  
+    rdfs:label "Valmistusmateriaali (Wikidata)"@fi, "Material used (Wikidata)"@en ;  
+    rdfs:domain seko:Instrument ;  
+    rdfs:range rdfs:Resource ;  
+    skos:scopeNote "Wikidata-pohjainen linkitys valmistusmateriaaliin monikielisyyden ja linkitetyn datan yhteensopivuuden tueksi."@fi ;  
+    dc:source <https://wikidata.org> .  
+
+
+<https://schema.org/manufacturer> a owl:ObjectProperty ;  
+    rdfs:label "Valmistaja"@fi ;  
+    rdfs:comment "Henkilö tai organisaatio, joka on rakentanut tai valmistanut soittimen."@fi ;  
+    rdfs:domain seko:Instrument ;  
+    rdfs:range dcterms:Agent .
+
+
+ 
+
 ----
 `TBC`
 
