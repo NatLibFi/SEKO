@@ -158,7 +158,20 @@ seko:statusNote a owl:AnnotationProperty ;
                        "Change and its reason should be registered in a skos:editorialNote" ;
     dct:source  https://dd.eionet.europa.eu/vocabulary/datadictionary/status/view  .
 ```
-***Value vocabulary for the `seko-meta:statusNote` property***
+## Concept minimum content
+For any concept the **minimum** set of properties is:
+- rdfs:type
+- skos:prefLabel
+- dct:identifier
+- skos:broader (or skos:topConeptOf)
+- skos:exactMatch 
+
+## Example of a fuller concept data
+
+
+## Value vocabularies used
+
+### seko-meta:statusNote
 - these are subject to change, this is a **preliminary suggestion** for usage in the masterdata table.
 - Proposal for definitions of the "status" values for SEKO3. 
 - The values may be need the simultaneous addition of a ``dct:date`` or one of its subProperties.
@@ -219,18 +232,7 @@ Codes and term sources to indicate the status of a resource. Here is the full li
 - [upgraded prepub](http://id.loc.gov/vocabulary/mstatus/p)
 - [used by assigner](http://id.loc.gov/vocabulary/mstatus/uba)
 
-## Concept minimum content
-For any concept the **minimum** set of properties is:
-- rdfs:type
-- skos:prefLabel
-- dct:identifier
-- skos:broader (or skos:topConeptOf)
-- skos:exactMatch 
 
-## Example of a fuller concept data
-
-
-## Vocabularies used
 ### dct:spatial
 Use primarily YSO-places
 Secondarily Wikidata  or  ...
@@ -243,25 +245,32 @@ For referring to **music of era** use `skos:relatedMatch`
 These are the Eras used by Grove Music Online:
 - GMO: Pre- and Early Medieval (before 800)
     - yso:p4622 **esihistoria** | prehistory
-    - wd:Q41493 Anciet history (before Middle Ages) | - (before 500)
-- GMO: Medieval (800-1400) - "0800/1400"
+    - wd:Q41493 Anciet history (before Middle Ages) | - (before 500)  **(fi: -476)**
+- GMO: Medieval (800-1400) - "0800/1400"    **(fi: 476-1400)**
     - yso:p2559 **keskiaika** | Middle Ages
 - GMO: 15th century/Early Renaissance (1400-1500)
     - yso:p4978 **varhaisrenessanssi** Early Renaissance
 - GMO: 16th century/High Renaissance (1500-1600)
-    - yso:p16253 **täysrenessanssi** | High Renaissance 
+    - yso:p16253 **täysrenessanssi** | High Renaissance    **(fi: 1400-1600)**
 - GMO: 17th century/Early to mid-Baroque (1600-1700)
     - wd:Q37853 Baroque | barokki (1600-1750)
-    - yso:p15757 **barokki** | baroque
+    - yso:p15757 **barokki** | baroque  **(fi: 1600-1750)**
 - GMO: Early 18th century/Late Baroque (1700-1750)
     - wd:Q64334168 Late Baroque | myöhäisbarokki (1675-1715)
+    - wd:Q1141686 Galante music | galantti msuiikki **(fi: 1720-1775)**
 - GMO: Late 18th century/Classical (1750-1800)
-    - yso:p10167 klassisismi | classicism
+    - yso:p10167 **klassisismi** | classicism  **(fi: 1770-1830)**
+    - wd:Q14378 "neo-classicism | uusklassismi (1760-1830)
 - GMO: 19th century/Romantic (1800-1900)
-    - yso:p12824 romantiikka | Romantic Era 
-- GMO: 20th century (1900-2000)
-- GMO: 21st century (2000-present)
-
+    - yso:p12824 **romantiikka** | Romantic Era  **(fi: 1815-1910)**
+    - yso:p25635 **myöhäisromantiikka** | late romanticism
+    - wd:Q1125039 Post-romanticism | jälkiromantiikka (1815-1848)
+- GMO: 20th century (1900-2000) (1900-1999)
+    - yso:p5001 modernismi | modernism 
+    -  wd:Q2426218 **modernism** | modernismi
+- GMO: 21st century (2000-present) (2000-)
+    - wd:Q6939 21st century | 2000-luku
+ 
 Music styles for the eras. See also [https://en.wikipedia.org/wiki/Dates_of_classical_music_eras](https://en.wikipedia.org/wiki/Dates_of_classical_music_eras)
 - wd:Q761684 prehistoric music | - (preliterate cultures, primitive music)
 - wd:Q18846 ancient music | antiikin musiikki
