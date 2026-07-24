@@ -197,47 +197,31 @@ Select one value of:
     - The value "valid" usually means the time range when a value is valid and true. E.g. for a time range. (``dct:valid``)
 
 A second option could be to use the MARC [Status codes](http://id.loc.gov/vocabulary/mstatus)  
-Codes and term sources to indicate the status of a resource. Here is the full list, need to drop out the unncessory ones.
+Codes and term sources to indicate the status of a resource. 
+Here is a selection of the list which could be used here:
 - [canceled or invalid](http://id.loc.gov/vocabulary/mstatus/cancinv)
-- [ceased](http://id.loc.gov/vocabulary/mstatus/ceased)
+        - Identifier that has been cancelled or is not valid for the resource being described
+        - owl:deprecated TRUE
 - [changed](http://id.loc.gov/vocabulary/mstatus/c)
+        - Resource has been edited  (note: express time with dct:modified)
 - [current](http://id.loc.gov/vocabulary/mstatus/current)
-- [deleted](http://id.loc.gov/vocabulary/mstatus/d)
-- [earliest](http://id.loc.gov/vocabulary/mstatus/earliest)
-- [former](http://id.loc.gov/vocabulary/mstatus/former)
+        - Resource is currently published or the frequency status is current (note: correct and active)
 - [incomplete](http://id.loc.gov/vocabulary/mstatus/incmp)
+        - Information contained in the resource is incomplete
 - [incorrect](http://id.loc.gov/vocabulary/mstatus/incorrect)
+        - (note: a rare occasion, e.g. if a double entry is found)
 - [new](http://id.loc.gov/vocabulary/mstatus/n)
-- [not used by assigner](http://id.loc.gov/vocabulary/mstatus/nuba)
+        - Resource is newly-created  (note: e.g. issued before approving, a test case)
 - [partial](http://id.loc.gov/vocabulary/mstatus/part)
+        - Information contained in the resource is partially or selectively included (note: e.g. core fields are missing)
 - [suppressed](http://id.loc.gov/vocabulary/mstatus/s)
-- [traced](http://id.loc.gov/vocabulary/mstatus/tr)
-- [transcribed](http://id.loc.gov/vocabulary/mstatus/t)
-- [unknown](http://id.loc.gov/vocabulary/mstatus/u)
-- [upgraded prepub](http://id.loc.gov/vocabulary/mstatus/p)
-- [used by assigner](http://id.loc.gov/vocabulary/mstatus/uba)[canceled or invalid](http://id.loc.gov/vocabulary/mstatus/cancinv)
-- [ceased](http://id.loc.gov/vocabulary/mstatus/ceased)
-- [changed](http://id.loc.gov/vocabulary/mstatus/c)
-- [current](http://id.loc.gov/vocabulary/mstatus/current)
-- [deleted](http://id.loc.gov/vocabulary/mstatus/d)
-- [earliest](http://id.loc.gov/vocabulary/mstatus/earliest)
-- [former](http://id.loc.gov/vocabulary/mstatus/former)
-- [incomplete](http://id.loc.gov/vocabulary/mstatus/incmp)
-- [incorrect](http://id.loc.gov/vocabulary/mstatus/incorrect)
-- [new](http://id.loc.gov/vocabulary/mstatus/n)
-- [not used by assigner](http://id.loc.gov/vocabulary/mstatus/nuba)
-- [partial](http://id.loc.gov/vocabulary/mstatus/part)
-- [suppressed](http://id.loc.gov/vocabulary/mstatus/s)
-- [traced](http://id.loc.gov/vocabulary/mstatus/tr)
-- [transcribed](http://id.loc.gov/vocabulary/mstatus/t)
-- [unknown](http://id.loc.gov/vocabulary/mstatus/u)
-- [upgraded prepub](http://id.loc.gov/vocabulary/mstatus/p)
-- [used by assigner](http://id.loc.gov/vocabulary/mstatus/uba)
-
+        - Resource is suppressed from public display
+        - (Note: in the masterdata but not published, this shoud not be linked to by any other entity)
 
 ### dct:spatial
-Use primarily YSO-places
-Secondarily Wikidata  or  ...
+- YSO-places  Use primarily  **https://www.yso.fi/onto/yso/**p94426 (Finland)
+- Wikidata - **http://www.wikidata.org/entity/**Q33 (Finland)
+- Geonames.org - **https://www.geonames.org/**660013/ (Finland)
 
 ### dct:temporal
 For referring to **time period** use `dct:temporal`  object primarily a YSO time or wikidata concept.
