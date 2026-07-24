@@ -48,6 +48,10 @@ Another option would be label the groups as "Instrument families" with the more 
   - The MODAVIS datased had CC0 license and
   - Leisiö 3020 dataset is available as a PDF, The TU Reseasrchportal entry says **Licence: Unspecified** [Luonnollisten soitinten luokitusjärjestelmä. Toinen, uudistettu laitos](https://researchportal.tuni.fi/en/publications/luonnollisten-soitinten-luokitusj%C3%A4rjestelm%C3%A4-toinen-uudistettu-lai/) - there is no mention in the document.
 
+### Decisions
+- Better approach - take in only the major classes, and all classes that have representative instruments  in the Seko ontology. The MIMO view has many combination classes most of which might be dropped out. This would make the translation task easier.
+- Consider using simple language labels as prefLabels - probably makes content description faster
+- A Graphic UI for browsing the classification with simple headers! - [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/) - No idea who runs this?
 
 ## Schema, namespace, notation and identifiers
 The scheme could be used by SEKO3 either 
@@ -103,7 +107,20 @@ Easy solution would be to create for each instrument of seko: concept scheme:
 ## Julkaisut
 If the classification is translated to Finnish it can be published as a separate book including all the classes.  **Needs a publisher.**  The classification can be produced and published as a separate concept scheme.  When used with the SEKO3 ontology, only those classes would be used where there are representatives in the SEKO concept scheme.  This way the adding of classes/groups would be easier as the number of them would be lower.  And we could still map to the narrower class concepts in the original MIMO service.
 
+## Updates to the classification
+- **August 2021**: Further Addenda for the (2011) Revision of the Hornbostel-­Sachs classification 
+of Musical Instruments by the MIMO Consortium and the (2017) Addenda to the 
+MIMO Hornbostel-­Sachs Classification by the CIMCIM Working Group on 
+Classification [Web archived](https://web.archive.org/web/20240616042326/https://cimcim.mini.icom.museum/wp-content/uploads/sites/7/2022/05/Further-Addenda-to-the-MIMO-H-S-classification-Singing-Idiophones-2021.pdf)
+- **October 2017**: ADDENDA and CORRIGENDA for the Revision of the Hornbostel-­Sachs 
+Classification of Musical Instruments by the MIMO Consortium, as published 
+on the CIMCIM website [Web archived](https://web.archive.org/web/20200620110932/http://cimcim.mini.icom.museum/wp-content/uploads/sites/7/2019/01/2017_Addenda_and_Corrigenda_for_H-S_classification.pdf) - by CIMCIM Working Group for Classification (chair, Margaret Birley, Horniman Museum and Gardens, London, U.K. [www.horniman.ac.uk](https://www.horniman.ac.uk/)) 
+- [ICOM Working Groups > Classification](https://icom-music.mini.icom.museum/what-we-do/working-groups/)
+   - _The CIMCIM working group for classification aims to create and maintain a bibliography of new sources which deal with issues relating to the classification of musical instruments. The working group will make critical analyses of such published information.  Addenda and Corrigenda to the **MIMO consortium’s existing revision of the Hornbostel Sachs classification** arising from this new information will occasionally be made by the working group, following their recommendation to and discussion with the wider CIMCIM membership, including publication in the CIMCIM Newsletter.   Bibliographical details of such new published sources should be sent to Margaret Birley, with a statement indicating the areas of the Hornbostel Sachs classification that are implicated for revision._
+ - https://www.research.ed.ac.uk/en/publications/the-revision-of-the-hornbostel-sachs-classification-in-2011-by-th/
 ## Research
+- [Reflecting on Hornbostel-Sachs’s Versuch a century later](https://www.fondazionelevi.it/wp-content/uploads/2020/05/Reflecting-Hornbostel-Sachs.pdf) (PDF)- Proceedings of the international meeting  Venice, 3-4 July 2015 edited by Cristina Ghirardini. QUADERNI DI ETNOMUSICOLOGIA 1. ISBN 978-88-7552-0625
+   - https://pure.rcs.ac.uk/en/publications/the-revision-of-the-hornbostel-sachs-classification-in-2011-by-th/
 - The **KNIGHT REVISION of HORNBOSTEL-SACHS:** a new look at musical instrument classification by Roderic C. Knight, Professor of Ethnomusicology Oberlin College Conservatory of Music, © 2015, Rev. 2017. [https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf](https://www2.oberlin.edu/faculty/rknight/Organology/KnightRev2015.pdf) 44 pages. (Retrieved 2026-07-20)
    - [15 References in Google Scholar](https://scholar.google.fi/scholar?cites=12007592548128174630&as_sdt=2005&sciodt=0,5&hl=fi)
    - journal article: RODERIC KNIGHT (2016) A New Look at Classification and Terminology for Musical Instruments. The Galpin Society Journal, Vol. 69 (April 2016), pp. 5-22, 154-155 (20 pages), Published By: Galpin Society - [https://www.jstor.org/stable/44083282](https://www.jstor.org/stable/44083282)
