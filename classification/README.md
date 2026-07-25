@@ -19,6 +19,7 @@ The original German version of the classification was translated into Finnish an
 
 - 
 ### Other sites
+- Joling Jiang: [Browsable version of the updated H-S classification](https://jolinjiang.com/2020/07/07/musical-instrument-classification-sachs-hornbostel-system-part1/#elementor-toc__heading-anchor-29) Classes 1-3. With references and videos.
 - https://web.archive.org/web/20090616132940/http:/www.wesleyan.edu/vim/svh.html
 
 
