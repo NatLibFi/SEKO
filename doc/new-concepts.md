@@ -23,3 +23,4 @@ Entered into the masterdata table during the editorial process
 |seko:87495|jousisoitinsyntetisaattori|seko:01016|syntetisaattori|(by YKL-mapping)|2026-07-26|
 |seko:87496|sähkökontrabasso|seko:87496, seko:00527|sähkösoitin, kontrabasso|(by YKL-mapping)|2026-07-26|
 |seko:87497|laulaja|seko:01225|esittäjä|[seko-issues:174](https://github.com/NatLibFi/SEKO/issues/174#issuecomment-5084408863)|2026-07-26|
+|seko:87498|jodlaus|seko:00427|ihmisääni|(by YKL-mapping)|2026-07-26|
