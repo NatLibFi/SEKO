@@ -45,7 +45,7 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 **Week 31**
 - **Plan:** write project plan and documentation, map funding options, networking, work on 5-10 issues, start implementing the [SEKO3 Project section]([https://github.com/NatLibFi/SEKO/projects](https://github.com/orgs/NatLibFi/projects/62)). 
 
- **Go to** [previous activities log](./activitynotes.md)
+ **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
