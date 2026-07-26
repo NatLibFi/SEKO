@@ -1,9 +1,5 @@
-[Go back to homepage](./READMEmd)
 ## SEKO3 project log - activity notes  
-The first issues were created in January 2023.
-
-Jump to <a href="./activitynotes.md#202607">2026-07</a>
-
+[Go back to homepage](./READMEmd) | Jump to <a href="./activitynotes.md#202607">2026-07</a>
 ### 2023-01
 - First issuse created in January - By September issue nr. 49 was created.
 
