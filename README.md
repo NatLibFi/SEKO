@@ -28,7 +28,7 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 [Wiki](https://github.com/NatLibFi/SEKO/wiki/) (guidelines, plans, etc)  
 [Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version)  
 
-## Activites
+## <a id="activities">Activites</a>
 ### 2026-07
 
 **Week 28**
