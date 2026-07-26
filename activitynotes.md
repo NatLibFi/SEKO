@@ -1,5 +1,5 @@
 ## SEKO3 project log - activity notes  
-[Go back to homepage](./README.md) | Jump to <a href="./activitynotes.md#202607">2026-07</a>
+[Go back to homepage](./README.md#previous) | Jump to <a href="./activitynotes.md#202607">2026-07</a>
 ### 2023-01
 - First issuse created in January - By September issue nr. 49 was created.
 
