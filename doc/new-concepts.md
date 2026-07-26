@@ -20,3 +20,7 @@ Entered into the masterdata table during the editorial process
 |seko:87492|pikkolosello|seko:00912|sello|[seko-issues:179](https://github.com/NatLibFi/SEKO/issues/179)|2026-07-11|
 |seko:87493|ngoni|seko:00398|harppu|[seko-issues:183](https://github.com/NatLibFi/SEKO/issues/183)|2026-07-13|
 |seko:87494|rauschpfeife|seko:01149|tuulikapselisoitin|[seko-issues:157](https://github.com/NatLibFi/SEKO/issues/157)|2026-07-16|
+|seko:87495|jousisoitinsyntetisaattori|seko:01016|syntetisaattori|(by YKL-mapping)|2026-07-26|
+|seko:87496|sähkökontrabasso|seko:87496, seko:00527|sähkösoitin, kontrabasso|(by YKL-mapping)|2026-07-26|
+|seko:87497|laulaja|seko:01225|esittäjä|[seko-issues:174](https://github.com/NatLibFi/SEKO/issues/174#issuecomment-5084408863)|2026-07-26|
+|seko:87498|jodlaus|seko:00427|ihmisääni|(by YKL-mapping)|2026-07-26|
