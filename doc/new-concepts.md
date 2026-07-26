@@ -22,3 +22,4 @@ Entered into the masterdata table during the editorial process
 |seko:87494|rauschpfeife|seko:01149|tuulikapselisoitin|[seko-issues:157](https://github.com/NatLibFi/SEKO/issues/157)|2026-07-16|
 |seko:87495|jousisoitinsyntetisaattori|seko:01016|syntetisaattori|(by YKL-mapping)|2026-07-26|
 |seko:87496|sähkökontrabasso|seko:87496, seko:00527|sähkösoitin, kontrabasso|(by YKL-mapping)|2026-07-26|
+|seko:87497|laulaja|seko:01225|esittäjä|[seko-issues:174](https://github.com/NatLibFi/SEKO/issues/174#issuecomment-5084408863)|2026-07-26|
