@@ -49,7 +49,7 @@
 <http://urn.fi/urn:nbn:fi:au:seko:00417>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.81>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00424>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.62>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00443>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.79>  .  
-<http://urn.fi/urn:nbn:fi:au:seko:00445>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.52>  .  1
+<http://urn.fi/urn:nbn:fi:au:seko:00445>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.52>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00468>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.52>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00470>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.67>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00504>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.65>  .  
@@ -72,7 +72,7 @@
 <http://urn.fi/urn:nbn:fi:au:seko:00625>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.69>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00626>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.65>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00627>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.87>  .  
-<http://urn.fi/urn:nbn:fi:au:seko:00628>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.51>  .  9
+<http://urn.fi/urn:nbn:fi:au:seko:00628>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.51>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00636>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.69>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00637>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.69>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00659>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.86>  .  
