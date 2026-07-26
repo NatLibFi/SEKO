@@ -1,5 +1,7 @@
 # Mapping of SEKO conecpts with YKL library classification classes
 # dct:created "2026-07-26"^xsd:date .
+# NOTE! seko: identifiers that start with "847nn" are not in the live datasaet at finto.fi
+#
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
 @prefix ykl: <http://urn.fi/URN:NBN:fi:au:ykl:> .
@@ -145,7 +147,7 @@
 <http://urn.fi/urn:nbn:fi:au:seko:01191>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.79>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:01193>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.71>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:01208>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.51>  .  
-<http://urn.fi/urn:nbn:fi:au:seko:87489>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.32>  .  
-<http://urn.fi/urn:nbn:fi:au:seko:87495>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.79>  .  
-<http://urn.fi/urn:nbn:fi:au:seko:87496>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.74>  .  
-<http://urn.fi/urn:nbn:fi:au:seko:87498>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.32>  .  
+# <http://urn.fi/urn:nbn:fi:au:seko:87489>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.32>  .  
+# <http://urn.fi/urn:nbn:fi:au:seko:87495>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.79>  .  
+# <http://urn.fi/urn:nbn:fi:au:seko:87496>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.74>  .  
+# <http://urn.fi/urn:nbn:fi:au:seko:87498>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.32>  .  
