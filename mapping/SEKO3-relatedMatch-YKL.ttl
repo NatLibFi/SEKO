@@ -1,6 +1,8 @@
 # Mapping of SEKO conecpts with YKL library classification classes
 # dct:created "2026-07-26"^xsd:date .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
+@prefix ykl: <http://urn.fi/URN:NBN:fi:au:ykl:> .
 #
 <http://urn.fi/urn:nbn:fi:au:seko:00032>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.86>  .  
 <http://urn.fi/urn:nbn:fi:au:seko:00043>  skos:relatedMatch  <http://urn.fi/URN:NBN:fi:au:ykl:78.72>  .  
