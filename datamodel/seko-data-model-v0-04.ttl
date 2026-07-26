@@ -27,23 +27,44 @@
 
 ### Vocabulary metadata - https://dgarijo.github.io/Widoco/doc/bestPractices/index-en.html
 
-seko-meta: a owl:Ontology ;
-  dct:description """
-  SEKO3 - monikielisen SEKO esiintymiskokoonpano-ontologian version tietomalli.
-  """@fi ;
-  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-  dct:description """
-  SEKO3 Data model for a multilingual SEKO ontology for medium of performance.
-   """@en,
-  dct:title "Tietomalli monikielisen SEKO ontologian pohjaksi."@fi ;
-  rdfs:comment "Muodostettu AI-assistentin tuella (Gemini, ChatGPT)."@fi ;
-  dct:language <http://id.loc.gov/vocabulary/iso639-1/fi>,
-             <http://id.loc.gov/vocabulary/iso639-1/sv>,
-             <http://id.loc.gov/vocabulary/iso639-1/en> ;
+seko: a owl:Ontology , skos:ConceptScheme ;
+  rdfs:label "SEKO3 - esityskokoonpano-ontologia"@fi ,
+             "SEKO3 - ontologi för uppsättning för framförande"@sv ,
+             "SEKO3 - ontology for medium of performance"@en ;
   dc:creator <http://www.wikidata.org/entity/Q95592946> ;       # Jarmo Saarikko
   dct:contributor  <http://www.wikidata.org/entity/Q95592946>,  # Jarmo Saarikko
                    <https://www.wikidata.org/wiki/Q109126095> ; # MUUSA
-  dct:mediator <http://www.wikidata.org/entity/Q420747> ;
+  dct:mediator <http://www.wikidata.org/entity/Q420747> ;       # Kansalliskirjasto 
+  dc:publisher <http://www.wikidata.org/entity/Q420747> ;
+  dc:source "SEKO ontology is based on the Finnish monolingual Seko vocabulary"@en ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dct:description """
+         The Finnish ontology of medium of performance is a trilingual ontology consisting of 
+         musical instruments and ensembles. SEKO has been founded on the previous monolingual 
+         vocabulary created by the LUUMU and later by the MUUSA expert groups on music metadata.
+         The new ontology is aimed for the whole GLAM sector to be used for content description of 
+         music related materials. The data is now more structured and mapped with several
+         several major sources like Wikidata, LCMPT and MIMO vocabularies.  
+         In library systems with MARC21 the terms can be used in fields 382, 511 etc. 
+         The labels are expressed mainly in the singular form, except for groups.
+         A Finnish translation of the Hornbostel-Sachs classification will be added
+         as a secondary grouping and hierarchy for easier browsing and discovery.
+         Non-hierarchical groupings such as 'folk instruments' may be added later.
+         Spatial information is expressed using mainly the YSO places ontology.
+  """ ;
+  dc:title "SEKO3 - esityskokoonpano-ontologia"@fi ,
+           "SEKO3 - ontologi för uppsättning för framförande"@sv ,
+           "SEKO3 - ontology for medium of performance"@en,
+  dc:identifier <http://urn.fi/urn:nbn:fi:au:seko:> ,
+                <http://www.wikidata.org/entity/Q106573395> ,
+                <http://id.loc.gov/vocabulary/musiccodeschemes/seko> ;
+  dct:language <http://id.loc.gov/vocabulary/iso639-1/fi>,
+             <http://id.loc.gov/vocabulary/iso639-1/sv>,
+             <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dct:subject   <http://www.yso.fi/onto/yso/p1808> ;  # musiikki
+  foaf:homepage <https://github.com/NatLibFi/SEKO/> ;
+  skos:hasTopConcept seko:MediumOfPerformance ;
+  dct:relation  mimo:, lcmpt: ;                
   dct:created "2026-06-23"^^xsd:date  ;
 # dct:issued "2026-06-23"^^xsd:date ;
   dct:modified "2026-07-26"^^xsd:date ; 
@@ -58,10 +79,10 @@ skos:ConceptScheme a owl:Class ;
     rdfs:label "Sanasto / Käsitejärjestelmä"@fi , "Concept Scheme"@en .
 
 skos:Concept a owl:Class ;
-    rdfs:label "Soitinalan käsite"@fi , "Musical Instrument Concept"@en .
+    rdfs:label "Soitinalan käsite"@fi , "Music related Concept"@en .
 
 skos:Collection a owl:Class ;
-    rdfs:label "Kokoelma tai ryhmittely"@fi , "Collection"@en .
+    rdfs:label "Kokoelma tai ryhmittely"@fi , "Collection or grouping"@en .
 
 foaf:Agent a rdfs:Class ;
    rdfs:comment "Kuka tahansa osallistuva toimija."@fi, "Any type of agent contributing or participating."@en .
@@ -69,7 +90,7 @@ foaf:Agent a rdfs:Class ;
 
 ### OMINAISUUDET 
 
-# Ontologia käyttää skos-perusominaisuuksia kuten: 
+# The Ontology uses the basic SKOS-properties like: 
 # skos:prefLabel, skos:altLabel, skos:hiddenLabel
 # skos:definition, skos:scopeNote, skos:editorialNote, skos:changeNote, skos:notation 
 # skos:narrower, skos:member , skos:broader , skos:narrower, skos:inScheme 
@@ -135,9 +156,8 @@ adms:status
     rdfs:label "Elinkaaren tila"@fi , "Status"@en ;
     rdfs:comment "Käsitteen hallinnollinen tila. Arvoalueena käytetään MARC21-mstatus-koodistoa tai muuta vastaavaa kontrolloitua listaa."@fi ;
     rdfs:domain skos:Concept ; 
-    rdfs:range rdfs:Resource .  #  example <http://metadataregistry.org/uri/RegStatus/>
-
-### OPTONAL  see seko:statusNote - an annotation property better suited for this purpose.
+    rdfs:range rdfs:Resource ;  #  example <http://metadataregistry.org/uri/RegStatus/>
+    skos:note "See also seko:statusNote - an annotation property better suited for this purpose."@en .
 
 dct:isReplacedBy 
     rdfs:label "Korvaava käsite"@fi , "Is Replaced By"@en ;
@@ -174,12 +194,12 @@ rdfs:seeAlso a owl:ObjectProperty ;
     rdfs:domain skos:Concept ; 
     rdfs:range rdfs:Resource .
 
-### Local classes and concepts
+### Local classes and concepts for seko: ontology
 
  seko:MediumOfPeformance a skos:Concept ;   
     skos:inScheme seko: ;
     skos:topConceptOf seko:
-    skos:prefLabel "Esiintymiskokoonpano"@fi , "Medium of performance"@en ;
+    skos:prefLabel "Esityskokoonpano"@fi , "Medium of performance"@en , "Uppsättning för framförande"@sv;
     rdfs:label "Medium of performance"@en ;  
     skos:narrower seko:00953 , seko:01225 ; #  soitin, esiintyjä
     skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MediumOfPerformance> ;
@@ -188,7 +208,7 @@ rdfs:seeAlso a owl:ObjectProperty ;
                      "Mikä tahansa soitin, ääni, kokoonpano tai yhtye musiikin esittämiseen."@en .
 
 seko:MusicInstrument a skos:Concept ;  
-   skos:prefLabel "Soitin"@fi, "Music instrument"@en ;
+   skos:prefLabel "Soitin"@fi, "Music instrument"@en , "Musikinstrument"@sv ;
    rdfs:label "Music instrument"@en ;
    skos:broader seko:MediumOfPerformance ;
    skos:definition   "Instrument for which a musical work is appropriate (Bibframe)"@en ,
@@ -199,7 +219,7 @@ seko:MusicInstrument a skos:Concept ;
    skos:closeMatch <http://id.loc.gov/authorities/performanceMediums/mp2013015354> .  #  instrument
 
 seko:MusicEnsemble a skos:Concept ;   
-   skos:prefLabel "Ensemble"@fi, "Music ensemble"@en ;  
+   skos:prefLabel "Ensemble"@fi, "Music ensemble"@en , "Ensemble"@sv;  
    rdfs:label "Music ensemble"@en ;
    skos:broader seko:MediumOfPerformance ;
    skos:definition "Ensemble for which a musical work is appropriate (Bibframe)"@en .  
@@ -231,8 +251,7 @@ seko:statusNote a owl:AnnotationProperty ;
 
 ### Concept schemes in the ontology
 ### 
-seko: a skos:ConceptScheme ;
-    skos:hasTopConcept seko:MediumOfPerformance .
+
 
 ### deprecation of concepts by moving them to a separate concept schem 
 seko:deprecatedconceptscheme a skos:ConceptScheme ;
