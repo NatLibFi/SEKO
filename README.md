@@ -41,7 +41,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Created a separate list for [sources](./doc/sources.md) that would be referred in the data with `dct:source`. These could be sources for e.g. labels, definitions, spatial and temporal data. Added Finna URIs for printed sources used in the earlier version. Added finna: as a prefix.
 - Added more sources for the classification page. Noticed the nice visual browser at [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/).  
 - Created v0.04 of the datamodel. Added ontology metadata. Created a new Top Concept seko:MediumOfPerformance with skos:narrower pointing to "instrument" and "performer". Documented deprecation idea in the model. Moved older notes to a separate file from this README.
-- MOved the wikidata sparql section from this page to [SEKO3 Wiki](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
+- Moved the wikidata sparql section from this page to [SEKO3 Wiki](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
+- Created a separate `./mapping/` folder for holding mapping files.  Mapped SEKO3 concepts with the YKL library classification classes under [78 MUSIC](http://urn.fi/URN:NBN:fi:au:ykl:78) for the **145 instruments** or ensembles that were mentioned in the classnames or as entry terms.  Added four new concepts to the SEKO3 masterdata table.(jousisoitinsyntetisaattori, sähkökontrabasso, laulaja, jodlaus).
 
 **Week 31**
 - **Plan:** write project plan and documentation, map funding options, networking, work on 5-10 issues, start implementing the [SEKO3 Project section]([https://github.com/NatLibFi/SEKO/projects](https://github.com/orgs/NatLibFi/projects/62)). 
