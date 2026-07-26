@@ -61,7 +61,11 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - continued working on the classification data. matching the addtional groups listed by Leisiö with the actual marking in the MIMO classification classes. Started finding translations for some of the labels.
 - Started looking more closely at funding options. Need to write a realistic project plan, estimates of duration and budget.
 - Created a separate list for [sources](./doc/sources.md) that would be referred in the data with `dct:source`. These could be sources for e.g. labels, definitions, spatial and temporal data. Added Finna URIs for printed sources used in the earlier version. Added finna: as a prefix.
-- Added more sources for the classification page. Noticed the nice visual browser at [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/).
+- Added more sources for the classification page. Noticed the nice visual browser at [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/).  
+- Created v0.04 of the datamodel. Added ontology metadata. Created a new Top Concept seko:MediumOfPerformance with skos:narrower pointing to "instrument" and "performer". Documented deprecation idea in the model.
+
+**Week 31**
+- Plan: write project plan and documentation, map funding options, networking, work on 5-10 issues, start implementing the [SEKO3 Project section]([https://github.com/NatLibFi/SEKO/projects](https://github.com/orgs/NatLibFi/projects/62)). Move older notes to a separate file from this README.
   
 ### 2026-06
 **Week 27**
