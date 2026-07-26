@@ -41,6 +41,7 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Created a separate list for [sources](./doc/sources.md) that would be referred in the data with `dct:source`. These could be sources for e.g. labels, definitions, spatial and temporal data. Added Finna URIs for printed sources used in the earlier version. Added finna: as a prefix.
 - Added more sources for the classification page. Noticed the nice visual browser at [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/).  
 - Created v0.04 of the datamodel. Added ontology metadata. Created a new Top Concept seko:MediumOfPerformance with skos:narrower pointing to "instrument" and "performer". Documented deprecation idea in the model. Moved older notes to a separate file from this README.
+- MOved the wikidata sparql section from this page to [SEKO3 Wiki](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
 
 **Week 31**
 - **Plan:** write project plan and documentation, map funding options, networking, work on 5-10 issues, start implementing the [SEKO3 Project section]([https://github.com/NatLibFi/SEKO/projects](https://github.com/orgs/NatLibFi/projects/62)). 
@@ -56,38 +57,19 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 ## Mappings
 The [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) properties will be used to link to external sources. Preferrably with exactMatch, but also closeMatch, broadMatch and narrowMatch may be used when an exact match is not available.  
 
-Current plan is to map to Wikidata and  several external authhority files. Wikidata mapping would be considered mandatory. The existing LCMPT mappings are checked and their coverage extended.
-- Primary targets are Wikidata, YSO, LCMPT
-- Secondary targets are  MIMO, Hornboschel-Sachs classification (maintained by MIMO).
-- Other possible targets are Getty AAT
-- Links to describing sources may be added with the seeAlso property.
+Current plan is to map to Wikidata and  to an external authority file. Wikidata mapping would be considered mandatory. The existing LCMPT mappings are checked and their coverage extended.
+- Primary targets are Wikidata, LCMPT, YSO
+- Secondary targets are  MIMO instrument vocabulary, Hornboschel-Sachs classification (maintained by MIMO), KOKO.
+- Other possible targets are Getty AAT (for instruments)
+- Links to other sources describing the instrument and to help in content description may be added with the `rdfs:seeAlso` property.
 
 ## Library data: BIBFRAME and MARC21
 
-For content description purposes the appropriate concepts in SEKO3 could be marked as instances of <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicEnsemble">bf:MusicEnsemble</a></b>  or <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicInstrument">bf:MusicInstrument</a></b> or <a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicMedium">bf:MusicMedium</a></b>. This is still under consideration.
+For content description purposes the appropriate concepts in SEKO3 could be marked as instances of <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicEnsemble">bf:MusicEnsemble</a></b>  or <b><a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicInstrument">bf:MusicInstrument</a></b> or <a href="https://id.loc.gov/ontologies/bibframe.html#c_MusicMedium">bf:MusicMedium</a></b>. 
+- Classes  `seko:MusicInstrument` and `seko:MusicEnsemble` were added in version 0.04 of the datamodel and these were mapped to the corresponding Bibframe classes.
 
-In MARC21 data recoreds they can be used in the [382 field](https://www.loc.gov/marc/bibliographic/bd382.html)
-The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instrumentation.html) for the vocabulary is "**seko**" 
-
-## Wikidata mappings
-
-```sparql
-# get all subclasses of "musical instrument" about 4300 and get identifiers from them
-        SELECT DISTINCT ?item ?itemLabel ?SEKO_ID ?LCMPT_ID ?MIMO_ID ?MB_ID ?GMO_ID ?MOP_ID 
-         WHERE {
-           SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-           ?item wdt:P279+ wd:Q34379.
-           OPTIONAL { ?item wdt:P10063 ?SEKO_ID. }
-           OPTIONAL { ?item wdt:P8516 ?LCMPT_ID .}
-           OPTIONAL { ?item wdt:P1330 ?MB_ID . }
-           OPTIONAL { ?item wdt:P3763 ?MIMO_ID . }
-           OPTIONAL { ?item wdt:P8591 ?GMO_ID . }
-           OPTIONAL { ?item wdt:P11214 ?MOP_ID . }
-         }
-```  
-- link to the above query https://w.wiki/6DFs 
-- musical instrument http://www.wikidata.org/entity/Q34379
-- Hornbostel-Sachs markings - sparql search on Wikidata https://w.wiki/6QPJ (2392 hits on 2026-07-05)
+In MARC21 data records the labels of SEKO concepts can be used in the [382 field](https://www.loc.gov/marc/bibliographic/bd382.html) and other fields.
+The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instrumentation.html) identifier for the vocabulary is "**seko**"  (subfield $2 value)
 
 ## Seko datasets
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
