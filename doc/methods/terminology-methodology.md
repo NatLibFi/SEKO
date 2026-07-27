@@ -358,6 +358,12 @@ If appropriate, recommend
 for search purposes.
 
 ---
+## Type instrument test
+
+For each H-S class look for 3 or 5 instruments in in the class and as
+- does the class label fit naturally to all these instruments?
+- Does the class label lead to a wrong conclusion with an imporant member of the group?
+- If the class label does not fit well to these instrments, it is a strong case to consider aonther solution.
 
 # Deliverables
 
