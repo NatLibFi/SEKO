@@ -12,6 +12,8 @@ This methodology is used whenever two or more Finnish terms compete as the prefe
 
 Its purpose is **not** to produce a literal translation from English, but to select the Finnish term that best serves the intended use of the SEKO ontology.
 
+SEKO prefers established Finnish instrument names and instrument group names. General organological terms are used only when they are necessary for understanding the classification structure or when there is no established Finnish name.
+
 The methodology produces a documented recommendation that can be attached to:
 
 - GitHub issues
@@ -72,9 +74,13 @@ A familiar but technically incorrect term should not be preferred.
 
 ---
 
-## 4. Produce ontology-friendly labels
+## 4. Produce user-oriented ontology-friendly labels
 
-Preferred labels should
+Preferred labels should be the terms that Finnish users naturally employ when describing, cataloguing or searching for musical instruments. 
+
+Scientific umbrella terms should be used only where no established Finnish instrument-class term exists.
+
+The preferred labels should
 
 - be understandable without hierarchy context
 - work as standalone labels in web interfaces
@@ -214,6 +220,19 @@ Can the concept be mapped unambiguously to
 Weight
 
 ★★★☆☆
+
+## H. User-oriented terms (very high weight)
+
+Questins
+
+Which terms a library user uses for searching an instrument?
+Which terms a museum cataloger uses for desribing it?
+Which term is used for it in the Finnish music literature?
+Is the more comon scientific term unfamiliar for th user?
+
+Weight
+
+★★★★★
 
 ---
 
