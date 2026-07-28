@@ -5,6 +5,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-thes: <https://www.dublincore.org/specifications/skos-thes/ns/#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 #
@@ -67,8 +68,8 @@ seko: a owl:Ontology , skos:ConceptScheme ;
   dct:relation  mimo:, lcmpt: ;                
   dct:created "2026-06-23"^^xsd:date  ;
 # dct:issued "2026-06-23"^^xsd:date ;
-  dct:modified "2026-07-26"^^xsd:date ; 
-  owl:versionInfo "0.04" ;
+  dct:modified "2026-07-28"^^xsd:date ; 
+  owl:versionInfo "0.05" ;
 .
   
 ### Vocabulary Classes and properties (for Finnish labels)
@@ -165,6 +166,12 @@ dct:isReplacedBy
     rdfs:domain skos:Concept ; 
     rdfs:range skos:Concept .
 
+skos:member 
+    rdfs:label "has member" @en ;
+    rdfs:comment "Relates a collection to one of its members."@en ;
+    rdfs:domains skos:Collection ;
+    rdfs:ranges skos:Concept , skos:Collection .
+
 skos:related 
     rdfs:label "Lähikäsite"@fi , "Related Concept"@en ;
     rdfs:comment "Yhdistää käsitteet, jotka liittyvät toisiinsa assosiatiivisesti tai jotka luetteloinnissa sekoitetaan herkästi keskenään."@fi ;
@@ -187,12 +194,31 @@ skos:broadMatch a owl:ObjectProperty ;
     rdfs:domain skos:Concept ; 
     rdfs:range rdfs:Resource .
 
-
 rdfs:seeAlso a owl:ObjectProperty ;
     rdfs:label "Katso myös"@fi , "See Also"@en ;
     rdfs:comment "Viittaukset ulkoiseen dokumentaatioon tai kuvauksiin tietokannoissa URI-muodossa."@fi ;
     rdfs:domain skos:Concept ; 
     rdfs:range rdfs:Resource .
+
+### SKOS-THES classes and properties
+### Documentation http://purl.org/iso25964/skos-thes 
+
+skos-thes:ConceptGroup a skos:Collection ;
+     rdfs:Label "Hornbostel-Sachs soitnluokittelu"@fi , "Hornbostel-Sachs classification" ;
+     rdfs:comment "In SEKO3 this concept is used to show the instrument classification class hierarchy."@en ;
+     owl:disjointWith skos-thes:ThesaurusArray .
+
+skos-thes:superGroup  a rdfs:ObjectProperty ;
+    rdfs:Label "Broader class" ;
+    skos:definition "All members of the (subject) group are members of the (object) superGroup."@en ;
+    rdfs:domain skos-thes:ConceptGroup ;
+    rdfs:range skos-thes:ConceptGroup  .
+
+skos-thes:subGroup  a rdfs:ObjectProperty ;
+    rdfs:Label "Narrower Class" ;
+    skos:definition "All members of the (object) subGroup are members of the (subject) group."@en ;
+    rdfs:domain skos-thes:ConceptGroup ;
+    rdfs:range skos-thes:ConceptGroup .
 
 ### Local classes and concepts for seko: ontology
 
