@@ -7,16 +7,19 @@ Working title: "Suomalainen esityskokoonpano-ontologia", "Finnish Medium of Perf
 To develop a trilingual linked data ontology of instruments and ensembles with optionally adding a Finnish language version of instrument classification. The project process is done in accordance with the Finnish expert group on music metadata (MUUSA).
 
 ### Purpose
-To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-"Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
+Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage.
+
+See also "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
 
 During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
 
-Spatial information in the Seko instrument descriptions will be added as linked data using YSO-places ontology, Wikidata or Geospaces.
+Specific information in the Seko instrument descriptions will be entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc.
 
 The dataset will consist of some 1200-1300 concepts of musical instruments and ensembles.
 The classification would be based on the MIMO dataset which has 643 classes. 
+
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
 ### Documentation
