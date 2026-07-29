@@ -1,0 +1,168 @@
+### AI-generated (Gemini)  Example for a value vocabulary
+# Purpose: for Musical instrument content description  answering "made of" 
+#  such as wooden instruments,  natural horn nstruments etc.
+# To be used if no external vocabularies are found.
+# Each concept HAST TO BE MAPPED to an external vocabulary with descriptions how it is used for instruments
+# Prefernce: 1. Finnish: finto.fi  vocabularies: YSO, MTS, MAO/TAO, KOKO, 
+# Preference 2. International: LOC/MARC21, Wikidata, vocabularies used by instrument collections
+#
+@prefix wd: <https://wikidata.org> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-thes: <http://purl.org/iso25964/skos-thes#> .
+@prefix xl <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix finna: <https://www.finna.fi/Record/> .
+@prefix lcmpt: <http://id.loc.gov/authorities/performanceMediums/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix schema: <http://schema.org/>  .
+@prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
+@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .
+@prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
+@prefix yso: <http://www.yso.fi/onto/yso/> .
+### 1. KOKOELMAMÄÄRITTELY (skos:Collection)
+
+seko:Material a skos:Collection ;
+    skos:prefLabel "Soitinmateriaalit"@fi , "Instrumentmaterial"@sv , "Musical instrument materials"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:member seko:v0001 ,
+                seko:v0002 ,
+                seko:v0003 ,
+                seko:v0004 ,
+                seko:v0005 ,
+                seko:v0006 ,
+                seko:v0007 ,
+                seko:v0008 ,
+                seko:v0009 ,
+                seko:v0010 ,
+                seko:v0011 ,
+                seko:v0012 ,
+                seko:v0013 ,
+                seko:v0014 ,
+                seko:v0015 ,
+                seko:v0016 ,
+                seko:v0017 ,
+                seko:v0018 ,
+                seko:v0019 .
+
+### 2. KÄSITEMÄÄRITTELYT (skos:Concept)
+
+## Orgaaniset eläinperäiset materiaalit ja luonnonmateriaalit
+
+seko:v0001 a skos:Concept ;
+    skos:prefLabel "sarvi"@fi , "horn"@sv , "horn"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p4924 .
+
+seko:v0002 a skos:Concept ;
+    skos:prefLabel "merikotilot"@fi , "havssnäckor"@sv , "sea snails"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p24314 .
+
+seko:v0003 a skos:Concept ;
+    skos:prefLabel "luu"@fi , "ben"@sv , "bone"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p3242 .
+
+seko:v0004 a skos:Concept ;
+    skos:prefLabel "norsunluu"@fi , "elfenben"@sv , "ivory"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p6097 .
+
+seko:v0005 a skos:Concept ;
+    skos:prefLabel "suoli"@fi , "tarm"@sv , "gut"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p11252 .
+
+seko:v0006 a skos:Concept ;
+    skos:prefLabel "kilpikonnankuori"@fi , "sköldpaddsskal"@sv , "tortoiseshell"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p15234 .
+
+## Puut ja puulajit
+
+seko:v0007 a skos:Concept ;
+    skos:prefLabel "puu"@fi , "trä"@sv , "wood"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p2881 .
+
+seko:v0008 a skos:Concept ;
+    skos:prefLabel "kuusi"@fi , "gran"@sv , "spruce"@en ;
+    skos:broader seko:v0007 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p1623 .
+
+seko:v0009 a skos:Concept ;
+    skos:prefLabel "vaahtera"@fi , "lönn"@sv , "maple"@en ;
+    skos:broader seko:v0007 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p5108 .
+
+seko:v0010 a skos:Concept ;
+    skos:prefLabel "eebenpuu"@fi , "ebenholts"@sv , "ebony"@en ;
+    skos:broader seko:v0007 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p23588 .
+
+seko:v0011 a skos:Concept ;
+    skos:prefLabel "ruusupuu"@fi , "rosenträ"@sv , "rosewood"@en ;
+    skos:broader seko:v0007 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p24915 .
+
+## Metallit ja metalliseokset
+
+seko:v0012 a skos:Concept ;
+    skos:prefLabel "metalli"@fi , "metall"@sv , "metal"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p1839 .
+
+seko:v0013 a skos:Concept ;
+    skos:prefLabel "messinki"@fi , "mässing"@sv , "brass"@en ;
+    skos:broader seko:v0012 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p5485 .
+
+seko:v0014 a skos:Concept ;
+    skos:prefLabel "uushopea"@fi , "nysilver"@sv , "nickel silver"@en ;
+    skos:broader seko:v0012 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p23163 .
+
+seko:v0015 a skos:Concept ;
+    skos:prefLabel "teräs"@fi , "stål"@sv , "steel"@en ;
+    skos:broader seko:v0012 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p2090 .
+
+seko:v0016 a skos:Concept ;
+    skos:prefLabel "pronssi"@fi , "brons"@sv , "bronze"@en ;
+    skos:broader seko:v0012 ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p5487 .
+
+## Muut synteettiset ja käsitellyt materiaalit
+
+seko:v0017 a skos:Concept ;
+    skos:prefLabel "muovi"@fi , "plast"@sv , "plastic"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p924 .
+
+seko:v0018 a skos:Concept ;
+    skos:prefLabel "hiilikuitu"@fi , "kolfiber"@sv , "carbon fiber"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p16765 .
+
+seko:v0019 a skos:Concept ;
+    skos:prefLabel "nahka"@fi , "läder"@sv , "leather"@en ;
+    skos:inScheme seko:Vocabulary ;
+    skos:exactMatch yso:p2791 .
