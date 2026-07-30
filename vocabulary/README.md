@@ -145,10 +145,8 @@ See also [https://en.wikipedia.org/wiki/Dates_of_classical_music_eras](https://e
 
 ## Additional possible properties for consideration
 
-  # tätä  voidaan käyttää soittimien tiedoissa, 
-  # kun skos:notation ominaisutta käytetään luokkia vastaaville ryhmille  
-
 ### Classification
+Tätä  voidaan käyttää soittimien tiedoissa, kun skos:notation ominaisutta käytetään luokkia vastaaville ryhmille  
 
 <http://www.wikidata.org/entity/P1762> a owl:DatatypeProperty ;  
     rdfs:label "Hornbostel-Sachs-luokka"@fi, "Hornbostel-Sachs class"@en ;  
