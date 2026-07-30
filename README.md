@@ -51,9 +51,11 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - **Plan:** write project plan and documentation, map funding options, networking, work on 5-10 issues, start implementing the [SEKO3 Project section]([https://github.com/NatLibFi/SEKO/projects](https://github.com/orgs/NatLibFi/projects/62)).
 - Completed translating all H-S class labels in Finnish (v.001).
     - Data is still only in a local Openrefine, but was able to export a RDF file in turtle format.
-- Considered properties for "material" of instruments. Searched for vucabularies.
+- Considered properties for "material" of instruments. Searched for vucabularies. Looked at the Musketti instructions and the Europeana Data Model and instrument metadata there.
     - Created a folder "vocabulary" for a potential solution for any required lists of items (such as status codes and imstrument materials).  Created a demo vocabulary of "materials" with a AI-assistant based on data from Seko definitions.
     - There might be a potential to add these into Metadata vocabulary for a more general use?
+- Tested using AI for finding language tags for undefined altLabels for an Indian instrument. Worked well and fast (labels were in hi,or,ta,gu,ml,mr,pa,sa).
+- Worked on a group of several issues dealing with related animal horn instruments around the Baltic.
 
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
