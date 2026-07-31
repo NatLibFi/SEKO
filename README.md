@@ -4,7 +4,12 @@ Voluntary translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, t
 Project title: "SEKO3 – Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
 
 ### Project objective
-To develop a service based on a trilingual linked data ontology of instruments and ensembles with optionally adding a Finnish language version of instrument classification. Working title for the service "Suomalainen esityskokoonpano-ontologia", "Finnish Medium of Performance Ontology".
+To develop a long-term service to support Finnish music content and instrument description based on a trilingual linked data ontology of instruments and ensembles with adding a Finnish language version of an instrument classification. 
+
+Working titles for the service:
+- "Suomalainen esityskokoonpano-ontologia" 
+- "Finsk ontologi för  musikbesättning"
+- "Finnish Medium of Performance Ontology"
 
 ### Purpose
 To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
