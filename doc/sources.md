@@ -39,9 +39,14 @@ Properties:
  - Otavan iso musiikkitietosanakirja osa 4 laulu - Rantasalo
  - Otavan iso musiikkitietosanakirja osa 5 Raphaell - Öttingen
 
-- Simone Bartoli. **La collezione di strumenti musicali del mondo del fondo Tintori del Conservatorio “G. Cantelli” di Novara.** - Università degli Studi di Pavia, Dipartimento di musicologia e beni culturali, Laurea Magistrale in Musicologia, 2025.
+- Simone Bartoli. **La collezione di strumenti musicali del mondo del fondo Tintori del Conservatorio “G. Cantelli” di Novara.** - Università degli Studi di Pavia, Dipartimento di musicologia e beni culturali, Laurea Magistrale in Musicologia, 2024/2025.
+    - https://hdl.handle.net/20.500.14239/33564
     - https://unitesi.unipv.it/retrieve/8c6b210e-c7a5-47aa-b247-a614684b967e/tesi%20Simone%20Bartoli%20pdfA.pdf
     - Bibliogrpahy, pages 201-207.
+- K. S.  Kothari. Indian Folk Musical Instruments. 1968 - SANGEET NATAK AKADEMI National Academy of Dance, Drama & Music for India. The Statesman Press, New Delhi-1, India. 99 pages - 39 image plates.
+    - https://dn790003.ca.archive.org/0/items/dli.ministry.25964/ignca-920-rb_text.pdf
+    - Index on pages 91-97.
+
 
 ## Sources referred to in the original dataset (1998-2002)
 Note! Sources were not marked in the individual records 
