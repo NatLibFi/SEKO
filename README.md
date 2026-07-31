@@ -56,8 +56,8 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Considered properties for "material" of instruments. Searched for vucabularies. Looked at the Musketti instructions and the Europeana Data Model and instrument metadata there.
     - Created a folder "vocabulary" for a potential solution for any required lists of items (such as status codes and imstrument materials).  Created a demo vocabulary of "materials" with a AI-assistant based on data from Seko definitions.
     - There might be a potential to add these into Metadata vocabulary for a more general use?
-- Tested using AI for finding language tags for undefined altLabels for an Indian instrument. Worked well and fast (labels were in hi,or,ta,gu,ml,mr,pa,sa).
-- Worked on a group of several issues dealing with related animal horn instruments around the Baltic.
+- Tested using AI for finding language tags for undefined altLabels for an Indian instrument. Worked well and fast (labels were in hi,or,ta,gu,ml,mr,pa,sa). [#192](https://github.com/NatLibFi/SEKO/issues/192)
+- Worked on a group of several issues dealing with related animal horn instruments around the Baltic. [#118](https://github.com/NatLibFi/SEKO/issues/118)
 
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
