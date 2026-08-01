@@ -25,5 +25,5 @@ Entered into the masterdata table during the editorial process
 |seko:87497|laulaja|seko:01225|esittäjä|[seko-issues:174](https://github.com/NatLibFi/SEKO/issues/174#issuecomment-5084408863)|2026-07-26|
 |seko:87498|jodlaus|seko:00427|ihmisääni|(by YKL-mapping)|2026-07-26|
 |seko:87499|puinen sarviklarinetti|seko:00513|klarinettisoitin|https://github.com/NatLibFi/SEKO/issues/19|2026-07-29|
-|seko:87500|bockhorn|seko:00899|sarvi (puhallinsoitin)|https://github.com/NatLibFi/SEKO/issues/20)2026-07-29|
+|seko:87500|bockhorn|seko:00899|sarvi (puhallinsoitin)|https://github.com/NatLibFi/SEKO/issues/20|2026-07-29|
 |seko:87501|tarpo|seko:00513|klarinettisoitin|https://github.com/NatLibFi/SEKO/issues/192|2026-08-01|
