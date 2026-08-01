@@ -84,7 +84,7 @@ skos:altLabel  and skos:hiddenLabel could be loaded as triplets directly
 `A` skos:altLabel     "`F`"@`E` .
 `A` skos:hiddenLabel  "`H`"@`J` .
 ```
-# these need to be modelled carefully H-S notation, H-S link thinking how they are stored:
-# The content editor will add only the notation (dropdown?) The link should appear automatically
-#  S ;  the HS class code
-#  T ;  link to the local clasas definition with local labels 
+> these need to be modelled carefully H-S notation, H-S link thinking how they are stored:
+> The content editor will add only the notation (dropdown?) The link should appear automatically
+>  S ;  the HS class code
+>  T ;  link to the local clasas definition with local labels 
