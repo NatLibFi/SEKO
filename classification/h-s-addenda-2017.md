@@ -94,7 +94,21 @@ also textual corrections in
 
 ---
 
-# Huomautuksia
+## Huomautuksia
 
 Vuoden 2017 Addenda and Corrigenda -dokumentti täydentää vuoden 2011 MIMO Consortiumin julkaisemaa Hornbostel–Sachs-luokituksen revisiota eikä korvaa sitä. Molempia dokumentteja tulee käyttää yhdessä.
 
+---
+CIMCIM Working Group for Classification (2021). _Further  Addenda  for  the  (2011)  Revision  of  the  Hornbostel-­Sachs  classification  of  Musical  Instruments  by  the  MIMO  Consortium and  the  (2017)  Addenda  to  the  MIMO  Hornbostel-­Sachs  Classification  by  the  CIMCIM  Working  Group  on  Classification._
+
+**18  Singing  idiophones  (idiophonic  mirlitons)**.  The  instrument  is  made  to  vibrate  by  
+speaking  or  singing  through  an  aperture  into  the  hollowed  space  between  two  
+opposed  and  close-­fitting  concave  bodies,  forming  a  valve.    The  instrument  does  not  
+yield  a  note  of  its  own  but  merely  modifies  the  voice.   Italy[1]
+
+Source: [1] Ravi  (Monferrato,  Piedmont),  cuse  (Riva  presso  Chieri  and  area  of  Asti,  Piedmont),
+and sücchetta (Ponente  ligure). See Erich  M.  Von  Hornbostel  –  Curt  Sachs.  Classification  of  Musical
+Instruments  translated  from  the  original  German  by  Anthony  Baines  and  Klaus  Wachsmann  with
+additions  and  revisions  by  Febo  Guizzi.    Translated  from  the  Italian  by  Cristina  Ghirardini,  with  a
+revision  of  the  English  language  by  Matilda  Colarossi  (Fondazione  Ugo  e  Olga  Levi  Onlus,  2018)
+p.16.http://www.suonoeimmagine.unito.it/SAMIC/HS_REF_EN_v01_072018.pdf
