@@ -77,12 +77,21 @@ For content description purposes the appropriate concepts in SEKO3 could be mark
 In MARC21 data records the labels of SEKO concepts can be used in the [382 field](https://www.loc.gov/marc/bibliographic/bd382.html) and other fields.
 The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instrumentation.html) identifier for the vocabulary is "**seko**"  (subfield $2 value)
 
-## Museums and Archives
-- As the museums are already using KOKO ontology, one easy option would be to include SEKO3 to KOKO
-- As SEKO is not an YSO-based ontology. What would be needed to be able to be included in KOKO?
-- Archives - connections not known at the moment 
+## Museums and Archives - SEKO3 and KOKO ontology
+
+### Museums and instrument collections
+
+Finnish museums are already using KOKO ontology. One sggestion and an easy solution would be to include SEKO3 to KOKO.
+- Museum data is already imported to finna.fi system. The expansion of SEKO3 into a KOKO-compatible ontology would significantly improve the discoverability and cross-linkability of music-related materials (recordings, sheet music, archival materials and physical museum objects) in, for example, the Finna.fi service.
+- SEKO3 masterdata-table is already mapped to YSO-concepts. Thus it could be considered an "YSO-based ontology".
+    - The Top Concept "esityskokoonpano" is currently not in YSO, BUT the two second level concepts are mapped: yso:p7110 "soittimet", yso:p1289 "esittäjät"
+- SEKO3 is hierarchical and trilingual. What else would be needed to be able to include SEKO3 in KOKO?
+
+### Music archives
+   - connections not known at the moment. Check Finna-LIDO import rules. 
 
 ## Seko datasets
+
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
 * As of 2026-06 the original dataset is maintained as MARC21 Authority files on the national metadata repository Melinda (ALEPH library system) hosted by the National Library of Finland. The data is transformed and exported in SKOS format (RDF) to Finto-data repository at https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko. This data is browsable through the Finto service https://finto.fi/seko/en/ (a Skosmos syste,). The latest changes to the data were committed in 2021-09-28 and the metadata of the whole dataset was updated in 2025-05-21. 
 * The editorial unfinished work in progress on the new multilingual SEKO3 version may be viewed "live" in the Google sheets. Occasionally we may take snapshots of this file in CSV format. This dataset is not yet available in RDF format. 
