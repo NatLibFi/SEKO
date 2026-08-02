@@ -26,22 +26,28 @@ The original German version of the classification was translated into Finnish an
 
 
 ## SEKO with classification
-Consider including Hornbostel-Sachs classification as a separate scheme in seko:
+Consider including Hornbostel-Sachs classification as a separate scheme in seko: 
+```in scheme:sekoHS ; 
+skos:isTopConcpet ;```
+1. Idiofonit (itsesoivat soittimet)
+2. Membranofonit (kalvosoittimet)
+3. Aerofonti (ilmasoittimet)
+4. Kordofonit (kielisoittimet)
+5. Elektrofonit (sähkösoittimet)
 
 Best option would seem to create a new translation in Finnish based on the MIMO version of the classification. 
 Basic terminology would be the same as with Leisiö, but many of the descriptions have been expanded and there was an effort to decrease of the 1914 German cultural skewness. (e.g. removing "eskimoes and negroes").
 
 Another option would be label the groups as "Instrument families" with more general terms used by MIMO Collections
 [instrument families](https://mimo-international.com/MIMO/instrument-families.aspx) (these are in principle the H-S classes but without the notations).  Remember that these often cover only "Western music" instruments while H-S tries to cover everything.  See also https://en.wikipedia.org/wiki/Organology
-- Wind instruments 
-- Percussion instruments 
-- Stringed instruments 
-- Keyboard instruments
-- Mechanical instruments
-- Other instruments
-- Mirlitons
-- Electronic instruments 
-- Elements of musical instruments (excluded, as these are not medium of performance)
+- Wind instruments (vaskupuhaltimet ja puupuhaltimet)
+- Percussion instruments (lyömäsoittimet osa membranofoneja)
+- Stringed instruments (kielisoittimet ja jousisoittimet)
+- Keyboard instruments (kosketinsoittimet)
+- Mechanical instruments (mekaaniset soittimet)
+- Other instruments (muut soittimet)
+- Membranofones (kalvosoittimet - lyönti-, näppäily-, kitkarummut ja mirlitonit)
+- Electronic instruments (sähkösoittimet)
 - Instruments that may be outside the classification (Other)  - probably not in Seko?
   - Hydraulophones (sound from matter in linquid state)
   - Plasmaphones (sound from matter in higher energy states, such as plasma to produce initial sound)
