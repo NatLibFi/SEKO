@@ -119,7 +119,7 @@ Will need to consult with Finto-team concerning the application on the Finto Sko
 - We need a Finnish prefLabel
 - We want to use the classes as groups
 - As [skos:Collection is disjoint with skos:Concept](https://www.w3.org/TR/skos-reference/#L7130) we would not create exactMatch to honrnbostelandsachs: because they are of type skos:Concept
-
+in MIMO:
 ```
 hornbostelandsachs:1  a skos:Concept ;
   skos:prefLabel "Idiophones"@en ;
@@ -128,23 +128,36 @@ hornbostelandsachs:1  a skos:Concept ;
   skos:notation "1" .
 ```
 
-**Example of possible coding:**  
+**Possible coding in SEKO3**  
+
+seko: the ConceptScheme .     # tHe instruments (browsing)
+sekoHS: Collection-hierarchy  # the H-S groups (Group-based browsing, like YSO-groups but with group hierarchy)
 ```
-sekogroup:1 a skos:Collection, skos-thes:ConceptGroup ;   
+sekoHS:1 a skos:Collection, skos-thes:ConceptGroup ;   
   skos:prefLabel "Idiofonit"@fi ;
-  skos:notation "1" ;
-  skos:inScheme sekogroup:
-  skos:relatedMatch hornbostelandsachs:1  ;  
-  skos-thes:subGroup sekoclass:57, sekoclass:6204, sekoclass:2, sekoclass:83, sekoclass:70, sekoclass:6209 ;
-  skos:narrowMatch hornbostelandsachs:57, hornbostelandsachs:6204, hornbostelandsachs:2,   
-  hornbostelandsachs:83, hornbostelandsachs:70, hornbostelandsachs:6209 ;
+  skos:notation "1"^^seko-meta:HSNotation ;
+  skos:inScheme sekoHS:
+  rdfs:seeAlso  hornbostelandsachs:1  ;  
+  skos-thes:subGroup sekoHS:57, sekoHS:6204, sekoHS:2, sekoHS:83, sekoHS:70, sekoHS:6209 ;
   skos:member seko:00627 ;
  ```
-- Use type skos-thes:ConceptGroup with skos-thes:subGroup and skos-thes:superGroup
-- or skos-thes:ThesaurusArray (with skos-thes:subOrdinate and skos-thes:superOrdinate
+- The skos:meber brings the group label up on the instrument page, nothing needs to be added there.
+- skos:notation is added only in the Class/Groum metadata
+- Use type skos-thes:ConceptGroup with skos-thes:subGroup and skos-thes:superGroup - **for hierachical groups**
+- or skos-thes:ThesaurusArray (with skos-thes:subOrdinate and skos-thes:superOrdinate  **for thematic groups**
  
 Note! MIMO classification scheme models the relationship from the classification class to the instruments in the other schema with skos:exactMatch. which might not be the correct way?
 Using groups and member: relationships might be a safer way.
+
+### Possible Skosmos configuration for two hiearchies
+- (AI-generated, needs to be checked!)
+```
+:sekoHS a skosmos:Vocabulary ;
+        skosmos:shortName  "sekoHS" ;
+        skosmos:defaultLanguage "fi" ;
+        skosmos:groupClass  skos-thes:ConceptGroup ;
+        dct:isPartOf  :seko .
+```
 
 ---
 ## Using  specified notation types for classifications
@@ -152,11 +165,11 @@ For groups - perhaps also with instruments
 
 #### Usage example 1:  for a group  
 ```
-seko:h228 a skos:Concept , iso-thes:ConceptGroup ;
-    skos:inScheme seko:HSScheme ;
-    skos:notation "412"^^seko:HSNotation ;
-    skos-thes:superGroup seko:h226 ;
-    skos:exactMatch hornbostelandsachs:228 ;
+sekoHS:228 a skos:Collection , iso-thes:ConceptGroup ;
+    skos:inScheme seko:HS ;
+    skos:notation "412"^^seko-meta:HSNotation ;
+    skos-thes:superGroup sekoHS:226 ;
+    rdfs:seeAlso hornbostelandsachs:228 ;
     skos:prefLabel "Yksinkertaiset kordofonit"@fi .
 ```
 
@@ -166,31 +179,40 @@ seko:h228 a skos:Concept , iso-thes:ConceptGroup ;
 The "standard" method is to use **dct:subject** for classifications.
 This is an ObjectType property, so cannot just enter a string.
 But we would need a way to express the class notation in the instrument UI
-There is no inverse property for marking the membership in the group directly
-but we can show the notation of the group. 
+and the YKL notations are in skos:notation only, not in the prefLabel.
 
+**Example: Thee ways to code the classification of an instrument**
 ```
-seko:00393 a skos:Concept, seko-meta:Instrument ;
-     dct:subject seko:h228 ;
+seko:00393 a skos:Concept, seko:Instrument ;
+
+# 1  "most general" - notation is already embedded in prefLabel
+     dct:subject sekoHS:228 ;             
+
+# 2 Using bibframe style   - uses local groups with notations
+
      bf:classification [
               a bf:Classification ; 
-              bf:code "412.12"^^seko:HSNotation ; 
+              bf:code "412.12"^^seko-meta:HSNotation ; 
               bf:source seko:HSScheme ; 
-              rdfs:seeAlso seko:h228 ;
-      ] ; .
-     bf:classification [
+              rdfs:seeAlso seko:h228 ;  # different type!
+     ] ; 
+
+# 3 How to use  external classfications ?
+
+     dct:subject [
               a bf:Classification ; 
-              bf:code "78.71"^^seko:YKLNotation ; 
+              bf:code "78.71"^^seko-meta:YKLNotation ; 
               bf:source <http://urn.fi/URN:NBN:fi:au:ykl:78.71> ; 
-      ] ; .
+     ]  .
 ```
-Can these layered structures be done on VocBench?
-Is there a simpler way? Would this work? 
-Needs to be tested on Skosmos/VocBench.
-This would seem to be much easier to accomplish in data entry design?
+
+- Can these be enterd in VocBench and shown in Skosmos? - Needs to be tested.
+- Is there a simpler way? Would this work? 
+
+This would seem to be much easier to accomplish in data entry design but the notations are not of the instrument, but for the class/group it belongs to.
 ```
 seko:00393
-    skos:notation  "412.12"^^seko:HSNotation, "78.71"^^seko:YKLNotation . 
+    skos:notation  "412.12"^^seko-meta:HSNotation, "78.71"^^seko-meta:YKLNotation . 
 ```
 
 ---
