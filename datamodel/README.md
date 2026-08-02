@@ -42,9 +42,10 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 
 
 ### rdf: rdfs:
-- rdfs:Class, rdf:Property, rdfs:Datatype, rdfs:Resource, rdfs:Label, rdfs:Literal, rdf:PlainLiteral
+- rdfs:Class, rdf:Property, rdfs:Resource, rdfs:Label, rdfs:Literal, rdf:PlainLiteral
 - rdf:type, rdf:langString, rdf:object, rdf:subject, rdf:language,
 - rdfs:domain, rdfs:range, rdfs:subClassOf, rdfs:subPropertyOf,
+- **rdfs:Datatype**  # local datatypes are defined and used for classification notations
 - **rdfs:isDefinedBy** # used to point to a resource or vocabulary that defines the subject resource.
 - **rdfs:comment** # used for giving a human readable label for a object URI
 - **rdfs:seeAlso**  # Used for addtional external documentation describing the instrument or   
@@ -91,7 +92,7 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 - skos:memberList  # currently not used
 
 #### Datatype properties:
-- **skos:notation**  #  Used for a alphanumeric label identifying e.g. a classification category. Not the same as identifier.
+- **skos:notation**  #  Used for a alphanumeric label identifying e.g. a classification category. Use specified local datatypes for classifications.
 
 #### Annotation properties:
 - **skos:altLabel** Used for all entry terms,  an language tag should be used to present the language if know. If not known, use "en" or "und"
@@ -198,6 +199,13 @@ seko:statusNote a owl:AnnotationProperty ;
                        "Change and its reason should be registered in a skos:editorialNote" ;
     dct:source  https://dd.eionet.europa.eu/vocabulary/datadictionary/status/view  .
 ```
+
+## Notation of Classifications 
+Two rdfs:Datatype entities were added to handle the notations: 
+- seko:HSNotation
+- seko:YKLNotation 
+Examples and discussion How they would be used are in the classification section.
+
 ## Concept minimum content
 For any concept the **minimum** set of properties is:
 - rdfs:type
