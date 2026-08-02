@@ -16,19 +16,6 @@ To help the Finnish GLAM network of libraries and museum collections to do music
 
 Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage.
 
-The project process is done in accordance with the Finnish expert group on music metadata (MUUSA).
-
-See also "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
-
-During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
-
-Specific information inside the current Seko instrument descriptions will be entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc.
-
-The dataset will consist of some 1200-1500 concepts of musical instruments and ensembles.
-The classification would be based on the MIMO dataset from 2011 and its addtions in 2018. 
-
-Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
-
 ### Documentation
 [Datamodel](datamodel/README.md)  
 [Masterdata structure](masterdata/README.md)  
@@ -46,6 +33,20 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - Networking, planning, documenting
 
 
+## Background
+
+The project process is done in accordance with the Finnish expert group on music metadata (MUUSA) which maintains the current Seko vocabulary.
+
+See also "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
+
+Specific spatial and cultural information inside the current Seko instrument descriptions will be entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc. and formed as definition and scope notes.
+
+The Seko dataset consist currently of some 1200-1300 concepts of musical instruments and ensembles.
+The classification would be based on the MIMO dataset from 2011 and its addtions in 2018. 
+
+Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
+
+
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
 - The hierarchy matches closely the Hornboschel-Sachs classification.
@@ -53,6 +54,9 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - See the separate [Datamodel](datamodel/README.md) description page.
 
 ## Mappings
+
+During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
+
 The [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) properties will be used to link to external sources. Preferrably with exactMatch, but also closeMatch, broadMatch and narrowMatch may be used when an exact match is not available.  
 
 Current plan is to map to Wikidata and  to an external authority file. Wikidata mapping would be considered mandatory. The existing LCMPT mappings are checked and their coverage extended.
@@ -60,6 +64,10 @@ Current plan is to map to Wikidata and  to an external authority file. Wikidata 
 - Secondary targets are  MIMO instrument vocabulary, Hornboschel-Sachs classification (maintained by MIMO), KOKO.
 - Other possible targets are Getty AAT (for instruments)
 - Links to other sources describing the instrument and to help in content description may be added with the `rdfs:seeAlso` property.
+
+## Classification
+
+- See the separate document on the use of [classifications](classification/README.md)   in the ontology
 
 ## Library data: BIBFRAME and MARC21
 
