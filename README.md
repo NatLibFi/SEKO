@@ -1,5 +1,5 @@
 # SEKO3
-Voluntary translation project of <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary.
+Voluntary project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into an service with a multilingual linked data ontology and classification.
 
 Project title: "SEKO3 – Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
 
@@ -12,7 +12,7 @@ Working titles for the service:
 - "Finnish Medium of Performance Ontology"
 
 ### Purpose
-To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels <b>skos:prefLabel</b> and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
 Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage.
 
@@ -22,10 +22,10 @@ See also "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentati
 
 During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
 
-Specific information in the Seko instrument descriptions will be entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc.
+Specific information inside the current Seko instrument descriptions will be entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc.
 
-The dataset will consist of some 1200-1300 concepts of musical instruments and ensembles.
-The classification would be based on the MIMO dataset which has 643 classes. 
+The dataset will consist of some 1200-1500 concepts of musical instruments and ensembles.
+The classification would be based on the MIMO dataset from 2011 and its addtions in 2018. 
 
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
@@ -39,32 +39,12 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 [Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version)  
 
 ## <a id="activities">Activites</a>
-### 2026-07
-**Week 30**
-- Created a sub-project folder for instrument [classification](classification/README.md).  Uploaded a combination of both MIMO and Leisiö versions to OpenRefine. Added also narrower, broader and instrument links.
-- Established a Github Project folder [SEKO3 project](https://github.com/orgs/NatLibFi/projects/62) to better manage the dozens of inssues and the project process. This will be under development for a while.
-- continued checking the classification table for missing translations and mismatched notations. Mapped instruments mentioned by Leisio to seko: concepts. For those missing, created an issue with a list of them.
-- started documenting the datamodel in a separate descriptive file (see the /datamodel folder) with the structure based on the YSO data model document.
-- set the license to the model as [https://creativecommons.org/licenses/by-nd/4.0/](https://creativecommons.org/licenses/by-nd/4.0/) due to it being work in progress.
-- continued working on the classification data. matching the addtional groups listed by Leisiö with the actual marking in the MIMO classification classes. Started finding translations for some of the labels.
-- Started looking more closely at funding options. Need to write a realistic project plan, estimates of duration and budget.
-- Created a separate list for [sources](./doc/sources.md) that would be referred in the data with `dct:source`. These could be sources for e.g. labels, definitions, spatial and temporal data. Added Finna URIs for printed sources used in the earlier version. Added finna: as a prefix.
-- Added more sources for the classification page. Noticed the nice visual browser at [https://www.hornbostelsachs.com/](https://www.hornbostelsachs.com/).  
-- Created v0.04 of the datamodel. Added ontology metadata. Created a new Top Concept seko:MediumOfPerformance with skos:narrower pointing to "instrument" and "performer". Documented deprecation idea in the model. Moved older notes to a separate file from this README.
-- Moved the wikidata sparql section from this page to [SEKO3 Wiki](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
-- Created a separate `./mapping/` folder for holding mapping files.  Mapped SEKO3 concepts with the YKL library classification classes under [78 MUSIC](http://urn.fi/URN:NBN:fi:au:ykl:78) for the **145 instruments** or ensembles that were mentioned in the classnames or as entry terms.  Added four new concepts to the SEKO3 masterdata table.(jousisoitinsyntetisaattori, sähkökontrabasso, laulaja, jodlaus).
-
-**Week 31**
-- **Plan:** write project plan and documentation, map funding options, networking, work on 5-10 issues, start implementing the [SEKO3 Project section]([https://github.com/NatLibFi/SEKO/projects](https://github.com/orgs/NatLibFi/projects/62)).
-- Completed translating all H-S class labels in Finnish (v.001).
-    - Data is still only in a local Openrefine, but was able to export a RDF file in turtle format.
-- Considered properties for "material" of instruments. Searched for vucabularies. Looked at the Musketti instructions and the Europeana Data Model and instrument metadata there.
-    - Created a folder "vocabulary" for a potential solution for any required lists of items (such as status codes and imstrument materials).  Created a demo vocabulary of "materials" with a AI-assistant based on data from Seko definitions.
-    - There might be a potential to add these into Metadata vocabulary for a more general use?
-- Tested using AI for finding language tags for undefined altLabels for an Indian instrument. Worked well and fast (labels were in hi,or,ta,gu,ml,mr,pa,sa). [#192](https://github.com/NatLibFi/SEKO/issues/192)
-- Worked on a group of several issues dealing with related animal horn instruments around the Baltic. [#118](https://github.com/NatLibFi/SEKO/issues/118)
-
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
+
+### 2026-08 AUGUST
+**Week 32**
+- Networking, planning, documenting
+
 
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
@@ -88,6 +68,11 @@ For content description purposes the appropriate concepts in SEKO3 could be mark
 
 In MARC21 data records the labels of SEKO concepts can be used in the [382 field](https://www.loc.gov/marc/bibliographic/bd382.html) and other fields.
 The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instrumentation.html) identifier for the vocabulary is "**seko**"  (subfield $2 value)
+
+## Museums and Archives
+- As the museums are already using KOKO ontology, one easy option would be to include SEKO3 to KOKO
+- As SEKO is not an YSO-based ontology. What would be needed to be able to be included in KOKO?
+- Archives - connections not known at the moment 
 
 ## Seko datasets
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
