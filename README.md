@@ -31,6 +31,7 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
 ### 2026-08 AUGUST
 **Week 32**
 - Networking, planning, documenting
+- Added a note on SEKO3-KOKO integration possibility to improve usability in GLAM-sector collections.
 
 
 ## Background
