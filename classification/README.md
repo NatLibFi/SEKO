@@ -101,6 +101,55 @@ sekogroup:1 a skos:Collection, skos-thes:ConceptGroup ;
 Note! MIMO classification scheme models the relationship from the classification class to the instruments in the other schema with skos:exactMatch. which might not be the correct way?
 Using groups and member: relationships might be a safer way.
 
+---
+## Using  specified notation types for classifications
+For groups - perhaps also with instruments
+
+#### Usage example 1:  for a group  
+```
+seko:h228 a skos:Concept , iso-thes:ConceptGroup ;
+    skos:inScheme seko:HSScheme ;
+    skos:notation "412"^^seko:HSNotation ;
+    skos-thes:superGroup seko:h226 ;
+    skos:exactMatch hornbostelandsachs:228 ;
+    skos:prefLabel "Yksinkertaiset kordofonit"@fi .
+```
+
+#### Usage example 2: for an instrument using Bibframe entities 
+**create an issue for this**
+
+The "standard" method is to use **dct:subject** for classifications.
+This is an ObjectType property, so cannot just enter a string.
+But we would need a way to express the class notation in the instrument UI
+There is no inverse property for marking the membership in the group directly
+but we can show the notation of the group. 
+
+```
+seko:00393 a skos:Concept, seko-meta:Instrument ;
+     dct:subject seko:h228 ;
+     bf:classification [
+              a bf:Classification ; 
+              bf:code "412.12"^^seko:HSNotation ; 
+              bf:source seko:HSScheme ; 
+              rdfs:seeAlso seko:h228 ;
+      ] ; .
+     bf:classification [
+              a bf:Classification ; 
+              bf:code "78.71"^^seko:YKLNotation ; 
+              bf:source <http://urn.fi/URN:NBN:fi:au:ykl:78.71> ; 
+      ] ; .
+```
+Can these layered structures be done on VocBench?
+Is there a simpler way? Would this work? 
+Needs to be tested on Skosmos/VocBench.
+This would seem to be much easier to accomplish in data entry design?
+```
+seko:00393
+    skos:notation  "412.12"^^seko:HSNotation, "78.71"^^seko:YKLNotation . 
+```
+
+---
+
 ## In case no Finnish language classification is accomplished
 Easy solution would be to create for each instrument of seko: concept scheme:
 - **skos:notation** for the H-S classification
