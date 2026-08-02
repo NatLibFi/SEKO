@@ -22,7 +22,7 @@ Tämä sanasto on optimoitu SKOS-standardin (Simple Knowledge Organization Syste
 | narrower class | alaluokka | **Subklass** | Luokkahierarkia |
 | Local | Paikallinen | **Lokal** | Alueellinen / Nimiavaruus |
 | External | Ulkoinen | **Extern** | Ulkopuolinen linkitys |
-| **Käyttöliittymistä ja kuvailusta puuttuneet SKOS-termit:** | | | |
+| Näistä käytetään tod.näk. Skosmos oletusarvoja | | | |
 | Preferred label | Suositettava termi | **Föredragen term** | `skos:prefLabel` |
 | Alternative label | Vaihtoehtoinen termi | **Alternativ term** | `skos:altLabel` |
 | Hidden label | Piilotettu termi | **Dold term** | `skos:hiddenLabel` |
