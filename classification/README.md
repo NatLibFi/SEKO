@@ -29,19 +29,64 @@ The original German version of the classification was translated into Finnish an
 Consider including Hornbostel-Sachs classification as a separate scheme in seko:
 
 Best option would seem to create a new translation in Finnish based on the MIMO version of the classification. 
-Basic terminology would be the same as with Leisiö, but many of the descriptions have been expanded and there was an effor to decrease of the 1914 German cultural skewness. (e.g. removing "eskimoes and negroes".
+Basic terminology would be the same as with Leisiö, but many of the descriptions have been expanded and there was an effort to decrease of the 1914 German cultural skewness. (e.g. removing "eskimoes and negroes").
 
-Another option would be label the groups as "Instrument families" with the more general termonology used by MIMO Cllections
-[instrument families](https://mimo-international.com/MIMO/instrument-families.aspx) - these are in principla the H-S classes but without the notations.
-- Wind instruments
-- Percussion instruments
-- Stringed instruments
-- Elements of musical instruments
+Another option would be label the groups as "Instrument families" with more general terms used by MIMO Collections
+[instrument families](https://mimo-international.com/MIMO/instrument-families.aspx) (these are in principle the H-S classes but without the notations).  Remember that these often cover only "Western music" instruments while H-S tries to cover everything.  See also https://en.wikipedia.org/wiki/Organology
+- Wind instruments 
+- Percussion instruments 
+- Stringed instruments 
 - Keyboard instruments
 - Mechanical instruments
 - Other instruments
 - Mirlitons
-- Electronic instruments
+- Electronic instruments 
+- Elements of musical instruments (excluded, as these are not medium of performance)
+- Instruments that may be outside the classification (Other)  - probably not in Seko?
+  - Hydraulophones (sound from matter in linquid state)
+  - Plasmaphones (sound from matter in higher energy states, such as plasma to produce initial sound)
+  - Non-electric quintephones (computational non-electric musical instruments, mechanical, optical etc.)
+
+ One optional solution could be to use these as a "type" subClasses of seko:Instrument
+
+ ---
+ Source: [VT: Musicdictionary (archived)](https://web.archive.org/web/20031224225631/http://www.music.vt.edu/musicdictionary/appendix/instruments/instrumentmain.html)
+- Aerophones (Wind instruments)
+    - Woodwinds
+        - Free Aerophones
+        - Flutes (air column split by lip or the instrument)
+        - Reedpipes (vibration of reeds)
+    - Brass
+        - Lip-vibrated Aerophones
+- Chordophones (Stringed instruments - vibrating strings)
+    - Keyboard
+        - Keyboard Chordophones (Clafichords, Pianos, Harpsihcords, Organs (aerophones), Free aerophones
+    - Strings (Plucked & Bowed)
+        - Zithers
+        - Lyres
+        - Harps
+        - Lutes
+        - Bowed Chordophones
+ - Idiophones (vibrating instruments)
+    - Concussion Idiophones
+    - Percussion Idiophones
+    - Shaken Idiophones
+    - Scraped Idiophones
+    - Split Idiophones
+    - Plucked Idiophones
+    - Friction Idiophones
+- Membraonphones (vibrating membrane)
+    - Predrum Membranophones
+    - Tubular Drums
+    - Kettledrums
+    - Friction Drums
+    - Mirliton
+- Electrophones (Electronically Created Sounds)
+    - Synthesizers
+- Idiophones & Membranophones  (another way to group these)
+    - Tuned Percussion
+    - Untuned Percussion
+    - Auxillary Percussion
 
 ### Preliminary activities and preparation
 - Both the Leisiö 2010 and Hornbostel Sachs 2011 data (via MODAVIS) have been loaded into a single OpenRefine dataset for further comparisons and possibly a new Finnish translation. The loaded dataset has the MIMO ID values which, with the hornbostelsachs: namespace, would be the mappings to MIMO.
