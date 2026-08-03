@@ -1,0 +1,360 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-thes: <https://www.dublincore.org/specifications/skos-thes/ns/#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+#
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix finna: <https://www.finna.fi/Record/> .
+@prefix lcmpt: <http://id.loc.gov/authorities/performanceMediums/> .
+@prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> .
+@prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix schema: <http://schema.org/>  .
+@prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
+@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .
+@prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
+@prefix yso: <http://www.yso.fi/onto/yso/> .
+
+### Vocabulary metadata - https://dgarijo.github.io/Widoco/doc/bestPractices/index-en.html
+
+seko: a owl:Ontology , skos:ConceptScheme ;
+  rdfs:label "SEKO3 - esityskokoonpano-ontologia"@fi ,
+             "SEKO3 - ontologi för uppsättning för framförande"@sv ,
+             "SEKO3 - ontology for medium of performance"@en ;
+  dc:creator <http://www.wikidata.org/entity/Q95592946> ;       # Jarmo Saarikko
+  dct:contributor  <http://www.wikidata.org/entity/Q95592946>,  # Jarmo Saarikko
+                   <https://www.wikidata.org/wiki/Q109126095> ; # MUUSA
+  dct:mediator <http://www.wikidata.org/entity/Q420747> ;       # Kansalliskirjasto 
+  dc:publisher <http://www.wikidata.org/entity/Q420747> ;
+  dc:source "SEKO ontology is based on the Finnish monolingual Seko vocabulary"@en ;
+  dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+  dct:description """
+         The Finnish ontology of medium of performance is a trilingual ontology consisting of 
+         musical instruments and ensembles. SEKO has been founded on the previous monolingual 
+         vocabulary created by the LUUMU and later by the MUUSA expert groups on music metadata.
+         The new ontology is aimed for the whole GLAM sector to be used for content description of 
+         music related materials. The data is now more structured and mapped with several
+         several major sources like Wikidata, LCMPT and MIMO vocabularies.  
+         In library systems with MARC21 the terms can be used in fields 382, 511 etc. 
+         The labels are expressed mainly in the singular form, except for groups.
+         A Finnish translation of the Hornbostel-Sachs classification will be added
+         as a secondary grouping and hierarchy for easier browsing and discovery.
+         Non-hierarchical groupings such as 'folk instruments' may be added later.
+         Spatial information is expressed using mainly the YSO places ontology.
+  """ ;
+  dc:title "SEKO3 - esityskokoonpano-ontologia"@fi ,
+           "SEKO3 - ontologi för uppsättning för framförande"@sv ,
+           "SEKO3 - ontology for medium of performance"@en ;
+  dc:identifier <http://urn.fi/urn:nbn:fi:au:seko:> ,
+                <http://www.wikidata.org/entity/Q106573395> ,
+                <http://id.loc.gov/vocabulary/musiccodeschemes/seko> ;
+  dct:language <http://id.loc.gov/vocabulary/iso639-1/fi>,
+             <http://id.loc.gov/vocabulary/iso639-1/sv>,
+             <http://id.loc.gov/vocabulary/iso639-1/en> ;
+  dct:subject   <http://www.yso.fi/onto/yso/p1808> ;  # musiikki
+  foaf:homepage <https://github.com/NatLibFi/SEKO/> ;
+  skos:hasTopConcept seko:MediumOfPerformance ;
+  dct:relation  mimo:, lcmpt: ;                
+  dct:created "2026-06-23"^^xsd:date  ;
+# dct:issued "2026-06-23"^^xsd:date ;
+  dct:modified "2026-08-03"^^xsd:date ; 
+  owl:versionInfo "0.07" ;
+  dct:comment "v0.07 - added Swedish labels. Used id.kb.se/vocab as main source." ;
+.
+  
+### Vocabulary Classes and properties (for Finnish labels) 
+### NOTE: Add the Swedish labels, too! 
+
+### LUOKKAMÄÄRITTELYT (CLASSES)
+
+skos:ConceptScheme a owl:Class ;
+    rdfs:label "Sanasto / Käsitejärjestelmä"@fi , "Konceptsystem"@sv, "Concept Scheme"@en .
+
+skos:Concept a owl:Class ;
+    rdfs:label "Musiikkikäsite"@fi , "Musikkoncept"@sv, "Music related Concept"@en .
+
+skos:Collection a owl:Class ;
+    rdfs:label "Kokoelma tai ryhmittely"@fi ,
+               "Samling eller gruppning"@sv, 
+               "Collection or grouping"@en .
+
+foaf:Agent a rdfs:Class ;
+   rdfs:comment "Kuka tahansa osallistuva toimija."@fi, 
+                "Vilkenhelst deltagande agent."@sv, 
+                "Any type of agent contributing or participating."@en .
+
+
+### OMINAISUUDET - EGENSKAPER - PROPERTIES 
+
+# The Ontology uses the basic SKOS-properties like: 
+# skos:prefLabel, skos:altLabel, skos:hiddenLabel
+# skos:definition, skos:scopeNote, skos:editorialNote, skos:changeNote, skos:notation 
+# skos:narrower, skos:member , skos:broader , skos:narrower, skos:inScheme 
+# dct:created, dct:modified 
+
+### ARVOTYYPPIOMINAISUUDET - DATATYPEGENSKAPER (OWL DATATYPE PROPERTIES - Literaalit ja merkkijonot)
+
+skos:definition 
+    rdfs:label   "määritelmä"@fi , "definition"@sv, "definition"@en ;
+    rdfs:comment "Käytetään organologisen ja fyysisen rakenteen kuvaamiseen."@fi ,
+                 "Används för att beskriva organologisk och fysisk struktur."@sv ,
+                 "Used for describing organological and physical structure."@en .
+
+skos:scopeNote 
+    rdfs:label "käyttöhuomautus"@fi, "anmärkning om användning"@sv, "scope note"@en ;
+    rdfs:comment "Käytetään käsitteen kulttuurisen ja musiikillisen merkityksen selventämiseen tai käytön kuvaamiseen."@fi ,
+                 "Information som förtydligar betydelsen av och/eller användningen av ett musikbegrepp."@sv ,
+                 "Used here for describing cultural and musical importance or usage environment."@en .
+
+skos:changeNote 
+    rdfs:label "muutoshuomautus"@fi, "anmärkning om ändring"@sv, "change note"@en ;
+    rdfs:comment "Muutoshuomatukseen liitetään joko linkki muutoksen käsittelyn issueeseen tai päiväys ja selostus muutoksesta."@fi ,
+                 "In change notes mark a date and a note of an issue where the change was handled with format [sekoissues:nnn] and a short explanation."@en .
+
+skos:notation 
+    rdfs:label "notaatio"@fi, "notation"@sv, "notation"@en ;
+    rdfs:comment "Käytetään Hornbostel-Sachs-soitinluokituksen notaatio ja datatyyppi (esim. '111.24'^^seko-meta:HSNotation)."@fi ,
+                 "Används för notation av Hornbostel-Sachs instrumentklassificering (t.ex. '111.24'^^seko-meta:Notation)"@sv ,
+                 "Used for Hornbostel-Sachs instrument classifcation notation (e.g. '111.24'^^seko-meta:HSNotation)"@en .
+skos:note
+    rdfs:label "huomautus"@fi, "anmärkning"@sv, "note"@en ;
+    rdfs:comment "Mikä tahans muu lyhyt huomautus."@fi ,
+                 "Allmän textinformation om en resurs"@sv,
+                 "Any other short comments about the element."@en .
+
+dct:identifier 
+    rdfs:label "tunniste"@fi , "identifikator"@sv, "identifier"@en ;
+    rdfs:comment "Käsitteen uniikki paikallinen tai globaali pysyvä tunniste."@fi ,
+                 "Unik lokal eller global permanent indentifikator knuten till en resurs."@sv ,
+                 "Unique local or global permanent identifier of the concept."@en .  
+
+owl:deprecated 
+    rdfs:label "poistettu käytöstä"@fi , "föråldrad koncept"@sv, "is deprecated"@en ;
+    rdfs:comment "Value is true for deprecated concepts."@en, "Värdet är TRUE för föråldrade koncept."@sv ;
+    rdfs:domain skos:Concept, skos:ConceptGroup ; 
+    rdfs:range xsd:boolean .
+
+### OLIOMINAISUUDET (OWL OBJECT PROPERTIES - URI-viittaukset ja resurssit)
+
+dct:subject 
+    rdfs:label "aihe tai luokitus"@fi , "ämne eller kassificering"@sv, "subject or classification"@en ;
+    rdfs:comment "Käytä aiheen (esim. YSO) tai luokan (esim. Hornbostel-Sachs) URI -tunnistetta"@fi , 
+                 "Använd en URI för ett ämne eller en klassificering"@sv ,
+                 "Use an URI for a subject or classification"@en ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range rdfs:Resource .
+
+dct:spatial 
+    rdfs:label "maantieteellinen koodi"@fi , "geografisk täckning"@sv,  "spatial coverage"@en ;
+    rdfs:comment "Soittimen maantieteellinen alkuperämaa tai käyttöalue YSO-paikat URI viittauksena."@fi ,
+                 "Geografisk täckning avseende resursen, använd en ALLFO-orter URI." ,
+                 "The URI for a country or region of provenance or usage of the instrument (use YSO places)."@en ;
+    rdfs:domain skos:Concept, skos-thes:ThesaurusArray ; 
+    rdfs:range rdfs:Resource .
+
+dct:creator 
+    rdfs:label "soittimen luoja"@fi, "musikinstrumentets skapare"@sv, "creator of the music instrument"@en ;
+    rdfs:comment "käytä tunnistetta esim. Wikidatasta"@fi, "Använd en identifikator"@sv, "Use and identifier"@en ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range foaf:Agent .
+
+adms:status 
+    rdfs:label "elinkaaren tila"@fi , "livcykels status"@sv, "life-cycle status"@en ;
+    rdfs:comment 
+              "Käsitteen hallinnollinen tai toimituksellinen tila. Käytetään arvolistan URI arvoa."@fi ,
+              "Administrativ eller redaktionell status för konceptet. En värdelista URI används."@sv ,
+              "Administrative or editorial status of the concept. Use a value vocabulary URI."@fi ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range rdfs:Resource ;  #  example <http://metadataregistry.org/uri/RegStatus/>
+    skos:note "See also seko:statusNote - an annotation property better suited for this purpose."@en .
+
+dct:isReplacedBy 
+    rdfs:label "korvaava käsite"@fi , "ersatt av"@sv, "is replaced by"@en ;
+    rdfs:comment "Osoittaa käsitteen, joka korvaa käytöstä poistetun tai virheellisen käsitteen."@fi ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range skos:Concept ;
+    owl:inverseOf dct:replaces .
+
+# dct:replaces
+#    rdfs:label "korvattu käsite"@fi, "ersätter"@sv, "replaces"@en ;
+#    rdfs:comment "Osoittaa käsitteen, joka on korvattu, poistettu käytöstä tai on virheellinen."@fi ;
+#    rdfs:domain skos:Concept ; 
+#    rdfs:range skos:Concept ;
+#    owl:inverseOf dct:isReplacedBy ;
+#    .
+
+
+skos:member 
+    rdfs:label "ryhmän jäsen"@fi, "har medlem"@sv, "has member" @en ;
+    rdfs:comment "Relates a collection to one of its members."@en ;
+    rdfs:domains skos:Collection ;
+    rdfs:ranges skos:Concept , skos:Collection .
+
+skos:related 
+    rdfs:label "lähikäsite"@fi , "relaterad koncept"@sv, "related concept"@en ;
+    rdfs:comment "Yhdistää käsitteet, jotka liittyvät toisiinsa assosiatiivisesti tai jotka luetteloinnissa sekoitetaan herkästi keskenään."@fi ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range skos:Concept .
+
+skos:exactMatch 
+    rdfs:label "tarkka vastaavuus"@fi ,"exakt match"@sv,  "exact match"@en ;
+    rdfs:comment "Tarkka vastaavuus muihin sanastoihin (kuten YSO, Wikidata, MIMO, LCMPT)."@fi ,
+                 "Exakt matchning med andra vokabulär (som YSO, Wikidata, MIMO, LCMPT)."@sv ,
+                 "Exact match to other vocabularies (such as YSO, Wikidata, MIMO, LCMPT)."@en ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range rdfs:Resource .
+
+skos:closeMatch a owl:ObjectProperty ;
+    rdfs:label "läheinen vastaavuus"@fi , "nära match"@sv, "close match"@en ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range rdfs:Resource .
+
+skos:broadMatch a owl:ObjectProperty ;
+    rdfs:label "laajempi vastaavuus"@fi , "bredare match"@sv, "broad match"@en ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range rdfs:Resource .
+
+rdfs:seeAlso a owl:ObjectProperty ;
+    rdfs:label "katso myös"@fi , "se även"@sv, "see also"@en ;
+    rdfs:comment "Viittaukset ulkoiseen dokumentaatioon tai kuvauksiin tietokannoissa URI-muodossa."@fi ,
+                 "Referenser till extern dokumentation eller beskrivningar i databaser i URI-format."@sv ,
+                 "References to external documentation or descriptions in databases in URI format."@en ;
+    rdfs:domain skos:Concept ; 
+    rdfs:range rdfs:Resource .
+
+### SKOS-THES classes and properties
+### Documentation http://purl.org/iso25964/skos-thes 
+
+skos-thes:ConceptGroup a skos:Collection ;
+     rdfs:comment 
+     "SEKO3:ssa tätä luokkaa käytetään soitinluokitusten näyttämiseen."@fi ,
+     "SEKO3 använder den här klassen för att visa instrumentklassificering."@sv ,
+     "SEKO3 uses this class to display instrument classifications."@en ;
+     owl:disjointWith skos-thes:ThesaurusArray .
+
+skos-thes:superGroup  a rdfs:ObjectProperty ;
+    rdfs:Label "broader class"@en, "yläluokka"@fi, "överordnad klass"@sv ;
+    rdfs:comment "All members of the (subject) group are members of the (object) superGroup."@en ;
+    rdfs:domain skos-thes:ConceptGroup ;
+    rdfs:range skos-thes:ConceptGroup  .
+
+skos-thes:subGroup  a rdfs:ObjectProperty ;
+    rdfs:Label "alaluokka"@fi, "narrower class"@en , "underordnad klass"@sv ;
+    rdfs:comment "All members of the (object) subGroup are members of the (subject) group."@en ;
+    rdfs:domain skos-thes:ConceptGroup ;
+    rdfs:range skos-thes:ConceptGroup .
+
+### Local classes and concepts for seko: ontology  
+seko:sekoHS a skos:ConceptScheme ;
+    rdfs:Label "Hornbostel-Sachs soitinluokittelu"@fi , 
+                "Hornbostel-Sachs klassificering"@sv, 
+                "Hornbostel-Sachs classification"@en ;
+    rdfs:comment "sekoHS: classes (seko:ConceptGroup collections) are the members of this scheme"@en .
+
+ seko:MediumOfPeformance a skos:Concept ;   
+    skos:inScheme seko: ;
+    skos:topConceptOf seko: ;
+    skos:prefLabel "Esityskokoonpano"@fi , "Medium of performance"@en , "Uppsättning för framförande"@sv;
+    rdfs:label "Medium of performance"@en ;  
+    skos:narrower seko:00953 , seko:01225 ; #  soitin, esiintyjä
+    skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MediumOfPerformance> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q617028> ;    
+    skos:definition "An individual instrument, voice, ensemble, or instrumental group (Bibframe)"@en ,
+                     "Mikä tahansa soitin, ääni, kokoonpano tai yhtye musiikin esittämiseen."@en .
+
+seko:MusicInstrument a skos:Concept ;  
+   skos:prefLabel "Soitin"@fi, "Music instrument"@en , "Musikinstrument"@sv ;
+   rdfs:label "Music instrument"@en ;
+   skos:broader seko:MediumOfPerformance ;
+   skos:definition   "Instrument for which a musical work is appropriate (Bibframe)"@en ,
+                     "Soitin, jolla voidaan esittää musiikkiteos."@en ;
+   skos:exactMatch yso:p7110 ;   # "soitin"
+   skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicInstrument> ,
+                   <https://id.kb.se/vocab/MusicInstrument> ;   
+   skos:closeMatch <http://www.wikidata.org/entity/Q34379> ;
+   skos:closeMatch <http://id.loc.gov/authorities/performanceMediums/mp2013015354> .  #  instrument
+
+seko:MusicEnsemble a skos:Concept ;   
+   skos:prefLabel "Ensemble"@fi, "Music ensemble"@en , "Musiknsemble"@sv;  
+   rdfs:label "Music ensemble"@en ;
+   skos:broader seko:MediumOfPerformance ;
+   skos:definition "Ensemble for which a musical work is appropriate (Bibframe)"@en ,  
+                   "Yhden tai useamman soittimen tai esiintyjän kokoonpano, joka voi esittää musiikkia."@en ;  
+   skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicEnsemble> ,   
+                   <https://id.kb.se/vocab/MusicEnsemble> ;
+   skos:closeMatch  <https://schema.org/MusicGroup> . 
+
+
+###  Local properties and datatypes
+
+seko:statusNote a owl:AnnotationProperty ;
+    rdfs:subPropertyOf skos:note ;
+    rdfs:label "Seko-käsitteen elinkaaren tila"@fi , 
+               "Seko-konsept livcykelstatus"@sv, 
+               "Seko concept life-cycle status"@en ;
+    rdfs:range rdfs:Literal ;
+    rdfs:domain rdfs:Resource ;
+    skos:definition "An annotation note intended strictly for Seko internal use."@en ;
+    skos:scopeNote "Select value from a value vocabulary or one of submitted, accepted, valid, deprecated, superceded, retired" ;
+    skos:editorialNote "Only one value per record at any time.",
+                       "Change and its reason whould be registered in a skos:editorialNote" ;
+    dct:source  <https://dd.eionet.europa.eu/vocabulary/datadictionary/status/view>  .
+
+seko:HSNotation a rdfs:Datatype ;
+    rdfs:label   "Hornbostel–Sachs notation"@en ;
+    rdfs:comment "Datatype for classification codes from the Hornbostel–Sachs system, e.g. '412.12'^^HSNotation."@en ;
+    dct:source  <http://www.mimo-db.eu/HornbostelAndSachs#> ;
+    rdfs:seeAlso  <https://en.wikipedia.org/wiki/Hornbostel%E2%80%93Sachs> .
+
+seko:YKLNotation a rdfs:Datatype ;
+    rdfs:label   "YKL - Yleisten kirjastojen luokitusjärjestelmä"@fi,
+                 "PLC - Finnish Public Libraries Classification System"@en, 
+                 "KAB - Allmänna bibliotekens klassifikationssystem"@sv ;
+    rdfs:comment "Datatype for classification codes from YKL, e.g. '78.71'^^YKLNotation."@en ;
+    dct:source   <http://urn.fi/URN:NBN:fi:au:ykl:> ;
+    rdfs:seeAlso  <https://www.kiwi.fi/spaces/Finto/pages/186484590/YKL+Ohjeet> .
+
+#
+
+###  Experimental - classes and properties for knowledge graph development 
+###
+###  e.g. Music Ontology (2007) https://motools.sourceforge.net/doc/musicontology.html
+###  e.g. https://performedmusicontology.org/ -- Performed Music Ontology 2.0 
+###  and https://performedmusicontology.org/vocabularies/ensemble_size/PMOEnsembleSize.html
+###  - An extension of the BIBFRAME ontology for describing performed music, both for mainstream and archival performed music collections. Part of these have been included into Bibframe 3.0
+###  e.g. from Bibframe  bf:Ensemble, bf:MusicEnsemble, bf:MusicVoice, bf:MusicInstrument
+
+### Concept schemes in the ontology
+### 
+
+
+### deprecation of concepts by moving them to a separate concept schem 
+seko:deprecatedconceptscheme a skos:ConceptScheme ;
+    dc:title "Deprekoidut käsitteet"@fi, "Deprecated concepts"@en ;
+    dc:description "Deprecated concepts are kept in the dataset but have skos:inScheme skos:deprecatedconceptscheme."@en ;
+    skos:hasTopConcept seko:deprecatedConcepts ;
+    rdfs:Label "Deprecated concepts" .
+
+seko:deprecatedConcepts a skos:Concept ;
+    skos:inScheme seko:deprecatedconceptscheme ;
+    skos:topConceptOf seko:deprecatedconceptscheme ;
+    skos:prefLabel "Deprecated concept"@en, "Poistettu käsite"@fi ;
+    owl:deprecated true ;
+    rdfs:comment """
+        Set 'skos:broader seko:deprecatedConcepts ;' for all deprecated concepts.
+        Set 'skos:inScheme seko:deprecatedconceptscheme ;' for all deprecated concepts.  
+        Set 'dct:isReplacedBy seko:NNNNN ;' to redirect to an existing concept. 
+        Set skos:historyNote with a value 'Deprecated on YYYY-MM-DD'.
+        """ ; .
+
