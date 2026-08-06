@@ -29,10 +29,15 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
 ### 2026-08 AUGUST
-**Week 32**
-- Networking, planning, documenting
+**Week 32** - Networking, planning, documenting
 - Added a note on SEKO3-KOKO integration possibility to improve usability in GLAM-sector collections.
-
+- Emall exchange started with MUUSA, the MIMO network, the National Library and the Music Archive. Received the original full MIMO vocabulary files. Registered for the MIMO General Annual Meeting in Riga, 9-10 Sepetember which has a presentation on Vocabularies.
+- Studied the Leisiö dissertation in 1983 and made a table of the 120 instrumnent "types" listed, as well as the 120 instruments describe by Minna Hokka website.
+    - These will be mapped together into a single file, and also mapped to Seko. Their classification is close to H-S so mapping to it would be done, too.
+    - Probably at least 60 fo these instruments are not in the current Seko.
+    - Probably these listtings would be added to the SEKO3 Wiki under [03 Research notes](https://github.com/NatLibFi/SEKO/wiki/03-Research-notes) - now there are "placeholder" lists only.
+    - Finding and adding the most used alternative labels would require deeper research into Leisiö's book which has an extensive index of instrument labels and an organological section, too. Filter to only those that are actually used in publications and collections.
+- Contined working on a concise project plan and timetable. Current estimate for a timespan is 24 moonths to complete the different plans and to get quality assurance by music metadata specialists.
 
 ## Background
 
