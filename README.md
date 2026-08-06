@@ -14,7 +14,7 @@ Working titles for the service:
 ### Purpose
 To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage.
+Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform SEKO3 from a general medium-of-performance vocabulary to be also the definitive linked-data reference for Finnish and Karelian organology — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
