@@ -96,6 +96,7 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 - SEKO3 is hierarchical and trilingual. What else would be needed to be able to include SEKO3 in KOKO?
 - Content description in Finnish Museums: https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
     - Museovirasto 2015: [Suositus museoille ontologioiden,  luokitusjärjestelmien ja asiasanastojen käytöstä  versio 2.0](https://museovirasto-craft-assets-production.s3.eu-north-1.amazonaws.com/Arkisto-ja-kokoelmapalvelut/Julkaisut/suositus-museoille-2015.pdf)
+    - _**Suositus:** Ontologioita suositellaan käytettävän ensisijaisina välineinä museoiden objektien kuvailussa. Keskeisin objektien kuvailussa käytettävä ontologia on suomalaisia ontologioita yhdistävä KOKO-yleiskäsiteontologia ... KOKOn ohella voidaan käyttää myös muita ontologioita._
 
 ### Music archives
    - connections not known at the moment. Check Finna-LIDO import rules. 
