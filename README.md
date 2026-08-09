@@ -49,15 +49,15 @@ Specific spatial and cultural information inside the current Seko instrument des
 
 The Seko dataset consist currently of some 1200-1300 concepts of musical instruments and ensembles.
 The classification would be based on the MIMO dataset from 2011 and its addtions in 2018. 
-
+]
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
 ## Datasets
-The data is is comprised ow three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  First, the current dataset of Seco of 1241 titles. Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching. Third, expand the vocabulary with the major Finnish-Karelian traditional instruments that are not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications.
+The data is is comprised ow three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  First, the current dataset of Seco of 1241 titles. Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching. Third, expand the vocabulary with the major Finnish-Karelian traditional instruments that are not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications. It might also be possible develop this separately. 
 
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
-- The hierarchy matches closely the Hornboschel-Sachs classification by MIMO.
+- The hierarchy matches closeoly the Hornboschel-Sachs classification by MIMO.
 - The datamodel will be documented in SKOS turtle format.
 - See the separate [Datamodel](datamodel/README.md) description page.
 
@@ -97,6 +97,7 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 - Content description in Finnish Museums: https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
     - Museovirasto 2015: [Suositus museoille ontologioiden,  luokitusjärjestelmien ja asiasanastojen käytöstä  versio 2.0](https://museovirasto-craft-assets-production.s3.eu-north-1.amazonaws.com/Arkisto-ja-kokoelmapalvelut/Julkaisut/suositus-museoille-2015.pdf)
     - _**Suositus:** Ontologioita suositellaan käytettävän ensisijaisina välineinä museoiden objektien kuvailussa. Keskeisin objektien kuvailussa käytettävä ontologia on suomalaisia ontologioita yhdistävä KOKO-yleiskäsiteontologia ... KOKOn ohella voidaan käyttää myös muita ontologioita._
+    - **Suositus:** Suositeltavaa on käyttää laajasti käytettyjä ja tunnettuja **kansainvälisiä luokitusjärjestelmiä**.  Classification systems mentioned: Outline of Cultural materials (OCM), Iconclass - also on [finto.fi](http://iconclass.org/48C7), IPTC NewsCodes: Subject Codes (for photographs) - all preferrably in ontologized versions. 
 
 ### Music archives
    - connections not known at the moment. Check Finna-LIDO import rules. 
