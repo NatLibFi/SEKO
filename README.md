@@ -39,6 +39,10 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
     - Finding and adding the most used alternative labels would require deeper research into Leisiö's book which has an extensive index of instrument labels and an organological section, too. Filter to only those that are actually used in publications and collections.
 - Contined working on a concise project plan and timetable. Current estimate for a timespan is 24 moonths to complete the different plans and to get quality assurance by music metadata specialists.
 - Mapped matching instrument Iconclass classes to Masterdata table with finto.fi url:s.
+- Started re-defining the scope of the project to three distinct work packages:
+    -  Seko translation, concept mapping and re-structuring to support interoperability and linked data,
+    -  Classification translation and class mapping to Seko instruments to support discovery and science,
+    -  Extending with the traditional instruments to support the cultural heritage work at museums and archives.
 
 ## Background
 
