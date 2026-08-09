@@ -109,7 +109,8 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 The source data is is comprised of three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  
 - First, the current dataset of Seko of 1241 titles.
 - Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching.
-- Third, a vocabulary of the major Finnish-Karelian traditional instruments, many of them not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications and some of them available through finna.fi and Europeana. It might also be possible to develop this separately as an ontology of folk instruments of the peoples speaking [Finnic languages](https://en.wikipedia.org/wiki/Finnic_languages). 
+- Third, a vocabulary of the Finnish-Karelian traditional instruments, many of them not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications and some of them available through finna.fi and Europeana.
+    - Outside of the scope, but it might also be possible to develop this separately as an ontology of folk instruments of the peoples speaking [Finnic languages](https://en.wikipedia.org/wiki/Finnic_languages) or even a Scandinavian-Baltic-Finnic folk instrument ontology, which might be a valuable resource for research and collections.
 
 ### Seko data
 
