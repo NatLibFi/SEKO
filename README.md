@@ -38,6 +38,7 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
     - Probably these listtings would be added to the SEKO3 Wiki under [03 Research notes](https://github.com/NatLibFi/SEKO/wiki/03-Research-notes) - now there are "placeholder" lists only.
     - Finding and adding the most used alternative labels would require deeper research into Leisiö's book which has an extensive index of instrument labels and an organological section, too. Filter to only those that are actually used in publications and collections.
 - Contined working on a concise project plan and timetable. Current estimate for a timespan is 24 moonths to complete the different plans and to get quality assurance by music metadata specialists.
+- Mapped matching instrument Iconclass classes to Masterdata table with finto.fi url:s.
 
 ## Background
 
