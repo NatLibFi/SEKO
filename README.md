@@ -53,9 +53,6 @@ The classification would be based on the MIMO dataset from 2011 and its addtions
 ]
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
-## Datasets
-The source data is is comprised of three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  First, the current dataset of Seco of 1241 titles. Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching. Third, expand the vocabulary with the major Finnish-Karelian traditional instruments that are not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications. It might also be possible develop this separately like an ontology of folk instruments of Baltic-Finnic peoples. 
-
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
 - The hierarchy matches closeoly the Hornboschel-Sachs classification by MIMO.
@@ -103,7 +100,14 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 ### Music archives
    - connections not known at the moment. Check Finna-LIDO import rules. 
 
-## Seko datasets
+## Data
+
+The source data is is comprised of three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  
+- First, the current dataset of Seko of 1241 titles.
+- Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching.
+- Third, a vocabulary of the major Finnish-Karelian traditional instruments, many of them not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications and some of them available through finna.fi and Europeana. It might also be possible to develop this separately as an ontology of folk instruments of the peoples speaking [Finnic languages](https://en.wikipedia.org/wiki/Finnic_languages). 
+
+### Seko data
 
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
 * As of 2026-06 the original dataset is maintained as MARC21 Authority files on the national metadata repository Melinda (ALEPH library system) hosted by the National Library of Finland. The data is transformed and exported in SKOS format (RDF) to Finto-data repository at https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko. This data is browsable through the Finto service https://finto.fi/seko/en/ (a Skosmos syste,). The latest changes to the data were committed in 2021-09-28 and the metadata of the whole dataset was updated in 2025-05-21. 
