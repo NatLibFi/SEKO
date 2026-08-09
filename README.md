@@ -52,20 +52,22 @@ The classification would be based on the MIMO dataset from 2011 and its addtions
 
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
+## Datasets
+The data is is comprised ow three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  First, the current dataset of Seco of 1241 titles. Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching. Third, expand the vocabulary with the major Finnish-Karelian traditional instruments that are not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications.
 
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
-- The hierarchy matches closely the Hornboschel-Sachs classification.
+- The hierarchy matches closely the Hornboschel-Sachs classification by MIMO.
 - The datamodel will be documented in SKOS turtle format.
 - See the separate [Datamodel](datamodel/README.md) description page.
 
 ## Mappings
 
-During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
+During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. To support mappings, see also other identifiers in Wikidata  <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
 
 The [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) properties will be used to link to external sources. Preferrably with exactMatch, but also closeMatch, broadMatch and narrowMatch may be used when an exact match is not available.  
 
-Current plan is to map to Wikidata and  to an external authority file. Wikidata mapping would be considered mandatory. The existing LCMPT mappings are checked and their coverage extended.
+Current plan is to map to Wikidata and  to an external authority file. Wikidata mapping would be considered **mandatory**. The existing LCMPT mappings are checked and their coverage extended. Possibly map to any vocabulary that Finnish music archives and museums are currently using.
 - Primary targets are Wikidata, LCMPT, YSO
 - Secondary targets are  MIMO instrument vocabulary, Hornboschel-Sachs classification (maintained by MIMO), KOKO.
 - Other possible targets are Getty AAT (for instruments)
