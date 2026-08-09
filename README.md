@@ -94,6 +94,7 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 - SEKO3 masterdata-table is already mapped to YSO-concepts. Thus it could be considered an "YSO-based ontology".
     - The Top Concept "esityskokoonpano" is currently not in YSO, BUT the two second level concepts are mapped: yso:p7110 "soittimet", yso:p1289 "esittäjät"
 - SEKO3 is hierarchical and trilingual. What else would be needed to be able to include SEKO3 in KOKO?
+- Content description in Finnish Museums: https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
 
 ### Music archives
    - connections not known at the moment. Check Finna-LIDO import rules. 
