@@ -45,8 +45,9 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
     -  Seko translation, concept mapping and re-structuring to support interoperability and linked data,
     -  Classification translation and class mapping to Seko instruments to support discovery and science,
     -  Extending with the traditional instruments to support the cultural heritage work at museums and archives.
-- Images of instruments could be linked from the concept with a property like schema:image or foaf:depiction or wdt:P18.
-    - Possibla image sources finna.fi or wikimedia commons.  Automatic without manually mapping images: through wikipedia pages or wikidata items?
+- Images of instruments could be linked from the concepts with a property like schema:image or foaf:depiction or wdt:P18.
+    - Possible image sources finna.fi or wikimedia commons. However, an easier approach would be just map with seeAlso to pages that include images?
+
 
 ## Background
 
