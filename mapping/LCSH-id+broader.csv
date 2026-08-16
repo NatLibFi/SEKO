@@ -1,0 +1,885 @@
+LCSH-label,LCSH-URI,LCSH-broader-label,LCSH-broader-URI,spatial
+Bull-roarer,http://id.loc.gov/authorities/subjects/sh97006054,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Free reed instruments,http://id.loc.gov/authorities/subjects/sh2002002646,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Glass as a musical instrument,http://id.loc.gov/authorities/subjects/sh2002007240,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Glass harmonica,http://id.loc.gov/authorities/subjects/sh85055151,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Hurdy-gurdy,http://id.loc.gov/authorities/subjects/sh85063168,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Jew's harp,http://id.loc.gov/authorities/subjects/sh85070508,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Liquimofono,http://id.loc.gov/authorities/subjects/sh85077412,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Musical saw,http://id.loc.gov/authorities/subjects/sh85089021,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Pitchpipe,http://id.loc.gov/authorities/subjects/sh85102498,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Reeds (Music),http://id.loc.gov/authorities/subjects/sh85112170,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Toy instruments,http://id.loc.gov/authorities/subjects/sh2007000968,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Verrophone,http://id.loc.gov/authorities/subjects/sh2007000968,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Wind machine (Musical instrument),http://id.loc.gov/authorities/subjects/sh93001623,Musical instruments,http://id.loc.gov/authorities/subjects/sh85088961,
+Amplified palette (Musical instrument),http://id.loc.gov/authorities/subjects/sh2017003538,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electric cello,http://id.loc.gov/authorities/subjects/sh2005006932,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electric violin,http://id.loc.gov/authorities/subjects/sh2004009814,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electronic harpsichord,http://id.loc.gov/authorities/subjects/sh85042335,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electronic piano,http://id.loc.gov/authorities/subjects/sh85042367,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Electronium,http://id.loc.gov/authorities/subjects/sh85042420,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Encephalophone,http://id.loc.gov/authorities/subjects/sh2020000653,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Heliphon,http://id.loc.gov/authorities/subjects/sh2007005700,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Mellotron,http://id.loc.gov/authorities/subjects/sh2002010485,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+MIDI controllers,http://id.loc.gov/authorities/subjects/sh93006387,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Mouseketier (Musical instrument),http://id.loc.gov/authorities/subjects/sh2011000395,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Ondes Martenot,http://id.loc.gov/authorities/subjects/sh85094731,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Piano-harp,http://id.loc.gov/authorities/subjects/sh2007001867,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Pianocorder,http://id.loc.gov/authorities/subjects/sh92000810,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Sampler (Musical instrument),http://id.loc.gov/authorities/subjects/sh96011393,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Sequencer (Musical instrument),http://id.loc.gov/authorities/subjects/sh90005022,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Telharmonium,http://id.loc.gov/authorities/subjects/sh94007167,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Theremin,http://id.loc.gov/authorities/subjects/sh89006582,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Trautonium,http://id.loc.gov/authorities/subjects/sh85137146,Electronic musical instruments,http://id.loc.gov/authorities/subjects/sh85089002,
+Alesis HR-16 drum machine,http://id.loc.gov/authorities/subjects/sh2002004066,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Alesis MMT-8 drum machine,http://id.loc.gov/authorities/subjects/sh2002004067,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Korg DDD-1 drum machine,http://id.loc.gov/authorities/subjects/sh2002004073,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Korg DDD-5 drum machine,http://id.loc.gov/authorities/subjects/sh2002004074,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Roland drum machine,http://id.loc.gov/authorities/subjects/sh2002004077,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Yamaha RX-11 drum machine,http://id.loc.gov/authorities/subjects/sh2002004086,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Yamaha RX-15 drum machine,http://id.loc.gov/authorities/subjects/sh2002004087,Drum machine,http://id.loc.gov/authorities/subjects/sh91000627,
+Bass guitar,http://id.loc.gov/authorities/subjects/sh85012161,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Fender guitar,http://id.loc.gov/authorities/subjects/sh93007714,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Gibson ES-175 guitar,http://id.loc.gov/authorities/subjects/sh2008020290,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Gibson Les Paul standard guitar,http://id.loc.gov/authorities/subjects/sh2008009864,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Gibson Moderne guitar,http://id.loc.gov/authorities/subjects/sh2011001101,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Gretsch 6120 guitar,http://id.loc.gov/authorities/subjects/sh2011001276,Electric guitar,,
+Gretsch guitar,http://id.loc.gov/authorities/subjects/sh96010776,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Hamer guitar,http://id.loc.gov/authorities/subjects/sh2014001606,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Rickenbacker guitar,http://id.loc.gov/authorities/subjects/sh95001754,Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Stratocaster,http://id.loc.gov/authorities/subjects/sh95001754,Fender guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Telecaster guitar,http://id.loc.gov/authorities/subjects/sh93007713,Fender guitar,http://id.loc.gov/authorities/subjects/sh86008003,
+Allen organ,http://id.loc.gov/authorities/subjects/sh85003651,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Atelier organ,http://id.loc.gov/authorities/subjects/sh00005200,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Baldwin organ,http://id.loc.gov/authorities/subjects/sh85011162,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Conn organ,http://id.loc.gov/authorities/subjects/sh2004003812,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Gulbransen organ,http://id.loc.gov/authorities/subjects/sh2005005173,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Hammond organ,http://id.loc.gov/authorities/subjects/sh85058585,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Kimball organ,http://id.loc.gov/authorities/subjects/sh85072346,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Lichtton-Orgel,http://id.loc.gov/authorities/subjects/sh85146092,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Lowrey organ,http://id.loc.gov/authorities/subjects/sh00003180,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Minshall-Estey organ,http://id.loc.gov/authorities/subjects/sh85085872,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Silvertone organ,http://id.loc.gov/authorities/subjects/sh85122664,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Technics organ,http://id.loc.gov/authorities/subjects/sh98007675,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Thomas organ,http://id.loc.gov/authorities/subjects/sh2004003816,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Wurlitzer organ,http://id.loc.gov/authorities/subjects/sh85148682,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Yamaha organ,http://id.loc.gov/authorities/subjects/sh2006000866,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Fender Rhodes piano,http://id.loc.gov/authorities/subjects/sh00003201,Electronic piano,http://id.loc.gov/authorities/subjects/sh85042356,
+Guitar controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh2017002937,MIDI controllers,http://id.loc.gov/authorities/subjects/sh93006387,
+Keyboard controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh93007491,MIDI controllers,http://id.loc.gov/authorities/subjects/sh93006387,
+Percussion controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh93007495,MIDI controllers,http://id.loc.gov/authorities/subjects/sh93006387,
+Wind controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh93006385,MIDI controllers,http://id.loc.gov/authorities/subjects/sh93006387,
+Mallet controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh93007493,Percussion controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh93007495,
+Yamaha WX7 wind controller,http://id.loc.gov/authorities/subjects/sh2004003835,Wind controller (Musical instrument),http://id.loc.gov/authorities/subjects/sh93006385,
+Casio FZ-10M synthesizer,http://id.loc.gov/authorities/subjects/sh2002004071,Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,
+Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,
+Modular synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh2024000244,Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,
+Moog synthesizer,http://id.loc.gov/authorities/subjects/sh2002004076,Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,
+Software synthesizers,http://id.loc.gov/authorities/subjects/sh2006002928,Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,
+Yamaha synthesizer,http://id.loc.gov/authorities/subjects/sh2002004080,Synthesizer (Musical instrument),http://id.loc.gov/authorities/subjects/sh85131654,
+Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,Free reed instruments,http://id.loc.gov/authorities/subjects/sh2002002646,
+Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,Free reed instruments,http://id.loc.gov/authorities/subjects/sh2002002646,
+Harmonica,http://id.loc.gov/authorities/subjects/sh85058948,Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,
+Kaen,http://id.loc.gov/authorities/subjects/sh85071251,Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,
+Lu sheng,http://id.loc.gov/authorities/subjects/sh94000323,Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,
+Plung,http://id.loc.gov/authorities/subjects/sh99011236,Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,
+Sheng (Musical instrument),http://id.loc.gov/authorities/subjects/sh85121342,Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,
+Shō,http://id.loc.gov/authorities/subjects/sh85121698,Mouth organs,http://id.loc.gov/authorities/subjects/sh85088008,
+Melodica,http://id.loc.gov/authorities/subjects/sh85083435,Harmonica,http://id.loc.gov/authorities/subjects/sh85058948,
+Accordion,http://id.loc.gov/authorities/subjects/sh85000385,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Bichromatic harmonium,http://id.loc.gov/authorities/subjects/sh85013883,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Concertina,http://id.loc.gov/authorities/subjects/sh85029639,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Estey reed organ,http://id.loc.gov/authorities/subjects/sh96012146,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Button-key accordion,http://id.loc.gov/authorities/subjects/sh85018395,Accordion,http://id.loc.gov/authorities/subjects/sh85000385,
+Bandoneon,http://id.loc.gov/authorities/subjects/sh85011492,Concertina,http://id.loc.gov/authorities/subjects/sh85029639,
+Celesta,http://id.loc.gov/authorities/subjects/sh85021624,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Clavi-harp,http://id.loc.gov/authorities/subjects/sh85026841,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Clavichord,http://id.loc.gov/authorities/subjects/sh85026847,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Cristal,http://id.loc.gov/authorities/subjects/sh92004693,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Dolceola,http://id.loc.gov/authorities/subjects/sh2002004316,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Dulcitone,http://id.loc.gov/authorities/subjects/sh2005006962,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Harmonichord,http://id.loc.gov/authorities/subjects/sh2019003699,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Lute-harpsichord,http://id.loc.gov/authorities/subjects/sh2013000953,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Mellotron,http://id.loc.gov/authorities/subjects/sh2002010485,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Orphéal,http://id.loc.gov/authorities/subjects/sh2003002964,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Piano,http://id.loc.gov/authorities/subjects/sh85101722,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Tangent piano,http://id.loc.gov/authorities/subjects/sh2003002969,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Toy piano,http://id.loc.gov/authorities/subjects/sh2001006041,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Viola organista,http://id.loc.gov/authorities/subjects/sh2024001253,Keyboard instruments,http://id.loc.gov/authorities/subjects/sh85072117,
+Cembal d'amour,http://id.loc.gov/authorities/subjects/sh2003002967,Clavichord,http://id.loc.gov/authorities/subjects/sh85026847,
+Pedal clavichord,http://id.loc.gov/authorities/subjects/sh2002002633,Clavichord,http://id.loc.gov/authorities/subjects/sh85026847,
+Casio CZ synthesizer,http://id.loc.gov/authorities/subjects/sh2002004068,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Casio CZ-101 synthesizer,http://id.loc.gov/authorities/subjects/sh2002004069,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Casio FZ-1 synthesizer,http://id.loc.gov/authorities/subjects/sh2002004070,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Clavioline,http://id.loc.gov/authorities/subjects/sh85026857,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Korg 01/W keyboard synthesizer,http://id.loc.gov/authorities/subjects/sh2002004072,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Korg M1 synthesizer,http://id.loc.gov/authorities/subjects/sh2002004075,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Novachord,http://id.loc.gov/authorities/subjects/sh00000861,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Solovox,http://id.loc.gov/authorities/subjects/sh85124722,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Synket synthesizer,http://id.loc.gov/authorities/subjects/sh2016002729,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Technics PR digital ensemble,http://id.loc.gov/authorities/subjects/sh2002004078,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Yamaha DX7 synthesizer,http://id.loc.gov/authorities/subjects/sh2002004079,Electronic keyboard (Synthesizer),http://id.loc.gov/authorities/subjects/sh87003472,
+Archicembalo,http://id.loc.gov/authorities/subjects/sh85006543,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Clavicytherium,http://id.loc.gov/authorities/subjects/sh90004128,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Claviorganum,http://id.loc.gov/authorities/subjects/sh85026859,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Electronic harpsichord,http://id.loc.gov/authorities/subjects/sh85042335,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Harpsichord strings,http://id.loc.gov/authorities/subjects/sh93007641,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Pedal harpsichord,http://id.loc.gov/authorities/subjects/sh2004002306,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Sambuca lincea,http://id.loc.gov/authorities/subjects/sh85117015,Harpsichord,http://id.loc.gov/authorities/subjects/sh85059045,
+Archiphone,http://id.loc.gov/authorities/subjects/sh85006559,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Bambuso sonoro (Musical instrument),http://id.loc.gov/authorities/subjects/sh92004468,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Chamadron,http://id.loc.gov/authorities/subjects/sh2003002122,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Chamber organ,http://id.loc.gov/authorities/subjects/sh92003320,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Claviorganum,http://id.loc.gov/authorities/subjects/sh85026859,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Hydraulic organ,http://id.loc.gov/authorities/subjects/sh85063330,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Organ pipes,http://id.loc.gov/authorities/subjects/sh85095481,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Organ stops,http://id.loc.gov/authorities/subjects/sh85095483,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Positive organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh89007093,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Pyrophone,http://id.loc.gov/authorities/subjects/sh85109354,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Theater organ,http://id.loc.gov/authorities/subjects/sh2002002631,Organ (Musical instrument),http://id.loc.gov/authorities/subjects/sh85095454,
+Allen organ,http://id.loc.gov/authorities/subjects/sh85003651,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Atelier organ,http://id.loc.gov/authorities/subjects/sh00005200,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Baldwin organ,http://id.loc.gov/authorities/subjects/sh85011162,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Conn organ,http://id.loc.gov/authorities/subjects/sh2004003812,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Gulbransen organ,http://id.loc.gov/authorities/subjects/sh2005005173,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Hammond organ,http://id.loc.gov/authorities/subjects/sh85058585,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Kimball organ,http://id.loc.gov/authorities/subjects/sh85072346,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Lichtton-Orgel,http://id.loc.gov/authorities/subjects/sh85146092,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Lowrey organ,http://id.loc.gov/authorities/subjects/sh00003180,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Minshall-Estey organ,http://id.loc.gov/authorities/subjects/sh85085872,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Silvertone organ,http://id.loc.gov/authorities/subjects/sh85122664,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Technics organ,http://id.loc.gov/authorities/subjects/sh98007675,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Thomas organ,http://id.loc.gov/authorities/subjects/sh2004003816,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Wurlitzer organ,http://id.loc.gov/authorities/subjects/sh85148682,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Yamaha organ,http://id.loc.gov/authorities/subjects/sh2006000866,Electronic organ,http://id.loc.gov/authorities/subjects/sh85042356,
+Hammond B-3 organ,http://id.loc.gov/authorities/subjects/sh2006007700,Hammond organ,http://id.loc.gov/authorities/subjects/sh85058585,
+Hydraulic barrel organ,http://id.loc.gov/authorities/subjects/sh85011934,Hydraulic organ,http://id.loc.gov/authorities/subjects/sh85063330,
+Band organ,http://id.loc.gov/authorities/subjects/sh86004921,Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,
+Barrel organ,http://id.loc.gov/authorities/subjects/sh85011933,Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,
+Calliope,http://id.loc.gov/authorities/subjects/sh85018991,Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,
+Musical clock,http://id.loc.gov/authorities/subjects/sh86004919,Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,
+Player organ,http://id.loc.gov/authorities/subjects/sh85103380,Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,
+Aeolian Duo-Art player organ,http://id.loc.gov/authorities/subjects/sh2002002614,Player organ,http://id.loc.gov/authorities/subjects/sh85103380,
+Organette,http://id.loc.gov/authorities/subjects/sh85095518,Player organ,http://id.loc.gov/authorities/subjects/sh85103380,
+Welte-Philharmonie player organ,http://id.loc.gov/authorities/subjects/sh99004294,Player organ,http://id.loc.gov/authorities/subjects/sh85103380,
+Barrel piano,http://id.loc.gov/authorities/subjects/sh97003394,Mechanical pianos,http://id.loc.gov/authorities/subjects/sh97003371,
+Player piano,http://id.loc.gov/authorities/subjects/sh85103383,Mechanical pianos,http://id.loc.gov/authorities/subjects/sh97003371,
+Ampico reproducing piano,http://id.loc.gov/authorities/subjects/sh88007292,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Artrio-Angelus reproducing piano,http://id.loc.gov/authorities/subjects/sh98003355,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Digital player piano,http://id.loc.gov/authorities/subjects/sh2009002538,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Duo-Art reproducing piano,http://id.loc.gov/authorities/subjects/sh97005678,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Manualo,http://id.loc.gov/authorities/subjects/sh85080655,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Pianola,http://id.loc.gov/authorities/subjects/sh85101881,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Welte-Mignon reproducing piano,http://id.loc.gov/authorities/subjects/sh99004293,Player piano,http://id.loc.gov/authorities/subjects/sh85103383,
+Mechanical singing-bird boxes,http://id.loc.gov/authorities/subjects/sh00009803,Music box,http://id.loc.gov/authorities/subjects/sh85088897,
+Accordion,http://id.loc.gov/authorities/subjects/sh85000385,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Bichromatic harmonium,http://id.loc.gov/authorities/subjects/sh85013883,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Concertina,http://id.loc.gov/authorities/subjects/sh85029639,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Estey reed organ,http://id.loc.gov/authorities/subjects/sh96012146,Reed organ,http://id.loc.gov/authorities/subjects/sh85112159,
+Button-key accordion,http://id.loc.gov/authorities/subjects/sh85018395,Accordion,http://id.loc.gov/authorities/subjects/sh85000385,
+Bandoneon,http://id.loc.gov/authorities/subjects/sh85011492,Button-key accordion,http://id.loc.gov/authorities/subjects/sh85018395,
+Bayan,http://id.loc.gov/authorities/subjects/sh85012503,Button-key accordion,http://id.loc.gov/authorities/subjects/sh85018395,Belarus;Russia
+Lõõtspill,http://id.loc.gov/authorities/subjects/sh2001002351,Button-key accordion,http://id.loc.gov/authorities/subjects/sh85018395,Estonia
+Melodeon (Button-key accordion),http://id.loc.gov/authorities/subjects/sh85083433,Button-key accordion,http://id.loc.gov/authorities/subjects/sh85018395,
+Aeolian-vocalion,http://id.loc.gov/authorities/subjects/sh85001246,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Clavicylinder,http://id.loc.gov/authorities/subjects/sh85026856,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Harmonometer,http://id.loc.gov/authorities/subjects/sh85058962,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Jukeboxes,http://id.loc.gov/authorities/subjects/sh85070985,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Mechanical organs,http://id.loc.gov/authorities/subjects/sh86004922,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Mechanical pianos,http://id.loc.gov/authorities/subjects/sh97003371,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Music box,http://id.loc.gov/authorities/subjects/sh85088897,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Music recorder,http://id.loc.gov/authorities/subjects/sh85088939,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Orchestrion,http://id.loc.gov/authorities/subjects/sh88006772,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Panharmonicon,http://id.loc.gov/authorities/subjects/sh99004195,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Violano-virtuoso,http://id.loc.gov/authorities/subjects/sh85143510,Mechanical musical instruments,http://id.loc.gov/authorities/subjects/sh85089003,
+Harpola (Musical instrument),http://id.loc.gov/authorities/subjects/sh2007002137,Toy instruments,http://id.loc.gov/authorities/subjects/sh2007000968,
+Saxoflute,http://id.loc.gov/authorities/subjects/sh2009003745,Toy instruments,http://id.loc.gov/authorities/subjects/sh2007000968,
+Toy piano,http://id.loc.gov/authorities/subjects/sh2001006041,Toy instruments,http://id.loc.gov/authorities/subjects/sh2007000968,
+Broadwood piano,http://id.loc.gov/authorities/subjects/sh2008005660,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Electronic piano,http://id.loc.gov/authorities/subjects/sh85042367,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Erard piano,http://id.loc.gov/authorities/subjects/sh2005006923,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Gaveau piano,http://id.loc.gov/authorities/subjects/sh2010010725,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Knabe piano,http://id.loc.gov/authorities/subjects/sh2005001952,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Luthéal,http://id.loc.gov/authorities/subjects/sh00000666,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Magnetic resonator piano,http://id.loc.gov/authorities/subjects/sh2013000919,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Mechanical pianos,http://id.loc.gov/authorities/subjects/sh97003371,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Music recorder,http://id.loc.gov/authorities/subjects/sh85088939,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Pedal piano,http://id.loc.gov/authorities/subjects/sh87006800,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Pianocorder,http://id.loc.gov/authorities/subjects/sh92000810,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Pleyel piano,http://id.loc.gov/authorities/subjects/sh2002002634,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Sohmer piano,http://id.loc.gov/authorities/subjects/sh99004292,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Square piano,http://id.loc.gov/authorities/subjects/sh2008003295,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Steinway piano,http://id.loc.gov/authorities/subjects/sh96008521,Piano,http://id.loc.gov/authorities/subjects/sh85101722,
+Bamboo marimba,http://id.loc.gov/authorities/subjects/sh2016001843,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Bells,http://id.loc.gov/authorities/subjects/sh85013057,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Bilo,http://id.loc.gov/authorities/subjects/sh99004734,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Russia
+Body percussion,http://id.loc.gov/authorities/subjects/sh2008009507,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Bonang,http://id.loc.gov/authorities/subjects/sh2012001107,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Indonesia
+Castanets,http://id.loc.gov/authorities/subjects/sh85020646,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Chekeré,http://id.loc.gov/authorities/subjects/sh98005212,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Cuba
+Ching (Cymbals),http://id.loc.gov/authorities/subjects/sh93005461,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Thailand
+Clappers (Musical instrument),http://id.loc.gov/authorities/subjects/sh85026559,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Claves,http://id.loc.gov/authorities/subjects/sh85026839,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Cloud chamber bowls (Musical instrument),http://id.loc.gov/authorities/subjects/sh00000686,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Cymbals,http://id.loc.gov/authorities/subjects/sh85035141,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Daxophone,http://id.loc.gov/authorities/subjects/sh2003010847,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Diamond marimba,http://id.loc.gov/authorities/subjects/sh2016001842,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Drum,http://id.loc.gov/authorities/subjects/sh85039773,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Drum set,http://id.loc.gov/authorities/subjects/sh96008240,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Gambang,http://id.loc.gov/authorities/subjects/sh2008006115,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Indonesia;Malaysia
+Gender (Musical instrument),http://id.loc.gov/authorities/subjects/sh85053730,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Indonesia
+Glockenspiel,http://id.loc.gov/authorities/subjects/sh85055309,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Gong,http://id.loc.gov/authorities/subjects/sh91001511,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Guiro,http://id.loc.gov/authorities/subjects/sh98005987,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Latin America;Caribbean Area
+Guṃlā,http://id.loc.gov/authorities/subjects/sh85057907,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Nepal
+Jaltarang,http://id.loc.gov/authorities/subjects/sh2011005517,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,India
+Jawbone (Musical instrument),http://id.loc.gov/authorities/subjects/sh85069801,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Latin America
+Kei,http://id.loc.gov/authorities/subjects/sh85071858,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Japan
+Kemanak,http://id.loc.gov/authorities/subjects/sh85071905,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,West Java
+Kolintang (Xylophone),http://id.loc.gov/authorities/subjects/sh2012001176,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Southeast Asia
+Kulintang,http://id.loc.gov/authorities/subjects/sh85072830,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Southeast Asia
+Lithophone,http://id.loc.gov/authorities/subjects/sh2004007058,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Maraca,http://id.loc.gov/authorities/subjects/sh85080885,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Marimba,http://id.loc.gov/authorities/subjects/sh85081095,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Notched rattle,http://id.loc.gov/authorities/subjects/sh85092790,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Polopalo,http://id.loc.gov/authorities/subjects/sh94005663,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Indonesia
+Ranāt ēk,http://id.loc.gov/authorities/subjects/sh93005471,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Thailand;Cambodia
+Ranāt thum,http://id.loc.gov/authorities/subjects/sh93005472,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Cambodia;Thailand
+Rattle (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111552,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Reco-reco (Musical instrument),http://id.loc.gov/authorities/subjects/sh2001008753,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Brazil
+Reyong,http://id.loc.gov/authorities/subjects/sh2019003627,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Indonesia
+Sēmantron,http://id.loc.gov/authorities/subjects/sh99004735,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Russia
+Singing bowl,http://id.loc.gov/authorities/subjects/sh2002002862,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Himalaya Mountains
+Slit drums,http://id.loc.gov/authorities/subjects/sh97002408,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Spoils of war (Musical instrument),http://id.loc.gov/authorities/subjects/sh2016001693,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Steel drum (Musical instrument),http://id.loc.gov/authorities/subjects/sh94002502,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Talempong,http://id.loc.gov/authorities/subjects/sh2015001139,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,Southeast Asia
+Tambourine,http://id.loc.gov/authorities/subjects/sh85132177,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Temple blocks,http://id.loc.gov/authorities/subjects/sh2023002255,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Toy piano,http://id.loc.gov/authorities/subjects/sh2001006041,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Triangle (Musical instrument),http://id.loc.gov/authorities/subjects/sh89003577,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Tubaphone,http://id.loc.gov/authorities/subjects/sh2005008079,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Tubular bells,http://id.loc.gov/authorities/subjects/sh97008695,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Txalaparta,http://id.loc.gov/authorities/subjects/sh2005005708,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,France;Spain
+Vibraphone,http://id.loc.gov/authorities/subjects/sh85143104,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Waterphone (Musical instrument),http://id.loc.gov/authorities/subjects/sh2005001818,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Zoomoozophone,http://id.loc.gov/authorities/subjects/sh92003843,Percussion instruments,http://id.loc.gov/authorities/subjects/sh85099761,
+Bian zhong,http://id.loc.gov/authorities/subjects/sh98001605,Bells,http://id.loc.gov/authorities/subjects/sh85013057,China
+Bronze bells,http://id.loc.gov/authorities/subjects/sh2001008382,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Buddhist temple bells,http://id.loc.gov/authorities/subjects/sh89000864,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Carillons,http://id.loc.gov/authorities/subjects/sh85020322,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Chimes,http://id.loc.gov/authorities/subjects/sh85023961,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Church bells,http://id.loc.gov/authorities/subjects/sh89000863,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Cowbells,http://id.loc.gov/authorities/subjects/sh85033627,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Doorbells,http://id.loc.gov/authorities/subjects/sh96009015,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Ekón,http://id.loc.gov/authorities/subjects/sh98005230,Bells,http://id.loc.gov/authorities/subjects/sh85013057,Cuba
+Electric bells,http://id.loc.gov/authorities/subjects/sh85041590,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Fog bells,http://id.loc.gov/authorities/subjects/sh85049622,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Glass bells,http://id.loc.gov/authorities/subjects/sh85055119,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Handbells,http://id.loc.gov/authorities/subjects/sh85058658,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Jaquemarts,http://id.loc.gov/authorities/subjects/sh85069745,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Porcelain bells,http://id.loc.gov/authorities/subjects/sh85104983,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Sistro,http://id.loc.gov/authorities/subjects/sh2002004335,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Tap bells,http://id.loc.gov/authorities/subjects/sh88006042,Bells,http://id.loc.gov/authorities/subjects/sh85013057,
+Celesta-chime,http://id.loc.gov/authorities/subjects/sh2002004313,Carillons,http://id.loc.gov/authorities/subjects/sh85020322,
+Handchimes,http://id.loc.gov/authorities/subjects/sh91000466,Handbells,http://id.loc.gov/authorities/subjects/sh85058658,
+Bones (Musical instrument),http://id.loc.gov/authorities/subjects/sh85015556,Clappers (Musical instrument),http://id.loc.gov/authorities/subjects/sh85026559,
+Jin qian ban (Musical instrument),http://id.loc.gov/authorities/subjects/sh89000434,Clappers (Musical instrument),http://id.loc.gov/authorities/subjects/sh85026559,China
+Crotales,http://id.loc.gov/authorities/subjects/sh2002002860,Cymbals,http://id.loc.gov/authorities/subjects/sh85035141,
+Finger cymbals,http://id.loc.gov/authorities/subjects/sh99011316,Cymbals,http://id.loc.gov/authorities/subjects/sh85035141,
+Jhāñjh,http://id.loc.gov/authorities/subjects/sh2005006690,Cymbals,http://id.loc.gov/authorities/subjects/sh85035141,India
+Arará (Drum),http://id.loc.gov/authorities/subjects/sh98005044,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Atabaque,http://id.loc.gov/authorities/subjects/sh91002796,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Brazil
+Babadok,http://id.loc.gov/authorities/subjects/sh2011000689,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Timor--Leste
+Bass drum,http://id.loc.gov/authorities/subjects/sh94008705,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Bongo,http://id.loc.gov/authorities/subjects/sh85015558,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Bonkó,http://id.loc.gov/authorities/subjects/sh98003202,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Bronze drum,http://id.loc.gov/authorities/subjects/sh85017118,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Cajón (Musical instrument),http://id.loc.gov/authorities/subjects/sh98005536,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Catá (Musical instrument),http://id.loc.gov/authorities/subjects/sh98005534,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Ceṇḍa,http://id.loc.gov/authorities/subjects/sh96003976,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Congas,http://id.loc.gov/authorities/subjects/sh85031082,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Cuíca,http://id.loc.gov/authorities/subjects/sh2009006694,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Brazil
+Damba (Drum),http://id.loc.gov/authorities/subjects/sh88003379,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Ghana
+Dhimay,http://id.loc.gov/authorities/subjects/sh94002406,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Nepal
+Dholi,http://id.loc.gov/authorities/subjects/sh2003002124,Drum,http://id.loc.gov/authorities/subjects/sh85039773,"Armenia,,Georgia,Russia"
+Djembe,http://id.loc.gov/authorities/subjects/sh99013972,Drum,http://id.loc.gov/authorities/subjects/sh85039773,West Africa
+Ekue,http://id.loc.gov/authorities/subjects/sh98007388,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Ghaṭa,http://id.loc.gov/authorities/subjects/sh96003868,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Arab countries
+Hourglass drum,http://id.loc.gov/authorities/subjects/sh85062529,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Kañjirā,http://id.loc.gov/authorities/subjects/sh96004191,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Kendang,http://id.loc.gov/authorities/subjects/sh2016001631,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Southeast Asia
+Lambeg drum,http://id.loc.gov/authorities/subjects/sh2002002636,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Ireland
+Mādal,http://id.loc.gov/authorities/subjects/sh2001002361,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India;Nepal
+Mridanga,http://id.loc.gov/authorities/subjects/sh85088214,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Nāykhīṃ,http://id.loc.gov/authorities/subjects/sh90001532,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Nepal
+Ngoma (Drum),http://id.loc.gov/authorities/subjects/sh2005000124,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Africa
+Par (Musical instrument),http://id.loc.gov/authorities/subjects/sh2005006693,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Pung (Drum),http://id.loc.gov/authorities/subjects/sh85109108,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Rebana,http://id.loc.gov/authorities/subjects/sh97006217,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Indonesia;Malaysia
+Snare drum,http://id.loc.gov/authorities/subjects/sh87003761,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Tabla,http://id.loc.gov/authorities/subjects/sh85131789,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Taiko,http://id.loc.gov/authorities/subjects/sh98001608,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Japan
+Tamboril,http://id.loc.gov/authorities/subjects/sh96010805,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Tambou,http://id.loc.gov/authorities/subjects/sh85132175,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Tavil,http://id.loc.gov/authorities/subjects/sh96004187,Drum,http://id.loc.gov/authorities/subjects/sh85039773,India
+Timbales criollos,http://id.loc.gov/authorities/subjects/sh98005486,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Timpani,http://id.loc.gov/authorities/subjects/sh85135469,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Tom-tom,http://id.loc.gov/authorities/subjects/sh2003002994,Drum,http://id.loc.gov/authorities/subjects/sh85039773,
+Tumba (Musical instrument),http://id.loc.gov/authorities/subjects/sh98005527,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Tupan,http://id.loc.gov/authorities/subjects/sh85138688,Drum,http://id.loc.gov/authorities/subjects/sh85039773,"Bulgaria,North Macedonia;Serbia"
+Yuka (Musical instrument),http://id.loc.gov/authorities/subjects/sh98005542,Drum,http://id.loc.gov/authorities/subjects/sh85039773,Cuba
+Quinto (Drum),http://id.loc.gov/authorities/subjects/sh2005006516,Congas,http://id.loc.gov/authorities/subjects/sh85031082,Cuba
+Bodhrán,http://id.loc.gov/authorities/subjects/sh85015214,Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,Ireland
+Ḍaph,http://id.loc.gov/authorities/subjects/sh87003796,Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,India
+Par̲ai,http://id.loc.gov/authorities/subjects/sh2001002362,Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,India
+Ravanne,http://id.loc.gov/authorities/subjects/sh2017003856,Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,Mauritius
+Tar (Drum),http://id.loc.gov/authorities/subjects/sh2007000959,Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,North Africa;Middle East
+Yaogu,http://id.loc.gov/authorities/subjects/sh92005372,Frame drums,http://id.loc.gov/authorities/subjects/sh87003799,China
+Darabukka,http://id.loc.gov/authorities/subjects/sh88003602,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,North Africa;Middle East
+Dümbelek,http://id.loc.gov/authorities/subjects/sh92005340,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Turkey
+Fêli,http://id.loc.gov/authorities/subjects/sh2005006551,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Liberia
+Klō̜ng ǣ,http://id.loc.gov/authorities/subjects/sh93005465,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Thailand
+Klō̜ng lūang,http://id.loc.gov/authorities/subjects/sh2024000384,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Thailand
+Klō̜ng yāo,http://id.loc.gov/authorities/subjects/sh93005466,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Thailand
+Zarb,http://id.loc.gov/authorities/subjects/sh85138584,Goblet drum,http://id.loc.gov/authorities/subjects/sh87007474,Iran
+Batá,http://id.loc.gov/authorities/subjects/sh98005043,Hourglass drum,http://id.loc.gov/authorities/subjects/sh85062529,Cuba
+Changgo,http://id.loc.gov/authorities/subjects/sh85022517,Hourglass drum,http://id.loc.gov/authorities/subjects/sh85062529,Korea
+Kotsuzumi,http://id.loc.gov/authorities/subjects/sh85073202,Hourglass drum,http://id.loc.gov/authorities/subjects/sh85062529,Japan
+Talking drum,http://id.loc.gov/authorities/subjects/sh2014002574,Hourglass drum,http://id.loc.gov/authorities/subjects/sh85062529,West Africa
+Surdo,http://id.loc.gov/authorities/subjects/sh2006000487,Snare drum,http://id.loc.gov/authorities/subjects/sh87003761,Brazil
+Tabor,http://id.loc.gov/authorities/subjects/sh96010828,Snare drum,http://id.loc.gov/authorities/subjects/sh87003761,England
+Tamboril,http://id.loc.gov/authorities/subjects/sh96010805,Snare drum,http://id.loc.gov/authorities/subjects/sh87003761,Portugal;Spain
+Tambourin,http://id.loc.gov/authorities/subjects/sh85132176,Snare drum,http://id.loc.gov/authorities/subjects/sh87003761,
+Tāshā,http://id.loc.gov/authorities/subjects/sh2005006573,Timpani,http://id.loc.gov/authorities/subjects/sh85135469,India;Pakistan
+Khō̜ng wong,http://id.loc.gov/authorities/subjects/sh93005463,Gong,http://id.loc.gov/authorities/subjects/sh91001511,Thailand
+Tam-tam,http://id.loc.gov/authorities/subjects/sh85132226,Gong,http://id.loc.gov/authorities/subjects/sh91001511,
+Atcheré,http://id.loc.gov/authorities/subjects/sh98005206,Maraca,http://id.loc.gov/authorities/subjects/sh85080885,Cuba
+Bass marimba,http://id.loc.gov/authorities/subjects/sh2016001841,Marimba,http://id.loc.gov/authorities/subjects/sh85081095,
+Xylorimba,http://id.loc.gov/authorities/subjects/sh2003002081,Marimba,http://id.loc.gov/authorities/subjects/sh85081095,
+Baby rattles,http://id.loc.gov/authorities/subjects/sh98006834,Rattle (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111552,
+Sistrum,http://id.loc.gov/authorities/subjects/sh85123013,Rattle (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111552,Egypt
+Garamut,http://id.loc.gov/authorities/subjects/sh2018000148,Slit drums,http://id.loc.gov/authorities/subjects/sh97002408,Papua New Guinea
+Teponaztli,http://id.loc.gov/authorities/subjects/sh97002434,Slit drums,http://id.loc.gov/authorities/subjects/sh97002408,Mexico
+Woodblock (Musical instrument),http://id.loc.gov/authorities/subjects/sh2018002927,Slit drums,http://id.loc.gov/authorities/subjects/sh97002408,
+Amadinda,http://id.loc.gov/authorities/subjects/sh92003421,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,Uganda
+Angklung,http://id.loc.gov/authorities/subjects/sh85005041,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,Indonesia
+Balo,http://id.loc.gov/authorities/subjects/sh85011346,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,West Africa
+Heliphon,http://id.loc.gov/authorities/subjects/sh2007005700,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,
+Kaw law (Musical instrument),http://id.loc.gov/authorities/subjects/sh2015000992,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,Thailand
+Menzan,http://id.loc.gov/authorities/subjects/sh85083735,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,Cameroon;Gabon
+Sticcado pastorale,http://id.loc.gov/authorities/subjects/sh2006005085,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,England
+Tingklik,http://id.loc.gov/authorities/subjects/sh94002481,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,Indonesia
+Xylorimba,http://id.loc.gov/authorities/subjects/sh2003002081,Xylophone,http://id.loc.gov/authorities/subjects/sh85148860,
+Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,
+Diabelskie skrzypce,http://id.loc.gov/authorities/subjects/sh89002190,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,Poland
+Musical bow,http://id.loc.gov/authorities/subjects/sh99004444,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,
+Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,
+Rabāb,http://id.loc.gov/authorities/subjects/sh91004170,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,
+Sympathetic strings,http://id.loc.gov/authorities/subjects/sh97003167,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,
+Zither,http://id.loc.gov/authorities/subjects/sh85149919,Stringed instruments,http://id.loc.gov/authorities/subjects/sh85129118,
+Ajaeng,http://id.loc.gov/authorities/subjects/sh2008001042,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Korea
+Arpeggione,http://id.loc.gov/authorities/subjects/sh85007412,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Banam,http://id.loc.gov/authorities/subjects/sh2025000395,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,South Asia
+Baryton,http://id.loc.gov/authorities/subjects/sh85012008,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Campanula (Musical instrument),http://id.loc.gov/authorities/subjects/sh95000392,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Cello,http://id.loc.gov/authorities/subjects/sh85143658,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Cellone,http://id.loc.gov/authorities/subjects/sh2009003660,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Crwth,http://id.loc.gov/authorities/subjects/sh85034328,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Dilrubā,http://id.loc.gov/authorities/subjects/sh2001003482,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,India;Pakistan
+Double bass,http://id.loc.gov/authorities/subjects/sh85039150,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Ghichak,http://id.loc.gov/authorities/subjects/sh94000289,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Central Asia
+Goge,http://id.loc.gov/authorities/subjects/sh00008578,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,West Africa
+Gŭdulka,http://id.loc.gov/authorities/subjects/sh85057685,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Bulgaria
+Gusle,http://id.loc.gov/authorities/subjects/sh92005165,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Balkan Peninsula
+Haegŭm,http://id.loc.gov/authorities/subjects/sh85058218,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Korea
+Hu qin,http://id.loc.gov/authorities/subjects/sh2001006594,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,China
+Kamānche,http://id.loc.gov/authorities/subjects/sh90002262,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Middle East;Caucasus;Iran
+Keyed fiddle,http://id.loc.gov/authorities/subjects/sh85072122,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Germany;Scandinavia
+Lira (Short-necked fiddle),http://id.loc.gov/authorities/subjects/sh95008017,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Greece
+Lira da braccio,http://id.loc.gov/authorities/subjects/sh94002440,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Lirica,http://id.loc.gov/authorities/subjects/sh92005141,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Croatia
+Lirone,http://id.loc.gov/authorities/subjects/sh2002002639,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Italy
+Morin huur,http://id.loc.gov/authorities/subjects/sh85087273,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Central Asia
+Qobuz (Fiddle),http://id.loc.gov/authorities/subjects/sh2005005297,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Central Asia
+Quadrachord,http://id.loc.gov/authorities/subjects/sh2018001822,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Salō̜,http://id.loc.gov/authorities/subjects/sh93005473,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Thailand
+Sarangi,http://id.loc.gov/authorities/subjects/sh85117483,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,South Asia
+Sārindā (Musical instrument),http://id.loc.gov/authorities/subjects/sh2006006845,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,South Asia;Iran;Afghanistan
+Sō̜ dūang,http://id.loc.gov/authorities/subjects/sh93005474,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Thailand
+Sō̜ sām sāi,http://id.loc.gov/authorities/subjects/sh93005475,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Thailand
+Sō̜ ū,http://id.loc.gov/authorities/subjects/sh93005476,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,Thailand
+Soundpost,http://id.loc.gov/authorities/subjects/sh2018000451,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Stradivari stringed instruments,http://id.loc.gov/authorities/subjects/sh2006007782,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Stringed instrument bows,http://id.loc.gov/authorities/subjects/sh85129123,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Tenor violin,http://id.loc.gov/authorities/subjects/sh85133918,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Trumpet marine,http://id.loc.gov/authorities/subjects/sh85119264,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Viola,http://id.loc.gov/authorities/subjects/sh85143429,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Violetta d'amore,http://id.loc.gov/authorities/subjects/sh90005376,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Violin,http://id.loc.gov/authorities/subjects/sh85143544,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Violo,http://id.loc.gov/authorities/subjects/sh85143656,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Violotta,http://id.loc.gov/authorities/subjects/sh2005002197,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Viols,http://id.loc.gov/authorities/subjects/sh85143421,Bowed stringed instruments,http://id.loc.gov/authorities/subjects/sh85129122,
+Electric cello,http://id.loc.gov/authorities/subjects/sh2005006932,Cello,http://id.loc.gov/authorities/subjects/sh85143658,
+Violoncello piccolo,http://id.loc.gov/authorities/subjects/sh85143683,Cello,http://id.loc.gov/authorities/subjects/sh85143658,
+Stradivarius violin,http://id.loc.gov/authorities/subjects/sh2006007757,Stradivari stringed instruments,http://id.loc.gov/authorities/subjects/sh2006007782,
+Viola pomposa,http://id.loc.gov/authorities/subjects/sh85143489,Viola,http://id.loc.gov/authorities/subjects/sh85143429,
+Electric violin,http://id.loc.gov/authorities/subjects/sh2004009814,Violin,http://id.loc.gov/authorities/subjects/sh85143544,
+Hardanger fiddle,http://id.loc.gov/authorities/subjects/sh85058871,Violin,http://id.loc.gov/authorities/subjects/sh85143544,Norway
+Phonofiddle,http://id.loc.gov/authorities/subjects/sh2007001886,Violin,http://id.loc.gov/authorities/subjects/sh85143544,
+Pochette (Musical instrument),http://id.loc.gov/authorities/subjects/sh2007001886,Violin,http://id.loc.gov/authorities/subjects/sh85143544,
+Prepared violin,http://id.loc.gov/authorities/subjects/sh2014000960,Violin,http://id.loc.gov/authorities/subjects/sh85143544,
+Rabeca,http://id.loc.gov/authorities/subjects/sh2005003618,Violin,http://id.loc.gov/authorities/subjects/sh85143544,Brazil
+Pardessus de viole,http://id.loc.gov/authorities/subjects/sh92001880,Viols,http://id.loc.gov/authorities/subjects/sh85143421,
+Treble viol,http://id.loc.gov/authorities/subjects/sh2005005065,Viols,http://id.loc.gov/authorities/subjects/sh85143421,
+Viola d'amore,http://id.loc.gov/authorities/subjects/sh85143468,Viols,http://id.loc.gov/authorities/subjects/sh85143421,
+Viola da gamba,http://id.loc.gov/authorities/subjects/sh85143457,Viols,http://id.loc.gov/authorities/subjects/sh85143421,
+Violone,http://id.loc.gov/authorities/subjects/sh85143712,Viols,http://id.loc.gov/authorities/subjects/sh85143421,
+Lyra viol,http://id.loc.gov/authorities/subjects/sh85079172,Viola da gamba,http://id.loc.gov/authorities/subjects/sh85143457,
+Berimbau,http://id.loc.gov/authorities/subjects/sh85013324,Musical bow,http://id.loc.gov/authorities/subjects/sh99004444,Brazil
+Gora (Musical instrument),http://id.loc.gov/authorities/subjects/sh85056024,Musical bow,http://id.loc.gov/authorities/subjects/sh99004444,Africa
+Mouth bow,http://id.loc.gov/authorities/subjects/sh99004445,Musical bow,http://id.loc.gov/authorities/subjects/sh99004444,
+Chipendani,http://id.loc.gov/authorities/subjects/sh99003391,Mouth bow,http://id.loc.gov/authorities/subjects/sh99004445,Zimbabwe
+Bandora,http://id.loc.gov/authorities/subjects/sh85097401,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Banjo ukulele,http://id.loc.gov/authorities/subjects/sh2005002905,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Cittern,http://id.loc.gov/authorities/subjects/sh85026124,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Harp,http://id.loc.gov/authorities/subjects/sh85058984,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Jarana huasteca,http://id.loc.gov/authorities/subjects/sh2022006994,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,Mexico
+Lute,http://id.loc.gov/authorities/subjects/sh85078975,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Lyre,http://id.loc.gov/authorities/subjects/sh85079175,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Mandolin,http://id.loc.gov/authorities/subjects/sh85080452,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Phin (Plucked instruments),http://id.loc.gov/authorities/subjects/sh2017004731,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,Thailand
+Piano-harp,http://id.loc.gov/authorities/subjects/sh2007001867,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Psaltery,http://id.loc.gov/authorities/subjects/sh87001755,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Quadrachord,http://id.loc.gov/authorities/subjects/sh2018001822,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Tambi,http://id.loc.gov/authorities/subjects/sh85132170,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Vina,http://id.loc.gov/authorities/subjects/sh85143383,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,South Asia
+Washtub bass,http://id.loc.gov/authorities/subjects/sh2008009814,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Zither,http://id.loc.gov/authorities/subjects/sh85149919,Plucked instruments,http://id.loc.gov/authorities/subjects/sh98007684,
+Orpharion,http://id.loc.gov/authorities/subjects/sh92004632,Bandora,http://id.loc.gov/authorities/subjects/sh85097401,
+English guitar,http://id.loc.gov/authorities/subjects/sh85043378,Cittern,http://id.loc.gov/authorities/subjects/sh85026124,
+Acoustic bass guitar,http://id.loc.gov/authorities/subjects/sh2008002881,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Air guitar,http://id.loc.gov/authorities/subjects/sh2004006680,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Bajo sexto,http://id.loc.gov/authorities/subjects/sh2002000274,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Mexico
+Cavaquinho,http://id.loc.gov/authorities/subjects/sh99003516,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Charango,http://id.loc.gov/authorities/subjects/sh86007107,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Andes region
+Chitarra battente,http://id.loc.gov/authorities/subjects/sh99000455,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Italy
+Cigar box guitar,http://id.loc.gov/authorities/subjects/sh2011004802,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Cuatro (Musical instrument),http://id.loc.gov/authorities/subjects/sh85034543,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Latin America
+D'Angelico guitar,http://id.loc.gov/authorities/subjects/sh2009000339,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Electric guitar,http://id.loc.gov/authorities/subjects/sh86008003,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+English guitar,http://id.loc.gov/authorities/subjects/sh85043378,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Epiphone guitar,http://id.loc.gov/authorities/subjects/sh97002895,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Gibson guitar,http://id.loc.gov/authorities/subjects/sh2008020292,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Gretsch guitar,http://id.loc.gov/authorities/subjects/sh96010776,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Guitarrón,http://id.loc.gov/authorities/subjects/sh94005016,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Mexico
+Harp-lute,http://id.loc.gov/authorities/subjects/sh92005568,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Harp-lute guitar,http://id.loc.gov/authorities/subjects/sh85059000,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Hawaiian guitar,http://id.loc.gov/authorities/subjects/sh85059367,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Lyre-guitar,http://id.loc.gov/authorities/subjects/sh85079177,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Martin guitar,http://id.loc.gov/authorities/subjects/sh95009238,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Maton guitar,http://id.loc.gov/authorities/subjects/sh2017000168,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+PRS guitar,http://id.loc.gov/authorities/subjects/sh2016001215,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Resonator guitar,http://id.loc.gov/authorities/subjects/sh85038690,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Stella guitar,http://id.loc.gov/authorities/subjects/sh2007003978,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Tiple (Plucked instrument),http://id.loc.gov/authorities/subjects/sh90003629,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Andes region
+Tres (Musical instrument),http://id.loc.gov/authorities/subjects/sh98005177,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Caribbean area
+Ukulele,http://id.loc.gov/authorities/subjects/sh85139417,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,
+Viola d'arame,http://id.loc.gov/authorities/subjects/sh92005169,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Portugal
+Viola-de-cocho,http://id.loc.gov/authorities/subjects/sh96002740,Guitar,http://id.loc.gov/authorities/subjects/sh85057803,Brazil
+Kamele ngoni,http://id.loc.gov/authorities/subjects/sh2001003367,Harp-lute,http://id.loc.gov/authorities/subjects/sh92005568,Mali
+Kora (Musical instrument),http://id.loc.gov/authorities/subjects/sh85072948,Harp-lute,http://id.loc.gov/authorities/subjects/sh92005568,Africa
+Pedal steel guitar,http://id.loc.gov/authorities/subjects/sh2022006351,Hawaiian guitar,http://id.loc.gov/authorities/subjects/sh85059367,
+Aeolian harp,http://id.loc.gov/authorities/subjects/sh85001245,Harp,http://id.loc.gov/authorities/subjects/sh85058984,
+Audeharp,http://id.loc.gov/authorities/subjects/sh2005002206,Harp,http://id.loc.gov/authorities/subjects/sh85058984,
+Celtic harp,http://id.loc.gov/authorities/subjects/sh90005020,Harp,http://id.loc.gov/authorities/subjects/sh85058984,Ireland;Great Britain
+Clavi-harp,http://id.loc.gov/authorities/subjects/sh85026841,Harp,http://id.loc.gov/authorities/subjects/sh85058984,
+Kong hou,http://id.loc.gov/authorities/subjects/sh99001859,Harp,http://id.loc.gov/authorities/subjects/sh85058984,China
+Saùng-gauk,http://id.loc.gov/authorities/subjects/sh96011285,Harp,http://id.loc.gov/authorities/subjects/sh85058984,Burma
+Triple harp,http://id.loc.gov/authorities/subjects/sh2019103095,Harp,http://id.loc.gov/authorities/subjects/sh85058984,
+Sound sculpture,http://id.loc.gov/authorities/subjects/sh85125400,Sound art,http://id.loc.gov/authorities/subjects/sh2020008042,
+Sound art,http://id.loc.gov/authorities/subjects/sh2020008042,Music,http://id.loc.gov/authorities/subjects/sh85088762,
+Archlute,http://id.loc.gov/authorities/subjects/sh85006930,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Balalaika,http://id.loc.gov/authorities/subjects/sh85011113,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Russia
+Bandolín,http://id.loc.gov/authorities/subjects/sh2014000455,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Ecuador
+Bandurria,http://id.loc.gov/authorities/subjects/sh85011503,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Spain;Latin America
+Banjo,http://id.loc.gov/authorities/subjects/sh85011545,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Biwa,http://id.loc.gov/authorities/subjects/sh85014494,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Japan
+Bouzouki,http://id.loc.gov/authorities/subjects/sh85016135,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Greece
+Colascione,http://id.loc.gov/authorities/subjects/sh97000413,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Dömbra (Two-stringed lute),http://id.loc.gov/authorities/subjects/sh85039011,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Central Asia;Russia
+Domra,http://id.loc.gov/authorities/subjects/sh2012002051,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Russia
+Dutār,http://id.loc.gov/authorities/subjects/sh89005926,Lute,http://id.loc.gov/authorities/subjects/sh85078975,MIddle East;Central Asia
+Gambus,http://id.loc.gov/authorities/subjects/sh2020005558,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Indonesia;Malaysia
+Guinbri,http://id.loc.gov/authorities/subjects/sh98002820,Lute,http://id.loc.gov/authorities/subjects/sh85078975,North Africa
+Guitarra portuguesa,http://id.loc.gov/authorities/subjects/sh96004056,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Harp-lute guitar,http://id.loc.gov/authorities/subjects/sh85059000,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Kacapi (Lute),http://id.loc.gov/authorities/subjects/sh97004228,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Indonesia
+Kobza,http://id.loc.gov/authorities/subjects/sh85072764,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Ukraine
+Komuz,http://id.loc.gov/authorities/subjects/sh99004207,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Centrl Asia
+Kopuz,http://id.loc.gov/authorities/subjects/sh97004570,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Centrl Asia
+Kudyapi,http://id.loc.gov/authorities/subjects/sh2018000774,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Philippines
+Lavta,http://id.loc.gov/authorities/subjects/sh2013001063,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Greece;Turkey
+Liu qin,http://id.loc.gov/authorities/subjects/sh93005851,Lute,http://id.loc.gov/authorities/subjects/sh85078975,China
+Mandola,http://id.loc.gov/authorities/subjects/sh85080450,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Orpharion,http://id.loc.gov/authorities/subjects/sh92004632,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Oud,http://id.loc.gov/authorities/subjects/sh85096113,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Middle East;Arab countries
+Phin (Lute),http://id.loc.gov/authorities/subjects/sh2017004437,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Laos;Thailand
+Pi pa,http://id.loc.gov/authorities/subjects/sh85101713,Lute,http://id.loc.gov/authorities/subjects/sh85078975,China;Korea
+Ruan,http://id.loc.gov/authorities/subjects/sh97000225,Lute,http://id.loc.gov/authorities/subjects/sh85078975,China
+San xian,http://id.loc.gov/authorities/subjects/sh85117107,Lute,http://id.loc.gov/authorities/subjects/sh85078975,China
+Sanshin,http://id.loc.gov/authorities/subjects/sh93004365,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Japan
+Sapeh,http://id.loc.gov/authorities/subjects/sh2001009290,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Borneo
+Sarod,http://id.loc.gov/authorities/subjects/sh85117575,Lute,http://id.loc.gov/authorities/subjects/sh85078975,India
+Saz,http://id.loc.gov/authorities/subjects/sh85117885,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Central Asia;Balkan Peninsula;Turkey
+Setār (Iranian musical instrument),http://id.loc.gov/authorities/subjects/sh96005270,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Central Asia;Iran
+Shamisen,http://id.loc.gov/authorities/subjects/sh85121095,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Japan
+Sharki,http://id.loc.gov/authorities/subjects/sh2023000220,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Balkan Peninsula
+Shudraga,http://id.loc.gov/authorities/subjects/sh97006479,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Mongolia
+Simsimīyya,http://id.loc.gov/authorities/subjects/sh2004002321,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Arab countries
+Sitar,http://id.loc.gov/authorities/subjects/sh85123019,Lute,http://id.loc.gov/authorities/subjects/sh85078975,South Asia
+Tambūrā (Drone lute),http://id.loc.gov/authorities/subjects/sh2009003286,Lute,http://id.loc.gov/authorities/subjects/sh85078975,South Asia
+Tambura (Fretted lute),http://id.loc.gov/authorities/subjects/sh2009001802,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Balkan Peninsula
+Ṭanbūr,http://id.loc.gov/authorities/subjects/sh98004149,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Central Asia;Middle East
+Tar (Lute),http://id.loc.gov/authorities/subjects/sh85132443,Lute,http://id.loc.gov/authorities/subjects/sh85078975,Central Asia;Iran
+Theorbo,http://id.loc.gov/authorities/subjects/sh85134711,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Vihuela,http://id.loc.gov/authorities/subjects/sh85143331,Lute,http://id.loc.gov/authorities/subjects/sh85078975,
+Yue qin,http://id.loc.gov/authorities/subjects/sh85149436,Lute,http://id.loc.gov/authorities/subjects/sh85078975,China
+Bağlama,http://id.loc.gov/authorities/subjects/sh85010967,Saz,http://id.loc.gov/authorities/subjects/sh85117885,Turkey
+Surbahar,http://id.loc.gov/authorities/subjects/sh88006711,Sitar,http://id.loc.gov/authorities/subjects/sh85123019,India
+Apollo-lyre,http://id.loc.gov/authorities/subjects/sh2007002140,Lyre,http://id.loc.gov/authorities/subjects/sh85079175,
+Begena,http://id.loc.gov/authorities/subjects/sh2004005568,Lyre,http://id.loc.gov/authorities/subjects/sh85079175,Ethiopia
+Cithara,http://id.loc.gov/authorities/subjects/sh85026120,Lyre,http://id.loc.gov/authorities/subjects/sh85079175,
+Jouhikko,http://id.loc.gov/authorities/subjects/sh93005609,Lyre,http://id.loc.gov/authorities/subjects/sh85079175,Finland
+Surrogate kithara,http://id.loc.gov/authorities/subjects/sh2016001694,Lyre,http://id.loc.gov/authorities/subjects/sh85079175,
+Cavaquinho,http://id.loc.gov/authorities/subjects/sh99003516,Mandolin,http://id.loc.gov/authorities/subjects/sh85080452,Portugal;Brazil
+Mandoloncello,http://id.loc.gov/authorities/subjects/sh2001002509,Mandolin,http://id.loc.gov/authorities/subjects/sh85080452,
+Phin (Lute),http://id.loc.gov/authorities/subjects/sh2017004437,Phin (Plucked instruments),http://id.loc.gov/authorities/subjects/sh2017004731,Laos;Thailand
+Phin pia,http://id.loc.gov/authorities/subjects/sh00000585,Phin (Plucked instruments),http://id.loc.gov/authorities/subjects/sh2017004731,Thailand
+Seung,http://id.loc.gov/authorities/subjects/sh93005477,Phin (Plucked instruments),http://id.loc.gov/authorities/subjects/sh2017004731,Thailand
+Bandura,http://id.loc.gov/authorities/subjects/sh85011502,Psaltery,http://id.loc.gov/authorities/subjects/sh87001755,Ukraine
+Gusli,http://id.loc.gov/authorities/subjects/sh85057988,Psaltery,http://id.loc.gov/authorities/subjects/sh87001755,Slavic countries
+Gottuvadyam,http://id.loc.gov/authorities/subjects/sh94001299,Vina,http://id.loc.gov/authorities/subjects/sh85143383,India
+Vicitra vina,http://id.loc.gov/authorities/subjects/sh2009007023,Vina,http://id.loc.gov/authorities/subjects/sh85143383,India
+Appalachian dulcimer,http://id.loc.gov/authorities/subjects/sh85006067,Zither,http://id.loc.gov/authorities/subjects/sh85149919,United States of America
+Autoharp,http://id.loc.gov/authorities/subjects/sh85010074,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Bulbultarang,http://id.loc.gov/authorities/subjects/sh96004231,Zither,http://id.loc.gov/authorities/subjects/sh85149919,India
+Citaharp,http://id.loc.gov/authorities/subjects/sh2007002136,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Đàn bâù,http://id.loc.gov/authorities/subjects/sh2003010663,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Vietnam
+Đàn tranh,http://id.loc.gov/authorities/subjects/sh00006271,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Vietnam
+Dolceola,http://id.loc.gov/authorities/subjects/sh2002004316,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Epinette des Vosges (Musical instrument),http://id.loc.gov/authorities/subjects/sh89003637,Zither,http://id.loc.gov/authorities/subjects/sh85149919,France
+Harmonic canon (Musical instrument),http://id.loc.gov/authorities/subjects/sh99000859,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Harp zither,http://id.loc.gov/authorities/subjects/sh86004387,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Harpola (Musical instrument),http://id.loc.gov/authorities/subjects/sh2007002137,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Hyŏnʼgŭm,http://id.loc.gov/authorities/subjects/sh85063654,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Korea
+Ideal harp,http://id.loc.gov/authorities/subjects/sh2007002139,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Kacapi (Zither),http://id.loc.gov/authorities/subjects/sh2001009292,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Indonesia
+Kanklės,http://id.loc.gov/authorities/subjects/sh85071476,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Lithuania
+Kannel,http://id.loc.gov/authorities/subjects/sh90004884,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Estonia
+Kantele (Musical instrument),http://id.loc.gov/authorities/subjects/sh85071527,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Finland
+Kayagŭm,http://id.loc.gov/authorities/subjects/sh85071798,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Korea
+Kokle,http://id.loc.gov/authorities/subjects/sh85072811,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Latvia
+Kŏmunʾgo,http://id.loc.gov/authorities/subjects/sh85072885,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Korea
+Koto,http://id.loc.gov/authorities/subjects/sh85073194,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Japan
+Langeleik,http://id.loc.gov/authorities/subjects/sh00002699,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Norway
+Marovany (Box zither),http://id.loc.gov/authorities/subjects/sh96007104,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Madagascar
+Meloharp,http://id.loc.gov/authorities/subjects/sh2007002144,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Meta-harp,http://id.loc.gov/authorities/subjects/sh2007002145,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Monochord,http://id.loc.gov/authorities/subjects/sh85086896,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+New century harp,http://id.loc.gov/authorities/subjects/sh2007002281,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Noordsche balk,http://id.loc.gov/authorities/subjects/sh85092384,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Benelux countries
+Ongnyugŭm,http://id.loc.gov/authorities/subjects/sh93006278,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Korea
+Psalmodikon,http://id.loc.gov/authorities/subjects/sh96004213,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Scandinavia
+Qānūn (Musical instrument),http://id.loc.gov/authorities/subjects/sh90002634,Zither,http://id.loc.gov/authorities/subjects/sh85149919,MIddle East
+Qin (Musical instrument),http://id.loc.gov/authorities/subjects/sh85023979,Zither,http://id.loc.gov/authorities/subjects/sh85149919,China
+Siter,http://id.loc.gov/authorities/subjects/sh2006006781,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Indonesia
+Stick zither,http://id.loc.gov/authorities/subjects/sh00000584,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Tube zither,http://id.loc.gov/authorities/subjects/sh93007672,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Yatga,http://id.loc.gov/authorities/subjects/sh2009010385,Zither,http://id.loc.gov/authorities/subjects/sh85149919,Mongolia
+Zheng,http://id.loc.gov/authorities/subjects/sh85023052,Zither,http://id.loc.gov/authorities/subjects/sh85149919,China
+Zitho-harp,http://id.loc.gov/authorities/subjects/sh2007002811,Zither,http://id.loc.gov/authorities/subjects/sh85149919,
+Chang (Dulcimer),http://id.loc.gov/authorities/subjects/sh2017004931,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,Uzbekistan
+Cimbalom,http://id.loc.gov/authorities/subjects/sh85025985,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,
+Khim,http://id.loc.gov/authorities/subjects/sh2006005764,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,Cambodia;Thailand
+Santūr,http://id.loc.gov/authorities/subjects/sh85117416,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,
+Yang qin,http://id.loc.gov/authorities/subjects/sh85148984,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,China
+Yanggŭm,http://id.loc.gov/authorities/subjects/sh93006741,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,Korea
+Yoochin (Dulcimer),http://id.loc.gov/authorities/subjects/sh97006469,Dulcimer,http://id.loc.gov/authorities/subjects/sh85039933,Mongolia
+Ichigenkin,http://id.loc.gov/authorities/subjects/sh85064040,Koto,http://id.loc.gov/authorities/subjects/sh85073194,Japan
+Crychord,http://id.loc.gov/authorities/subjects/sh2016001692,Monochord,http://id.loc.gov/authorities/subjects/sh85086896,
+Bumbass,http://id.loc.gov/authorities/subjects/sh94000996,Stick zither,http://id.loc.gov/authorities/subjects/sh00000584,
+Phin pia,http://id.loc.gov/authorities/subjects/sh00000585,Stick zither,http://id.loc.gov/authorities/subjects/sh00000584,Thailand
+Čhakhē,http://id.loc.gov/authorities/subjects/sh93005460,Tube zither,http://id.loc.gov/authorities/subjects/sh93007672,Thailand
+Valiha,http://id.loc.gov/authorities/subjects/sh93007669,Tube zither,http://id.loc.gov/authorities/subjects/sh93007672,Madagascar
+Imzad,http://id.loc.gov/authorities/subjects/sh2003002984,Rabāb,http://id.loc.gov/authorities/subjects/sh91004170,Africa
+Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,
+Didjeridu,http://id.loc.gov/authorities/subjects/sh88001808,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,Australia
+Mirliton,http://id.loc.gov/authorities/subjects/sh85085953,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,
+Multiphonics,http://id.loc.gov/authorities/subjects/sh88006425,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,
+Oliphant,http://id.loc.gov/authorities/subjects/sh2004000318,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,
+Saxoflute,http://id.loc.gov/authorities/subjects/sh2009003745,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,
+Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Wind instruments,http://id.loc.gov/authorities/subjects/sh85146863,
+Alto horn,http://id.loc.gov/authorities/subjects/sh85003939,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Baritone (Musical instrument),http://id.loc.gov/authorities/subjects/sh85011845,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Bugle,http://id.loc.gov/authorities/subjects/sh85017678,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Cornet,http://id.loc.gov/authorities/subjects/sh85032812,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Cornett,http://id.loc.gov/authorities/subjects/sh85032838,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Euphonium,http://id.loc.gov/authorities/subjects/sh85045591,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Flügelhorn,http://id.loc.gov/authorities/subjects/sh85049361,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Helicon,http://id.loc.gov/authorities/subjects/sh92005343,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Horn (Musical instrument),http://id.loc.gov/authorities/subjects/sh85061988,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Instrumentation and orchestration (Brass band),http://id.loc.gov/authorities/subjects/sh85066784,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Pelittone,http://id.loc.gov/authorities/subjects/sh2005008065,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Post horn,http://id.loc.gov/authorities/subjects/sh86000533,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Saxhorn,http://id.loc.gov/authorities/subjects/sh85117806,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Serpent (Musical instrument),http://id.loc.gov/authorities/subjects/sh85120303,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Trombone,http://id.loc.gov/authorities/subjects/sh85137992,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Tuba,http://id.loc.gov/authorities/subjects/sh85138369,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Wagner tuba,http://id.loc.gov/authorities/subjects/sh2013002517,Brass instruments,http://id.loc.gov/authorities/subjects/sh85016448,
+Keyed bugle,http://id.loc.gov/authorities/subjects/sh2001005609,Bugle,http://id.loc.gov/authorities/subjects/sh85017678,
+Kob (Musical instrument),http://id.loc.gov/authorities/subjects/sh2005006558,Horn (Musical instrument),http://id.loc.gov/authorities/subjects/sh85061988,India
+Russian horn,http://id.loc.gov/authorities/subjects/sh85115969,Horn (Musical instrument),http://id.loc.gov/authorities/subjects/sh85061988,Russia
+Shofar,http://id.loc.gov/authorities/subjects/sh85121774,Horn (Musical instrument),http://id.loc.gov/authorities/subjects/sh85061988,
+Ophicleide,http://id.loc.gov/authorities/subjects/sh85095040,Serpent (Musical instrument),http://id.loc.gov/authorities/subjects/sh85120303,
+Alto trombone,http://id.loc.gov/authorities/subjects/sh98000141,Trombone,http://id.loc.gov/authorities/subjects/sh85137992,
+Bass trombone,http://id.loc.gov/authorities/subjects/sh85012164,Trombone,http://id.loc.gov/authorities/subjects/sh85137992,
+Sackbut,http://id.loc.gov/authorities/subjects/sh85116235,Trombone,http://id.loc.gov/authorities/subjects/sh85137992,
+Alphorn,http://id.loc.gov/authorities/subjects/sh85003803,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,
+Keyed trumpet,http://id.loc.gov/authorities/subjects/sh2001005614,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,
+Ligawka,http://id.loc.gov/authorities/subjects/sh2006000480,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,Poland
+Lur,http://id.loc.gov/authorities/subjects/sh85078943,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,
+Mutantrumpet,http://id.loc.gov/authorities/subjects/sh92002564,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,
+Siwa (Musical instrument),http://id.loc.gov/authorities/subjects/sh85123059,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,Kenya
+Túru (Side-blown trumpet),http://id.loc.gov/authorities/subjects/sh2005006575,Trumpet,http://id.loc.gov/authorities/subjects/sh85138176,Liberia
+Sousaphone,http://id.loc.gov/authorities/subjects/sh92005379,Tuba,http://id.loc.gov/authorities/subjects/sh85138369,
+Kazoo,http://id.loc.gov/authorities/subjects/sh85071829,Mirliton,http://id.loc.gov/authorities/subjects/sh85085953,
+Alboka,http://id.loc.gov/authorities/subjects/sh85003235,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Spain
+Aulos,http://id.loc.gov/authorities/subjects/sh85009532,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Greece
+Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Basset horn,http://id.loc.gov/authorities/subjects/sh85012181,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Bassoon,http://id.loc.gov/authorities/subjects/sh85012193,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Crumhorn,http://id.loc.gov/authorities/subjects/sh85034371,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+English horn,http://id.loc.gov/authorities/subjects/sh85043380,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Flute,http://id.loc.gov/authorities/subjects/sh85049452,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Gralla,http://id.loc.gov/authorities/subjects/sh91002811,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Spain
+Khlui,http://id.loc.gov/authorities/subjects/sh93005462,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Thailand
+Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Oboe d'amore,http://id.loc.gov/authorities/subjects/sh96005261,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Pī (Musical instrument),http://id.loc.gov/authorities/subjects/sh93005470,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Cambodia;Laos;Thailand
+Practice chanter,http://id.loc.gov/authorities/subjects/sh2007000818,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Racket (Musical instrument),http://id.loc.gov/authorities/subjects/sh86002470,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Sáo (Musical instrument),http://id.loc.gov/authorities/subjects/sh2008009380,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Vietnam
+Sarrusophone,http://id.loc.gov/authorities/subjects/sh85117587,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Saxophone,http://id.loc.gov/authorities/subjects/sh85117829,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Shawm,http://id.loc.gov/authorities/subjects/sh85121175,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Tárogató,http://id.loc.gov/authorities/subjects/sh85132681,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966, 
+Tibia (Musical instrument),http://id.loc.gov/authorities/subjects/sh85135235,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,Ancient Rome
+Whistles,http://id.loc.gov/authorities/subjects/sh95005338,Woodwind instruments,http://id.loc.gov/authorities/subjects/sh85147966,
+Border pipes,http://id.loc.gov/authorities/subjects/sh2006002878,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,
+Chiboni,http://id.loc.gov/authorities/subjects/sh97003231,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Georgia
+Dudy,http://id.loc.gov/authorities/subjects/sh85039887,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Eastern Europe;Russia
+Gaita,http://id.loc.gov/authorities/subjects/sh85052742,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Spain
+Mišnice,http://id.loc.gov/authorities/subjects/sh92005166,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Balkan peninsula
+Northumbrian small pipe,http://id.loc.gov/authorities/subjects/sh91005838,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,England
+Sordellina,http://id.loc.gov/authorities/subjects/sh99003531,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Italy
+Uilleann pipe,http://id.loc.gov/authorities/subjects/sh87006045,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,Ireland
+Veuze,http://id.loc.gov/authorities/subjects/sh94005470,Bagpipe,http://id.loc.gov/authorities/subjects/sh85010971,France
+Contrabassoon,http://id.loc.gov/authorities/subjects/sh85031582,Bassoon,http://id.loc.gov/authorities/subjects/sh85012193,
+Dulcian,http://id.loc.gov/authorities/subjects/sh86002469,Bassoon,http://id.loc.gov/authorities/subjects/sh85012193,
+Tenoroon,http://id.loc.gov/authorities/subjects/sh2015000773,Bassoon,http://id.loc.gov/authorities/subjects/sh85012193,
+Alto clarinet,http://id.loc.gov/authorities/subjects/sh2001002567,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Bass clarinet,http://id.loc.gov/authorities/subjects/sh85012150,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Basset clarinet,http://id.loc.gov/authorities/subjects/sh87005786,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Basset horn,http://id.loc.gov/authorities/subjects/sh85012181,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Birbynė,http://id.loc.gov/authorities/subjects/sh94002488,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,Lithuania
+Chalumeau,http://id.loc.gov/authorities/subjects/sh85022399,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Clarinette d'amour,http://id.loc.gov/authorities/subjects/sh87001391,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Contrabass clarinet,http://id.loc.gov/authorities/subjects/sh91006365,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,
+Launeddas,http://id.loc.gov/authorities/subjects/sh99000730,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,Italy
+Roopill,http://id.loc.gov/authorities/subjects/sh95008257,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,Estonia
+Sipsi,http://id.loc.gov/authorities/subjects/sh99013530,Clarinet,http://id.loc.gov/authorities/subjects/sh85026570,Turkey
+Oboe da caccia,http://id.loc.gov/authorities/subjects/sh98005254,English horn,http://id.loc.gov/authorities/subjects/sh85043380,
+Algōjā,http://id.loc.gov/authorities/subjects/sh00006976,Flute,http://id.loc.gov/authorities/subjects/sh85049452,India
+Alto flute,http://id.loc.gov/authorities/subjects/sh99011312,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Atenteben,http://id.loc.gov/authorities/subjects/sh93006568,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Ghana
+Bānsurī,http://id.loc.gov/authorities/subjects/sh85011685,Flute,http://id.loc.gov/authorities/subjects/sh85049452,India;Pakistan
+Bass flute,http://id.loc.gov/authorities/subjects/sh99011314,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Blul,http://id.loc.gov/authorities/subjects/sh92005137,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Armenia;Iran;Iraq
+Bone flute,http://id.loc.gov/authorities/subjects/sh2003002107,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Contrabass flute,http://id.loc.gov/authorities/subjects/sh99012887,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Di zi,http://id.loc.gov/authorities/subjects/sh85135203,Flute,http://id.loc.gov/authorities/subjects/sh85049452,China
+Dvorgrle,http://id.loc.gov/authorities/subjects/sh92005341,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Balkan peninsula
+Fife,http://id.loc.gov/authorities/subjects/sh85048136,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Flageolet,http://id.loc.gov/authorities/subjects/sh85048959,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Flaviol,http://id.loc.gov/authorities/subjects/sh92001035,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Flûte d'amour,http://id.loc.gov/authorities/subjects/sh2017004502,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Gaita (Flute),http://id.loc.gov/authorities/subjects/sh96010794,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Galoubet,http://id.loc.gov/authorities/subjects/sh85052874,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Huang zhong (Musical instrument),http://id.loc.gov/authorities/subjects/sh85062736,Flute,http://id.loc.gov/authorities/subjects/sh85049452,China
+Iwabue,http://id.loc.gov/authorities/subjects/sh2006008246,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Kagurabue,http://id.loc.gov/authorities/subjects/sh91003236,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Kaval,http://id.loc.gov/authorities/subjects/sh95004236,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Kōauau,http://id.loc.gov/authorities/subjects/sh2003009090,Flute,http://id.loc.gov/authorities/subjects/sh85049452,New Zealand
+Kurai,http://id.loc.gov/authorities/subjects/sh2011002537,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Russia
+Limbe (Musical instrument),http://id.loc.gov/authorities/subjects/sh2011005478,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Mongolia;China
+Native American flute,http://id.loc.gov/authorities/subjects/sh95006538,Flute,http://id.loc.gov/authorities/subjects/sh85049452,North America
+Nāy,http://id.loc.gov/authorities/subjects/sh85090455,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Central Asia;Middle East;Iran
+Nōkan,http://id.loc.gov/authorities/subjects/sh2006008190,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Ocarina,http://id.loc.gov/authorities/subjects/sh85093790,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Panpipes,http://id.loc.gov/authorities/subjects/sh85097479,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Penny whistle,http://id.loc.gov/authorities/subjects/sh85099560,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Piccolo,http://id.loc.gov/authorities/subjects/sh85101940,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Pinkullu,http://id.loc.gov/authorities/subjects/sh2006008055,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Andes region
+Pipe (Musical instrument),http://id.loc.gov/authorities/subjects/sh85102357,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Quena,http://id.loc.gov/authorities/subjects/sh90000517,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Andes region
+Recorder (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111889,Flute,http://id.loc.gov/authorities/subjects/sh85049452,
+Ryūteki,http://id.loc.gov/authorities/subjects/sh85116144,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Saluang,http://id.loc.gov/authorities/subjects/sh2007001240,Flute,http://id.loc.gov/authorities/subjects/sh85049452,INdonesia
+Shakuhachi,http://id.loc.gov/authorities/subjects/sh85121066,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Shinobue,http://id.loc.gov/authorities/subjects/sh86001268,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Suifūkin,http://id.loc.gov/authorities/subjects/sh98002383,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Japan
+Suling (Musical instrument),http://id.loc.gov/authorities/subjects/sh89003771,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Indonesia;Malaysia;Philippines
+Šupeljka,http://id.loc.gov/authorities/subjects/sh2004002323,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Eastern Europe
+Šupelka,http://id.loc.gov/authorities/subjects/sh2015001017,Flute,http://id.loc.gov/authorities/subjects/sh85049452,North Macedonia
+Svirala,http://id.loc.gov/authorities/subjects/sh92005168,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Balkan Peninsula
+Sybyzghy,http://id.loc.gov/authorities/subjects/sh2018000016,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Central Asia
+Taegŭm,http://id.loc.gov/authorities/subjects/sh85131882,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Korea
+Tanso,http://id.loc.gov/authorities/subjects/sh85132343,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Korea
+Tarka,http://id.loc.gov/authorities/subjects/sh2001003478,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Andes region
+Tsuur,http://id.loc.gov/authorities/subjects/sh2025000287,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Central Asia
+Veṇu,http://id.loc.gov/authorities/subjects/sh2014001148,Flute,http://id.loc.gov/authorities/subjects/sh85049452,India
+Washint,http://id.loc.gov/authorities/subjects/sh2005005099,Flute,http://id.loc.gov/authorities/subjects/sh85049452,Ethiopia
+Xiao,http://id.loc.gov/authorities/subjects/sh85062703,Flute,http://id.loc.gov/authorities/subjects/sh85049452,China
+Xun (Musical instrument),http://id.loc.gov/authorities/subjects/sh85062712,Flute,http://id.loc.gov/authorities/subjects/sh85049452,China
+Melody flute,http://id.loc.gov/authorities/subjects/sh85083438,Flageolet,http://id.loc.gov/authorities/subjects/sh85048959,
+Sĭyotanka (Musical instrument),https://id.loc.gov/authorities/subjects/sh89007095,Native American flute,http://id.loc.gov/authorities/subjects/sh95006538,Northern Plains/North America
+Siku,http://id.loc.gov/authorities/subjects/sh91002821,Panpipes,http://id.loc.gov/authorities/subjects/sh85097479,South America
+Melody flute,http://id.loc.gov/authorities/subjects/sh85083438,Penny whistle,http://id.loc.gov/authorities/subjects/sh85099560,
+Csakan,http://id.loc.gov/authorities/subjects/sh85035261,Recorder (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111889,Austria;Hungary
+Orkon,http://id.loc.gov/authorities/subjects/sh2005008074,Recorder (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111889,
+Tonette,http://id.loc.gov/authorities/subjects/sh85135975,Recorder (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111889,
+Tussefløyte,http://id.loc.gov/authorities/subjects/sh89005557,Recorder (Musical instrument),http://id.loc.gov/authorities/subjects/sh85111889,Norway
+Bālabān,http://id.loc.gov/authorities/subjects/sh00000676,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Kurds
+Chirimía (Musical instrument),http://id.loc.gov/authorities/subjects/sh2007004986,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Spain;Latin America
+Duduk (Oboe),http://id.loc.gov/authorities/subjects/sh95002646,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Armenia;Georgia
+Dulzaina,http://id.loc.gov/authorities/subjects/sh85039940,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Spain
+Guan,http://id.loc.gov/authorities/subjects/sh94000470,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,China
+Heckelphone,http://id.loc.gov/authorities/subjects/sh85059898,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,
+Hichiriki,http://id.loc.gov/authorities/subjects/sh85060609,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Japan
+Koḷ (Musical instrument),http://id.loc.gov/authorities/subjects/sh2005006564,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,India
+Mey,http://id.loc.gov/authorities/subjects/sh99013474,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Turkey
+Mukhavīṇā,http://id.loc.gov/authorities/subjects/sh2003003390,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,India
+Musette (Oboe),http://id.loc.gov/authorities/subjects/sh2003002087,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,
+Nāgasvaram,http://id.loc.gov/authorities/subjects/sh90003345,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,India
+Pʻiri,http://id.loc.gov/authorities/subjects/sh85102151,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Korea
+Rgya-gling,http://id.loc.gov/authorities/subjects/sh89004108,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,China
+Shehnai,http://id.loc.gov/authorities/subjects/sh85121263,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,India
+Suo na,http://id.loc.gov/authorities/subjects/sh85123814,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,China
+Tʻaepʻyŏngso,http://id.loc.gov/authorities/subjects/sh95006327,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Korea
+Zumari,http://id.loc.gov/authorities/subjects/sh85150057,Oboe,http://id.loc.gov/authorities/subjects/sh85093674,Kenya
+Pommer,http://id.loc.gov/authorities/subjects/sh85104764,Shawm,http://id.loc.gov/authorities/subjects/sh85121175,
+Tenora (Musical instrument),http://id.loc.gov/authorities/subjects/sh94002940,Shawm,http://id.loc.gov/authorities/subjects/sh85121175,Spain
+Zūrnā,http://id.loc.gov/authorities/subjects/sh91001176,Shawm,http://id.loc.gov/authorities/subjects/sh85121175,Middle East
+Birdcall whistles,http://id.loc.gov/authorities/subjects/sh2007010448,Whistles,http://id.loc.gov/authorities/subjects/sh95005338,
+Deer whistles,http://id.loc.gov/authorities/subjects/sh2007006118,Whistles,http://id.loc.gov/authorities/subjects/sh95005338,
+Terra-cotta whistles,http://id.loc.gov/authorities/subjects/sh95007362,Whistles,http://id.loc.gov/authorities/subjects/sh95005338,
+Brass bands,http://id.loc.gov/authorities/subjects/sh85016437,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Barbershop quartets (Musical groups),http://id.loc.gov/authorities/subjects/sh2011000235,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Brass bands,http://id.loc.gov/authorities/subjects/sh85016437,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Chamber music groups,http://id.loc.gov/authorities/subjects/sh85022425,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Chapels (Music),http://id.loc.gov/authorities/subjects/sh85022583,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Chirigotas,http://id.loc.gov/authorities/subjects/sh2022005599,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Country music groups,http://id.loc.gov/authorities/subjects/sh85033471,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Early-music groups,http://id.loc.gov/authorities/subjects/sh92000859,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Folk music groups,http://id.loc.gov/authorities/subjects/sh85049848,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Gospel groups,http://id.loc.gov/authorities/subjects/sh2023000940,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Gothic rock groups,http://id.loc.gov/authorities/subjects/sh2008004020,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Handbell choirs,http://id.loc.gov/authorities/subjects/sh2003002962,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Handchime choirs,http://id.loc.gov/authorities/subjects/sh2018001906,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Jam bands,http://id.loc.gov/authorities/subjects/sh2003002249,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Murgas (Musical groups),http://id.loc.gov/authorities/subjects/sh2004014985,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Percussion ensembles (Musical groups),http://id.loc.gov/authorities/subjects/sh2007002848,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Rock groups,http://id.loc.gov/authorities/subjects/sh85114671,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+String bands,http://id.loc.gov/authorities/subjects/sh2001005053,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Symphony orchestras,http://id.loc.gov/authorities/subjects/sh85131544,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Tunas (Musical groups),http://id.loc.gov/authorities/subjects/sh2007001159,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Vocal groups,http://id.loc.gov/authorities/subjects/sh2001006505,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Vocal quartets (Musical groups),http://id.loc.gov/authorities/subjects/sh2010006906,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Wind ensembles (Musical groups),http://id.loc.gov/authorities/subjects/sh2011000342,Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,
+Musical groups,http://id.loc.gov/authorities/subjects/sh85088960,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Altas (Musical groups),http://id.loc.gov/authorities/subjects/sh2003007317,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Big bands,http://id.loc.gov/authorities/subjects/sh85013942,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Brass bands,http://id.loc.gov/authorities/subjects/sh85016437,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Circus bands,http://id.loc.gov/authorities/subjects/sh92001369,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Dance orchestras,http://id.loc.gov/authorities/subjects/sh85035648,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Drum and bugle corps,http://id.loc.gov/authorities/subjects/sh85017679,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Drum majors,http://id.loc.gov/authorities/subjects/sh85039778,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Fife and drum corps,http://id.loc.gov/authorities/subjects/sh86007649,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Jug bands,http://id.loc.gov/authorities/subjects/sh2001005051,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Marching bands,http://id.loc.gov/authorities/subjects/sh85081020,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Pipe bands,http://id.loc.gov/authorities/subjects/sh85102359,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Rhythm bands and orchestras,http://id.loc.gov/authorities/subjects/sh85113836,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Saxophone choirs,http://id.loc.gov/authorities/subjects/sh2005005129,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Steel bands (Music),http://id.loc.gov/authorities/subjects/sh85127813,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Washboard bands,http://id.loc.gov/authorities/subjects/sh00000869,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Women's bands (Music),http://id.loc.gov/authorities/subjects/sh2016001993,Bands (Music),http://id.loc.gov/authorities/subjects/sh85011499,
+Accordion bands,http://id.loc.gov/authorities/subjects/sh00000859,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Balalaika orchestras,http://id.loc.gov/authorities/subjects/sh00000565,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Bandoneon orchestras,http://id.loc.gov/authorities/subjects/sh2011000124,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Chamber orchestra,http://id.loc.gov/authorities/subjects/sh85022426,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Dance orchestras,http://id.loc.gov/authorities/subjects/sh85035648,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Harmonica bands,http://id.loc.gov/authorities/subjects/sh2011000126,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Mandolin orchestras,http://id.loc.gov/authorities/subjects/sh85080461,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Plucked instrument orchestras,http://id.loc.gov/authorities/subjects/sh95010369,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Plung orchestras,http://id.loc.gov/authorities/subjects/sh99011293,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Rhythm bands and orchestras,http://id.loc.gov/authorities/subjects/sh85113836,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Siku orchestras,http://id.loc.gov/authorities/subjects/sh96009597,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Steel bands (Music),http://id.loc.gov/authorities/subjects/sh85127813,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Symphony orchestras,http://id.loc.gov/authorities/subjects/sh85131544,Orchestra,http://id.loc.gov/authorities/subjects/sh85095325,
+Employer-sponsored orchestras,http://id.loc.gov/authorities/subjects/sh94003555,Symphony orchestras,http://id.loc.gov/authorities/subjects/sh85131544,
+Piano trios (Musical groups),http://id.loc.gov/authorities/subjects/sh2003002065,Chamber music groups,http://id.loc.gov/authorities/subjects/sh85022425,
+String quartets (Musical groups),http://id.loc.gov/authorities/subjects/sh99011235,Chamber music groups,http://id.loc.gov/authorities/subjects/sh85022425,
+Maîtrises,http://id.loc.gov/authorities/subjects/sh85079950,Chapels (Music),http://id.loc.gov/authorities/subjects/sh85022583,
+Grunge groups,http://id.loc.gov/authorities/subjects/sh95010469,Rock groups,http://id.loc.gov/authorities/subjects/sh85114671,
+Tribute bands (Musical groups),http://id.loc.gov/authorities/subjects/sh2007002974,Rock groups,http://id.loc.gov/authorities/subjects/sh85114671,
+Boy bands,http://id.loc.gov/authorities/subjects/sh2008005239,Vocal groups,http://id.loc.gov/authorities/subjects/sh2001006505,
+Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,Vocal groups,http://id.loc.gov/authorities/subjects/sh2001006505,
+Choral societies,http://id.loc.gov/authorities/subjects/sh85024704,Vocal groups,http://id.loc.gov/authorities/subjects/sh2001006505,
+Girl groups (Musical groups),http://id.loc.gov/authorities/subjects/sh2001002553,Vocal groups,http://id.loc.gov/authorities/subjects/sh2001006505,
+Jazz vocal groups,http://id.loc.gov/authorities/subjects/sh2008002930,Vocal groups,http://id.loc.gov/authorities/subjects/sh2001006505,
+Children's choirs,http://id.loc.gov/authorities/subjects/sh89002559,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Gay choirs,http://id.loc.gov/authorities/subjects/sh2010003068,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Glee clubs,http://id.loc.gov/authorities/subjects/sh2010014442,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Maîtrises,http://id.loc.gov/authorities/subjects/sh85079950,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Men's choirs,http://id.loc.gov/authorities/subjects/sh2010014452,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Show choirs,http://id.loc.gov/authorities/subjects/sh2010014453,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Women's choirs,http://id.loc.gov/authorities/subjects/sh2011002876,Choirs (Music),http://id.loc.gov/authorities/subjects/sh85024628,
+Boys' choirs,http://id.loc.gov/authorities/subjects/sh96007071,Children's choirs,http://id.loc.gov/authorities/subjects/sh89002559,
+Musicians,http://id.loc.gov/authorities/demographicTerms/dg2015060212,Artists,http://id.loc.gov/authorities/subjects/sh85008276,
+Conductors (Music),http://id.loc.gov/authorities/subjects/sh85030810,Musicians,http://id.loc.gov/authorities/demographicTerms/dg2015060212,
