@@ -14,7 +14,7 @@ Working titles for the service:
 ### Purpose
 To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage.
+Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform SEKO3 from a general medium-of-performance vocabulary to be also the definitive linked-data reference for Finnish and Karelian organology — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
@@ -29,9 +29,25 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
 ### 2026-08 AUGUST
-**Week 32**
-- Networking, planning, documenting
+**Week 32** - Networking, planning, documenting
 - Added a note on SEKO3-KOKO integration possibility to improve usability in GLAM-sector collections.
+- Emall exchange started with MUUSA, the MIMO network, the National Library and the Music Archive. Received the original full MIMO vocabulary files. Registered for the MIMO General Annual Meeting in Riga, 9-10 Sepetember which has a presentation on Vocabularies.
+- Studied the Leisiö dissertation in 1983 and made a table of the 120 instrumnent "types" listed, as well as the 120 instruments describe by Minna Hokka website.
+    - These will be mapped together into a single file, and also mapped to Seko. Their classification is close to H-S so mapping to it would be done, too.
+    - Probably at least 60 fo these instruments are not in the current Seko.
+    - Probably these listtings would be added to the SEKO3 Wiki under [03 Research notes](https://github.com/NatLibFi/SEKO/wiki/03-Research-notes) - now there are "placeholder" lists only.
+    - Finding and adding the most used alternative labels would require deeper research into Leisiö's book which has an extensive index of instrument labels and an organological section, too. Filter to only those that are actually used in publications and collections.
+- Contined working on a concise project plan and timetable. Current estimate for a timespan is 24 moonths to complete the different plans and to get quality assurance by music metadata specialists.
+- Mapped matching instrument Iconclass classes to Masterdata table with finto.fi url:s.
+
+**Week 33** - vacationing...
+- Started re-defining the scope of the project to three distinct work packages:
+    -  Seko translation, concept mapping and re-structuring to support interoperability and linked data,
+    -  Classification translation and class mapping to Seko instruments to support discovery and science,
+    -  Extending with the traditional instruments to support the cultural heritage work at museums and archives.
+- Images of instruments could be linked from the concepts with a property like schema:image or foaf:depiction or wdt:P18.
+    - Possible image sources finna.fi or wikimedia commons. However, an easier approach would be just map with seeAlso to pages that include images?
+    - Worked on LCMPT and LCSH label lists for mappings. **LCSH** has 884 instrument and ensemble concepts with 1416 entry terms. **LCMPT** has 903 concepts with 1554 entry terms.
 
 
 ## Background
@@ -44,23 +60,22 @@ Specific spatial and cultural information inside the current Seko instrument des
 
 The Seko dataset consist currently of some 1200-1300 concepts of musical instruments and ensembles.
 The classification would be based on the MIMO dataset from 2011 and its addtions in 2018. 
-
+]
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
-
 
 ## Data model of the vocabulary / ontology
 - The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
-- The hierarchy matches closely the Hornboschel-Sachs classification.
+- The hierarchy matches closeoly the Hornboschel-Sachs classification by MIMO.
 - The datamodel will be documented in SKOS turtle format.
 - See the separate [Datamodel](datamodel/README.md) description page.
 
 ## Mappings
 
-During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. See also other identifiers in Wikidata <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
+During the process we map items in Wikidata with the corresponding <a href="https://www.wikidata.org/wiki/Property:P10063">SEKO-ID (P10063)</a>. To support mappings, see also other identifiers in Wikidata  <a href="http://www.wikidata.org/entity/P8516">LCMPT ID (P8516)</a> and <a href="http://www.wikidata.org/entity/P3763">MIMO instrument ID (P3763)</a>, <a href="http://www.wikidata.org/entity/P11214">UNIMARC: Medium of Performance ID (P11214)</a>, <a href="https://www.wikidata.org/entity/P1330">MusicBrainz instrument ID (P1330)</a>. 
 
 The [skos:MappingRelations](https://www.w3.org/TR/skos-reference/#mapping) properties will be used to link to external sources. Preferrably with exactMatch, but also closeMatch, broadMatch and narrowMatch may be used when an exact match is not available.  
 
-Current plan is to map to Wikidata and  to an external authority file. Wikidata mapping would be considered mandatory. The existing LCMPT mappings are checked and their coverage extended.
+Current plan is to map to Wikidata and  to an external authority file. Wikidata mapping would be considered **mandatory**. The existing LCMPT mappings are checked and their coverage extended. Possibly map to any vocabulary that Finnish music archives and museums are currently using.
 - Primary targets are Wikidata, LCMPT, YSO
 - Secondary targets are  MIMO instrument vocabulary, Hornboschel-Sachs classification (maintained by MIMO), KOKO.
 - Other possible targets are Getty AAT (for instruments)
@@ -87,11 +102,23 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 - SEKO3 masterdata-table is already mapped to YSO-concepts. Thus it could be considered an "YSO-based ontology".
     - The Top Concept "esityskokoonpano" is currently not in YSO, BUT the two second level concepts are mapped: yso:p7110 "soittimet", yso:p1289 "esittäjät"
 - SEKO3 is hierarchical and trilingual. What else would be needed to be able to include SEKO3 in KOKO?
+- Content description in Finnish Museums: https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
+    - Museovirasto 2015: [Suositus museoille ontologioiden,  luokitusjärjestelmien ja asiasanastojen käytöstä  versio 2.0](https://museovirasto-craft-assets-production.s3.eu-north-1.amazonaws.com/Arkisto-ja-kokoelmapalvelut/Julkaisut/suositus-museoille-2015.pdf)
+    - _**Suositus:** Ontologioita suositellaan käytettävän ensisijaisina välineinä museoiden objektien kuvailussa. Keskeisin objektien kuvailussa käytettävä ontologia on suomalaisia ontologioita yhdistävä KOKO-yleiskäsiteontologia ... KOKOn ohella voidaan käyttää myös muita ontologioita._
+    - **Suositus:** Suositeltavaa on käyttää laajasti käytettyjä ja tunnettuja **kansainvälisiä luokitusjärjestelmiä**.  Classification systems mentioned: Outline of Cultural materials (OCM), Iconclass - also on [finto.fi](http://iconclass.org/48C7), IPTC NewsCodes: Subject Codes (for photographs) - all preferrably in ontologized versions. 
 
 ### Music archives
    - connections not known at the moment. Check Finna-LIDO import rules. 
 
-## Seko datasets
+## Data
+
+The source data is is comprised of three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  
+- First, the current dataset of Seko of 1241 titles.
+- Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching.
+- Third, a vocabulary of the Finnish-Karelian traditional instruments, many of them not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications and some of them available through finna.fi and Europeana.
+    - Outside of the scope, but it might also be possible to develop this separately as an ontology of folk instruments of the peoples speaking [Finnic languages](https://en.wikipedia.org/wiki/Finnic_languages) or even a Scandinavian-Baltic-Finnic folk instrument ontology, which might be a valuable resource for research and collections.
+
+### Seko data
 
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
 * As of 2026-06 the original dataset is maintained as MARC21 Authority files on the national metadata repository Melinda (ALEPH library system) hosted by the National Library of Finland. The data is transformed and exported in SKOS format (RDF) to Finto-data repository at https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko. This data is browsable through the Finto service https://finto.fi/seko/en/ (a Skosmos syste,). The latest changes to the data were committed in 2021-09-28 and the metadata of the whole dataset was updated in 2025-05-21. 

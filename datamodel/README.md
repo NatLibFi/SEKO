@@ -50,7 +50,8 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 - **rdfs:comment** # used for giving a human readable label for a object URI
 - **rdfs:seeAlso**  # Used for addtional external documentation describing the instrument or   
     other information useful in content description, e.g. link to an image of the instrument.
-  - See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
+    - See [UsingSeeAlso](https://www.w3.org/wiki/UsingSeeAlso).
+    - See also [<http://schema.org/image>](https://schema.org/image)
 
 ### dc: dct:
 #### for the ConceptScheme
@@ -142,12 +143,24 @@ The
 ### skos-xl, xl:
 - Still considered. Is used by YSO Ontology.
 
+### schema.org
+-  <http://schema.org/image> - for a link to an image of the instrument
+    - <https://schema.org/photo> - if links are to photograph objects
+    - check if the image source needs to be stored and mentioned 
+
 ### xsd
 xsd:integer, xsd:date, xsd:dateTime
 
 ### voaf
 - voaf:Vocabulary, voaf:VocabularySpace
 - voaf:extends, voaf:propertyNumber, voaf:classNumber, voaf:specializes, voaf:similar, voaf:toDoList
+
+### wikidata properties
+- <https://www.wikidata.org/wiki/Property:P18> - image  --  _wdt:P18 <object-url>_  -- not always recognized by search  engines
+
+### foaf
+- seko:nnnnn **foaf:depiction** <image-url> .    # more generally recognized property to point to an image
+    - https://xmlns.com/foaf/spec/#term_depiction 
 
 ## SEKO
 Note!  will add to seko-metadata.ttl a new annotation property:   

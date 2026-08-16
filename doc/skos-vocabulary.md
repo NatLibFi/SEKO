@@ -1,6 +1,8 @@
 Some terminology for Swedish interface of SEKO3
 
 Tämä sanasto on luonnos SKOS-standardin (Simple Knowledge Organization System) mukaiseen tietomallinnukseen, Turtle-formaattiin sekä sanastojen käyttöliittymiin ja kuvailutyöhön.
+
+Huom! Tarkista termien yhteensopivuus [Libriksen](https://id.kb.se/vocab/) sanaston kanssa.
 Näistä pyritään kuitenkin käyttämään ensisijaisesti Skosmos käyttöliittymän oletusarvoja, kun sellainen on käytettävissä.
 
 | English | Suomi | Svenska | SKOS / Tekninen vastine |
