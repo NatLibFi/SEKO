@@ -47,6 +47,7 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
     -  Extending with the traditional instruments to support the cultural heritage work at museums and archives.
 - Images of instruments could be linked from the concepts with a property like schema:image or foaf:depiction or wdt:P18.
     - Possible image sources finna.fi or wikimedia commons. However, an easier approach would be just map with seeAlso to pages that include images?
+    - Worked on LCMPT and LCSH label lists for mappings. **LCSH** has 884 instrument and ensemble concepts with 1416 entry terms. **LCMPT** has 903 concepts with 1554 entry terms.
 
 
 ## Background
