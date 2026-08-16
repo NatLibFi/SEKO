@@ -27,6 +27,4 @@ Entered into the masterdata table during the editorial process
 |seko:87499|puinen sarviklarinetti|seko:00513|klarinettisoitin|https://github.com/NatLibFi/SEKO/issues/19|2026-07-29|
 |seko:87500|bockhorn|seko:00899|sarvi (puhallinsoitin)|https://github.com/NatLibFi/SEKO/issues/20|2026-07-29|
 |seko:87501|tarpo|seko:00513|klarinettisoitin|https://github.com/NatLibFi/SEKO/issues/192|2026-08-01|
-|seko:87502|talonpoikaiskantele|seko:00470|kantele|?|2026-08-16|
-|seko:87500|bockhorn|seko:00899|sarvi (puhallinsoitin)|https://github.com/NatLibFi/SEKO/issues/20|2026-07-29|
-|seko:87501|tarpo|seko:00513|klarinettisoitin|https://github.com/NatLibFi/SEKO/issues/192|2026-08-01|
+|seko:87502|talonpoikaiskantele|seko:00470|kantele|-?-|2026-08-16|
