@@ -49,6 +49,8 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
     - Possible image sources finna.fi or wikimedia commons. However, an easier approach would be just map with seeAlso to pages that include images?
     - Worked on LCMPT and LCSH label lists for mappings. **LCSH** has 884 instrument and ensemble concepts with 1416 entry terms. **LCMPT** has 903 concepts with 1554 entry terms.
 
+**Week 34**
+- After discussiong with Finto staff, to clearly separate new concpets added within the project and the concepts approved and added by the MUUSA expert group, the identifiers for new concepts were changed to start with the character **x** , following with three digits. Updates from the origial Aleph-database to Seko at finto.fi are expected in the near future.
 
 ## Background
 
