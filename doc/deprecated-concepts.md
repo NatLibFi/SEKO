@@ -16,7 +16,7 @@ During the editorial phase, several concepts have been set as deprecated. Most o
 | seko:00268 | dauli |seko:00269 | davul | [#37](https://github.com/NatLibFi/SEKO/issues/37) |
 | seko:00284 | doira | seko:00259 | davul | [#39](https://github.com/NatLibFi/SEKO/issues/39) |
 | seko:00289 | dotār | seko:00310 | dutār | [#45](https://github.com/NatLibFi/SEKO/issues/45) |
-| seko:00291 | dousinguni | seko:87480 | donsonkoni **(NEW)** | [#11](https://github.com/NatLibFi/SEKO/issues/11) | 
+| seko:00291 | dousinguni | seko:x480 | donsonkoni **(NEW)** | [#11](https://github.com/NatLibFi/SEKO/issues/11) | 
 | seko:00292 | dranka | seko:00170 | bulgarija | [#40](https://github.com/NatLibFi/SEKO/issues/40) |
 | seko:00315 | džingas | seko:00372 | ģīga | [#46](https://github.com/NatLibFi/SEKO/issues/46) |
 | seko:00392 | NONE | - | - | NOT USED |
