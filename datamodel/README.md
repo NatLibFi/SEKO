@@ -1,6 +1,6 @@
 See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datamodel.md)
 
-# SEKO3 datamodel planning
+# FMPO datamodel planning
 
 ## Namespaces to be used
 ```
@@ -28,7 +28,8 @@ See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datam
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix schema: <http://schema.org/>  .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .
+@prefix fmpo: <http://example.org/fmpo:> .
+@prefix fmpo-meta: <http://example.org/fmpo-meta:> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
@@ -72,14 +73,14 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 - dct:replaces  # Used for linking from a valid concept to a deprecated concept in the vocabulary
 - dct:isReplacedBy # Used for linking from a deprecated concept to a replacing concept in the vocabulary (e.g.due to a merge or delete)
 - dct:refernces # Used for linking to a source which is not used directly but may infuence the Concept data decisions (URI)
-- dct:identifier  # seko-identifier of the concept (full URI) 
+- dct:identifier  # fmpo-identifier of the concept (full URI) 
 - dct:spatial  # Used for spatial origin or distribution or usage area of the Concept. Preferably a YSO-places URI. (can be a Wikidata or Geospaces URI)
 - dct:temporal  # Used for temoporal era for a historical instrument when it was invented or used. Preferably YSO-aika URI (can be a wikidata URI)
 
 ### skos:
 #### owl:Class:
 - **skos:Concept**  #  Used for any instrument or ensemble element
-- **skos:ConceptScheme**  #  Currently two schemes  seko: for the ontology and seko-meta: for the local class and property descriptions
+- **skos:ConceptScheme**  #  Currently two schemes  fmpo: for the ontology and fmpo-meta: for the local class and property descriptions
 - [skos:Collection](https://www.w3.org/TR/skos-reference/#Collection) # Used for grouping concepts, e.g. folk instruments, from different branches of the hierarchy.
 
 #### Object Properties: 
@@ -89,7 +90,7 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 - **skos:topConceptOf**  # Used for linking the top concept to the scheme it is a top concept of
 - **skos:broader**  # Used for linking to hierarchically nearest broader concepts. There can be more than one.
 - **skos:narrower** # Used for linking to the hierarchically nearest narrower conecpts, opposite to skos:broader
-- **skos:related**  # Used for linking to a related skos:Cconcept WITHIN Seko but is not hierarchically broader or narrower
+- **skos:related**  # Used for linking to a related skos:Cconcept WITHIN FMPO  but is not hierarchically broader or narrower
 - skos:memberList  # currently not used
 
 #### Datatype properties:
@@ -109,10 +110,10 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 
 #### Mapping properties:
 - skos:mappingRelation, **skos:closeMatch**, **skos:exactMatch**, **skos:broadMatch**, **skos:narrowMatch**, **skos:relatedMatch**
-  - Used for mapping Seko concepts to the same or similar concepts in external vocabularies
+  - Used for mapping FMPO concepts to the same or similar concepts in _external vocabularies_
 
 ### skos-thes: - for the classification hierarchy and other grouping
-This part is still under consideration.  It could be used for presenting the classification structure and the members of each group from the seko: ontology and possibly from the mimo: vocabulary.
+This part is still under consideration.  It would be used for presenting the classification structure and the members of each group from the FMPO ontology and possibly from the mimo: vocabulary.
 
 If the group members follow the hierarchy, use ConceptGroup. and skos-thes:subGroup or skos-thes:superGroup for the group hierarchy. The Domain and Range for both is  skos-thes:ConceptGroup.
 - [skos-thes:ConceptGroup](https://www.dublincore.org/specifications/skos-thes/ns/#ConceptGroup)
@@ -159,54 +160,54 @@ xsd:integer, xsd:date, xsd:dateTime
 - <https://www.wikidata.org/wiki/Property:P18> - image  --  _wdt:P18 <object-url>_  -- not always recognized by search  engines
 
 ### foaf
-- seko:nnnnn **foaf:depiction** <image-url> .    # more generally recognized property to point to an image
+- fmpo:nnnnn **foaf:depiction** <image-url> .    # more generally recognized property to point to an image
     - https://xmlns.com/foaf/spec/#term_depiction 
 
-## SEKO
-Note!  will add to seko-metadata.ttl a new annotation property:   
-****seko:statusNote**** as a subProperty of skos:note .
+## FMPO
+Note!  will add to fmpo-metadata.ttl a new annotation property:   
+****fmpo:statusNote**** as a subProperty of skos:note .
 
-Planned prefix is **seko-meta:**
+Planned prefix is **fmpo-meta:**
 
 ### Possible class definitions 
 ```
-seko:MediumOfPerformance a owl:Class ;  
+fmpo:MediumOfPerformance a owl:Class ;  
     rdfs:subClassOf skos:Concept ;   
     skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MediumOfPerformance> ;    
     skos:prefLabel "Esiintymiskokoonpano"@fi , "Medium of performance"@en ;
     rdfs:label "Medium of performance"@en ;  
-    skos:topConceptOf seko: ;
+    skos:topConceptOf fmpo: ;
     skos:definition "An individual instrument, voice, ensemble, or instrumental group (Bibframe)"@en ;  
 ```
 
 ```
-seko:MusicInstrument a owl:Class ; rdfs:subClassOf skos:Concept ;  
+fmpo:MusicInstrument a owl:Class ; rdfs:subClassOf skos:Concept ;  
    skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicInstrument> ;   
    skos:prefLabel "Soitin"@fi, "Music instrument"@en ;
    rdfs:label "Music instrument"@en ;
-   skos:broader seko:MediumOfPerformance ;
+   skos:broader fmpo:MediumOfPerformance ;
    skos:definition "Instrument for which a musical work is appropriate (Bibframe)"@en ;
    skos:exactMatch yso:p7110 .  # "soitin"
 ```
 
 ```
-seko:MusicEnsemble rdfs:subClassOf skos:Concept ;   
+fmpo:MusicEnsemble rdfs:subClassOf skos:Concept ;   
    skos:prefLabel "Ensemble"@fi, "Music ensemble"@en ;  
    rdfs:label "Music ensemble"@en ;
    skos:exactMatch <http://id.loc.gov/ontologies/bibframe/MusicEnsemble> ;   
-   skos:broader seko:MediumOfPerformance ;
+   skos:broader fmpo:MediumOfPerformance ;
    skos:definition "Ensemble for which a musical work is appropriate (Bibframe)"@en ;  
    skos:closeMatch  <https://schema.org/MusicGroup> . 
 ```
 
 
 ```
-seko:statusNote a owl:AnnotationProperty ;
+fmpo:statusNote a owl:AnnotationProperty ;
     rdfs:subPropertyOf skos:note ;
-    rdfs:label "Tietueen tila"@fi, "Seko concept status"@en ;
+    rdfs:label "Tietueen tila"@fi, "FMPO concept status"@en ;
     rdfs:range rdfs:Literal ;
     ddfs:domain rdfs:Resource ;
-    skos:definition "A note intended strictly for Seko internal use."@en ;
+    skos:definition "A note intended strictly for FMPO internal use."@en ;
     skos:scopeNote "Select value from: submitted, accepted, valid, deprecated, superceded, retired" ;
     skos:editorialNote "Only one value per record at any time.",
                        "Change and its reason should be registered in a skos:editorialNote" ;
@@ -215,8 +216,8 @@ seko:statusNote a owl:AnnotationProperty ;
 
 ## Notation of Classifications 
 Two rdfs:Datatype entities were added to handle the notations: 
-- seko:HSNotation
-- seko:YKLNotation 
+- fmpo:HSNotation
+- fmpo:YKLNotation 
 Examples and discussion How they would be used are in the classification section.
 
 ## Concept minimum content
