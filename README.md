@@ -30,7 +30,7 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
 
 ### 2026-09 SEPTEMBER
 **Week 35**
-- To avoid any overlap and mix-up between the current and planned versions in the finto.fi service, the prefix of the project ontology will be changed to fmpo: or fimpo: depending on feeback.  In Masterdata the Seko URN will be changed to a separate new column. The concept ids part will be kept equal as much as possible.
+- To avoid any overlap and mix-ups between the current vocabulary and the planned ontology versions in the **finto.fi** service, the prefix of the project ontology was changed to **fmpo:** (or fimpo: depending on feeback).  In Masterdata the Seko URN was changed to a separate new column. The concept ids part will be kept equal as much as possible.
 
 **Week 36** 
 - Wed-Thu 9.-10. September, MIMO Annual General Meeting in Riga, Latvia.  Possible presentation.
@@ -109,4 +109,4 @@ The source data is is comprised of three datasets that will be worked in paralle
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
 * As of 2026-06 the original dataset is maintained as MARC21 Authority files on the national metadata repository Melinda (ALEPH library system) hosted by the National Library of Finland. The data is transformed and exported in SKOS format (RDF) to Finto-data repository at https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko. This data is browsable through the Finto service https://finto.fi/seko/en/ (a Skosmos syste,). The latest changes to the data were committed in 2021-09-28 and the metadata of the whole dataset was updated in 2025-05-21. 
 * The editorial unfinished work in progress on the new multilingual SEKO3 version may be viewed "live" in the Google sheets. Occasionally we may take snapshots of this file in CSV format. This dataset is not yet available in RDF format. 
-  * Live view: [masterdata-table](https://docs.google.com/spreadsheets/d/e/2PACX-1vTEDuG_WbvotPxd9TYSTpewOw5m7qXenPWH3Ei-a4bu51qPYOwkdgnK70fq4F_LTfBOKajJUdOeoR3G/pubhtml?gid=2068134809&single=true) (5200+ rows, 31 columns)
+  * Live view: [fmpo-masterdata table](https://docs.google.com/spreadsheets/d/1pJH3UghucVpFdedI6F1QzHYE_kQMWmGe2wTm2LvYX4w/edit?usp=sharing) (5400+ rows, 37 columns) (updated to fmpo:)
