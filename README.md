@@ -1,7 +1,7 @@
 # SEKO3
 Voluntary project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into a service with a multilingual linked data ontology and classification.
 
-Project title: "SEKO3 – Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
+Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
 
 ### Project objective
 To develop a long-term service to support Finnish music content and instrument description based on a trilingual linked data ontology of instruments and ensembles with adding a Finnish language version of an instrument classification. 
@@ -9,7 +9,7 @@ To develop a long-term service to support Finnish music content and instrument d
 Working titles for the service:
 - "Suomalainen esityskokoonpano-ontologia" 
 - "Finsk ontologi för  musikbesättning"
-- "Finnish Medium of Performance Ontology"
+- "Finnish Medium of Performance Ontology" --> New prefix fmpo:
 
 ### Purpose
 To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
@@ -28,29 +28,13 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
 ## <a id="activities">Activites</a>
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
-### 2026-08 AUGUST
-**Week 32** - Networking, planning, documenting
-- Added a note on SEKO3-KOKO integration possibility to improve usability in GLAM-sector collections.
-- Emall exchange started with MUUSA, the MIMO network, the National Library and the Music Archive. Received the original full MIMO vocabulary files. Registered for the MIMO General Annual Meeting in Riga, 9-10 Sepetember which has a presentation on Vocabularies.
-- Studied the Leisiö dissertation in 1983 and made a table of the 120 instrumnent "types" listed, as well as the 120 instruments describe by Minna Hokka website.
-    - These will be mapped together into a single file, and also mapped to Seko. Their classification is close to H-S so mapping to it would be done, too.
-    - Probably at least 60 fo these instruments are not in the current Seko.
-    - Probably these listtings would be added to the SEKO3 Wiki under [03 Research notes](https://github.com/NatLibFi/SEKO/wiki/03-Research-notes) - now there are "placeholder" lists only.
-    - Finding and adding the most used alternative labels would require deeper research into Leisiö's book which has an extensive index of instrument labels and an organological section, too. Filter to only those that are actually used in publications and collections.
-- Contined working on a concise project plan and timetable. Current estimate for a timespan is 24 moonths to complete the different plans and to get quality assurance by music metadata specialists.
-- Mapped matching instrument Iconclass classes to Masterdata table with finto.fi url:s.
+### 2026-09 SEPTEMBER
+**Week 35**
+- To avoid any overlap and mix-up between the current and planned versions in the finto.fi service, the prefix of the project ontology will be changed to fmpo: or fimpo: depending on feeback.  In Masterdata the Seko URN will be changed to a separate new column. The concept ids part will be kept equal as much as possible.
 
-**Week 33** - vacationing...
-- Started re-defining the scope of the project to three distinct work packages:
-    -  Seko translation, concept mapping and re-structuring to support interoperability and linked data,
-    -  Classification translation and class mapping to Seko instruments to support discovery and science,
-    -  Extending with the traditional instruments to support the cultural heritage work at museums and archives.
-- Images of instruments could be linked from the concepts with a property like schema:image or foaf:depiction or wdt:P18.
-    - Possible image sources finna.fi or wikimedia commons. However, an easier approach would be just map with seeAlso to pages that include images?
-    - Worked on LCMPT and LCSH label lists for mappings. **LCSH** has 884 instrument and ensemble concepts with 1416 entry terms. **LCMPT** has 903 concepts with 1554 entry terms.
-
-**Week 34**
-- After discussiong with Finto staff, to clearly separate new concpets added within the project and the concepts approved and added by the MUUSA expert group, the identifiers for new concepts were changed to start with the character **x** , following with three digits. Updates from the origial Aleph-database to Seko at finto.fi are expected in the near future.
+**Week 36** 
+- Wed-Thu 9.-10. September, MIMO Annual General Meeting in Riga, Latvia.  Possible presentation.
+- 15. Septermber deadline for project proposal.
 
 ## Background
 
