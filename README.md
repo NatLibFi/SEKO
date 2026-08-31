@@ -1,5 +1,5 @@
-# SEKO3
-Voluntary project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into a service with a multilingual linked data ontology and classification.
+# SEKO3 -- FMPO
+Project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into a service with a multilingual linked data ontology and classification.
 
 Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
 
