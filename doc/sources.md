@@ -22,7 +22,7 @@ Properties:
 - dct:relation  rdfs:Resource ;   # pointer to the resource or its description
 - dct:bibliographicCitation rdfs:Literal ;  # for printed offline books?
 
-## Add here sources that are or will be marked in the entries SEKO3
+## Add here sources that are or could be marked in the entries FMBO
 
 - Grove Music Online : Instrument
   - http://www.wikidata.org/entity/Q30532476 (use this)
@@ -43,9 +43,11 @@ Properties:
     - https://hdl.handle.net/20.500.14239/33564
     - https://unitesi.unipv.it/retrieve/8c6b210e-c7a5-47aa-b247-a614684b967e/tesi%20Simone%20Bartoli%20pdfA.pdf
     - Bibliogrpahy, pages 201-207.
-- K. S.  Kothari. Indian Folk Musical Instruments. 1968 - SANGEET NATAK AKADEMI National Academy of Dance, Drama & Music for India. The Statesman Press, New Delhi-1, India. 99 pages - 59 image plates.
+- K. S.  Kothari. **Indian Folk Musical Instruments.** 1968 - SANGEET NATAK AKADEMI National Academy of Dance, Drama & Music for India. The Statesman Press, New Delhi-1, India. 99 pages - 59 image plates.
     - https://dn790003.ca.archive.org/0/items/dli.ministry.25964/ignca-920-rb_text.pdf
     - Index on pages 91-97.
+- Beck, John H. (Ed) **Encyclopedia of Percussion.** 436 pages. Garland Refrence Library of the Hunanities (Vol 947), 1995.  ISBN 0-8153-2894-X.
+   - https://www.finna.fi/Record/helmet.1022751/
 
 
 ## Sources referred to in the original dataset (1998-2002)
@@ -104,4 +106,3 @@ For referring to FINNA-records would use `@prefix finna: <https://www.finna.fi/R
   - https://www.finna.fi/Record/fikka.3531122 (6, Seg-Ö)
 - Waring, Dennis. **Folk instruments : make them and play them.** – London : Hyperion Press, 1979. – 0-920534- 06-6.
   - https://www.finna.fi/Record/vaari.1187885
-  
