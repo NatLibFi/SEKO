@@ -3,8 +3,8 @@ WHen the major editorial work has been done, the data will be converted to RDF
 
 ## Masterdata table structure 
 There are two types of rows 
-- Type 1: concept rows with all property values. Mandatory `A,C,D,E,L,AD`
-- Type 2: rows for altLabel and hiddenLabel values and language tags. Values in column `A,F,G` or `A,H,I` only
+- Type 1: concept rows with all property values. Mandatory `A,D,E,F,M,AE`
+- Type 2: rows for altLabel and hiddenLabel values and language tags. Values in column `A,G,H` or `A,I,J` only
 
 Formatting
 - Multiple values of plain literal strings are separated with character `|`.
@@ -13,48 +13,51 @@ Formatting
 - References to Seko concepts are entered in the format `seko:nnnnn`.
 
 ## Column labels and descriptions
-- list updated as of v2026-08-01
+- list updated as of v2026-08-31 - added column A from fmpo id.
 ```
-A seko                   (Concept ID as full URL - mandatory value)
-B owl:deprecated         (only value is TRUE, entered if the concept is deprecated) 
-C skos:prefLabel_fi      (rdfs:Literal - mandatory value)
-D skos:prefLabel_sv      (rdfs:Literal - mandatory value)
-E skos:prefLabel_en      (rdfs:Literal - mandatory value) 
-F skos:altLabel          (rdfs:Literal)
-G alt_lang               (rdfs:Literal, 2-3 character language code)  
-H skos:hiddenLabel       (rdfs:Literal) 
-I hidden_lang            (rdfs:Literal, 2-3 character language code)
-J spatial-uri            (object value for dct:spatial property)
-K dct:spatial            (label for the object, not needed in RDF)
-L skos:topConceptOf      (only one topConcept now (medium of performance) -- NEW
-M skos:broader           (Full URI value, several are separated with | - mandatory value)
-N skos:broader_Label     (label for the broader concept, not needed in RDF)
-O editorial_issue_URL    (URL to Github issues concerning the concept)
-P YSO-ID                 (skos:exactMatch object value, URL to YSO-concept)
-Q wikidata-id            (skos:exactMatch, obect value, URL to Wikidata-item)
-R skos:editorialNote     (rdfs:Literal)
-S H&S_notation           (string rdfs:Literal, label for H-S classification link)
-T H&S-ID                 (URL for skos:related object)
-U MIMO-ID                (skos:exactMatch object value, URL to dbpedia)
+A fmpo                   (prefix:sekoID - - mandatory value on each line)
+B skos:exactMatch seko   (Concept ID as full URL - only on first concept line)
+C owl:deprecated         (only value is TRUE, entered if the concept is deprecated) 
+D skos:prefLabel_fi      (rdfs:Literal - mandatory value)
+E skos:prefLabel_sv      (rdfs:Literal - mandatory value)
+F skos:prefLabel_en      (rdfs:Literal - mandatory value) 
+G skos:altLabel          (rdfs:Literal)
+H alt_lang               (rdfs:Literal, 2-3 character language code)  
+I skos:hiddenLabel       (rdfs:Literal) 
+J hidden_lang            (rdfs:Literal, 2-3 character language code)
+K spatial-uri            (object value for dct:spatial property)
+L dct:spatial            (label for the object, not needed in RDF)
+M skos:topConceptOf      (only one topConcept now (medium of performance) -- NEW
+N skos:broader           (Full URI value, several are separated with | - mandatory value)
+0 skos:broader_Label     (label for the broader concept, not needed in RDF)
+P editorial_issue_URL    (URL to Github issues concerning the concept)
+Q YSO-ID                 (skos:exactMatch object value, URL to YSO-concept)
+R wikidata-id            (skos:exactMatch, obect value, URL to Wikidata-item)
+S skos:editorialNote     (rdfs:Literal)
+T H&S_notation           (string rdfs:Literal, label for H-S classification link)
+U H&S-ID                 (URL for skos:related object)
+V MIMO-ID                (skos:exactMatch object value, URL to dbpedia)
 V dbpedia                (skos:closeMatch object value, URL to dbpedia)
-W SEKO-LCMPT-mapping     (property for the LCMPT relationship as a string)
-X LCMPT-ID               (URL of LCMPT concept, rdfs:Literal)
-Y rdfs:seeAlso           (URL of rfs:seeAlso object value, links to documentation, etc.)
-Z dct:isReplacedBy       (replancing concept within the vocabulary, format seko:nnnnn)
-AA skos:related           (related concept within the vocabulary, format seko:nnnnn)
-AB skos:definition       (comma spearated language-tagged strings, rdf:langString)
-AC skos:scopeNote        (comma spearated language-tagged strings, rdf:langString)
-AD skos:changeNote       (rdfs:Literal)
-AE skos:historyNote      (previous history of the concept, e.g. in earlier versions) - NEW
-AF skos:modified         (last modification date,  xsd:date)
-AG seko:statusNote       (string label or URI, to the selected controlled vocabulary)
-AH skos:noteSeko1        (description in the finto.fi seko monolingual Finnish version) - NEW
+X SEKO-LCMPT-mapping     (property for the LCMPT relationship as a string)
+Y LCMPT-ID               (URL of LCMPT concept, rdfs:Literal)
+Z rdfs:seeAlso           (URL of rfs:seeAlso object value, links to documentation, etc.)
+AA dct:isReplacedBy       (replancing concept within the vocabulary, format seko:nnnnn)
+AB skos:related           (related concept within the vocabulary, format seko:nnnnn)
+AC skos:definition       (comma spearated language-tagged strings, rdf:langString)
+AD skos:scopeNote        (comma spearated language-tagged strings, rdf:langString)
+AE skos:changeNote       (rdfs:Literal)
+AF skos:historyNote      (previous history of the concept, e.g. in earlier versions) - NEW
+AG skos:modified         (last modification date,  xsd:date)
+AH seko:statusNote       (string label or URI, to the selected controlled vocabulary)
+AI skos:noteSeko1        (description in the finto.fi seko monolingual Finnish version) - NEW
+AJ iconclass id          (new)
 ```
 
 Expected data structure after conversion in Turtle format
 Values from the table are represented with the column label.
 ```
 A   a skos:Concept      ;
+    skos:exactMatch B   ;      # mapping to Seko concept
 #   owl:deprecated TRUE   ;    # for decprecated concepts only
 #   dct:isReplacedBy    Y ;    # for decprecated concepts only
     skos:prefLabel     "C"@fi, 
@@ -76,7 +79,8 @@ A   a skos:Concept      ;
     skos:editorialNote  Q ;    # rdfs:Literal
     skos:historyNote   AE ;    # previous changes, first issue etc.
     skos:modified      AD ;    # last modification date,  xsd:date
-    skos:statusNote    AE .    # value from controlled vocabulary?
+    skos:statusNote    AE ;    # value from controlled vocabulary?
+    skos:relatedMatch AJ .     # mappings to inconclass instruments
 ```
 
 skos:altLabel  and skos:hiddenLabel could be loaded as triplets directly
@@ -86,5 +90,5 @@ skos:altLabel  and skos:hiddenLabel could be loaded as triplets directly
 ```
 > these need to be modelled carefully H-S notation, H-S link thinking how they are stored:
 > The content editor will add only the notation (dropdown?) The link should appear automatically
->  S ;  the HS class code
+>  S ;  the HS class code  
 >  T ;  link to the local clasas definition with local labels 
