@@ -1,12 +1,12 @@
-# SEKO3 datamodel
+# FMPO datamodel (previously SEKO3)
 **Latest published version**  
     Not available
 
 **This version**  
-    0.1 / Jarmo Saarikko / first draft 
+    0.2 / Jarmo Saarikko / draft
 
 **Date**  
-    2026-07-21  
+    2026-08-31  
 
 **Creator**  
     Jarmo Saarikko  
@@ -19,7 +19,8 @@
 
 **Version**  
     This model will be the official version. There may be other versions in other languages.  
-    the RDF/turtle structure is heavily based on the YSO datamodel on finto.fi service  
+    the RDF/turtle structure is heavily based on the YSO datamodel on finto.fi service.
+    In v 0.2 the prefixes were changed from seko: and seko-meta: to fmpo: and fmpo-meta:.
 
 **Copyright**  
     Jarmo Saarikko  
@@ -49,32 +50,35 @@ TOC
 
 
 ## Summary    
-SEKO3 ontology is an trilingual ontology of musical instruments and ensembles (medium of performance).  It is based on the monolinugal "Suomalainen esityskokoonpanosanasto" which was based on earlier vocabularies of instruments. It is aimed to support the description of music related resources and authority files in the GLAM sector. In library data it can be used in the 382 and 511 fields to describe the instruments and performers. The structure of the vocabulary as been renewed and added with mappings to other vocabularies to increase itse usability and interoperability. 
+FMPO ontology is an trilingual ontology of musical instruments and ensembles (medium of performance).  It is based on the monolinugal "Suomalainen esityskokoonpanosanasto (Seko)" which was based on earlier vocabularies of instruments. It is aimed to support the description of music related resources and authority files in the GLAM sector. In library data it can be used in the 382 and 511 fields to describe the instruments and performers. The structure of the vocabulary as been renewed and added with mappings to other vocabularies to increase itse usability and interoperability. 
 
 ## 1 Introduction
 The semantic datamodel is based on the [W3C SKOS-datamodel](https://www.w3.org/2004/02/skos/). This document will explain how the SKOS- and other RDF-datamodels, such as ISO 25964 **iso-thes** and **Dublin Core Terms** have been applied for the use in SEKO3.  
 
 ## 2 Availability    
 This model is available at the National Library of Finland SEKO-repository on Github. 
-The ontology is planned to replace the current monolingual vocabulary in the finto.fi service without any disturbance in the content description work.
+The ontology will be available to replace the current monolingual vocabulary in the finto.fi service without any disturbance in the content description work.
 
-The SEKO dataset can be used in library- museum- and other databases in the same way as other authority files. 
-The maintenace of the dataset has been previously on and aleph library system in MARC21 Authority file format.
+The FMPO dataset can be used in library- museum- and other databases in the same way as other authority files. 
+The maintenace of the SEKO dataset is currently on an Aleph library system in MARC21 Authority file format.
 
 The future maintenance options are still open, but the [Finto VobBench](https://www.kiwi.fi/spaces/Finto/pages/546308216/VocBench+-editori) platform is a strong candidate.
 
 ## 3 Identifiers
 The datamodel will be using prefixes for the frequently appearing indentfiers in the dataset.
+
 #### Identifiers of the concepts
-Each concept has a permanent identifier (PID) which follows the form:
+Each concept of the Seko dataset has a permanent identifier (PID) which follows the form:
 `http://urn.fi/urn:nbn:fi:au:seko:NNNNN` where NNNNN is usually 5 to 6 digits. The N carries no meaning
 Any deprecated concepts will remain in the dataset and usually will be forwarded to a remaining concept.
 
-#### Identifiers of the Seko dataset
+#### Identifier of the Seko dataset
 - The identifier of the SEKO dataset regiestered by the Library of Congress in the "Musical Instrumentation and Voice Code Source Codes" is: [seko](http://id.loc.gov/vocabulary/musiccodeschemes/seko)
 - In Wikidata: "SEKO - Finnish medium of performance thesaurus" [Q106573395](http://www.wikidata.org/entity/Q106573395)
 - URN: `urn:nbn:fi:au:seko:`
 - Bartoc.org identifier [18435](https://bartoc.org/en/node/18435)
+- The FMPO dataset will use the prefix fmpo:
+- The dataset does not have a registered namespace for the moment so we would use a temporary placeholder **https://example.org/fmpo**
 
 ## 4 Prefixes  
 The datamaodel uses classes and properties from several different vocabularies. In the data they are refeerred to with prefixes listed below. The "common" ontology prefixes used are
@@ -102,8 +106,9 @@ These specific "non-standard" prefixist will be used in addtion
 @prefix hornbostelandsachs: <http://www.mimo-db.eu/HornbostelAndSachs/> . # H-S classification, v2011
 @prefix mimo: <http://www.mimo-db.eu/InstrumentsKeywords/> .              # MIMO instrument vocabulary
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .               # status codes
+@prefix fmpo: <http://example.org/fmpo:> .
+@prefix fmpo-meta: <http://example.org/fmpo-meta:> .                      # FMPO defintions
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .                       # seko dataset
-@prefix seko-meta: <http://urn.fi/urn:nbn:fi:au:seko-meta:> .             # seko defintions
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .         # Github issues of SEKO3
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .       # Github issues of YSO
 @prefix yso: <http://www.yso.fi/onto/yso/> .                              # YSO- and YSO places concepts
@@ -115,30 +120,30 @@ These specific "non-standard" prefixist will be used in addtion
 ## 6 Concepts (owl:Class)
 Based on the YSO -datamodel, each concept may belong only to one of the four disjoint classes: general concepts, hierarchical/group concepts (and perhaps deprecated concept like in YSO  skosext:DeprecatedConcept)
 
-Each instrument or ensemble has a type skos:Concept and either seko-meta:Instrument or seko-meta:Ensemble. A performer who is not classified as an "instrument" can be considered as an "ensemble" of size one.
+Each instrument or ensemble has a type skos:Concept and either fmpo-meta:Instrument or fmpo-meta:Ensemble. A performer who is not classified as an "instrument" can be considered as an "ensemble" of size one.
 
-Deprecated concepts are of type seko-meta:DeprecatedConcept and they have owl:deprecated "TRUE".
+Deprecated concepts are of type fmpo-meta:DeprecatedConcept and they have owl:deprecated "TRUE".
 
 |Class|Type|Subclass|
 |-|-|-|
 |skos:ConceptScheme|owl:Class|-|
 |skos:Collection|owl:Class|skos-thes:ThesaurusArray, skos-thes:ConceptGroup|
-|skos:Concept|owl:Class|seko-meta:Concept, seko-meta:Hierarchy, seko-meta:Instrument, seko-meta:Ensemble|
+|skos:Concept|owl:Class|fmpo-meta:Concept, fmpo-meta:Hierarchy, fmpo-meta:Instrument, fmpo-meta:Ensemble|
 
 ||skos:concept|
 |-|-|
 |Label|Concept / Käsite|
 |description|Top class for all conepts in the ontology|
 
-||seko-meta:Instrument|
+||fmpo-meta:Instrument|
 |-|-|
 |Label|Instrument / Soitin |
 |Description| Concept for grouping instruments |
 |Note|Eeasier than doing with a specific Thesaurus Array|
 
-- seko-meta:Ensemble
-- seko-meta:Hierarchy
-- seko-meta:DeprecatedConcept
+- fmpo-meta:Ensemble
+- fmpo-meta:Hierarchy
+- fmpo-meta:DeprecatedConcept
 
 **- TBC**
 
@@ -151,11 +156,11 @@ Deprecated concepts are of type seko-meta:DeprecatedConcept and they have owl:de
 - skos:ConcptScheme
 
 Schemes used in the dataset
-- seko: -- includes seko-meta:Instrument and seko-meta:Ensemble concepts and their relations
-- seko-meta: -- metadata of the ontology
-- seko-group: -- place for for defining hieararchical and associative groups
+- fmpo: -- includes fmpo-meta:Instrument and fmpo-meta:Ensemble concepts and their relations
+- fmpo-meta: -- metadata of the ontology
+- fmpo-group: -- place for for defining hieararchical and associative groups
    - Local Classification based on hornbostelandschs: (Concepts have exactMatch relationshiops)
-   - Members can be either seko: or also mimo:  concepts
+   - Members can be either fmpo: or also mimo:  concepts
 
 ## 9 List of properties 
 Range  (rdfs:range) us used fore describing that certain values of the object are instances of the class it is pointing to.  The property rdfs:range can also show the the values of the property are of certain type of literals. 
@@ -225,14 +230,14 @@ Mapping relationshiops are used for referring to concepts in other vocabularies.
   - skos:scopeNote
   - skos:changeNote
   - skos:editorialNote
-  - seko-meta:statusNote
+  - fmpo-meta:statusNote
 - skos:notation
 - dct:source
 - dct:created
 - dct:modified
 
 ## 14 Properties of skos:ConceptScheme
-Planned Schemes: seko:, seko-groups: (e.g. for classification classes), seko-deprecated:
+Planned Schemes: fmpo:, fmpo-groups: (e.g. for classification classes), fmpo-deprecated:
 - dct:identifier
 - dct:title
 - dct:subject
@@ -253,7 +258,7 @@ Planned Schemes: seko:, seko-groups: (e.g. for classification classes), seko-dep
 > In addition to describing the specific classes of things they want to describe, user communities also need to be able to describe specific properties that characterize those classes of things. In RDF Schema, properties are described using the RDF class rdf:Property, and the RDF Schema properties rdfs:domain, rdfs:range, and rdfs:subPropertyOf. All properties in RDF are described as instances of class rdf:Property. 
 
 ### Properties for Property entities
-Ontology specific internal ontologies are defined in the seko-meta.ttl file.
+Ontology specific internal ontologies are defined in the fmpo-meta.ttl file.
 - rdfs:label
 - rdfs:subPropertyOf
 - 
