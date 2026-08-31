@@ -28,8 +28,8 @@ See documentation draft (work in progress) at [Datamodel document](./FMPO-Datamo
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix schema: <http://schema.org/>  .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix fmpo: <http://example.org/fmpo:> .
-@prefix fmpo-meta: <http://example.org/fmpo-meta:> .
+@prefix fmpo: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/masterdata/fmpo#> .
+@prefix fmpo-meta: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/fmpo-metadata#> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
