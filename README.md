@@ -2,6 +2,7 @@
 Project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into a service with a multilingual linked data ontology and classification.
 
 Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
+- "_Interoperable datasets for musical cultural heritage_"
 
 ### Project objective
 To develop a long-term service to support Finnish music content and instrument description based on a trilingual linked data ontology of instruments and ensembles with adding a Finnish language version of an instrument classification. 
@@ -12,9 +13,9 @@ Working titles for the service:
 - "Finnish Medium of Performance Ontology" --> New prefix fmpo:
 
 ### Purpose
-To help the Finnish GLAM network of libraries and museum collections to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To help the Finnish GLAM network of libraries and museum collections and any other organisations to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in international sources <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be based on covering Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform SEKO3 from a general medium-of-performance vocabulary to be also the definitive linked-data reference for Finnish and Karelian organology — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
+Specific emphasis will be based on covering traditional Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform the Seko vocabulary from a general medium-of-performance vocabulary to be also the definitive linked-data reference for Finnish and Karelian organology — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
@@ -40,18 +41,18 @@ Specific emphasis will be based on covering Finnish musical instruments extensiv
 
 The project process is done in accordance with the Finnish expert group on music metadata (MUUSA) which maintains the current Seko vocabulary.
 
-See also "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>.
+See also "Finto-palvelun ontologiat ja sanastot musiikinkuvailussa" - presentation in 2021 <a href="https://doi.org/10.5281/zenodo.21360307">10.5281/zenodo.21360307</a>. 
 
-Specific spatial and cultural information inside the current Seko instrument descriptions will be entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc. and formed as definition and scope notes.
+Specific spatial and cultural information inside the current Seko instrument notes will be extracted and entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc. and formed as definitions and scope notes.
 
-The Seko dataset consist currently of some 1200-1300 concepts of musical instruments and ensembles.
-The classification would be based on the MIMO dataset from 2011 and its addtions in 2018. 
-]
+The Seko dataset consist currently of some 1240 concepts of musical instruments and ensembles.
+The classification would be based on the MIMO dataset from 2011 and its addtions in 2018 which will be translated and entered in skos-format with Finnish labels to support browsing the instruments by classification. 
+
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
 ## Data model of the vocabulary / ontology
-- The Seko datamodel (classes and properties) is still work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
-- The hierarchy matches closeoly the Hornboschel-Sachs classification by MIMO.
+- The FMPO datamodel (classes and properties) is currently work in progress. At first, the ontology will be a simple hierarchy, with mappings to other vocabularies and datasets when PIDs are available and to other external sources.
+- The hierarchy matches closeoly the Hornboschel-Sachs classification published by the MIMO (Musical Instrument Museums Online network(.
 - The datamodel will be documented in SKOS turtle format.
 - See the separate [Datamodel](datamodel/README.md) description page.
 
@@ -83,12 +84,15 @@ The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instru
 
 ### Museums and instrument collections
 
-Finnish museums are already using KOKO ontology. One sggestion and an easy solution would be to include SEKO3 to KOKO.
-- Museum data is already imported to finna.fi system. The expansion of SEKO3 into a KOKO-compatible ontology would significantly improve the discoverability and cross-linkability of music-related materials (recordings, sheet music, archival materials and physical museum objects) in, for example, the Finna.fi service.
-- SEKO3 masterdata-table is already mapped to YSO-concepts. Thus it could be considered an "YSO-based ontology".
+#### Finnish museums are already using the KOKO ontology
+KOKO incorporates the MAO/TAO ontologies maintaned by the museums. -- A suggestion and an easy solution might be to include the whole FMPO into KOKO as its top conepts are YSO-concepts.
+- Museum data is already imported to finna.fi system. The expansion of FMPO into a KOKO-compatible ontology would significantly improve the discoverability and cross-linkability of music-related materials (recordings, sheet music, archival materials and physical museum objects) in, for example, the finna.fi service.
+- FMPO masterdata-table is already mapped to YSO-concepts. Thus it could be considered an "YSO-based ontology".
     - The Top Concept "esityskokoonpano" is currently not in YSO, BUT the two second level concepts are mapped: yso:p7110 "soittimet", yso:p1289 "esittäjät"
-- SEKO3 is hierarchical and trilingual. What else would be needed to be able to include SEKO3 in KOKO?
-- Content description in Finnish Museums: https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
+- FMPO will be hierarchical and trilingual. What else would be needed to be able to include FMPO in KOKO?
+
+#### Content description in Finnish Museums
+    - https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
     - Museovirasto 2015: [Suositus museoille ontologioiden,  luokitusjärjestelmien ja asiasanastojen käytöstä  versio 2.0](https://museovirasto-craft-assets-production.s3.eu-north-1.amazonaws.com/Arkisto-ja-kokoelmapalvelut/Julkaisut/suositus-museoille-2015.pdf)
     - _**Suositus:** Ontologioita suositellaan käytettävän ensisijaisina välineinä museoiden objektien kuvailussa. Keskeisin objektien kuvailussa käytettävä ontologia on suomalaisia ontologioita yhdistävä KOKO-yleiskäsiteontologia ... KOKOn ohella voidaan käyttää myös muita ontologioita._
     - **Suositus:** Suositeltavaa on käyttää laajasti käytettyjä ja tunnettuja **kansainvälisiä luokitusjärjestelmiä**.  Classification systems mentioned: Outline of Cultural materials (OCM), Iconclass - also on [finto.fi](http://iconclass.org/48C7), IPTC NewsCodes: Subject Codes (for photographs) - all preferrably in ontologized versions. 
@@ -99,14 +103,15 @@ Finnish museums are already using KOKO ontology. One sggestion and an easy solut
 ## Data
 
 The source data is is comprised of three datasets that will be worked in parallel and eventually can be combined into an unified interoperable lined data service.  
-- First, the current dataset of Seko of 1241 titles.
-- Second, the Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching.
-- Third, a vocabulary of the Finnish-Karelian traditional instruments, many of them not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications and some of them available through finna.fi and Europeana.
-    - Outside of the scope, but it might also be possible to develop this separately as an ontology of folk instruments of the peoples speaking [Finnic languages](https://en.wikipedia.org/wiki/Finnic_languages) or even a Scandinavian-Baltic-Finnic folk instrument ontology, which might be a valuable resource for research and collections.
+1. The current dataset of Seko of 1241 titles.
+2. The Hornbostel-Sachs classification by MIMO which, when translated in Finnish, can be used as an optional browsing interface to the Seko instrument data as well as serve music and organological research and teaching.
+3. A vocabulary of the Finnish-Karelian traditional instruments, many of them not currently available in online interoperable voacabularies, but are represented in Finnish collections and research publications and some of them available through finna.fi and Europeana.
+
+Outside of the scope, but it might also be possible to develop this separately as an ontology of folk instruments of the peoples speaking [Finnic languages](https://en.wikipedia.org/wiki/Finnic_languages) or even a Scandinavian-Baltic-Finnic folk instrument ontology, which might be a valuable resource for research and collections.
 
 ### Seko data
 
 * The content and structure of the current monolingual Seko dataset is decided by the [Finnish Expert Group on Music Metadata (MUUSA)](https://www.kiwi.fi/spaces/muusa/pages/91751314/Musiikin+metatiedon+asiantuntijaryhm%C3%A4+Muusa).
 * As of 2026-06 the original dataset is maintained as MARC21 Authority files on the national metadata repository Melinda (ALEPH library system) hosted by the National Library of Finland. The data is transformed and exported in SKOS format (RDF) to Finto-data repository at https://github.com/NatLibFi/Finto-data/tree/master/vocabularies/seko. This data is browsable through the Finto service https://finto.fi/seko/en/ (a Skosmos syste,). The latest changes to the data were committed in 2021-09-28 and the metadata of the whole dataset was updated in 2025-05-21. 
-* The editorial unfinished work in progress on the new multilingual SEKO3 version may be viewed "live" in the Google sheets. Occasionally we may take snapshots of this file in CSV format. This dataset is not yet available in RDF format. 
+* The editorial unfinished work in progress on the new multilingual FMPO version may be viewed "live" in the Google sheets. Occasionally we may take snapshots of this file in CSV format. This dataset is not yet available in RDF format. 
   * Live view: [fmpo-masterdata table](https://docs.google.com/spreadsheets/d/1pJH3UghucVpFdedI6F1QzHYE_kQMWmGe2wTm2LvYX4w/edit?usp=sharing) (5400+ rows, 37 columns) (updated to fmpo:)
