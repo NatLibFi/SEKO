@@ -1,4 +1,4 @@
-See documentation draft (work in progress) at [Datamodel document](./SEKO3-Datamodel.md)
+See documentation draft (work in progress) at [Datamodel document](./FMPO-Datamodel.md)
 
 # FMPO datamodel planning
 
