@@ -81,7 +81,7 @@ The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instru
 > See also related presentations about Finnish music vocabularies and content description - Events organized by the Music metadata expert group Muusa and the [IAML Finland](https://www.musiikkikirjastot.fi/pro/musiikkikirjastoyhdistys/):
 > - [Finto-palvelun ontologiat ja sanastot musiikinkuvailussa](https://doi.org/10.5281/zenodo.21360307) - presentation in [Musiikinkuvailutilaisuus 2021](https://www.kiwi.fi/spaces/muusa/pages/244252948/Musiikinkuvailutilaisuus+2021)
 > - [Musiikkiaineiston YSO-konversio](https://www.kiwi.fi/download/attachments/128090737/2019-09-26-Musiikkia-Melindassa-iltap%C3%A4iv%C3%A4-Saarikko.pdf?version=1&modificationDate=1569484203334&api=v2) presentation in  [Musiikkia Melindassa -iltapäivä 26.9.2019](https://www.kiwi.fi/spaces/melinda/pages/128090737/Musiikkia+Melindassa+-iltap%C3%A4iv%C3%A4+26.9.2019)
-> - [Musiikin YSO-konversion aikataulu ja toteutus](https://doi.org/10.5281/zenodo.22554004) presentation in [Musiikin kuvailupäivä 15.5.2019](https://www.kiwi.fi/spaces/melinda/pages/113246656/Musiikin+kuvailup%C3%A4iv%C3%A4+15.5.2019) 
+> - [Musiikin YSO-konversion aikataulu ja toteutus](https://doi.org/10.5281/zenodo.22554004) presentation in [Musiikin kuvailupäivä 15.5.2019](https://www.kiwi.fi/spaces/melinda/pages/113246656/Musiikin+kuvailup%C3%A4iv%C3%A4+15.5.2019) - Event video available in [YOuTube](https://www.youtube.com/watch?v=JElaY2tvcNk) (4 hours).
 
 
 ## Museums and Archives - SEKO3 and KOKO ontology
