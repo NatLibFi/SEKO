@@ -99,7 +99,10 @@ KOKO incorporates the MAO/TAO ontologies maintaned by the museums. -- A suggesti
 - https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/museoalan-kehittaminen
 - Museovirasto 2015: [Suositus museoille ontologioiden,  luokitusjärjestelmien ja asiasanastojen käytöstä  versio 2.0](https://museovirasto-craft-assets-production.s3.eu-north-1.amazonaws.com/Arkisto-ja-kokoelmapalvelut/Julkaisut/suositus-museoille-2015.pdf)
 - _**Suositus:** Ontologioita suositellaan käytettävän ensisijaisina välineinä museoiden objektien kuvailussa. Keskeisin objektien kuvailussa käytettävä ontologia on suomalaisia ontologioita yhdistävä KOKO-yleiskäsiteontologia ... KOKOn ohella voidaan käyttää myös muita ontologioita._
-- **Suositus:** Suositeltavaa on käyttää laajasti käytettyjä ja tunnettuja **kansainvälisiä luokitusjärjestelmiä**.  Classification systems mentioned: Outline of Cultural materials (OCM), Iconclass - also on [finto.fi](http://iconclass.org/48C7), IPTC NewsCodes: Subject Codes (for photographs) - all preferrably in ontologized versions. 
+- **Suositus:** Suositeltavaa on käyttää laajasti käytettyjä ja tunnettuja **kansainvälisiä luokitusjärjestelmiä**.  Classification systems mentioned: [Outline of Cultural materials (OCM)](https://hraf.yale.edu/wp-content/uploads/2026/03/ocm-2025.pdf), Iconclass - also on [finto.fi](http://iconclass.org/48C7), IPTC NewsCodes: Subject Codes (for photographs) - all preferrably in ontologized versions. 
+
+### MIMO 
+- [Specifications of the Common Data Model for the Description of Musical Instruments](https://mimo-international.com/documents/MIMO_Deliverable_%202.1_v1%202%20(2010-06-30).pdf), ECP-2008-DILI-538013, MIMO proect deliverable D-2.1, 2010-06-30, based on the LIDO data model v0.9.
 
 ### Music archives
    - connections not known at the moment. Check Finna-LIDO import rules. 
