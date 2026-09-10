@@ -84,7 +84,7 @@ The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instru
 > - [Musiikin YSO-konversion aikataulu ja toteutus](https://doi.org/10.5281/zenodo.22554004) presentation in [Musiikin kuvailupäivä 15.5.2019](https://www.kiwi.fi/spaces/melinda/pages/113246656/Musiikin+kuvailup%C3%A4iv%C3%A4+15.5.2019) - Event video available in [YOuTube](https://www.youtube.com/watch?v=JElaY2tvcNk) (4 hours).
 
 
-## Museums and Archives - SEKO3 and KOKO ontology
+## Museums and Archives
 
 ### Museums and instrument collections
 
@@ -107,7 +107,8 @@ KOKO incorporates the MAO/TAO ontologies maintaned by the museums. -- A suggesti
 - [Metadata Mapping and OAI-PMH Implementation Guidelines](https://mimo-international.com/documents/MIMO_WP2%20-%20D2%202%20Guidelines%20v1.0%20(2010-11-18).pdf) Deliverable D-2.2 2010-11-18
 
 ### Music archives
-   - connections not known at the moment. Check Finna-LIDO import rules. 
+   - connections vocabularies to be solved here. Check Finna-LIDO import rules.
+   - [Finna LIDO profile](https://github.com/NatLibFi/finna-metadata-profiles/blob/main/LIDO/v0.2/lido-v1.1-profile-FINNA-v0.2.xsd)
 
 ## Data
 
