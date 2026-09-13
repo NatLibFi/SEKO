@@ -22,5 +22,12 @@ source: [MUMU – Suomen musiikkimuseo -yhdistyksen vuosikirja 1](http://www.kan
 - Suomen Kulttuurirahasto - https://skr.fi/blog/soitinkokoelmasta-haettavana-lainaan-jousisoittimia/
 
 ### Music archives
-- Janne Mäkelä: Musiikkiarkistot Suomessa - https://musiikkiarkisto.fi/toiminta/hanke-mas/
-    - https://musiikkiarkisto.fi/oa/
+- Janne Mäkelä: Musiikkiarkistot Suomessa - https://musiikkiarkisto.fi/toiminta/hanke-mas/ &  https://musiikkiarkisto.fi/oa/.   Varsinaisia musiikkiarkistoja Suomessa on kuusi:
+    - Finlands svenska folkmusikinstituts arkiv - https://www.sls.fi/sv/finlands-svenska-folkmusikinstitut/
+    - Kansalliskirjaston Musiikkikirjasto ja äänitearkisto - https://www.kansalliskirjasto.fi/en/collections/finnish-national-sound-archive
+    - Kansanmusiikki-instituutin arkisto - https://kansanmusiikki-instituutti.fi/arkisto-ja-kirjasto/
+    - Sibelius-museon arkisto - https://sibeliusmuseum.fi/fi/arkistokokoelmat/
+    - Musiikkiarkisto - https://musiikkiarkisto.fi/ & https://fenno.musiikkiarkisto.fi/
+    - Yleisradio, Äänitearkisto - https://vintti.yle.fi/yle.fi/levysto/levysto.html
+       - Suomen Äänitearkisto r.y. - (1966-1980, Aineistoja säilytetään Yleisradion tiloissa)
+    
