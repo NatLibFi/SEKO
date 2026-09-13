@@ -15,7 +15,8 @@ source: [MUMU – Suomen musiikkimuseo -yhdistyksen vuosikirja 1](http://www.kan
 - Teemu Kärjen harmonikat, Huittinen - http://www.rautajatalous.fi/harmonikat
 - Rytmi-instituutti, Seinäjoki - https://www.rytmi-instituutti.fi/
 - Kulttuuriosuuskunta Uulu, Tampere - https://uulu.fi/55/soitinkokoelma
-Other
+
+### Other
 - Suomen musiikkimuseo ry - Finlands musikmuseum rf - http://www.musiikkimuseo.fi/
 - Musiikkimuseo FAME - https://musiikkimuseofame.fi/
 - Suomen Kulttuurirahasto - https://skr.fi/blog/soitinkokoelmasta-haettavana-lainaan-jousisoittimia/
