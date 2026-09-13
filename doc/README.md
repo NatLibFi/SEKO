@@ -1,5 +1,5 @@
 [SEKO](../README.md)   
 [deprecated-concepts.md](./deprecated-concepts.md)   
 [new-concepts.md](./new-concepts.md)   
-[Sources](./sources.md)
+[Sources](./sources.md)   
 [Finnish music museums and instrument collections](./collections.md)
