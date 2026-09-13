@@ -20,3 +20,7 @@ source: [MUMU – Suomen musiikkimuseo -yhdistyksen vuosikirja 1](http://www.kan
 - Suomen musiikkimuseo ry - Finlands musikmuseum rf - http://www.musiikkimuseo.fi/
 - Musiikkimuseo FAME - https://musiikkimuseofame.fi/
 - Suomen Kulttuurirahasto - https://skr.fi/blog/soitinkokoelmasta-haettavana-lainaan-jousisoittimia/
+
+### Music archives
+- Janne Mäkelä: Musiikkiarkistot Suomessa - https://musiikkiarkisto.fi/toiminta/hanke-mas/
+    - https://musiikkiarkisto.fi/oa/
