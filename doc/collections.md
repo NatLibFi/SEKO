@@ -18,9 +18,9 @@ source: [MUMU – Suomen musiikkimuseo -yhdistyksen vuosikirja 1](http://www.kan
 
 ### Other
 - Suomen musiikkimuseo ry - Finlands musikmuseum rf - http://www.musiikkimuseo.fi/
-- Musiikkimuseo FAME - https://musiikkimuseofame.fi/
 - Suomen Kulttuurirahasto - https://skr.fi/blog/soitinkokoelmasta-haettavana-lainaan-jousisoittimia/
-- Maailman musiikin keskus, Global Music Centre - https://globalmusic.fi/
+- Musiikkimuseo FAME, Helsinki - https://musiikkimuseofame.fi/
+- Maailman musiikin keskus, Global Music Centre, Helsinki - https://globalmusic.fi/
 
 ### Music archives
 - Janne Mäkelä: Musiikkiarkistot Suomessa - https://musiikkiarkisto.fi/toiminta/hanke-mas/ &  https://musiikkiarkisto.fi/oa/.   Varsinaisia musiikkiarkistoja Suomessa on kuusi:
