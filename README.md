@@ -37,7 +37,8 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 - Wed-Thu 9.-10. September, MIMO Annual General Meeting in Riga, Latvia.  Short presentation on Finnish music vocabularies and the FMPO project plan.
 
 **Week 38** 
-- Funding application and a more detailed project plan for 24 months (in Finnish)
+- Funding application sent to **Koneen säätiö** including a more detailed project plan for 24 months (in Finnish)
+- Added below a chapter for **Networking** with three international networks that include of music metadata professionals and more information about metadata in museums and archives.
 
 ## Background
 
@@ -122,6 +123,8 @@ The project aims at networking internationally with professionals that are worki
     - [Board members](https://icom-music.mini.icom.museum/board-members/)
     - [ICOM Finland](https://icomfinland.fi/)
  - [MIMO Musical Instrument Museums Online consortium](https://mimo-international.com/MIMO/about-mimo.aspx) - 250 instrument collections around the world, but not in Finland, yet.
+ - [Musik- och teaterbiblioteket](https://musikochteaterbiblioteket.se/)  Swedish leading expert on music metadata and cataloging. Possible contact: music librarian [Pär Johansson](https://www.parjohansson.se/index.php?lang=en)
+ - [Svenska musikbiblioteksföreningen](https://www.smbf.nu/) (IAML Sverige) - Se även https://metadatabyran.kb.se/amnesord-och-genre-form
 
 ## Data
 
