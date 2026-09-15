@@ -105,14 +105,14 @@ KOKO incorporates the MAO/TAO ontologies maintaned by the museums. -- A suggesti
 - **Suositus:** Suositeltavaa on käyttää laajasti käytettyjä ja tunnettuja **kansainvälisiä luokitusjärjestelmiä**.  Classification systems mentioned: [Outline of Cultural materials (OCM)](https://hraf.yale.edu/wp-content/uploads/2026/03/ocm-2025.pdf), Iconclass - also on [finto.fi](http://iconclass.org/48C7), IPTC NewsCodes: Subject Codes (for photographs) - all preferrably in ontologized versions.
 - [Museoiden Finna](https://www.museovirasto.fi/fi/palvelut-ja-ohjeet/tietojarjestelmat/museoiden-finna) (Museovirasto)
     - FINNA - [Ohjeita museoille ja arkistoille](https://www.kiwi.fi/spaces/Finna/pages/90313798/Ohjeita+museoille+ja+arkistoille)
-
+- Many museums are using the YKSA software  [User Guide](https://yksa.disec.fi/Yksa4/public/help/Museovirasto/?rd=0)
 ### MIMO Consortium
 - [Specifications of the Common Data Model for the Description of Musical Instruments](https://mimo-international.com/documents/MIMO_Deliverable_%202.1_v1%202%20(2010-06-30).pdf), ECP-2008-DILI-538013, MIMO proect deliverable D-2.1, 2010-06-30, based on the LIDO data model v0.9.
 - [Metadata Mapping and OAI-PMH Implementation Guidelines](https://mimo-international.com/documents/MIMO_WP2%20-%20D2%202%20Guidelines%20v1.0%20(2010-11-18).pdf) Deliverable D-2.2 2010-11-18
 
 ### Music archives
    - For data, e.g. check the  Finna-LIDO import rules - [Finna LIDO profile](https://github.com/NatLibFi/finna-metadata-profiles/blob/main/LIDO/v0.2/lido-v1.1-profile-FINNA-v0.2.xsd)
-   - Many museums are using the YKSA sofware
+   
 
 ## Networking
 The project aims at networking internationally with professionals that are working with metadata and vocabularies related to musical instruments
