@@ -33,9 +33,11 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 **Week 35**
 - To avoid any overlap and mix-ups between the current vocabulary and the planned ontology versions in the **finto.fi** service, the prefix of the project ontology was changed to **fmpo:** (or fimpo: depending on feeback).  In Masterdata the Seko URN was changed to a separate new column. The concept ids part will be kept equal as much as possible.
 
-**Week 36** 
-- Wed-Thu 9.-10. September, MIMO Annual General Meeting in Riga, Latvia.  Possible presentation.
-- 15. Septermber deadline for project proposal.
+**Week 37** 
+- Wed-Thu 9.-10. September, MIMO Annual General Meeting in Riga, Latvia.  Short presentation on Finnish music vocabularies and the FMPO project plan.
+
+**Week 38** 
+- Funding application and a more detailed project plan for 24 months (in Finnish)
 
 ## Background
 
