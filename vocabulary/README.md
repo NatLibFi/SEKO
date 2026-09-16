@@ -178,3 +178,4 @@ Tätä  voidaan käyttää soittimien tiedoissa, kun skos:notation ominaisutta k
     rdfs:comment "Henkilö tai organisaatio, joka on rakentanut tai valmistanut soittimen."@fi ;  
     rdfs:domain seko:Instrument ;  
     rdfs:range dct:Agent .
+
