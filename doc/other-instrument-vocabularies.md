@@ -7,7 +7,7 @@
     -  Browse - https://id.loc.gov/authorities/performanceMediums.html
  - Musical Instrument Ontology (ArCo network) v1.0 -- https://w3id.org/arco/ontology/musical-instrument
  - Smart Musical Instruments Ontology --- http://purl.org/ontology/iomust/smi# --- Luca Turchet, Paolo Bouquet, Andrea Molinari, George Fazekas. The Smart Musical Instruments Ontology. Journal of Web Semantics, 2021 https://doi.org/10.1016/j.websem.2021.100687
-- [https://opentheso.huma-num.fr/](https://opentheso.huma-num.fr/?idt=th629) Thésaurus des instruments de musique 11/07/2023 (final): 1700 Concepts; Project: Crem
+- [https://opentheso.huma-num.fr/?idt=th629](https://opentheso.huma-num.fr/?idt=th629) Thésaurus des instruments de musique 11/07/2023 (final): 1700 Concepts; Project: Crem
 ui-button
 - https://opentheso.africamuseum.be/opentheso/?idt=th4 (BE music, 2723 Concepts)
 - https://opentheso.africamuseum.be/opentheso/?idt=th5 (Be-MUSIC_thesaurus, 6267 Concepts -ongoing project!)
