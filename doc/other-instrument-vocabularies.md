@@ -15,6 +15,11 @@ ui-button
 - https://www.nb.no/nbvok/instrumenter/nb/ - Norsk musikkvokabular: Instrumenter og ensembler (371 begrepp, 386 alternative termer)
 
 # Publications
+- ICOM Music 2026, Edinburgh - presentation abstracts - See Session 7: Thesauri, Sounds, and Systems. Digital Challenges and Ethical Perspectives in Instrument
+Collections - Pages 22-24. https://drive.google.com/file/d/1GLxxLpgFL0N7RpbRHXspd6FqMSIJlxzh/view
+    - Bjørnar Bruket, Sveinung Søyland Moen, and Iris Verena Barth: **Implementation of Thesauruses in Collection Management** (MIMO in Norwegian, Norwegian Museum of Music)
+    - Anaïs Verhulst **Digital Conflicts: Conceptual and Practical Challenges in Revising the Thesaurus of Musical Instrument Names** (MIM, Brussels)
+    - Kathrin Melanie Menzel: **Sounding Database – Bridging Organological Records and Performance in the Digital Era**
 - Ibiyinka Temilola Ayorinde . A Formalised Ontology of Musical Instruments. International Journal of Computer Applications. 176, 24 ( May 2020), 28-32. DOI=10.5120/ijca2020920235
 https://www.researchgate.net/publication/341413761_A_Formalised_Ontology_of_Musical_Instruments
 - Sefki Kolozali, Mathieu Barthet, Gy¨ orgy Fazekas, Mark Sandler Centre for Digital Music, Queen Mary University of London, London, UK (2011) *KNOWLEDGE REPRESENTATION ISSUES IN MUSICAL INSTRUMENT ONTOLOGY DESIGN*. 12th International Society for Music Information Retrieval Conference (ISMIR 2011) -- https://ismir2011.ismir.net/papers/PS3-19.pdf
