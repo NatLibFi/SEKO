@@ -12,6 +12,7 @@ ui-button
 - https://opentheso.africamuseum.be/opentheso/?idt=th4 (BE music, 2723 Concepts)
 - https://opentheso.africamuseum.be/opentheso/?idt=th5 (Be-MUSIC_thesaurus, 6267 Concepts -ongoing project!)
 - DOREMUS project outputs - https://www.doremus.org/?page_id=32
+- https://www.nb.no/nbvok/instrumenter/nb/ - Norsk musikkvokabular: Instrumenter og ensembler (371 begrepp, 386 alternative termer)
 
 # Publications
 - Ibiyinka Temilola Ayorinde . A Formalised Ontology of Musical Instruments. International Journal of Computer Applications. 176, 24 ( May 2020), 28-32. DOI=10.5120/ijca2020920235
