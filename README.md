@@ -1,4 +1,4 @@
-# SEKO3 --> FMPO Finnish Medium of Performance Ontology
+# FMPO Finnish Medium of Performance Ontology  (SEKO3)
 Project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into a new dataset as a multilingual linked data ontology and classification for better implementations in the semantic web and available for many types of organizations.
 
 Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
