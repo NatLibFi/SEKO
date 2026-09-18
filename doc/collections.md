@@ -1,4 +1,4 @@
-# Finnish music museums and instrument collections
+## Finnish music museums and instrument collections
 source: [MUMU – Suomen musiikkimuseo -yhdistyksen vuosikirja 1](http://www.kansanmusiikki-instituutti.fi/musiikkimuseo/wp-content/uploads/2015/11/Musiikkimuseo_vuosikirja1web.pdf) ((2015)
 
 - Kansallismuseo, Helsinki - https://suomenkansallismuseo.fi/
@@ -16,13 +16,15 @@ source: [MUMU – Suomen musiikkimuseo -yhdistyksen vuosikirja 1](http://www.kan
 - Rytmi-instituutti, Seinäjoki - https://www.rytmi-instituutti.fi/
 - Kulttuuriosuuskunta Uulu, Tampere - https://uulu.fi/55/soitinkokoelma
 
-### Other
+## Other sources
 - Suomen musiikkimuseo ry - Finlands musikmuseum rf - http://www.musiikkimuseo.fi/
 - Suomen Kulttuurirahasto - https://skr.fi/blog/soitinkokoelmasta-haettavana-lainaan-jousisoittimia/
 - Musiikkimuseo FAME, Helsinki - https://musiikkimuseofame.fi/
 - Maailman musiikin keskus, Global Music Centre, Helsinki - https://globalmusic.fi/
+- Statens musikverk [search form](https://sok.statensmusikverk.se/) (Swedish search engine, including Musik ok teaterbibliotek, Scenkonstmuseet)
+- Digitalmuseum.org  - [search musikinstrument](https://digitaltmuseum.org/search?q=musikinstrument) --- DigitaltMuseum is developed by KulturIT with financing from Arts Council Norway. Covers many museums from different countries, mainly from Norway and Sweden.
 
-### Music archives
+## Music archives
 - Janne Mäkelä: Musiikkiarkistot Suomessa - https://musiikkiarkisto.fi/toiminta/hanke-mas/ &  https://musiikkiarkisto.fi/oa/.   Varsinaisia musiikkiarkistoja Suomessa on kuusi:
     - Finlands svenska folkmusikinstituts arkiv - https://www.sls.fi/sv/finlands-svenska-folkmusikinstitut/
     - Kansalliskirjaston Musiikkikirjasto ja äänitearkisto - https://www.kansalliskirjasto.fi/en/collections/finnish-national-sound-archive
