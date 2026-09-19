@@ -21,10 +21,13 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 [Datamodel](datamodel/README.md)  
 [Masterdata structure](masterdata/README.md)  
 [New and deprecated concepts in Masterdata](doc/README.md)   
-[Classification](classification/README.md)  
+[Instrument classification](classification/README.md)  
+[Project Wiki](https://github.com/NatLibFi/SEKO/wiki/) (guidelines, plans, etc)  
+  
 [Sources for music instruments and their labels](https://github.com/NatLibFi/SEKO/wiki/0.02-Sources-for-music-instruments-and-their-labels)  
-[Wiki](https://github.com/NatLibFi/SEKO/wiki/) (guidelines, plans, etc)  
-[Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version)  
+[Soitinnimien ohjeluettelo (2017)](https://github.com/NatLibFi/SEKO/wiki/9-Aidatrumpetista-zimbalomiin) (copy of archived version of the pevious vocabulary before Seko)  
+[Music museums and instrument collections and music archives](doc/collections.md)  
+[Other music instrument vocabularies and publications](doc/other-instrument-vocabularies.md)  
 
 ## <a id="activities">Activites</a>
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
@@ -39,6 +42,7 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 **Week 38** 
 - Funding application sent to **Koneen säätiö** including a more detailed project plan for 24 months (in Finnish)
 - Added below a chapter for **Networking** with three international networks that include of music metadata professionals and more information about metadata in museums and archives.
+- Added in the **doc** folder new listings for music museums and archives, instrument collections and instrument vocabularies, publications.
 
 ## Background
 
