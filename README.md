@@ -43,7 +43,7 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 - Funding application sent to **Koneen säätiö** including a more detailed project plan for 24 months (in Finnish)
 - Added below a chapter for **Networking** with three international networks that include of music metadata professionals and more information about metadata in museums and archives.
 - Added in the **doc** folder new listings for music museums and archives, instrument collections and instrument vocabularies, publications.
-- Added mapping files/listings from SEKO concepts to YKL library classification, as well as to YSO and KOKO ontologies. Two MAO concepts in the KOKO ontology are neither in YSO nor in Seko ("prayer trumpets" and "bone flutes").
+- Added mapping files/listings from SEKO concepts to YKL library classification, as well as to YSO and KOKO ontologies. Two MAO concepts in the KOKO ontology are neither in YSO nor in Seko ("prayer trumpets" and "bone flutes"). Added SPARQL searches in the Wiki page [04 Tools : SPARQL](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
 
 ## Background
 
