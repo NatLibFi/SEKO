@@ -45,6 +45,9 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 - Added in the **doc** folder new listings for music museums and archives, instrument collections and instrument vocabularies, publications.
 - Added mapping files/listings from SEKO concepts to YKL library classification, as well as to YSO and KOKO ontologies. Two MAO concepts in the KOKO ontology are neither in YSO nor in Seko ("prayer trumpets" and "bone flutes"). Added SPARQL searches in the Wiki page [04 Tools : SPARQL](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
 
+**Week 39**
+- Added documentation for the [editorial process](doc/methods/fmpo-concept-editing.md) for FMPO concepts.
+
 ## Background
 
 The project process is done in accordance with the Finnish expert group on music metadata (MUUSA) which maintains the current Seko vocabulary.
