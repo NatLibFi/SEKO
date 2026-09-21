@@ -20,14 +20,13 @@
 @prefix rdau: <http://rdaregistry.info/Elements/u/> .
 @prefix schema: <http://schema.org/>  .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix fmpo: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/fmpo-metadata.ttl> .  
-@prefix fmpo-meta: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/fmpo-metadata.ttl> .
+@prefix fmpo: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/masterdata/fmpo:> .
+@prefix fmpo-meta: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/fmpo-metadata:> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
 @prefix yso: <http://www.yso.fi/onto/yso/> .
 
-### planned potential namespaces  <http://urn.fi/urn:nbn:fi:au:fmpo:> <https://ldf.fi/schema/fmpo/>
 ### Vocabulary metadata - https://dgarijo.github.io/Widoco/doc/bestPractices/index-en.html
 
 fmpo: a owl:Ontology , skos:ConceptScheme ;
@@ -72,12 +71,10 @@ fmpo: a owl:Ontology , skos:ConceptScheme ;
   dct:created "2026-06-23"^^xsd:date  ;
 # dct:issued "2026-06-23"^^xsd:date ;
 #  dct:modified "2026-08-03"^^xsd:date ;   # v0.07
-#  dct:modified "2026-08-31"^^xsd:date ;   # v0.08
-  dct:modified "2026-09-21"^^xsd:date ;   # v0.09
-  owl:versionInfo "0.09" ;
+  dct:modified "2026-08-31"^^xsd:date ;   # v0.08
+  owl:versionInfo "0.08" ;
   dct:comment "v0.07 - added Swedish labels. Used id.kb.se/vocab as main source." ,
               "v0.08 - changed the prefix and filenames from seko: to fmpo:" ;
-              "v0.09 - checked potential namespaces" ;
 
 .
   
@@ -264,11 +261,11 @@ skos-thes:subGroup  a rdfs:ObjectProperty ;
     rdfs:range skos-thes:ConceptGroup .
 
 ### Local classes and concepts for fmpo: ontology  
-fmpo:HS a skos:ConceptScheme ;
+fmpo:sekoHS a skos:ConceptScheme ;
     rdfs:Label "Hornbostel-Sachs soitinluokittelu"@fi , 
                 "Hornbostel-Sachs klassificering"@sv, 
                 "Hornbostel-Sachs classification"@en ;
-    rdfs:comment "HS: classes (seko:ConceptGroup collections) are the members of this scheme"@en .
+    rdfs:comment "sekoHS: classes (seko:ConceptGroup collections) are the members of this scheme"@en .
 
  fmpo:MediumOfPeformance a skos:Concept ;   
     skos:inScheme fmpo: ;
