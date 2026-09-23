@@ -47,6 +47,7 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 
 **Week 39**
 - Added documentation for the [editorial process](doc/methods/fmpo-concept-editing.md) for FMPO concepts.
+- Added documentation: [What is music metadata?](doc/music-metadata.md) - including links to the library data format elements describing musical instruments.
 
 ## Background
 
