@@ -6,8 +6,7 @@
 - J. Muikku, Suomen musiikintekijät (2017) [Musiikkitiedostojen metadata](https://musiikintekijat.fi/sites/default/files/metadata_170925_final.pdf) (PDF)
 
 ### Kirjastot - Libraries
-- [Musiikin RDA-sovellusohje](https://wiki.helsinki.fi/xwiki/bin/view/rdasovellusohje/RDA-kuvailu%20MARC%2021%20-formaatilla/Musiikin%20RDA-sovellusohje/)
-- [382 Esityskokoonpano](https://wiki.helsinki.fi/xwiki/bin/view/rdasovellusohje/RDA-kuvailu%20MARC%2021%20-formaatilla/Musiikin%20RDA-sovellusohje/06.%20Fyysisen%20kuvailun%20jne.%20kent%C3%A4t%20%283XX%29/#H382ESITYSKOKOONPANO28T29)
+- [Musiikin RDA-sovellusohje](https://wiki.helsinki.fi/xwiki/bin/view/rdasovellusohje/RDA-kuvailu%20MARC%2021%20-formaatilla/Musiikin%20RDA-sovellusohje/)  - [382 Esityskokoonpano](https://wiki.helsinki.fi/xwiki/bin/view/rdasovellusohje/RDA-kuvailu%20MARC%2021%20-formaatilla/Musiikin%20RDA-sovellusohje/06.%20Fyysisen%20kuvailun%20jne.%20kent%C3%A4t%20%283XX%29/#H382ESITYSKOKOONPANO28T29)
 - Muska Working Group, Finnish Music Library Association: [Music information search](https://www.musiikintiedonhaku.fi/en/)
 
 
