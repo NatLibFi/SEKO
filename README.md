@@ -29,6 +29,8 @@ Specific emphasis will be based on covering traditional Finnish musical instrume
 [Music museums and instrument collections and music archives](doc/collections.md)  
 [Other music instrument vocabularies and publications](doc/other-instrument-vocabularies.md)  
 
+Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https://natlibfi.github.io/SEKO/)
+
 ## <a id="activities">Activites</a>
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
