@@ -24,4 +24,5 @@ This folder contains external vocabularies and mappings between vocabularies
 - [MusicBrainz instruments](https://musicbrainz.org/instruments) 
 - Wikidata
     - [musical instruments and its subclassess](https://w.wiki/6Cn8)  (5714 concepts)
+    - [list with BT label](https://w.wiki/VnNS) 7011 rows
 - [Wikipedia:Category:Musical instruments](https://en.wikipedia.org/wiki/Category:Musical_instruments) - 175 languages
