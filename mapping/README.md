@@ -53,7 +53,7 @@ Sources For labels organology, history, uses as well as defintions
 - [https://www.scribd.com/document/926610868/Pre-Columbian-Instruments-docx](https://www.scribd.com/document/926610868/Pre-Columbian-Instruments-docx)
 
 ### Printed / digitized
-- [search archive.org](https://archive.org/search?tab=texts&query=dictionary+musical+instruments)
+- [search archive.org](https://archive.org/search?tab=texts&query=dictionary+musical+instruments) (158 results)
 - Laurence Libin (ed.) 2014. The Grove Dictionary of Musical Instruments. 2nd print, 5 volumes,  ISBN 9780199743391 - [in archive.org](https://archive.org/details/grovedictionaryo0004unse_x9c4)
 - Sibyl Marcuse (ed.) 1975. A Dictionary of Musical Instruments. availabel in archive.org
 
