@@ -23,6 +23,9 @@ Sources For labels organology, history, uses as well as defintions
     - [Browse LCMPT at id.loc.gov](https://id.loc.gov/authorities/performanceMediums.html)
     - [Best practices](https://cmc.wp.musiclibraryassoc.org/2023/04/04/best-practices-for-using-lcmpt-version-1-5-now-available/)
 - [MIMO Vocabulary](https://vocabulary.mimo-international.com/InstrumentsKeywords#) - Labels in 13 languages
+- YSO [soittimet](http://www.yso.fi/onto/koko/p32104) - [yhtyeet](http://www.yso.fi/onto/yso/p5072)
+- KOKO [soittimet](http://www.yso.fi/onto/koko/p32104) - [yhtyeet](https://finto.fi/koko/fi/page/p31126)
+- EMS [pilid](https://ems.elnet.ee/id/EMS004487)-  [muusikakollektiivid](https://ems.elnet.ee/id/EMS025842)
 - [Discogs instruments / creditslist](https://www.discogs.com/help/creditslist) - no identifiers?
 - [MusicBrainz instruments](https://musicbrainz.org/instruments) 
 - Wikidata
