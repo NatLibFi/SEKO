@@ -1,6 +1,6 @@
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix fmpo: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/masterdata/fmpo#> .
-@prefix fmpo-meta: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/fmpo-metadata#> .
+@prefix fmpo: <https://natilibfi.github.io/SEKO/schema/fmpo/> .
+@prefix fmpo-meta: <https://natilibfi.github.io/SEKO/schema/fmpo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
