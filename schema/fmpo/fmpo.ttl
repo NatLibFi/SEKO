@@ -76,7 +76,7 @@ fmpo: a owl:Ontology , skos:ConceptScheme ;
   dct:modified "2026-09-21"^^xsd:date ;   # v0.09
   owl:versionInfo "0.09" ;
   dct:comment "v0.07 - added Swedish labels. Used id.kb.se/vocab as main source." ,
-              "v0.08 - changed the prefix and filenames from seko: to fmpo:" ;
+              "v0.08 - changed the prefix and filenames from seko: to fmpo:" ,
               "v0.09 - checked potential namespaces" ;
 
 .
