@@ -36,7 +36,7 @@ Voit ehdottaa uusia termejä ja muutoksia Seko-sanastoon Finto.fi-etusivun yläl
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     foaf:homepage <https://github.com/NatLibFi/SEKO/> .
 
-:statusNote a owl:AnnotationProperty ;
+fmpo:statusNote a owl:AnnotationProperty ;
     rdfs:subPropertyOf skos:note ;
     rdfs:label "FMPO käsitteen status"@fi, "FMPO element status"@sv, "FMPO element status"@en ;
     rdfs:range rdfs:Literal ;
