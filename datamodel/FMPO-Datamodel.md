@@ -3,10 +3,10 @@
     Not available
 
 **This version**  
-    0.2 / Jarmo Saarikko / draft
+    0.3 / Jarmo Saarikko / draft
 
 **Date**  
-    2026-08-31  
+    2026-10-03  
 
 **Creator**  
     Jarmo Saarikko  
