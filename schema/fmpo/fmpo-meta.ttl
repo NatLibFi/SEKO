@@ -1,6 +1,6 @@
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix : < https://natlibfi.github.io/SEKO/schema/fmpo/> .
-@prefix fmpo-meta: < https://natlibfi.github.io/SEKO/schema/fmpo/> .
+@prefix fmpo: <https://natlibfi.github.io/SEKO/schema/fmpo/> .
+@prefix fmpo-meta: <https://natlibfi.github.io/SEKO/schema/fmpo/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
@@ -40,7 +40,7 @@ fmpo:statusNote a owl:AnnotationProperty ;
     rdfs:subPropertyOf skos:note ;
     rdfs:label "FMPO käsitteen status"@fi, "FMPO element status"@sv, "FMPO element status"@en ;
     rdfs:range rdfs:Literal ;
-    ddfs:domain rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
     skos:definition "Value for a entity status intended strictly for FMPO internal use."@en ;
     skos:scopeNote "Select value from: submitted, accepted, valid, deprecated, superceded, retired" ,
          "or use LOC Status Codes: new, incomplete, partial, current, incorrect, changed, unknown, canceled or invalid, deleted " ;
