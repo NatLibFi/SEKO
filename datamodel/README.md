@@ -1,4 +1,5 @@
-See documentation draft (work in progress) at [Datamodel document](./FMPO-Datamodel.md)
+See documentation draft (work in progress) at [Datamodel document](./FMPO-Datamodel.md)  
+Placeholder for the published schemas [/schema/fmpo/](../schema/fmpo/README.md)
 
 # FMPO datamodel planning
 
