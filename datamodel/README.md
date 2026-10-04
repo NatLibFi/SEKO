@@ -29,8 +29,8 @@ Placeholder for the published schemas [/schema/fmpo/](../schema/fmpo/README.md)
 @prefix mstatus: <https://id.loc.gov/vocabulary/mstatus/> .
 @prefix schema: <http://schema.org/>  .
 @prefix seko: <http://urn.fi/urn:nbn:fi:au:seko:> .
-@prefix fmpo: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/masterdata/fmpo#> .
-@prefix fmpo-meta: <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/datamodel/fmpo-metadata#> .
+@prefix fmpo: <https://natlibfi.github.io/SEKO/schema/fmpo/#> .
+@prefix fmpo-meta: <https://natlibfi.github.io/SEKO/schema/fmpo/#> .
 @prefix seko-issues: <https://github.com/NatLibFi/SEKO/issues/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix yse-issue: <https://github.com/Finto-ehdotus/YSE/issues/> .
