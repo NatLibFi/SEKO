@@ -5,17 +5,17 @@ Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
 - "_Interoperable datasets for musical cultural heritage_"
 
 ### Project objective
-To develop a long-term service to support Finnish music content and instrument description based on a trilingual linked data ontology of instruments and ensembles with adding a Finnish language version of an instrument classification. 
+To develop an analyzed dataset to support Finnish music content and instrument description in the Finnish organizations. The resulting dataset will be basically a trilingual semantic web linked data ontology of muusic instruments and ensembles including a Finnish language version of an instrument classification. 
 
-Working titles for the service:
+Working titles for the dataset:
 - "Suomalainen esityskokoonpano-ontologia" 
 - "Finsk ontologi för  musikbesättning"
 - "Finnish Medium of Performance Ontology" --> New prefix fmpo:
 
 ### Purpose
-To help the Finnish GLAM network of libraries and museum collections and any other organisations to do music content description more easily and to increase interoprability of the vocabulary and collections by adding Swedish and English labels and mappings to corresponding concepts in international sources <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To provide for the Finnish GLAM network of libraries and museum collections and any other organisations describing their music content and instruments an easily accessible, usable, interoprable and reasonably comprehensive vocabulary. Added value is conveyed by the Swedish and English labels and mappings to corresponding concepts in international sources like <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be based on covering traditional Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform the Seko vocabulary from a general medium-of-performance vocabulary to be also the definitive linked-data reference for Finnish and Karelian organology — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
+Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform the information in the Seko vocabulary from a general medium-of-performance list into a dataset providing a definitive linked-data reference for Finnish and Karelian instruments — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
