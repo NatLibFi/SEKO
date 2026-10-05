@@ -58,7 +58,7 @@ fmpo: a owl:Ontology , skos:ConceptScheme ;
   dc:title "Suomalainen esityskokoonpano-ontologia (SEKO3 - FMPO)"@fi ,
            "Finsk ontologi för uppsättning för framförande (FMPO)"@sv ,
            "Finnish Medium of Pperformance Ontology (FMPO)"@en ;
-  dc:identifier <https://raw.githubusercontent.com/NatLibFi/SEKO/refs/heads/main/masterdata/fmpo:> ;
+  dc:identifier <https://natlibfi.github.io/SEKO/schema/fmpo/> ;
 # <http://urn.fi/urn:nbn:fi:au:seko:> ,
 #                <http://www.wikidata.org/entity/Q106573395> ,
 #                <http://id.loc.gov/vocabulary/musiccodeschemes/seko> ;
@@ -204,7 +204,7 @@ dct:isReplacedBy
 
 
 skos:member 
-    rdfs:label "ryhmän jäsen"@fi, "har medlem"@sv, "has member" @en ;
+    rdfs:label "ryhmän jäsen"@fi, "har medlem"@sv, "has member"@en ;
     rdfs:comment "Relates a collection to one of its members."@en ;
     rdfs:domains skos:Collection ;
     rdfs:ranges skos:Concept , skos:Collection .

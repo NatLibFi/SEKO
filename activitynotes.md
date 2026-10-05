@@ -1,6 +1,8 @@
 ## SEKO3 project log - activity notes  
 [Go back to homepage](./README.md#previous)   
-| Jump to <a href="./activitynotes.md#202607">2026-07</a> | <a href="./activitynotes.md#202608">2026-08</a>
+| Jump to <a href="./activitynotes.md#202607">2026-07</a> 
+| <a href="./activitynotes.md#202608">2026-08</a>
+| <a href="./activitynotes.md#202609">2026-09</a>
 
 ### 2023-01
 - First issuse created in January - By September issue nr. 49 was created.
@@ -95,3 +97,25 @@
 
 **Week 34**
 - After discussiong with Finto staff, to clearly separate new concpets added within the project and the concepts approved and added by the MUUSA expert group, the identifiers for new concepts were changed to start with the character **x** , following with three digits. Updates from the origial Aleph-database to Seko at finto.fi are expected in the near future.
+
+### <a id="202609">2026-09</a> SEPTEMBER
+
+**Week 35**
+- To avoid any overlap and mix-ups between the current vocabulary and the planned ontology versions in the **finto.fi** service, the prefix of the project ontology was changed to **fmpo:** (or fimpo: depending on feeback).  In Masterdata the Seko URN was changed to a separate new column. The concept ids part will be kept equal as much as possible.
+
+**Week 37** 
+- Wed-Thu 9.-10. September, MIMO Annual General Meeting in Riga, Latvia.  Short presentation on Finnish music vocabularies and the FMPO project plan.
+
+**Week 38** 
+- Funding application sent to **Koneen säätiö** including a more detailed project plan for 24 months (in Finnish)
+- Added below a chapter for **Networking** with three international networks that include of music metadata professionals and more information about metadata in museums and archives.
+- Added in the **doc** folder new listings for music museums and archives, instrument collections and instrument vocabularies, publications.
+- Added mapping files/listings from SEKO concepts to YKL library classification, as well as to YSO and KOKO ontologies. Two MAO concepts in the KOKO ontology are neither in YSO nor in Seko ("prayer trumpets" and "bone flutes"). Added SPARQL searches in the Wiki page [04 Tools : SPARQL](https://github.com/NatLibFi/SEKO/wiki/04-Tools-:-SPARQL)
+
+**Week 39**
+- Added documentation for the [editorial process](doc/methods/fmpo-concept-editing.md) for FMPO concepts.
+- Added documentation: [What is music metadata?](doc/music-metadata.md) - including links to the library data format elements describing musical instruments.
+
+### <a id="202610">2026-10</a> OCTOBER
+
+**Week 40**
