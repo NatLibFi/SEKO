@@ -1,11 +1,10 @@
 # FMPO Finnish Medium of Performance Ontology  (SEKO3)
-Project on developing <a href="https://finto.fi/seko/fi/">SEKO</a>, the Finnish medium of performance vocabulary into a new dataset as a multilingual linked data ontology and classification for better implementations in the semantic web and available for many types of organizations.
+Project on developing a new dataset as a multilingual linked data ontology and classification for better implementations in the semantic web and available for many types of organizations. Built on the information of the current Finnish medium of performance vocabulary [SEKO](https://finto.fi/seko/fi/). 
 
-Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"
-- "_Interoperable datasets for musical cultural heritage_"
+Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"  (_"Interoperable datasets for musical cultural heritage"_)
 
 ### Project objective
-To develop an analyzed dataset to support Finnish music content and instrument description in the Finnish organizations. The resulting dataset will be basically a trilingual semantic web linked data ontology of muusic instruments and ensembles including a Finnish language version of an instrument classification. 
+To develop an analyzed dataset to support Finnish music content and instrument description and preservation of cultural heritage in the Finnish organizations. The resulting dataset will be basically a semantic web linked data ontology of musical instruments and ensembles including a Finnish language version of an instrument classification. 
 
 Working titles for the dataset:
 - "Suomalainen esityskokoonpano-ontologia" 
@@ -13,9 +12,9 @@ Working titles for the dataset:
 - "Finnish Medium of Performance Ontology" --> New prefix fmpo:
 
 ### Purpose
-To provide for the Finnish GLAM network of libraries and museum collections and any other organisations describing their music content and instruments an easily accessible, usable, interoprable and reasonably comprehensive vocabulary. Added value is conveyed by the Swedish and English labels and mappings to corresponding concepts in international sources like <a href="https://w.wiki/5jrV">Wikidata</a>, Library of Congress Medium of Performance Thesaurus for Music <a href="https://id.loc.gov/authorities/performanceMediums.html">LCMPT</a>, <a href="https://finto.fi/yso/en/">YSO-ontology</a>, and [MIMO thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To provide for the Finnish GLAM network of libraries, archives and museums and any other organisations for their descriptions of music content and instruments an easily accessible, usable, interoperable and reasonably comprehensive controlled vocabulary. Added value is brought with the Swedish and English labels and mappings to the corresponding concepts in international sources such as [Wikidata](https://w.wiki/5jrV), [Library of Congress Medium of Performance Thesaurus for Music LCMPT](https://id.loc.gov/authorities/performanceMediums.html), [YSO-ontology](https://finto.fi/yso/en/), and the [MIMO Thesaurus of musical instrument names](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the preservation of the Finnish cultural heritage. Incorporating these would transform the information in the Seko vocabulary from a general medium-of-performance list into a dataset providing a definitive linked-data reference for Finnish and Karelian instruments — a unique international contribution that no other national ontology can offer, and one that strongly justifies further investment.
+Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the long term preservation of the Finnish cultural heritage. Incorporating these would transform the information in the Seko vocabulary from a general medium-of-performance list into a dataset providing a definitive linked-data reference for Finnish-Karelian instruments — a unique international contribution that no other national ontology is offering, and one that strongly justifies further investment. The dataset will further provide a basis for music related knowledge graphs, research and music education.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
