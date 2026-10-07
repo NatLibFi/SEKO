@@ -46,14 +46,15 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 **Week 41**
 - Started planning new funding application and updating the project plans.Re-analyzing research questions and hypotheses. Searching for additional related projects. Focusing on instruments Finnish cultural heritage data, music metadata, interoperability, existing ontologies and datamodels.
 - Updated the FMPO identifiers and masterdata records for the corresponding eight new SEKO concepts added to SEKO on 2026-09-25. One new concept "rapping" and one to be checked (ukulele banjo vs. banjolele).
+- Revised the objectives and purpose sections. This is not merely a translation or a format transformation project but includes research and  analysis, too.
 
 ## Background
 
-The project process is done in accordance with the Finnish expert group on music metadata (MUUSA) which maintains the current Seko vocabulary.
+The project process is done in accordance with the Finnish expert group on music metadata (MUUSA) which maintains the Seko vocabulary.
 
 Specific spatial and cultural information inside the current Seko instrument notes will be extracted and entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc. and formed as definitions and scope notes.
 
-The Seko dataset consist currently of some 1240 concepts of musical instruments and ensembles.
+The Seko dataset consist of 1249 concepts of musical instruments and ensembles.
 The classification would be based on the MIMO dataset from 2011 and its addtions in 2018 which will be translated and entered in skos-format with Finnish labels to support browsing the instruments by classification. 
 
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
