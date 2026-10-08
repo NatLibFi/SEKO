@@ -48,7 +48,10 @@ Properties:
     - Index on pages 91-97.
 - Beck, John H. (Ed) **Encyclopedia of Percussion.** 436 pages. Garland Refrence Library of the Hunanities (Vol 947), 1995.  ISBN 0-8153-2894-X.
    - https://www.finna.fi/Record/helmet.1022751/
-
+- Reimers, Christian (1979) **Riksinventeringen av äldre svenska musikinstrument, ett redskap för musikarkeologin.** Fornvännen 74, 109-112. 
+   - http://kulturarvsdata.se/raa/fornvannen/html/1979_109
+   - https://raa.diva-portal.org/smash/get/diva2:1225496/FULLTEXT01.pdf (retrieved 2026-10-08)
+   - Does not cover results of the inventory, need to find addtional sources.
 
 ## Sources referred to in the original dataset (1998-2002)
 Note! Sources were not marked in the individual records 
