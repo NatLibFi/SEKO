@@ -47,6 +47,7 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 - Started planning new funding application and updating the project plans.Re-analyzing research questions and hypotheses. Searching for additional related projects. Focusing on instruments Finnish cultural heritage data, music metadata, interoperability, existing ontologies and datamodels.
 - Updated the FMPO identifiers and masterdata records for the corresponding eight new SEKO concepts added to SEKO on 2026-09-25. One new concept "rapping" and one to be checked (ukulele banjo vs. banjolele).
 - Revised the objectives and purpose sections. This is not merely a translation or a format transformation project but includes research and  analysis, too.
+- Testing working on Github with the team. Testing issues, labels, landmarks, Wiki and Projects sections, forking and committing.
 
 ## Background
 
