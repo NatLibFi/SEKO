@@ -39,7 +39,7 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 - 2026-09-25: SEKO-vocabulary updates are now working again and [eight new concepts](https://finto.fi/seko/fi/new) were added (banjolele, bell tree, joikaus, kontraforte, laattasoitin, pikkolosello, räppäys, sopranista, vihellys). now the total is 1249. Need to map/match the new ids with the masterdata.
 - Started collaboration with the Musical Instrument Museum in Bruxelles and its vocabulary project.
 - Attended webinar: Grounding AI - Reasoning Layers and Factual Graphs by Katariina Kari and Ricky Sun.
-- Registered the **fpmo** prefix at [purl.archive.org](https://purl.archive.org/).  However seriously considering using [w3id](https://w3id.org/) instead!
+- Registered the **fpmo** prefix at [purl.archive.org](https://purl.archive.org/).  
 
 ### <a id="202610">2026-10</a> OCTOBER
 
@@ -48,6 +48,7 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 - Updated the FMPO identifiers and masterdata records for the corresponding eight new SEKO concepts added to SEKO on 2026-09-25. One new concept "rapping" and one to be checked (ukulele banjo vs. banjolele).
 - Revised the objectives and purpose sections. This is not merely a translation or a format transformation project but includes research and  analysis, too.
 - Testing working on Github with the team. Testing issues, labels, landmarks, Wiki and Projects sections, forking and committing.
+- Registered the prefix: **https://w3id.org/fmpo/** as a more permanent solutions.  
 
 ## Background
 
