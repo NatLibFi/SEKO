@@ -2,8 +2,10 @@
 @prefix dct: <http://purl.org/dc/terms/#> .
 # dct:title "Mapping of SEKO conecpts with YSO General Finnish Ontology concepts" .
 # dct:created "2026-09-21"^xsd:date .
+# dct:modified "2026-10-13"^xsd:date .
 # dct:creator <http://www.wikidata.org/entity/Q95592946> .
-# dct:identifier <https://github.com/NatLibFi/SEKO/new/main/mapping/seko-exactmatc-yso.ttl> .
+# dct:identifier <https://natlibfi.github.io/SEKO/mapping/seko-exactmatch-yso.ttl> .
+# skos:changeNote "2026-10-13: Changed the identifier." .
 # Note "Confirmation of the mappings <https://api.triplydb.com/s/lbFvTrSpT>"
 #
 <http://urn.fi/urn:nbn:fi:au:seko:00027> skos:exactMatch <http://www.yso.fi/onto/yso/p22040> .
