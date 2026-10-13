@@ -48,7 +48,10 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 - Updated the FMPO identifiers and masterdata records for the corresponding eight new SEKO concepts added to SEKO on 2026-09-25. One new concept "rapping" and one to be checked (ukulele banjo vs. banjolele).
 - Revised the objectives and purpose sections. This is not merely a translation or a format transformation project but includes research and  analysis, too.
 - Testing working on Github with the team. Testing issues, labels, landmarks, Wiki and Projects sections, forking and committing.
-- Registered the prefix: **https://w3id.org/fmpo/** as a more permanent solutions.  
+
+**Week 42**
+- Registered the prefix with w3id: **https://w3id.org/fmpo/** as a more permanent solution. 
+- Project planning. Source finding (related vocabularies and ontologies, research publications). Established a Zotero group: [fmpo](https://www.zotero.org/groups/6703477/fmpo) for sources etc. 
 
 ## Background
 
