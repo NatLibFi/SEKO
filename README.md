@@ -53,7 +53,7 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 - Registered the prefix with w3id: **https://w3id.org/fmpo/** as a more permanent solution. 
 - Project planning. Source finding (related vocabularies and ontologies, research publications). Established a Zotero group: [fmpo](https://www.zotero.org/groups/6703477/fmpo) for sources etc.
 - Started mapping the corresponding Norwegian vocabulary with FMPO/SEKO concepts [Norsk musikkvokabular: Instrumenter og ensembler](
-https://id.nb.no/resource/vocab/instrumenter) (MARC code: musvok-ie). 
+https://id.nb.no/resource/vocab/instrumenter) (MARC code: musvok-ie). 80 out of 371 do not have a direct match with SEKO concepts partially due to different editorial rules. These will be taken into consideration while working further on fmpo.
 
 ## Background
 
