@@ -13,7 +13,7 @@ This folder contains external vocabularies and mappings between vocabularies
 - [SEKO3-relatedMatch-YKL.ttl](./SEKO3-relatedMatch-YKL.ttl)  --- YKL Finnish General Library Classification
 - [seko-exactmatch-yso.ttl](./seko-exactmatch-yso.ttl) ---  YSO Finnsh General Ontology
 - [seko-koko-mapping.md](./seko-koko-mapping.md) ---  KOKO Ontology, a collection of Finnish core ontologies
-- [leisio-1983+minnahokka-soittimet.csv](./leisio-1983+minnahokka-soittimet.csv) -- unfinished listing of traditional Finnish wind instruments
+- [leisio-1983+minnahokka-soittimet.csv](./leisio-1983%2Bminnahokka-soititmet.csv) -- unfinished listing of traditional Finnish wind instruments 
 
 
 # Some musical instrument vocabularies and instruments in general vocabularies
