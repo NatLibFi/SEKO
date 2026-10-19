@@ -16,6 +16,7 @@ This folder contains external vocabularies and mappings between vocabularies
 - [leisio-1983+minnahokka-soittimet.csv](./leisio-1983%2Bminnahokka-soititmet.csv) -- unfinished listing of traditional Finnish wind instruments
 - [SEKO-musvok-ie - Google sheet](https://docs.google.com/spreadsheets/d/1jOB9J8fGnCB-oDGhJIrzFbjN-6bZ3KtVBOTVe1Jzh18/edit?usp=sharing) --- [Norsk musikkvokabular: Instrumenter og ensembler](https://www.nb.no/nbvok/instrumenter/nb/)
     - 80 of the total 371 are not in SEKO. 29 of those 80 not in SEKO have a LCMPT mapping.
+    - [Beskrivelse - Description in Norsk BOkmål](https://bibliotekutvikling.no/kunnskapsorganisering/vokabularer/norsk-musikkvokabular-instrumenter-og-ensembler/)
 
 
 # Some musical instrument vocabularies and instruments in general vocabularies
