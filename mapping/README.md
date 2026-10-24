@@ -14,8 +14,9 @@ This folder contains external vocabularies and mappings between vocabularies
 - [seko-exactmatch-yso.ttl](./seko-exactmatch-yso.ttl) ---  YSO Finnsh General Ontology
 - [seko-koko-mapping.md](./seko-koko-mapping.md) ---  KOKO Ontology, a collection of Finnish core ontologies
 - [leisio-1983+minnahokka-soittimet.csv](./leisio-1983%2Bminnahokka-soititmet.csv) -- unfinished listing of traditional Finnish wind instruments
-- [SEKO-musvok-ie - Google sheet](https://docs.google.com/spreadsheets/d/1jOB9J8fGnCB-oDGhJIrzFbjN-6bZ3KtVBOTVe1Jzh18/edit?usp=sharing) --- [Norsk musikkvokabular: Instrumenter og ensembler](https://www.nb.no/nbvok/instrumenter/nb/)
+- [musvok-ie instruments and ensembles missing in Seko](./seko-musvok-ie-mapping.md)
     - 80 of the total 371 are not in SEKO. 29 of those 80 not in SEKO have a LCMPT mapping.
+    - [SEKO-musvok-ie - Google sheet](https://docs.google.com/spreadsheets/d/1jOB9J8fGnCB-oDGhJIrzFbjN-6bZ3KtVBOTVe1Jzh18/edit?usp=sharing) --- [Norsk musikkvokabular: Instrumenter og ensembler](https://www.nb.no/nbvok/instrumenter/nb/)
     - [Beskrivelse - Description in Norsk BOkmål](https://bibliotekutvikling.no/kunnskapsorganisering/vokabularer/norsk-musikkvokabular-instrumenter-og-ensembler/)
 
 
