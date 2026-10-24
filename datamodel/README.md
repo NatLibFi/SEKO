@@ -78,6 +78,19 @@ owl:differentFrom, owl:imports, owl:inverseOf, owl:sameAs, owl:versionInfo, owl:
 - dct:spatial  # Used for spatial origin or distribution or usage area of the Concept. Preferably a YSO-places URI. (can be a Wikidata or Geospaces URI)
 - dct:temporal  # Used for temoporal era for a historical instrument when it was invented or used. Preferably YSO-aika URI (can be a wikidata URI)
 
+### RDA
+#### Unconstrained properties
+- **rdau:P60537** http://rdaregistry.info/Elements/u/P60537
+    - **Label:** "aineiston musiikkisisällön esityskokoonpano", "has medium of performance of musical content"
+    - **Definition:**
+        - "Liittää aineiston musiikkiesityksessä käytettävään tai käytettäväksi aiottuun soittimeen, lauluääneen tai esittäjäryhmään ja osien, esiintyjien ja käsien lukumäärään."
+        - "Relates a resource to an instrument, voice, or ensemble and the number of parts, performers and hands used, or intended to be used, to perform the musical content of a resource.- 
+#### Expression properties
+- 	**rdae:P20215**
+    - **Label:** "has medium of performance of musical content"
+    - **Definition:** 
+        - "Relates an expression to an instrument, voice, or ensemble and the number of parts, performers and hands used, or intended to be used, to perform the musical content of an expression."
+- roles: instrumentalist, singer, conductor, instrumentalist person, instrumentalist collective agent, instrumental conductor agent, instrumental conductor person, etc.
 ### skos:
 #### owl:Class:
 - **skos:Concept**  #  Used for any instrument or ensemble element
