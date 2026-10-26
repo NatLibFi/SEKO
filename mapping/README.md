@@ -44,6 +44,10 @@ Sources For labels organology, history, uses as well as defintions
 - [https://lucaturchet.github.io/smi_ontology/](https://lucaturchet.github.io/smi_ontology/)
 - [https://linkedmusic.ca/omid/](https://linkedmusic.ca/omid/) - **list of vocabularies !**
 
+### Google prodcuct categories (taxonomy)
+- [list with en-fi-sv labels](./Google-product-category.csv)
+- sources: https://www.google.com/basepages/producttype/taxonomy-with-ids.sv-SE.txt
+
 ### Regional
 #### India
 - [Indian music instruments](https://culture.gov.in/musical-instruments-india) 
