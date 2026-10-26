@@ -67,8 +67,8 @@ The project process is done in accordance with the Finnish expert group on music
 
 Specific spatial and cultural information inside the current Seko instrument notes will be extracted and entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc. and formed as definitions and scope notes.
 
-The Seko dataset consist of 1249 concepts of musical instruments and ensembles. The combination ontology KOKO has less than 200 corresponding concepts.
-The possibly added classification content scheme would be based on the MIMO dataset from 2011 and its addtions in 2018 which will be translated and entered in skos-format with Finnish labels to support browsing the instruments by classification. 
+The Seko dataset consist of 1249 concepts of musical instruments and ensembles. The combination ontology KOKO has 143 musical instrument and 29 ensemble concepts (132 instruments and 26 ensembles in YSO).
+The possibly added classification content scheme would be based on the MIMO English version of the Hornbostel-Sachs classification from 2011 and its addtions in 2018 which would be translated and entered in skos-format concept scheme with Finnish labels to support browsing the instruments by classification. 
 
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
