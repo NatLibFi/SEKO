@@ -75,6 +75,7 @@ Funding applications pending. Contact Jarmo Saarikko if you are interested in jo
 - The hierarchy matches closeoly the Hornboschel-Sachs classification published by the MIMO (Musical Instrument Museums Online network(.
 - The datamodel will be documented in SKOS turtle format.
 - See the separate [Datamodel](datamodel/README.md) description page.
+- Data model of the instrument ontology scheme  will be matched with the YSO and MAO ontologyes and rules.
 
 ## Mappings
 
