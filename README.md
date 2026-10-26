@@ -4,17 +4,16 @@ Project on developing a new dataset as a multilingual linked data ontology and c
 Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"  (_"Interoperable datasets for musical cultural heritage"_)
 
 ### Project objective
-To develop an analyzed dataset to support Finnish music content and instrument description and preservation of cultural heritage in the Finnish organizations. The resulting dataset will be basically a semantic web linked data ontology of musical instruments and ensembles including a Finnish language version of an instrument classification. 
+To develop an analyzed dataset to support Finnish music content and instrument description and preservation of cultural heritage in the Finnish organizations. The resulting datasets will be basically semantic web linked data ontologies of musical instruments and ensembles possibly including a Finnish language version of an instrument classification. 
 
-Working titles for the dataset:
-- "Suomalainen esityskokoonpano-ontologia" 
-- "Finsk ontologi för  musikbesättning"
-- "Finnish Medium of Performance Ontology" --> New prefix fmpo:
+Working titles for the datasets:
+- "Suomalainen esityskokoonpano-ontologia" -  "Finsk ontologi för  musikbesättning" -  "Finnish Medium of Performance Ontology" --> Approved prefix fmpo:
+- "Suomalainen soitinontologia" - "Finsk ontologi för musikinstrument" - "Finnish musical instrument ontology" - Planned prefix suso:
 
 ### Purpose
 To provide for the Finnish GLAM network of libraries, archives and museums and any other organisations for their descriptions of music content and instruments an easily accessible, usable, interoperable and reasonably comprehensive controlled vocabulary. Added value is brought with the Swedish and English labels and mappings to the corresponding concepts in international sources such as [Wikidata](https://w.wiki/5jrV), [Library of Congress Medium of Performance Thesaurus for Music LCMPT](https://id.loc.gov/authorities/performanceMediums.html), [YSO-ontology](https://finto.fi/yso/en/), and the [MIMO Thesaurus of musical instrument names](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the long term preservation of the Finnish cultural heritage. Incorporating these would transform the information in the Seko vocabulary from a general medium-of-performance list into a dataset providing a definitive linked-data reference for Finnish-Karelian instruments — a unique international contribution that no other national ontology is offering, and one that strongly justifies further investment. The dataset will further provide a basis for music related knowledge graphs, research and music education.
+Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the long term preservation of the Finnish cultural heritage. Incorporating these would transform the information in the curent vocabularies from a general hierarchical listings into a dataset providing a definitive linked-data reference for Finnish-Karelian instruments — a unique international contribution that no other national ontology is offering, and one that strongly justifies further investment. The dataset will further provide a basis for music related knowledge graphs, research and music education.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
@@ -68,8 +67,8 @@ The project process is done in accordance with the Finnish expert group on music
 
 Specific spatial and cultural information inside the current Seko instrument notes will be extracted and entered as structured linked data using e.g. YSO, YSO time, YSO-places ontologyies, Wikidata or Geospaces, etc. and formed as definitions and scope notes.
 
-The Seko dataset consist of 1249 concepts of musical instruments and ensembles.
-The classification would be based on the MIMO dataset from 2011 and its addtions in 2018 which will be translated and entered in skos-format with Finnish labels to support browsing the instruments by classification. 
+The Seko dataset consist of 1249 concepts of musical instruments and ensembles. The combination ontology KOKO has less than 200 corresponding concepts.
+The possibly added classification content scheme would be based on the MIMO dataset from 2011 and its addtions in 2018 which will be translated and entered in skos-format with Finnish labels to support browsing the instruments by classification. 
 
 Funding applications pending. Contact Jarmo Saarikko if you are interested in joining or sharing your expertise.  
 
