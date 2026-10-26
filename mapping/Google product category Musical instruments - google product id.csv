@@ -1,0 +1,71 @@
+google product category,instrument-en,instrument-fi,instrument-sv,broader-en,broader-fi,broader-sv,broader-id
+8 ,Arts & Entertainment,Taide ja viihde,Konst och underhållning,,,,TOPCONCEPT
+5710,Hobbies & Creative Arts,Harrastukset ja luovat alat,Hobby och skapande,Arts & Entertainment,Taide ja viihde,Konst och underhållning,8 
+54,Musical Instruments,Soittimet,Musikinstrument,Hobbies & Creative Arts,Harrastukset ja luovat alat,Hobby och skapande,5710
+4983,Accordions & Concertinas,Harmonikat ja concertinat,Dragspel och concertinor,Musical Instruments,Soittimet,Musikinstrument,54
+4984,Bagpipes,Säkkipillit,Säckpipor,Musical Instruments,Soittimet,Musikinstrument,54
+63,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,Musical Instruments,Soittimet,Musikinstrument,54
+505769,Alto & Baritone Horns,Altto- ja baritonitorvet,Alt- och barytonhorn,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,63
+65,Euphoniums,Baritonitorvet,Eufonier,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,63
+67,French Horns,Käyrätorvet,Valthorn,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,63
+70,Trombones,Pasuunat,Tromboner,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,63
+505770,Trumpets & Cornets,Trumpetit ja kornetit,Trumpeter och kornetter,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,63
+72,Tubas,Tuubat,Tubor,Brass Instruments,Vaskipuhaltimet,Bleckblåsinstrument,63
+6001,Electronic Musical Instruments,Elektroniset soittimet,Elektriska musikinstrument,Musical Instruments,Soittimet,Musikinstrument,54
+245,Audio Samplers,Samplerit,Ljudsamplers,Electronic Musical Instruments,Elektroniset soittimet,Elektriska musikinstrument,6001
+6002,MIDI Controllers,MIDI-ohjaimet,MIDI-kontrollenheter,Electronic Musical Instruments,Elektroniset soittimet,Elektriska musikinstrument,6001
+74,Musical Keyboards,Kosketinsoittimet,Keyboards,Electronic Musical Instruments,Elektroniset soittimet,Elektriska musikinstrument,6001
+6003,Sound Synthesizers,Syntetisaattorit,Synthar,Electronic Musical Instruments,Elektroniset soittimet,Elektriska musikinstrument,6001
+75,Percussion,Lyömäsoittimet,Slagverk,Musical Instruments,Soittimet,Musikinstrument,54
+2917,Bass Drums,Bassorummut,Bastrummor,Percussion,Lyömäsoittimet,Slagverk,75
+3043,Cymbals,Symbaalit,Cymbaler,Percussion,Lyömäsoittimet,Slagverk,75
+2518,Drum Kits,Rumpusetit,Trumset,Percussion,Lyömäsoittimet,Slagverk,75
+2856,Electronic Drums,Sähkörummut,Elektriska trummor,Percussion,Lyömäsoittimet,Slagverk,75
+7431,Glockenspiels & Xylophones,Kellopelit ja ksylofonit,Klockspel och xylofoner,Percussion,Lyömäsoittimet,Slagverk,75
+6098,Gongs,Gongit,Gonggongar,Percussion,Lyömäsoittimet,Slagverk,75
+7285,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,Percussion,Lyömäsoittimet,Slagverk,75
+7289,Claves & Castanets,Clavesit ja kastanjetit,Claves och kastanjetter,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7288,Finger & Hand Cymbals,Sormi- ja käsisymbaalit,Finger- och handcymbaler,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7555,Hand Bells & Chimes,Käsikellot ja putkikellot,Handklockor och -klockspel,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7295,Hand Drums,Käsirummut,Handtrummor,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7298,Bongos,Bongorummut,Bongos,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7297,Cajons,Cajonrummut,Cajoner,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7296,Congas,Congarummut,Congas,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7300,Frame Drums,Kehärummut,Ramtrummor,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7299,Goblet Drums,Pikarirummut,Bägarformade trummor,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7302,Tablas,Tablat,Tablas,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7301,Talking Drums,Puhuvat rummut,Talande trummor,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7291,Musical Blocks,Rytmikapulat,Musikblock,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7293,Musical Cowbells,Lehmänkellot,Koskällor för musik,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7286,Musical Scrapers & Ratchets,Raapat ja räikät,Skrapinstrument och harskramlor,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7287,Musical Shakers,Shakerit,Skakinstrument,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7290,Musical Triangles,Triangelit,Trianglar,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+2515,Tambourines,Tamburiinit,Tamburiner,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+7294,Vibraslaps,Vibraslapit,Vibraslaps,Hand Percussion,Käsiperkussiot,Handhållna slaginstrument,7285
+3015,Hi,Hi-hatit,Hi-hats,Percussion,Lyömäsoittimet,Slagverk,75
+7232,Practice Pads,Harjoituspadit rummuille,Övningsplattor,Percussion,Lyömäsoittimet,Slagverk,75
+2797,Snare Drums,Virvelirummut,Virveltrummor,Percussion,Lyömäsoittimet,Slagverk,75
+3005,Tom,Tom-tomit,Pukor,Percussion,Lyömäsoittimet,Slagverk,75
+76,Pianos,Pianot,Pianon,Musical Instruments,Soittimet,Musikinstrument,54
+77,String Instruments,Jousisoittimet,Stränginstrument,Musical Instruments,Soittimet,Musikinstrument,54
+79,Cellos,Sellot,Cellor,String Instruments,Jousisoittimet,Stränginstrument,77
+80,Guitars,Kitarat,Gitarrer,String Instruments,Jousisoittimet,Stränginstrument,77
+84,Harps,Harput,Harpor,String Instruments,Jousisoittimet,Stränginstrument,77
+78,Upright Basses,Kontrabassot,Kontrabaser,String Instruments,Jousisoittimet,Stränginstrument,77
+85,Violas,Alttoviulut,Violiner,String Instruments,Jousisoittimet,Stränginstrument,77
+86,Violins,Viulut,Violor,String Instruments,Jousisoittimet,Stränginstrument,77
+87,Woodwinds,Puupuhaltimet,Träblåsinstrument,Musical Instruments,Soittimet,Musikinstrument,4
+4540,Bassoons,Fagotit,Fagotter,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+88,Clarinets,Klarinetit,Klarinetter,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+89,Flutes,Huilut,Flöjter,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+7188,Flutophones,Flutophonet,Flutophones,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+4743,Harmonicas,Huuliharput,Munspel,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+4744,Jew's Harps,Munniharput,Mungigor,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+5481,Melodicas,Melodicat,Melodicas,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+7250,Musical Pipes,Huilusoittimet,Pipor,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+4541,Oboes,Oboet ja englannintorvet,Oboer,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+7249,Ocarinas,Okariinat,Okarinor,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+90,Recorders,Nokkahuilut,Blockflöjter,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+91,Saxophones,Saksofonit,Saxofoner,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+6721,Tin Whistles,Tinapillit,Tin whistles,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
+6728,Train Whistles,Junapillit,Ångvisslor,Woodwinds,Puupuhaltimet,Träblåsinstrument,87
