@@ -46,7 +46,7 @@ Sources For labels organology, history, uses as well as defintions
 
 ### Google prodcuct categories (taxonomy)
 - [list with en-fi-sv labels](./Google-product-category.csv)
-- sources: https://www.google.com/basepages/producttype/taxonomy-with-ids.sv-SE.txt
+- Google_Product_Taxonomy_Version: 2021-09-21 -  Sources: [sv](https://www.google.com/basepages/producttype/taxonomy-with-ids.sv-SE.txt),  [fi](https://www.google.com/basepages/producttype/taxonomy-with-ids.fi-FI.txt), [en](https://www.google.com/basepages/producttype/taxonomy-with-ids.en-US.txt) - retrieved 2026-10-26
 
 ### Regional
 #### India
