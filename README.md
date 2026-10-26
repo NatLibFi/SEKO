@@ -56,6 +56,9 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 https://id.nb.no/resource/vocab/instrumenter) (MARC code: musvok-ie). 80 out of 371 do not have a direct match with SEKO concepts partially due to different editorial rules. These will be taken into consideration while working further on fmpo.
 
 **Week 43**
+- Working on updating the project plan.
+
+**Week 44**
 - Adjusted to project plan and objective to better cover the different usage rules for content description in different branches of the GLAM sector. THe data will be split to two concept schemes: a medium of performance ontology corresponding the usage of the Seko vocabulary in libraries and an instrument ontology corresponding to the content description usage as subjects in the libraries and archives or as object types in the Finnish museum collections with the MAOTAO and KOKO ontologies.  The number of different instruments in the combined dataset would be eventually the same. The instrument ontology (with a working title _Suomalainen soitinontologia_, suso:) would be better suited for the task of preserving cultural heritage information in the instrument metadata.
 - Mapped the 68 musical instrument [labels](./mapping/Google-product-category.csv) in the [Google product categories](https://support.google.com/merchants/answer/6324436?hl=en-GB)
 
