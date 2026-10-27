@@ -112,6 +112,12 @@ The [MARC21 source code](https://www.loc.gov/standards/sourcelist/musical-instru
 ## Museums and Archives
 
 ### Museums and instrument collections
+#### Museoiden tallennus- ja kokoelmayhteistyöverkosto TAKO ry
+- Network for Collections Management and Contemporary Documentation in Finland
+  - [takoverkosto.fi](https://www.takoverkosto.fi/english/)
+  - Responsible for data entries on [Music topics](https://www.takoverkosto.fi/tallennustyonjako/jako-aihealueittain/) is Sibelius museum in Turku, Finland.
+- This network has also projects developing content description in Finnish museums
+   - Working group for technological and IT aspects of museum work [TAKOTech](https://www.takoverkosto.fi/poolit-ja-tyoryhmat/tyoryhmat/takotech/)
 
 #### Finnish museums are already using the KOKO ontology
 KOKO incorporates the MAO/TAO ontologies maintaned by the museums. -- A suggestion and an easy solution might be to include the whole FMPO into KOKO as its top conepts are YSO-concepts.
