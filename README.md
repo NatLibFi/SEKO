@@ -1,19 +1,19 @@
-# FMPO Finnish Medium of Performance Ontology  (SEKO3)
-Project on developing a new dataset as a multilingual linked data ontology and classification for better implementations in the semantic web and available for many types of organizations. Built on the information of the current Finnish medium of performance vocabulary [SEKO](https://finto.fi/seko/fi/). 
+# Finnish Medium of Performance Ontology & Finnish Musical Instrument Ontology
+Project on developing a new dataset of multilingual linked data ontologies for better implementations in the semantic web and available for many types of organizations. Built on the information of the current Finnish medium of performance vocabulary [SEKO](https://finto.fi/seko/fi/). 
 
-Project title: "Musiikin kulttuuriperinnön yhteentoimivat tietoaineistot"  (_"Interoperable datasets for musical cultural heritage"_)
+Project title: - "Suomalaiset musiikin kulttuuriperinnön tietoaineistot ja soitinkokoelmat – löydettävyyden, yhteentoimivuuden, saavutettavuuden ja vaikuttavuuden tukeminen metatiedoilla"   (_Finnish musical cultural heritage data and instrument collections - metadata supporting findability, interoperability, accessibility and impact_)
 
 ### Project objective
-To develop an analyzed dataset to support Finnish music content and instrument description and preservation of cultural heritage in the Finnish organizations. The resulting datasets will be basically semantic web linked data ontologies of musical instruments and ensembles possibly including a Finnish language version of an instrument classification. 
+To develop an analyzed multilingual dataset to support Finnish music content and instrument cataloging, description and preservation of cultural heritage in the Finnish organizations. Study the evolution of Finnish musical instrument vocabularies.
 
 Working titles for the datasets:
 - "Suomalainen esityskokoonpano-ontologia" -  "Finsk ontologi för  musikbesättning" -  "Finnish Medium of Performance Ontology" --> Approved prefix fmpo:
 - "Suomalainen soitinontologia" - "Finsk ontologi för musikinstrument" - "Finnish musical instrument ontology" - Planned prefix suso:
 
 ### Purpose
-To provide for the Finnish GLAM network of libraries, archives and museums and any other organisations for their descriptions of music content and instruments an easily accessible, usable, interoperable and reasonably comprehensive controlled vocabulary. Added value is brought with the Swedish and English labels and mappings to the corresponding concepts in international sources such as [Wikidata](https://w.wiki/5jrV), [Library of Congress Medium of Performance Thesaurus for Music LCMPT](https://id.loc.gov/authorities/performanceMediums.html), [YSO-ontology](https://finto.fi/yso/en/), and the [MIMO Thesaurus of musical instrument names](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
+To provide for the Finnish GLAM network of libraries, archives and museums and any other organisations for their descriptions of music content and instrument collections an easily accessible, usable, interoperable and reasonably comprehensive controlled vocabulary. Added value is brought with the Swedish and English labels and mappings to the corresponding concepts in widely used international sources such as [Wikidata](https://w.wiki/5jrV), [Library of Congress Medium of Performance Thesaurus for Music LCMPT](https://id.loc.gov/authorities/performanceMediums.html), [YSO-ontology](https://finto.fi/yso/en/), and the [MIMO Thesaurus of musical instrument names](https://vocabulary.mimo-international.com/InstrumentsKeywords/en/). 
 
-Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the long term preservation of the Finnish cultural heritage. Incorporating these would transform the information in the curent vocabularies from a general hierarchical listings into a dataset providing a definitive linked-data reference for Finnish-Karelian instruments — a unique international contribution that no other national ontology is offering, and one that strongly justifies further investment. The dataset will further provide a basis for music related knowledge graphs, research and music education.
+Specific emphasis will be made to include traditional Finnish musical instruments extensively to support the long term preservation of the Finnish cultural heritage data. Incorporating these would transform the information in the curent vocabularies from a general hierarchical listings of terms into a dataset providing a definitive linked-data reference for Finnish-Karelian instruments — a unique international contribution that no other national ontology is offering, and one that strongly justifies further investment. The dataset will further provide a basis for music related knowledge graphs, research and music education.
 
 ### Documentation
 [Datamodel](datamodel/README.md)  
@@ -60,6 +60,7 @@ https://id.nb.no/resource/vocab/instrumenter) (MARC code: musvok-ie). 80 out of 
 **Week 44**
 - Adjusted to project plan and objective to better cover the different usage rules for content description in different branches of the GLAM sector. THe data will be split to two concept schemes: a medium of performance ontology corresponding the usage of the Seko vocabulary in libraries and an instrument ontology corresponding to the content description usage as subjects in the libraries and archives or as object types in the Finnish museum collections with the MAOTAO and KOKO ontologies.  The number of different instruments in the combined dataset would be eventually the same. The instrument ontology (with a working title _Suomalainen soitinontologia_, suso:) would be better suited for the task of preserving cultural heritage information in the instrument metadata.
 - Mapped the 68 musical instrument [labels](./mapping/Google-product-category.csv) in the [Google product categories](https://support.google.com/merchants/answer/6324436?hl=en-GB)
+- Updated the project title, project objective and purpose texts.
 
 ## Background
 
