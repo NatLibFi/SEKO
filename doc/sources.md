@@ -22,43 +22,44 @@ Properties:
 - dct:relation  rdfs:Resource ;   # pointer to the resource or its description
 - dct:bibliographicCitation rdfs:Literal ;  # for printed offline books?
 
+--- 
 ## Add here sources that are or could be marked in the entries FMBO
+### Finnish terms
 
-- Grove Music Online : Instrument
-  - http://www.wikidata.org/entity/Q30532476 (use this)
-  - https://www.oxfordmusiconline.com/grovemusic/browse **(Paywall)**
-  - could check the [GMO article-id P8591](https://www.wikidata.org/wiki/Property:P8591)
-     - the prefix used `https://doi.org/10.1093/gmo/9781561592630.article.$1`  (?)
+### Swedish terms
 - MIMO Thesaurus of musical instrument names
     - http://www.wikidata.org/entity/Q116920780
-- Otavan iso musiikkitietosanakirja
-    - http://www.wikidata.org/entity/Q116983876
- - Otavan iso musiikkitietosanakirja osa 1, a-Dallapé
- - Otavan iso musiikkitietosanakirja osa 2 Dallapiccola - Hervé
- - Otavan iso musiikkitietosanakirja osa 3 Herz - laudes
- - Otavan iso musiikkitietosanakirja osa 4 laulu - Rantasalo
- - Otavan iso musiikkitietosanakirja osa 5 Raphaell - Öttingen
-
-- Simone Bartoli. **La collezione di strumenti musicali del mondo del fondo Tintori del Conservatorio “G. Cantelli” di Novara.** - Università degli Studi di Pavia, Dipartimento di musicologia e beni culturali, Laurea Magistrale in Musicologia, 2024/2025.
-    - https://hdl.handle.net/20.500.14239/33564
-    - https://unitesi.unipv.it/retrieve/8c6b210e-c7a5-47aa-b247-a614684b967e/tesi%20Simone%20Bartoli%20pdfA.pdf
-    - Bibliogrpahy, pages 201-207.
 - Höijer, Johan Leonard. 1864. **Musik-Lexicon**. 636 sidor. Project Runeberg. https://runeberg.org/muslex/
     - Omfattande den theoretiska och praktiska Tonkonsten, Biographier
 öfver de förnämste In- och Utländske Musikförfattare, Tonkonstnärer och Dilettanter, som med utmärkelse idkat eller
 befordrat denna konst, beskrifningar öfver äldre och nyare Instrumenter m. m. beträffande musik samt af
 natur att kunna lexikaliskt behandlas.
     - _Några av bilderna är dessvärre lite för mörka, vilket även texttolkningen blivit lidande av. Eventuellt kommer dessa sidor eller hela verket att scannas på nytt. Sidornas adresser kommer dock att förbli desamma och korrekturlästa sidor kommer inte att raderas.  I en ordbok blir det extra tydligt hur annorlunda stavningen av svenska språket var på 1860-talet jämfört med bara några årtionden senare. Första utgåvan av Nordisk familjebok (från 1876) framstår som modern i jämförelse. Höijer använder dock ofta stavningar med ch och th, där vi senare använder k och t._
+- Reimers, Christian (1979) **Riksinventeringen av äldre svenska musikinstrument, ett redskap för musikarkeologin.** Fornvännen 74, 109-112. 
+   - http://kulturarvsdata.se/raa/fornvannen/html/1979_109
+   - https://raa.diva-portal.org/smash/get/diva2:1225496/FULLTEXT01.pdf (retrieved 2026-10-08)
+   - Does not cover results of the inventory, need to find addtional sources.
+- Svensk Musiktidning (1880-1913). Project Runeberg https://runeberg.org/svmusiktid/
+- Åstrand, Hans, red- 1975–1979. Sohlmans musiklexikon. ISBN 91-7198-020-2. Internet Archive https://archive.org/details/sohlmansmusiklex0000unse
+
+### English terms
+- Grove Music Online : **Instrument**
+  - http://www.wikidata.org/entity/Q30532476 (use this)
+  - https://www.oxfordmusiconline.com/grovemusic/browse **(Paywall)**
+  - could check the [GMO article-id P8591](https://www.wikidata.org/wiki/Property:P8591)
+     - the prefix used `https://doi.org/10.1093/gmo/9781561592630.article.$1`  (?)
+
+- Simone Bartoli. **La collezione di strumenti musicali del mondo del fondo Tintori del Conservatorio “G. Cantelli” di Novara.** - Università degli Studi di Pavia, Dipartimento di musicologia e beni culturali, Laurea Magistrale in Musicologia, 2024/2025.
+    - https://hdl.handle.net/20.500.14239/33564
+    - https://unitesi.unipv.it/retrieve/8c6b210e-c7a5-47aa-b247-a614684b967e/tesi%20Simone%20Bartoli%20pdfA.pdf
+    - Bibliogrpahy, pages 201-207.
 - K. S.  Kothari. **Indian Folk Musical Instruments.** 1968 - SANGEET NATAK AKADEMI National Academy of Dance, Drama & Music for India. The Statesman Press, New Delhi-1, India. 99 pages - 59 image plates.
     - https://dn790003.ca.archive.org/0/items/dli.ministry.25964/ignca-920-rb_text.pdf
     - Index on pages 91-97.
 - Beck, John H. (Ed) **Encyclopedia of Percussion.** 436 pages. Garland Refrence Library of the Hunanities (Vol 947), 1995.  ISBN 0-8153-2894-X.
    - https://www.finna.fi/Record/helmet.1022751/
-- Reimers, Christian (1979) **Riksinventeringen av äldre svenska musikinstrument, ett redskap för musikarkeologin.** Fornvännen 74, 109-112. 
-   - http://kulturarvsdata.se/raa/fornvannen/html/1979_109
-   - https://raa.diva-portal.org/smash/get/diva2:1225496/FULLTEXT01.pdf (retrieved 2026-10-08)
-   - Does not cover results of the inventory, need to find addtional sources.
 
+---
 ## Sources referred to in the original dataset (1998-2002)
 Note! Sources were not marked in the individual records 
 For referring to FINNA-records would use `@prefix finna: <https://www.finna.fi/Record/>` .
@@ -94,6 +95,7 @@ For referring to FINNA-records would use `@prefix finna: <https://www.finna.fi/R
 **The New Grove Dictionary of Musical Instruments** / Edited by Stanley Sadie. – London : Macmillan Press, 1984. – ISBN 0-333-37878-4.
   - https://www.finna.fi/Record/fikka.19134
 **Otavan iso musiikkitietosanakirja 1-5.** – Helsinki : Otava, 1976-1979. – ISBN 951-1-02380-2.
+  - http://www.wikidata.org/entity/Q116983876
   - https://www.finna.fi/Record/fikka.583420 (1, a-Dallapé)
   - https://www.finna.fi/Record/fikka.3295044 (2, Dallapiccola - Hervé)
   - https://www.finna.fi/Record/fikka.3295377 (3, Herz-laudes)
@@ -106,7 +108,7 @@ For referring to FINNA-records would use `@prefix finna: <https://www.finna.fi/R
   - https://www.finna.fi/Record/fikka.621334
 - Saunio, Ilpo & Immonen, Kalevi. **Pororumpu ja balalaikka : Neuvostoliiton kansojen musiikki.** – Helsinki : Työväenmusiikki- instituutti, 1979. – ISBN 951-99237-5-6
   - https://www.finna.fi/Record/fikka.3384611
-- Suuri musiikkitietosanakirja 1-6. – Helsinki : Weilin & Göös, 1992. – ISBN 951-35-4724-8
+- **Suuri musiikkitietosanakirja 1-6**. – Helsinki : Weilin & Göös, 1992. – ISBN 951-35-4724-8
   - https://www.finna.fi/Record/fikka.3312782 (1, A-B)
   - https://www.finna.fi/Record/fikka.3440513 (2, C-Ha)
   - https://www.finna.fi/Record/fikka.3447402 (2, He-Kuud)
