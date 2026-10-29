@@ -43,6 +43,12 @@ Properties:
     - https://hdl.handle.net/20.500.14239/33564
     - https://unitesi.unipv.it/retrieve/8c6b210e-c7a5-47aa-b247-a614684b967e/tesi%20Simone%20Bartoli%20pdfA.pdf
     - Bibliogrpahy, pages 201-207.
+- Höijer, Johan Leonard. 1864. **Musik-Lexicon**. 636 sidor. Project Runeberg. https://runeberg.org/muslex/
+    - Omfattande den theoretiska och praktiska Tonkonsten, Biographier
+öfver de förnämste In- och Utländske Musikförfattare, Tonkonstnärer och Dilettanter, som med utmärkelse idkat eller
+befordrat denna konst, beskrifningar öfver äldre och nyare Instrumenter m. m. beträffande musik samt af
+natur att kunna lexikaliskt behandlas.
+    - _Några av bilderna är dessvärre lite för mörka, vilket även texttolkningen blivit lidande av. Eventuellt kommer dessa sidor eller hela verket att scannas på nytt. Sidornas adresser kommer dock att förbli desamma och korrekturlästa sidor kommer inte att raderas.  I en ordbok blir det extra tydligt hur annorlunda stavningen av svenska språket var på 1860-talet jämfört med bara några årtionden senare. Första utgåvan av Nordisk familjebok (från 1876) framstår som modern i jämförelse. Höijer använder dock ofta stavningar med ch och th, där vi senare använder k och t._
 - K. S.  Kothari. **Indian Folk Musical Instruments.** 1968 - SANGEET NATAK AKADEMI National Academy of Dance, Drama & Music for India. The Statesman Press, New Delhi-1, India. 99 pages - 59 image plates.
     - https://dn790003.ca.archive.org/0/items/dli.ministry.25964/ignca-920-rb_text.pdf
     - Index on pages 91-97.
