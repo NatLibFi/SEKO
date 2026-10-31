@@ -32,35 +32,10 @@ Read this documentation as web pages at [https://natlibfi.github.io/SEKO/](https
 ## <a id="activities">Activites</a>
  **<a id="previous">Go to</a>** [previous activities log](./activitynotes.md)
 
-### <a id="202609">2026-09</a> SEPTEMBER
-
-**Week 40**
-- 2026-09-25: SEKO-vocabulary updates are now working again and [eight new concepts](https://finto.fi/seko/fi/new) were added (banjolele, bell tree, joikaus, kontraforte, laattasoitin, pikkolosello, räppäys, sopranista, vihellys). now the total is 1249. Need to map/match the new ids with the masterdata.
-- Started collaboration with the Musical Instrument Museum in Bruxelles and its vocabulary project.
-- Attended webinar: Grounding AI - Reasoning Layers and Factual Graphs by Katariina Kari and Ricky Sun.
-- Registered the **fpmo** prefix at [purl.archive.org](https://purl.archive.org/).  
-
-### <a id="202610">2026-10</a> OCTOBER
-
-**Week 41**
-- Started planning new funding application and updating the project plans.Re-analyzing research questions and hypotheses. Searching for additional related projects. Focusing on instruments Finnish cultural heritage data, music metadata, interoperability, existing ontologies and datamodels.
-- Updated the FMPO identifiers and masterdata records for the corresponding eight new SEKO concepts added to SEKO on 2026-09-25. One new concept "rapping" and one to be checked (ukulele banjo vs. banjolele).
-- Revised the objectives and purpose sections. This is not merely a translation or a format transformation project but includes research and  analysis, too.
-- Testing working on Github with the team. Testing issues, labels, landmarks, Wiki and Projects sections, forking and committing.
-
-**Week 42**
-- Registered the prefix with w3id: **https://w3id.org/fmpo/** as a more permanent solution. 
-- Project planning. Source finding (related vocabularies and ontologies, research publications). Established a Zotero group: [fmpo](https://www.zotero.org/groups/6703477/fmpo) for sources etc.
-- Started mapping the corresponding Norwegian vocabulary with FMPO/SEKO concepts [Norsk musikkvokabular: Instrumenter og ensembler](
-https://id.nb.no/resource/vocab/instrumenter) (MARC code: musvok-ie). 80 out of 371 do not have a direct match with SEKO concepts partially due to different editorial rules. These will be taken into consideration while working further on fmpo.
-
-**Week 43**
-- Working on updating the project plan.
-
-**Week 44**
-- Adjusted to project plan and objective to better cover the different usage rules for content description in different branches of the GLAM sector. THe data will be split to two concept schemes: a medium of performance ontology corresponding the usage of the Seko vocabulary in libraries and an instrument ontology corresponding to the content description usage as subjects in the libraries and archives or as object types in the Finnish museum collections with the MAOTAO and KOKO ontologies.  The number of different instruments in the combined dataset would be eventually the same. The instrument ontology (with a working title _Suomalainen soitinontologia_, suso:) would be better suited for the task of preserving cultural heritage information in the instrument metadata.
-- Mapped the 68 musical instrument [labels](./mapping/Google-product-category.csv) in the [Google product categories](https://support.google.com/merchants/answer/6324436?hl=en-GB)
-- Updated the project title, project objective and purpose texts.
+### <a id="202611">2026-11</a> NOVEMBER
+**Week 45**
+- Setting up the concept schema for suso: based on YSO and MAO data models. Registerin the domain.
+- Reading literature. Browsing for the traditional instruments.
 
 ## Background
 
